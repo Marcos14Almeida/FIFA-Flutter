@@ -33,7 +33,7 @@ class RealClassification{
       n.belarus: ["https://en.wikipedia.org/wiki/2023_Belarusian_Premier_League", 1],
       n.belgica: ["https://en.wikipedia.org/wiki/2023%E2%80%9324_Belgian_Pro_League", 4],
       n.bosnia: ["https://en.wikipedia.org/wiki/2023%E2%80%9324_Premier_League_of_Bosnia_and_Herzegovina", 3],
-      n.bulgaria: ["https://en.wikipedia.org/wiki/2023%E2%80%9324_First_Professional_Football_League_(Bulgaria)", 2],
+      n.bulgaria: ["https://en.wikipedia.org/wiki/2023%E2%80%9324_First_Professional_Football_League_(Bulgaria)", 3],
       n.cazaquistao: ["https://en.wikipedia.org/wiki/2023_Kazakhstan_Premier_League", 4],
       n.chipre: ["https://en.wikipedia.org/wiki/2023%E2%80%9324_Cypriot_First_Division", 1],
       n.croacia: ["https://en.wikipedia.org/wiki/2023%E2%80%9324_Croatian_Football_League", 5],
@@ -85,7 +85,7 @@ class RealClassification{
       n.uruguai: ["https://en.wikipedia.org/wiki/2023_Uruguayan_Primera_Divisi%C3%B3n_season", 3],
       n.venezuela: ["https://en.wikipedia.org/wiki/2023_Venezuelan_Primera_Divisi%C3%B3n_season", 6],
 
-      n.mexico: ["https://en.wikipedia.org/wiki/2022%E2%80%9323_Liga_MX_season", 18],
+      n.mexico: ["https://en.wikipedia.org/wiki/2023%E2%80%9324_Liga_MX_season", 3],
       n.estadosUnidos: ["https://en.wikipedia.org/wiki/2023_Major_League_Soccer_season", 5],
 
       n.australia: ["https://en.wikipedia.org/wiki/2023%E2%80%9324_A-League_Men", 4],
@@ -94,7 +94,7 @@ class RealClassification{
       n.bahrein: ["https://en.wikipedia.org/wiki/2023%E2%80%9324_Bahraini_Premier_League", 2],
       n.eau: ["https://en.wikipedia.org/wiki/2023%E2%80%9324_UAE_Pro_League", 4],
       n.iran: ["https://en.wikipedia.org/wiki/2023%E2%80%9324_Persian_Gulf_Pro_League", 6],
-      n.iraque: ["https://en.wikipedia.org/wiki/2023%E2%80%9324_Iraqi_Premier_League", 2],
+      n.iraque: ["https://en.wikipedia.org/wiki/2023%E2%80%9324_Iraqi_Premier_League", 1],
       n.kuwait: ["https://en.wikipedia.org/wiki/2023%E2%80%9324_Kuwaiti_Premier_League", 0],
       n.libano: ["https://en.wikipedia.org/wiki/2023%E2%80%9324_Lebanese_Premier_League", 2],
       n.qatar: ["https://en.wikipedia.org/wiki/2023%E2%80%9324_Qatar_Stars_League", 3],
@@ -361,6 +361,7 @@ class RealClassification{
     map["Red Bull Salzburg"] = n.rbsalzburg;
     map["WSG Tirol"] = n.wsgtirol;
     map["TSV Hartberg"] = n.hartberg;
+    map["SK Rapid"] = n.rapidwien;
     //AZERBAIJAO
     map["Araz-Naxçıvan"] = n.araznaxcivan;
     map["Kapaz"] = n.kapaz;
@@ -795,6 +796,7 @@ class RealClassification{
     map["Sharjah"] = n.alsharjah;
     map["Dibba Al Fujairah"] = n.dibbafuj;
     map["Shabab Al Ahli"] = n.shababalahli;
+    map["Emirates"] = n.emirates;
     //IRÃ
     map["Mes Kerman"] = n.meskerman;
     map["Naft Masjed Soleyman"] = n.naftmasjedsoleyman;

@@ -1,5 +1,6 @@
 import 'package:fifa/classes/functions/size.dart';
 import 'package:fifa/classes/image_class.dart';
+import 'package:fifa/pages/tournament_mode/custom_tournament.dart';
 import 'package:fifa/pages/tournament_mode/tourn2_settings.dart';
 import 'package:fifa/theme/colors.dart';
 import 'package:fifa/theme/textstyle.dart';
@@ -44,11 +45,11 @@ class _TournamentState extends State<Tournament> {
               Column(
                 children: [
 
-                  box("League"),
+                  box("League", CustomTournament().league),
                   const SizedBox(height: 16),
-                  box("Knockout"),
+                  box("Knockout", CustomTournament().knockout),
                   const SizedBox(height: 16),
-                  box("Group-Stage"),
+                  box("Group-knockout", CustomTournament().groups),
 
                 ],
               ),
@@ -65,10 +66,12 @@ class _TournamentState extends State<Tournament> {
 ////////////////////////////////////////////////////////////////////////////
 //                               WIDGETS                                  //
 ////////////////////////////////////////////////////////////////////////////
-Widget box(String title){
+Widget box(String title, String type){
     return InkWell(
       onTap: (){
-        Navigator.push(context,MaterialPageRoute(builder: (context) => const TournamentSettings()));
+        CustomTournament customTournament = CustomTournament();
+        customTournament.setType(type);
+        Navigator.push(context,MaterialPageRoute(builder: (context) => TournamentSettings(customTournament: customTournament)));
       },
       child: Container(
         height: 96,

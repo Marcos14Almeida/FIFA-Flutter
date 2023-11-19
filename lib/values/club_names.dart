@@ -4890,6 +4890,7 @@ class ClubName{
   String saipa = "Saipa";
   String sanatnaft = "Sanat Naft Abadan";
   String sepahan = "Sepahan";
+  String shamsazar = "Shams Azar";
   String sepidrood = "Sepidrood";
   String shtabriz = "Shahrdari Tabriz";
   String shahbaz = "Shahbaz";

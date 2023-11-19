@@ -1,6 +1,7 @@
 import 'package:fifa/classes/club.dart';
 import 'package:fifa/classes/countries/countries_continents.dart';
 import 'package:fifa/classes/image_class.dart';
+import 'package:fifa/pages/tournament_mode/custom_tournament.dart';
 import 'package:fifa/pages/tournament_mode/tourn3_team_selection.dart';
 import 'package:fifa/theme/colors.dart';
 import 'package:fifa/theme/textstyle.dart';
@@ -12,7 +13,8 @@ import 'package:flutter/material.dart';
 import '../../values/clubs_all_names_list.dart';
 
 class TournamentSettings extends StatefulWidget {
-  const TournamentSettings({Key? key}) : super(key: key);
+  final CustomTournament customTournament;
+  const TournamentSettings({Key? key, required this.customTournament}) : super(key: key);
 
   @override
   State<TournamentSettings> createState() => _TournamentSettingsState();
@@ -20,10 +22,14 @@ class TournamentSettings extends StatefulWidget {
 
 class _TournamentSettingsState extends State<TournamentSettings> {
 
+  String defaultLeague = LeagueOfficialNames().balkansCup;
+  String defaultContinent = Continents().notExist;
+
   String selectedLeague = LeagueOfficialNames().balkansCup;
   String selectedContinent = Continents().notExist;
   bool _isSwitched = false; // State variable to track the switch state
   int nteams = 16;
+
   ////////////////////////////////////////////////////////////////////////////
 //                               INIT                                     //
 ////////////////////////////////////////////////////////////////////////////
@@ -46,6 +52,9 @@ class _TournamentSettingsState extends State<TournamentSettings> {
           Column(
             children: [
               backButtonText(context,'Tournament Settings'),
+
+              Text(widget.customTournament.type,style: EstiloTextoBranco.negrito20),
+              const SizedBox(height: 16),
 
               fillClubs(),
 
@@ -76,22 +85,20 @@ class _TournamentSettingsState extends State<TournamentSettings> {
 
                     List<String> shuffledList = List.from(clubsAllNameList)..shuffle();
 
-                    print(shuffledList);
-
                     List<String> possibleClubs = [];
-                    if(selectedLeague == LeagueOfficialNames().balkansCup
-                        && selectedContinent == Continents().notExist){
-                      possibleClubs = List.from(shuffledList);
+                    if(selectedLeague == defaultLeague
+                        && selectedContinent == defaultContinent){
+                      possibleClubs.addAll(shuffledList.take(nteams).toList());
                     }else {
                       for (int i = 0; i < shuffledList.length; i++) {
                         if (possibleClubs.length < nteams) {
                           Club club = Club(index: i);
-                          if (selectedLeague != LeagueOfficialNames().balkansCup) {
+                          if (selectedLeague != defaultLeague) {
                             if (club.leagueName == selectedLeague) {
                               possibleClubs.add(club.name);
                             }
                           }
-                          if(selectedContinent != Continents().notExist){
+                          if(selectedContinent != defaultContinent){
                             if (club.continent == selectedContinent) {
                               possibleClubs.add(club.name);
                             }
@@ -104,7 +111,12 @@ class _TournamentSettingsState extends State<TournamentSettings> {
                       int clubsToComplete = nteams - possibleClubs.length;
                       possibleClubs.addAll(shuffledList.take(clubsToComplete).toList());
                     }
-                    Navigator.push(context,MaterialPageRoute(builder: (context) => TeamSelection(clubs: possibleClubs)));
+
+                    CustomTournament customTournament = widget.customTournament;
+                    customTournament.clubs = possibleClubs;
+                    customTournament.myClub = customTournament.clubs[0];
+
+                    Navigator.push(context,MaterialPageRoute(builder: (context) => TeamSelection(customTournament: customTournament)));
                   }
               ),
                     ),
@@ -142,11 +154,11 @@ Widget fillClubs(){
                 InkWell(
                     onTap: () async{
                       selectedLeague = (await _showLeagueSelectionBottomSheet(context))!;
-                      selectedContinent = Continents().notExist;
+                      selectedContinent = defaultContinent;
                       setState((){});
                     },
                     onDoubleTap: (){
-                      selectedLeague = LeagueOfficialNames().balkansCup;
+                      selectedLeague = defaultLeague;
                       setState((){});
                     },
                     child: Images().getLeagueLogo(selectedLeague)),
@@ -159,11 +171,11 @@ Widget fillClubs(){
                 InkWell(
                     onTap: () async{
                       selectedContinent = (await _showContinentSelectionBottomSheet(context))!;
-                      selectedLeague = LeagueOfficialNames().balkansCup;
+                      selectedLeague = defaultLeague;
                       setState((){});
                     },
                     onDoubleTap: (){
-                      selectedContinent = Continents().notExist;
+                      selectedContinent = defaultContinent;
                       setState((){});
                     },
                     child: Images().getContinentLogo(selectedContinent)),
@@ -187,17 +199,17 @@ Widget nteamsWidget(){
           children: [
             InkWell(onTap:(){
               setState(() {
-                nteams -= 1; // Update the state variable on switch change
-                if(nteams == 1){
-                  nteams = 2;
+                nteams -= widget.customTournament.jumpSize;
+                if(nteams <= widget.customTournament.minClubs-1){
+                  nteams = widget.customTournament.minClubs;
                 }
               });
             },child: const Icon(Icons.arrow_left, color: Colors.white, size: 40)),
             InkWell(onTap:(){
               setState(() {
-                nteams += 1; // Update the state variable on switch change
-                if(nteams == 33){
-                  nteams = 32;
+                nteams += widget.customTournament.jumpSize;
+                if(nteams >= widget.customTournament.maxClubs+1){
+                  nteams = widget.customTournament.maxClubs;
                 }
               });
             },child: const Icon(Icons.arrow_right, color: Colors.white, size: 40)),
