@@ -9,7 +9,6 @@ import 'package:fifa/pages/club_profile/all_infos_club_not_playable.dart';
 import 'package:fifa/theme/colors.dart';
 import 'package:fifa/theme/textstyle.dart';
 import 'package:fifa/values/club_details.dart';
-import 'package:fifa/values/historic_champions/internationals.dart';
 import 'package:fifa/values/images.dart';
 import 'package:fifa/values/league_names.dart';
 import 'package:fifa/widgets/background_image/backimage_international_league.dart';
@@ -26,7 +25,7 @@ class TableMundial extends StatefulWidget {
 
 class _TableMundialState extends State<TableMundial> {
 
-  Map<double, dynamic> results = mapInternationals[LeagueOfficialNames().mundial]!;
+  Map<double, dynamic> results = {};
   MundialFinal dataFinal = MundialFinal();
 
   ////////////////////////////////////////////////////////////////////////////

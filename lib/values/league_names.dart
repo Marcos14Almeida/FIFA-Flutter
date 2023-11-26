@@ -14,7 +14,7 @@ class LeagueOfficialNames{
   final String copaSulAmericana = 'Copa Sul-Americana';
 
   final String resto = 'Resto do Mundo';
-  final String mundial = 'Mundial de Clubes da FIFA';
+  final String mundial = 'Clubs World Cup';
 
   //LIGAS
   String inglaterra1 = 'Premier League';  String inglaterra2 = 'Championship'; String inglaterra3 = 'League One';
@@ -107,16 +107,22 @@ class LeagueOfficialNames{
   String guatemala = 'Liga de Fútbol de Guatemala';
   String panama = 'Liga Panameña de Fútbol';
   String belize = 'Premier League of Belize';
-  String jamaica = 'Jamaica Premier League';
+
+  String antigua = 'Liga Antigua e Barbuda';
+  String bahamas = 'BFA Senior League';
+  String barbados = 'Liga Barbados';
   String cuba = 'Campeonato de Fútbol de Cuba';
+  String dominica = "Liga Dominica";
+  String granada = 'Liga Granada';
+  String guiana = 'GFF National Super League';
   String haiti = 'Ligue Haïtienne';
+  String jamaica = 'Jamaica Premier League';
   String repdominicana = 'Liga Rep. Dominicana';
   String suriname = 'SVB Eerste Divisie';
-  String guiana = 'GFF National Super League';
-  String bahamas = 'BFA Senior League';
+  String stlucia = "SLFA First Division";
+  String stcristovao = "N1 League";
+  String stvicent = "SVGFF Premier Division";
   String trinidad = 'TT Premier League';
-  String barbados = 'Liga Barbados';
-  String granada = 'Liga Granada';
 
   String asia = 'Liga Ásia';
   String orienteMedio = 'Liga Oriente Médio';
@@ -309,6 +315,11 @@ class LeagueOfficialNames{
 
   List getAllLeagueNames(){
     return [
+      mundial, championsLeague, europaLeagueOficial,
+      libertadores, copaSulAmericana, concacaf,
+
+      recopaeuropa, recopasula,
+
      inglaterra1,inglaterra2,inglaterra3,
      espanha1,espanha2,
      italia1,italia2,
@@ -336,25 +347,33 @@ class LeagueOfficialNames{
 
       estadosUnidos, mexico,
       costarica, elsalvador, guatemala, honduras, nicaragua, panama,
-      jamaica, haiti, repdominicana, suriname, trinidad,
+      antigua, bahamas, barbados, dominica,
+      granada, guiana, jamaica, haiti,
+      repdominicana, suriname, stcristovao, stlucia, stvicent, trinidad,
 
-      bangladesh, camboja, china, coreiaSul, coreiaNorte,
+      bangladesh, brunei, butao, camboja, china, coreiaSul, coreiaNorte,
       cingapura, filipinas, hongkong, india,
-      indonesia, japao, laos, malasia, myanmar,
+      indonesia, japao, laos, malasia, maldivas, myanmar,
       nepal, tailandia, taiwan, vietna,
 
-      arabia, bahrein, eau, iran, iraque,
-      jordania, kuwait, iemen, libano, oman, qatar, siria,
+      afeganistao, arabia, bahrein, eau, iemen, iran, iraque,
+      jordania, kuwait,  libano, paquistao, oman, qatar, siria,
+
       quirguistao, tadjiquistao, turcomenistao, uzbekistao,
 
-      australia, fiji, novazelandia, taiti,
+      australia, fiji, novazelandia, papua, samoa, solomonislands, taiti, timor, tonga, vanuatu,
 
       argelia, egito, libia, marrocos, tunisia,
-      africasul, angola, botswana, caboverde, camaroes,
-      centralafrica, congo, congoRD, costamarfim, etiopia,
-      gabao, gana, guine, madagascar, mali, mauritania, mocambique,
-      namibia, nigeria, quenia,
-      ruanda, senegal, sudao, tanzania, togo,
+
+      africasul, angola, benin, botswana, burkina, burundi, caboverde, camaroes,
+      centralafrica, chade, comores, congo, congoRD, costamarfim,
+      djibouti, eritreia, eswatini, etiopia,
+      gabao, gambia, gana, guine, guinebissau, guineequatorial,
+      lesoto, liberia,
+      madagascar, malawi, mali, mauricio, mauritania, mocambique,
+      namibia, niger, nigeria, quenia,
+      ruanda, saotome, senegal, seychelles, somalia, sudao, sudaosul,
+      tanzania, togo,
       uganda, zambia, zimbabwe,
 
       paulistao, carioca, mineiro, es,
@@ -364,11 +383,6 @@ class LeagueOfficialNames{
       acre, amapa, amazonas, para, rondonia, roraima,
 
       copaNordeste, copaVerde,
-
-      mundial, championsLeague, europaLeagueOficial,
-      libertadores, copaSulAmericana, concacaf,
-
-      recopaeuropa, recopasula,
 
       englandCup, italyCup, spainCup, germanyCup, franceCup,
       portugalCup, netherlandsCup, turkeyCup, russiaCup,
@@ -709,18 +723,23 @@ Map getLeagueNationalityMap(){
     leagueName.haiti: Words.country.haiti,
     leagueName.honduras: Words.country.honduras,
     leagueName.jamaica: Words.country.jamaica,
+    leagueName.antigua: Words.country.antiguabarbuda,
+    leagueName.bahamas: Words.country.bahamas,
+    leagueName.barbados: Words.country.barbados,
     leagueName.belize: Words.country.belize,
     leagueName.cuba: Words.country.cuba,
+    leagueName.dominica: Words.country.dominica,
     leagueName.elsalvador: Words.country.elsalvador,
     leagueName.nicaragua: Words.country.nicaragua,
     leagueName.panama: Words.country.panama,
     leagueName.repdominicana: Words.country.dominicanRepublic,
     leagueName.guiana: Words.country.guyana,
+    leagueName.stlucia: Words.country.stlucia,
+    leagueName.stcristovao: Words.country.stcristovao,
+    leagueName.stvicent: Words.country.stvicent,
     leagueName.suriname: Words.country.suriname,
     leagueName.trinidad: Words.country.trinidadtobago,
-    leagueName.bahamas: Words.country.bahamas,
     leagueName.granada: Words.country.grenada,
-    leagueName.barbados: Words.country.barbados,
 
     //ASIA
     leagueName.china: Words.country.china,
@@ -733,6 +752,7 @@ Map getLeagueNationalityMap(){
     leagueName.turcomenistao: Words.country.turkmenistan,
     leagueName.quirguistao: Words.country.kyrgyzstan,
 
+    leagueName.afeganistao: Words.country.afghanistan,
     leagueName.arabia: Words.country.saudiarabia,
     leagueName.bahrein: Words.country.bahrein,
     leagueName.qatar: Words.country.qatar,
@@ -744,6 +764,7 @@ Map getLeagueNationalityMap(){
     leagueName.libano: Words.country.lebanon,
     leagueName.iemen: Words.country.yemen,
     leagueName.oman: Words.country.oman,
+    leagueName.paquistao: Words.country.pakistan,
     leagueName.palestina: Words.country.palestine,
     leagueName.palestinagaza: Words.country.palestine,
     leagueName.siria: Words.country.syria,
@@ -777,10 +798,14 @@ Map getLeagueNationalityMap(){
     leagueName.australia: Words.country.australia,
     leagueName.novazelandia: Words.country.newzealand,
     leagueName.fiji: Words.country.fiji,
+    leagueName.palau: Words.country.palau,
     leagueName.papua: Words.country.papua,
     leagueName.samoa: Words.country.samoa,
+    leagueName.solomonislands: Words.country.solomon,
     leagueName.taiti: Words.country.tahiti,
     leagueName.timor: Words.country.timor,
+    leagueName.tonga: Words.country.tonga,
+    leagueName.vanuatu: Words.country.vanuatu,
 
     //AFRICA
     leagueName.egito: Words.country.egypt,
@@ -805,6 +830,7 @@ Map getLeagueNationalityMap(){
     leagueName.djibouti: Words.country.djibouti,
     leagueName.etiopia: Words.country.ethiopia,
     leagueName.eritreia: Words.country.eritrea,
+    leagueName.eswatini: Words.country.eswatini,
     leagueName.gabao: Words.country.gabon,
     leagueName.gambia: Words.country.gambia,
     leagueName.gana: Words.country.ghana,
@@ -814,6 +840,7 @@ Map getLeagueNationalityMap(){
     leagueName.lesoto: Words.country.lesoto,
     leagueName.liberia: Words.country.liberia,
     leagueName.madagascar: Words.country.madagascar,
+    leagueName.malawi: Words.country.malawi,
     leagueName.mali: Words.country.mali,
     leagueName.mauricio: Words.country.mauritius,
     leagueName.mauritania: Words.country.mauritania,
@@ -827,10 +854,11 @@ Map getLeagueNationalityMap(){
     leagueName.senegal: Words.country.senegal,
     leagueName.saotome: Words.country.saotome,
     leagueName.serraleoa: Words.country.sierraLeone,
+    leagueName.seychelles: Words.country.seychelles,
     leagueName.somalia: Words.country.somalia,
     leagueName.sudao: Words.country.sudan,
     leagueName.sudaosul: Words.country.southSudan,
-    leagueName.eswatini: Words.country.swaziland,
+    leagueName.eswatini: Words.country.eswatini,
     leagueName.tanzania: Words.country.tanzania,
     leagueName.togo: Words.country.togo,
     leagueName.uganda: Words.country.uganda,

@@ -6093,7 +6093,7 @@ class ClubName{
   String cotedor = "Côte d'Or";
   String lapasse = "La Passe";
   String montfleuri = "Foresters Mont Fleuri";
-  String redstarSEY = "Red Star";
+  String redstarSEY = "Red Star Seychelles";
   String stlouissuns = "Saint-Louis Suns";
   String stmichel = "St Michel United";
   //SOMALIA

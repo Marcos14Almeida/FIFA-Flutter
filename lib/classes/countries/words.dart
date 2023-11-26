@@ -101,6 +101,7 @@ class CountryNames {
   String get england => 'England';
   String get eritrea => 'Eritrea';
   String get estonia => 'Estonia';
+  String get eswatini => 'Eswatini';
   String get ethiopia => 'Ethiopia';
   String get faroe => 'Faroe Islands';
   String get fiji => 'Fiji';
@@ -180,6 +181,7 @@ class CountryNames {
   String get norway => 'Norway';
   String get northernIreland => 'Northern Ireland';
   String get oman => 'Oman';
+  String get palau => 'Palau';
   String get palestine => 'Palestine';
   String get pakistan => 'Pakistan';
   String get panama => 'Panama';
@@ -204,8 +206,9 @@ class CountryNames {
   String get scotland => 'Scotland';
   String get seychelles => 'Seychelles';
   String get sierraLeone => 'Sierra Leone';
-  String get somalia => 'Somalia';
   String get singapore => 'Singapore';
+  String get solomon => 'Solomon Islands';
+  String get somalia => 'Somalia';
   String get slovakia => 'Slovakia';
   String get slovenia => 'Slovenia';
   String get saudiarabia => 'Saudi Arabia';
@@ -215,9 +218,11 @@ class CountryNames {
   String get southSudan => 'South Sudan';
   String get suriname => 'Suriname';
   String get spain => 'Spain';
+  String get stvicent => 'Saint Vincent and the Grenadines';
+  String get stlucia => 'Saint Lucia';
+  String get stcristovao => 'Saint Kitts';
   String get srilanka => 'Sri Lanka';
   String get sweden => 'Sweden';
-  String get swaziland => 'Swaziland';
   String get switzerland => 'Switzerland';
   String get syria => 'Syria';
   String get tajikistan => 'Tajikistan';
@@ -257,7 +262,7 @@ List<String> globalCountryNames = [
   word.bosnia,word.botswana,word.brazil,word.brunei,word.bulgaria,word.burkina,word.burundi,
   word.cameroon,word.centralAfrica,word.colombia,word.costarica,word.comoros,word.congo,word.congoRD,
   word.chad,word.china,word.cyprus,word.chile,word.canada,word.capeverde,word.croatia,word.cuba,word.czechrepublic,
-  word.denmark,word.djibouti,word.dominicanRepublic,
+  word.denmark,word.djibouti,word.dominica,word.dominicanRepublic,
   word.ecuador,word.egypt,word.england,word.estonia,word.ethiopia,
   word.finland,word.france,
   word.gabon,word.gambia,word.georgia,word.germany,word.ghana,word.greece,word.guinea,word.guineabissau,word.guineaEquatorial,
@@ -266,7 +271,7 @@ List<String> globalCountryNames = [
   word.jamaica,word.japan,
   word.kazakhstan,word.kenya,word.kosovo,word.kyrgyzstan,
   word.latvia,word.lebanon,word.liberia,word.lithuania,word.luxembourg,
-  word.macedonia,word.madagascar,word.morocco,word.mexico,word.moldova,word.montenegro,word.mongolia,
+  word.macedonia,word.madagascar,word.malawi,word.morocco,word.mexico,word.moldova,word.montenegro,word.mongolia,
   word.namibia,word.nepal,word.netherlands,word.newzealand,word.nicaragua,word.nigeria,word.northernIreland,word.norway,
   word.oman,
   word.panama,word.papua,word.paraguay,word.peru,word.poland,word.portugal,word.philippines,word.puertoRico,
@@ -275,9 +280,9 @@ List<String> globalCountryNames = [
   word.sanMarino,word.stKitts,word.scotland,word.senegal,word.serbia,word.slovakia,word.slovenia,word.somalia,
   word.saudiarabia,word.southkorea,word.southafrica,word.spain,word.sudan,
   word.suriname,word.sweden,word.switzerland,word.syria,
-  word.tajikistan,word.tanzania,word.thailand,word.togo,word.trinidadtobago,word.tunisia,word.turkey,word.turkmenistan,
+  word.tajikistan,word.tanzania,word.thailand,word.togo,word.tonga,word.trinidadtobago,word.tunisia,word.turkey,word.turkmenistan,
   word.uganda,word.ukraine,word.uae,word.unitedstates,word.uruguay,word.uzbekistan,
-  word.venezuela,word.vietnam,
+  word.vanuatu,word.venezuela,word.vietnam,
   word.wales,
   word.zambia,word.zimbabwe,
 ];
