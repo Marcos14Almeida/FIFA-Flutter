@@ -112,7 +112,7 @@ class LeagueOfficialNames{
   String bahamas = 'BFA Senior League';
   String barbados = 'Liga Barbados';
   String cuba = 'Campeonato de Fútbol de Cuba';
-  String dominica = "Liga Dominica";
+  String dominica = "Dominica Premier League";
   String granada = 'Liga Granada';
   String guiana = 'GFF National Super League';
   String haiti = 'Ligue Haïtienne';
@@ -372,7 +372,7 @@ class LeagueOfficialNames{
       lesoto, liberia,
       madagascar, malawi, mali, mauricio, mauritania, mocambique,
       namibia, niger, nigeria, quenia,
-      ruanda, saotome, senegal, seychelles, somalia, sudao, sudaosul,
+      ruanda, saotome, senegal, serraleoa, seychelles, somalia, sudao, sudaosul,
       tanzania, togo,
       uganda, zambia, zimbabwe,
 

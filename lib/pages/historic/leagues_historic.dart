@@ -85,7 +85,7 @@ class _HistoricLeagueState extends State<HistoricLeague> {
                 padding: const EdgeInsets.symmetric(horizontal: 4, vertical: 4),
                 child: Column(
                   children: [
-                    for(int i = 1950; i<anoInicial;i+=10)
+                    for(int i = 1940; i<anoInicial;i+=10)
                       Row(
                         children: [
                           Text(i.toString(),style: EstiloTextoBranco.text14,),
@@ -114,7 +114,7 @@ class _HistoricLeagueState extends State<HistoricLeague> {
                         for(int year=ano-1;year>=anoInicial;year--)
                           yearRow(year),
 
-                        for(int year=ano-1;year> ano-(anoInicial-1950)-1;year--)
+                        for(int year=ano-1;year> ano-(anoInicial-1940)-1;year--)
                           yearRowPast(year, results),
                       ],
                     ),
@@ -126,7 +126,7 @@ class _HistoricLeagueState extends State<HistoricLeague> {
                       for(int year=ano-1;year>=anoInicial;year--)
                         yearRow(year),
 
-                      for(int year=ano-1;year> ano-(anoInicial-1950)-1;year--)
+                      for(int year=ano-1;year> ano-(anoInicial-1940)-1;year--)
                         yearRowPast(year, results),
                     ],
                   ),
