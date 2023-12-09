@@ -179,7 +179,9 @@ class _ClubProfileNotPlayableState extends State<ClubProfileNotPlayable> with Ti
               starsWidgetFromOverall(clubdetails.getOverall(widget.clubName),20),
             ],
           ),
-          Images().getUniformWidget(widget.clubName,100,100),
+
+          Images().getFullUniformWidget(widget.clubName,100,100),
+
           SizedBox(
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.center,
@@ -508,7 +510,7 @@ class _ClubProfileNotPlayableState extends State<ClubProfileNotPlayable> with Ti
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Text(name,style: EstiloTextoBranco.negrito16,),
-          for(int i = 1950; i<anoInicial;i+=10)
+          for(int i = 1940; i<anoInicial;i+=10)
             Row(
               children: [
                 SizedBox(width:30, child: Text(i.toString(),style: EstiloTextoBranco.text14,)),
@@ -550,7 +552,7 @@ class _ClubProfileNotPlayableState extends State<ClubProfileNotPlayable> with Ti
             height: Sized(context).height-616,
             child: ListView.builder(
                 padding: EdgeInsets.zero,
-                itemCount: (anoInicial - 1950).floor(),
+                itemCount: (anoInicial - 1940).floor(),
                 itemBuilder: (BuildContext context, int index) {
                   double year = anoInicial - index - 1;
                   return peryearRow(year);

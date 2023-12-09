@@ -51,12 +51,34 @@ class CrestWidgets{
               style: TextStyle(
                 fontFamily: 'Rajdhani',
                 color: clubColors.secondColor,
-                fontSize: _height*0.6,
+                fontSize: _height*0.7,
               ))),
       );
   }
 
   Widget crestCircular(String clubName, LinearGradient pattern){
+
+    //Text
+    String name = clubName[0];
+    if (clubName.contains(" ")){
+      List split = clubName.split(" ");
+      name = split[0][0] + split[1][0];
+    }
+    if (clubName.contains("Al-")){
+      name = "A" + clubName.split("Al-")[1][0];
+    }
+    // Text Color
+    Color textColor = clubColors.thirdColor;
+    if(clubColors.thirdColor == Colors.transparent){
+      textColor = Colors.white;
+    }
+    if(clubColors.primaryColor == Colors.white || clubColors.primaryColor == Colors.yellow){
+      textColor = Colors.black;
+    }
+    if(clubColors.primaryColor == Colors.black){
+      textColor = Colors.white;
+    }
+
     return outborder(
       Container(
           height: _height, width: _width,
@@ -65,11 +87,12 @@ class CrestWidgets{
             gradient: pattern,
           ),
           child: Center(
-              child: Text(clubName[0],
+              child: Text(name,
               style: TextStyle(
                 fontFamily: 'Rajdhani',
-                color: clubColors.secondColor,
-                fontSize: _height*0.6,
+                color: textColor,
+                fontWeight: FontWeight.bold,
+                fontSize: _height*0.7,
               ))),
         )
     );

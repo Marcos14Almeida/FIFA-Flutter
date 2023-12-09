@@ -19,15 +19,15 @@ class UniformCustom{
   double heightMiddleBoxScale = 1;
 
   //CENTRAL BOX
-  double spacingCentralBox = 20;
+  double spacingCentralBox = 19;
   double heightCentralBox = 90;
   double widthCentralBox = 50;
   //SLEEVES
-  double angleSleeve = 70;
-  double sleeveTopMargin = 7;
-  double sleeveHeight = 20;
-  double sleeveWidth = 30;
-  double spacingRightSleeve = 60;
+  double angleSleeve = 130;
+  double sleeveTopMargin = 8;
+  double sleeveHeight = 18;
+  double sleeveWidth = 34;
+  double spacingRightSleeve = 54;
 
   UniformCustom(this.clubName,[this.scale = 1]){
     linearGradient = clubPattern.getGradient(clubDetails.getPattern(clubName), clubDetails.getColors(clubName));
@@ -98,7 +98,10 @@ Widget kit(){
                     height: sleeveHeight*scale, width: sleeveWidth*scale,
                     decoration: BoxDecoration(
                       color: sleeveColor,
-                      borderRadius: BorderRadius.only(topLeft: Radius.circular(4*scale), bottomLeft: Radius.circular(4*scale)),
+                      borderRadius: BorderRadius.only(
+                          topLeft: Radius.circular(4*scale), bottomLeft: Radius.circular(4*scale),
+                        topRight: Radius.circular(8*scale), bottomRight: Radius.circular(8*scale),
+                      ),
                     ),
                   ),
                 ),
@@ -113,7 +116,10 @@ Widget kit(){
                       height: sleeveHeight*scale, width: sleeveWidth*scale,
                       decoration: BoxDecoration(
                         color: sleeveColor,
-                        borderRadius: BorderRadius.only(topRight: Radius.circular(4*scale), bottomRight: Radius.circular(4*scale)),
+                        borderRadius: BorderRadius.only(
+                            topRight: Radius.circular(4*scale), bottomRight: Radius.circular(4*scale),
+                            topLeft: Radius.circular(8*scale), bottomLeft: Radius.circular(8*scale),
+                        ),
                       ),
                     ),
                   )
@@ -132,28 +138,25 @@ Widget kit(){
                 ),
               ),
 
-              //clubDetails.getPattern(clubName) == clubPattern.solid ?
-                //faixasLaterais() :
-                //Container(),
-
-              clubDetails.getPattern(clubName) == clubPattern.solid ?
-                borderSleeves() :
-                Container(),
+              clubDetails.getPattern(clubName) == clubPattern.solid
+                  ? borderSleeves()
+                  : Container(),
 
               //upperPart(),
 
               curvedLine(),
 
               collar(),
+
               //LOGO
-            Padding(
-              padding: EdgeInsets.only(left: 50*scale,top: 12*scale),
-                child: Images().getEscudoWidget(clubName,12*scale,12*scale),
-            ),
+              Padding(
+                padding: EdgeInsets.only(left: 50*scale,top: 14*scale),
+                  child: Images().getEscudoWidget(clubName,12*scale,12*scale),
+              ),
 
               //MARCA ESPORTIVA
               Container(
-                padding: EdgeInsets.only(left: 29*scale,top: 12*scale),
+                padding: EdgeInsets.only(left: 28*scale,top: 14*scale),
                 child: Image.asset('assets/brands/sports/nike.png',
                   color: sportBrandColor,
                   height: 10*scale,width: 10*scale,),
@@ -222,7 +225,7 @@ Widget borderSleeves(){
 
         //Manga Esquerda
         Padding(
-          padding: EdgeInsets.only(top: (sleeveTopMargin+_width+3)*scale),
+          padding: EdgeInsets.only(top: (sleeveTopMargin+_width+8)*scale, left: 8*scale),
           child: Transform.rotate(
             angle: -3.1415 * angleSleeve/ 360,
             child: Container(
@@ -238,7 +241,7 @@ Widget borderSleeves(){
 
         //Manga direita
         Padding(
-            padding: EdgeInsets.only(left: (spacingRightSleeve+23)*scale,top:(sleeveTopMargin+_width+2)*scale),
+            padding: EdgeInsets.only(left: (spacingRightSleeve+21)*scale,top:(sleeveTopMargin+_width+9)*scale),
             child: Transform.rotate(
               angle: 3.1415 * angleSleeve/ 360,
               child: Container(
@@ -255,38 +258,6 @@ Widget borderSleeves(){
     );
 }
 
-Widget faixasLaterais(){
-    double _height = 60;
-    double _width = 5;
-    return Stack(
-      children: [
-        //Faixa Esquerda
-        Padding(
-          padding: EdgeInsets.only(left: spacingCentralBox*scale,top: (heightCentralBox-_height)*scale),
-          child: Container(
-            height: _height*scale, width: _width*scale,
-            decoration: BoxDecoration(
-              color: clubColors.secondColor,
-              borderRadius: BorderRadius.all(Radius.circular(2*scale)),
-            ),
-          ),
-        ),
-
-        //Faixa Direita
-        Padding(
-          padding: EdgeInsets.only(left: spacingCentralBox*scale+(50-_width)*scale,top: 20*scale),
-          child: Container(
-            height: _height*scale, width: _width*scale,
-            decoration: BoxDecoration(
-              color: clubColors.secondColor,
-              borderRadius: BorderRadius.all(Radius.circular(2*scale)),
-            ),
-          ),
-        ),
-
-      ],
-    );
-}
 
 
   Widget upperPart(){
@@ -308,121 +279,6 @@ Widget faixasLaterais(){
     );
   }
 
-  Widget adidasStripes(){
-    double _height = 3;
-    return Stack(
-      children: [
-
-        //Manga Esquerda
-        Padding(
-          padding: EdgeInsets.only(left:1,top:(sleeveTopMargin+0.5)*scale),
-          child: Transform.rotate(
-            angle: -3.1415 * angleSleeve/ 360,
-            child: Container(
-              height: _height*scale, width: (sleeveWidth-6)*scale,
-              decoration: BoxDecoration(
-                color: clubColors.secondColor,
-                borderRadius: BorderRadius.only(topLeft: Radius.circular(4*scale), bottomLeft: Radius.circular(4*scale)),
-              ),
-            ),
-          ),
-        ),
-        //Manga Esquerda
-        Padding(
-          padding: EdgeInsets.only(left:2,top:(sleeveTopMargin+5.2)*scale),
-          child: Transform.rotate(
-            angle: -3.1415 * angleSleeve/ 360,
-            child: Container(
-              height: _height*scale, width: (sleeveWidth-6)*scale,
-              decoration: BoxDecoration(
-                color: clubColors.secondColor,
-                borderRadius: BorderRadius.only(topLeft: Radius.circular(4*scale), bottomLeft: Radius.circular(4*scale)),
-              ),
-            ),
-          ),
-        ),
-
-
-        //Manga direita
-        Padding(
-            padding: EdgeInsets.only(left: (spacingRightSleeve+9)*scale,top:(sleeveTopMargin)*scale),
-            child: Transform.rotate(
-              angle: 3.1415 * angleSleeve/ 360,
-              child: Container(
-                height: (_height)*scale, width:(sleeveWidth-5)*scale,
-                decoration: BoxDecoration(
-                  color: clubColors.secondColor,
-                  borderRadius: BorderRadius.only(topRight: Radius.circular(4*scale), bottomRight: Radius.circular(4*scale)),
-                ),
-              ),
-            )
-        ),
-
-        //Manga direita
-        Padding(
-            padding: EdgeInsets.only(left: (spacingRightSleeve+10)*scale,top:(sleeveTopMargin+5)*scale),
-            child: Transform.rotate(
-              angle: 3.1415 * angleSleeve/ 360,
-              child: Container(
-                height: (_height)*scale, width:(sleeveWidth-8)*scale,
-                decoration: BoxDecoration(
-                  color: clubColors.secondColor,
-                  borderRadius: BorderRadius.only(topRight: Radius.circular(4*scale), bottomRight: Radius.circular(4*scale)),
-                ),
-              ),
-            )
-        ),
-
-        //Linha 1
-        Padding(
-            padding: EdgeInsets.only(left: (spacingCentralBox+4)*scale),
-            child: Container(
-              height: (_height)*scale, width:(14.5)*scale,
-              decoration: BoxDecoration(
-                color: clubColors.secondColor,
-                borderRadius: BorderRadius.only(topRight: Radius.circular(4*scale), bottomRight: Radius.circular(4*scale)),
-              ),
-            )
-        ),
-
-        //Linha 2
-        Padding(
-            padding: EdgeInsets.only(left: (spacingCentralBox+4)*scale, top: 3),
-            child: Container(
-              height: (_height)*scale, width:(16)*scale,
-              decoration: BoxDecoration(
-                color: clubColors.secondColor,
-                borderRadius: BorderRadius.only(topRight: Radius.circular(4*scale), bottomRight: Radius.circular(4*scale)),
-              ),
-            )
-        ),
-
-        //Linha 1
-        Padding(
-            padding: EdgeInsets.only(left: (spacingCentralBox+37)*scale),
-            child: Container(
-              height: (_height)*scale, width:(14.5)*scale,
-              decoration: BoxDecoration(
-                color: clubColors.secondColor,
-                borderRadius: BorderRadius.only(topRight: Radius.circular(4*scale), bottomRight: Radius.circular(4*scale)),
-              ),
-            )
-        ),
-        //Linha 4
-        Padding(
-            padding: EdgeInsets.only(left: (spacingCentralBox+36)*scale, top: 3),
-            child: Container(
-              height: (_height)*scale, width:(16)*scale,
-              decoration: BoxDecoration(
-                color: clubColors.secondColor,
-                borderRadius: BorderRadius.only(topRight: Radius.circular(4*scale), bottomRight: Radius.circular(4*scale)),
-              ),
-            )
-        ),
-
-      ],
-    );
-  }
 
   Widget curvedLine(){
     return Container(

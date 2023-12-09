@@ -7,6 +7,7 @@ import 'package:fifa/values/images.dart';
 import 'package:fifa/values/league_names.dart';
 import 'package:fifa/values/league_trophy_image.dart';
 import 'package:fifa/widgets/kits_crests/crest.dart';
+import 'package:fifa/widgets/kits_crests/shorts.dart';
 import 'package:fifa/widgets/kits_crests/uniforme.dart';
 import 'package:flutter/material.dart';
 
@@ -53,6 +54,10 @@ class Images{
       //Se o clube não tiver logo
       return UniformCustom(clubName,(_height/50)*0.45).kit();
     }
+  }
+
+  Widget getFullUniformWidget(String clubName,[double _height=50.0, double _width=50.0]){
+      return FullKitCustom(clubName,(_height/50)*0.45).kit();
   }
 
   Widget getLeagueLogo(String leagueName, [double _height=50.0, double _width=50.0]){

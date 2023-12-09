@@ -49,35 +49,36 @@ class ClubDetails{
       String name = listRows[i][2];
       globalClubDetails[name] = listRows[i];
     }
-
   }
 
   Color convertColors(String color){
 
     Map tempMap = {};
-    tempMap["Colors.blue"] = const Color(0xFF1D41E2);
-    tempMap["Colors.blueAccent"] = Colors.blueAccent;
+    tempMap["Colors.cyanAccent"] = Colors.cyanAccent;
+    tempMap["Colors.lightblue"] = Colors.lightBlueAccent;
+    tempMap["Colors.bluesoft"] = Colors.blueAccent;
+    tempMap["Colors.blue"] = const Color(0xFF1A41E2);
     tempMap["Colors.darkblue"] = const Color(0xFF001050);
-    tempMap["Colors.red"] = Colors.red;
-    tempMap["Colors.grena"] = const Color(0xFF760025);
-    tempMap["Colors.vinho"] = const Color(0xFF870000);
+    tempMap["Colors.lightgreen"] = Colors.lightGreenAccent;
     tempMap["Colors.green"] = Colors.green;
     tempMap["Colors.darkgreen"] = const Color(0xFF0B5700);
-    tempMap["Colors.darkpurple"] = const Color(0xff4a054e);
-    tempMap["Colors.purple"] = Colors.purple;
     tempMap["Colors.pink"] = const Color(0xFFFF8EF2);
-    tempMap["Colors.yellow"] = Colors.yellow;
+    tempMap["Colors.purple"] = Colors.purple;
+    tempMap["Colors.darkpurple"] = const Color(0xff4a054e);
+    tempMap["Colors.grena"] = const Color(0xFF760025);
+    tempMap["Colors.vinho"] = const Color(0xFF870000);
+    tempMap["Colors.red"] = Colors.red;
     tempMap["Colors.orange"] = Colors.orange;
-    tempMap["Colors.lightBlueAccent"] = Colors.lightBlueAccent;
-    tempMap["Colors.lightGreenAccent"] = Colors.lightGreenAccent;
+    tempMap["Colors.yellow"] = Colors.yellow;
     tempMap["Colors.gold"] = const Color(0xFF876A00);
     tempMap["Colors.brown"] = Colors.brown;
     tempMap["Colors.black"] = Colors.black;
     tempMap["Colors.grey"] = Colors.grey;
     tempMap["Colors.white"] = Colors.white;
-    tempMap["Colors.cyanAccent"] = Colors.cyanAccent;
+
     tempMap["Colors.transparent"] = Colors.transparent;
-    tempMap["Colors.neutral1"] = Colors.green;
+
+    tempMap["Colors.neutral1"] = Colors.grey;
     tempMap["Colors.neutral2"] = Colors.cyanAccent;
 
     try {
@@ -88,13 +89,52 @@ class ClubDetails{
   }
 
   ClubColors getColors(String clubName){
-    Color primary = convertColors(globalClubDetails[clubName][11]);
-    Color secondary = convertColors(globalClubDetails[clubName][12]);
-    Color third = convertColors(globalClubDetails[clubName][13]);
+    try {
 
-    return ClubColors(primary, secondary, third);
+      Color primary = convertColors(globalClubDetails[clubName][11]);
+      Color secondary = convertColors(globalClubDetails[clubName][12]);
+      Color third = convertColors(globalClubDetails[clubName][13]);
+
+      return ClubColors(primary, secondary, third);
+    }catch(e) {
+      return ClubColors(Colors.grey, Colors.cyanAccent, Colors.purple);
+    }
 
     }
+
+  ClubColors getColorsShortsSocks(String clubName){
+
+    ClubColors officialColors = getColors(clubName);
+
+    Color primary = officialColors.secondColor;
+    Color secondary = officialColors.primaryColor;
+    try {
+      if(globalClubDetails[clubName][14]=='Colors.primary'){
+        primary = officialColors.primaryColor;
+      }
+      if(globalClubDetails[clubName][14]=='Colors.secondary'){
+        primary = officialColors.secondColor;
+      }
+      if(globalClubDetails[clubName][14]=='Colors.third'){
+        primary = officialColors.thirdColor;
+      }
+
+      if(globalClubDetails[clubName][15]=='Colors.primary'){
+        secondary = officialColors.primaryColor;
+      }
+      if(globalClubDetails[clubName][15]=='Colors.secondary'){
+        secondary = officialColors.secondColor;
+      }
+      if(globalClubDetails[clubName][15]=='Colors.third'){
+        secondary = officialColors.thirdColor;
+      }
+
+      return ClubColors(primary, secondary);
+    }catch(e) {
+      return ClubColors(Colors.grey, Colors.cyanAccent);
+    }
+
+  }
 
   String getPattern(String clubName){
     ClubPattern pattern = ClubPattern();
@@ -125,9 +165,15 @@ class ClubDetails{
 
     return tempMap[globalClubDetails[clubName][10]] ?? pattern.solid;
   }
+
   Coordinates getCoordinate(String clubName){
-    return Coordinates(globalClubDetails[clubName][8], globalClubDetails[clubName][9]);
+    try {
+      return Coordinates(globalClubDetails[clubName][8], globalClubDetails[clubName][9]);
+    }catch(e){
+      return Coordinates(0, 0);
+    }
   }
+
   String getStadium(String clubName){
     return globalClubDetails[clubName][6] ?? "";
   }
