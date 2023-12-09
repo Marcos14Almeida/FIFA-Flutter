@@ -1,5 +1,6 @@
 import 'package:fifa/classes/functions/size.dart';
 import 'package:fifa/classes/image_class.dart';
+import 'package:fifa/global_variables.dart';
 import 'package:fifa/widgets/popup/poup_edit.dart';
 import 'package:fifa/theme/colors.dart';
 import 'package:fifa/theme/textstyle.dart';
@@ -261,7 +262,7 @@ class _CustomizeClubState extends State<CustomizeClub> {
     return GestureDetector(
       onTap: (){
         ClubDetails clubDetails = ClubDetails();
-        clubDetails.map[clubName][1] = pattern;
+        globalClubDetails[clubName][10] = pattern;
         uniformCustom.clubDetails = clubDetails;
         setState((){});
       },

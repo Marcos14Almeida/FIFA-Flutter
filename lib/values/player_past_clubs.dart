@@ -412,7 +412,7 @@ class PlayerPastClubs{
   map['Tevez'] = {       2001:n.bocajuniors,2005:n.corinthians,2006:n.westham,2007:n.manutd,2009:n.mancity,2013:n.juventus,2015:n.bocajuniors,2017:n.shanghaishenhua,2018:n.bocajuniors,2021:retired};
   map['Thienry Henry'] = {1994:n.monaco,1999:n.juventus,2000:n.arsenal,2007:n.barcelona,2010:n.nyredbulls,2014:retired};
   map['Tiago C. Mendes'] = {1999:n.braga,2002:n.benfica,2004:n.chelsea,2005:n.lyon,2007:n.juventus,2010:n.atleticomadrid,2017:retired};
-  map['Tcheco'] = {      1996:n.parana,1998:n.esportivo,1999:n.malutrom,2002:n.coritiba,2003:n.alittihad,2005:n.santos,2006:n.gremio,2007:n.alittihad,2008:n.gremio,2010:n.corinthians,2011:n.coritiba,2012:retired};
+  map['Tcheco'] = {      1996:n.parana,1998:n.esportivo,1999:n.jmalucelli,2002:n.coritiba,2003:n.alittihad,2005:n.santos,2006:n.gremio,2007:n.alittihad,2008:n.gremio,2010:n.corinthians,2011:n.coritiba,2012:retired};
   map['Toninho Cerezo'] = {1972:n.atleticomg,1983:n.roma,1986:n.sampdoria,1992:n.saopaulo,1994:n.cruzeiro,1995:n.saopaulo,1996:n.atleticomg,1997:retired};
   map['Tostão'] = {      1962:n.americamg,1964:n.cruzeiro,1972:n.vasco,1973:retired};
   map['Francesco Totti'] = {1992:n.roma,2017:retired};

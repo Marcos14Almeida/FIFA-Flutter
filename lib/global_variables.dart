@@ -80,6 +80,8 @@ Map<int,String> weekRealDays = {
 };
 
 
+Map globalClubDetails = {};
+
 //COPY
 List<String> clubsAllNameListCopy = [];
 List leaguesListRealIndexCopy = [];

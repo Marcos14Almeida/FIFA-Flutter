@@ -3078,6 +3078,7 @@ class ClubName{
   String brusque = "Brusque";
   String cabofriense = "Cabofriense";
   String cachoeiro = "Cachoeiro"; //ES
+  String cambaraense = "Cambaraense";
   String caete = "Caeté"; //PARA
   String cai = "CA Itapemirim"; //ES
   String cajazeirense = "Atl. Cajazeirense"; //PB
@@ -3143,6 +3144,7 @@ class ClubName{
   String cruzeiroAL = "Cruzeiro de Arapiraca";
   String cristalAP = "Cristal-AP"; //AP
   String cruzeiroRS = "Cruzeiro-RS";
+  String cruzeiroRO = "Cruzeiro-RO";
   String csa = "CSA"; //AL
   String cse = "CSE"; //AL
   String csp = "Centro Sportivo Paraibano-CSP"; //PB
@@ -3284,7 +3286,7 @@ class ClubName{
   String macapa = "Macapá"; //AP
   String madureira = "Madureira";
   String maguary = "Maguary"; //PE
-  String malutrom = "Malutrom";
+  String maguari = "Maguari";
   String mamore = "Mamoré";
   String manaus = "Manaus";
   String manauara = "Manauara"; //AM
@@ -3297,6 +3299,7 @@ class ClubName{
   String gremiomaringa = "Grêmio Maringa";
   String maringaFC = "Maringa FC";
   String matonense = "Matonense";
+  String matogrosso = "Mato Grosso";
   String mazagao = "Mazagão";
   String metropol = "Metropol";
   String metropolitano = "Metropolitano"; //SC
@@ -3313,7 +3316,7 @@ class ClubName{
   String motoclub = "Moto Club";
   String munizfreire = "Muniz Freire"; //ES
   String murici = "Murici"; //AL
-  String nacionalAM = "Nacional AMAZ";
+  String nacionalAM = "Nacional AM";
   String nacionalMG = "Nacional MG";
   String nacionalSP = "Nacional SP";
   String nacionalGO = "Nacional GO";
@@ -3369,7 +3372,7 @@ class ClubName{
   String pinheiroMA = "Pinheiro-MA";
   String placidocastro = "Plácido de Castro";
   String pocoes = "Poções"; //BA
-  String portoPE = "Porto-PE";
+  String portoPE = "Porto Caruaru";
   String portuguesa = "Portuguesa";
   String portuguesaRJ = "Portuguesa-RJ";
   String portuguesasantista = "Portuguesa Santista";
@@ -3388,7 +3391,7 @@ class ClubName{
   String radium = "Radium"; //SP
   String remo = "Remo";
   String realRR = "Real-RR";
-  String realarquimedes = "Real Arquimedes"; //RO
+  String realariquemes = "Real Ariquemes"; //RO
   String realbrasilia = "Real Brasília"; //DF
   String realNoroeste = "Real Noroeste-ES";
   String renner = "Renner"; //RS
@@ -3441,6 +3444,7 @@ class ClubName{
   String saopauloAP = "São Paulo AP";
   String saopauloPB = "São Paulo Crystal";
   String saopauloRS = "São Paulo RS";
+  String saopaulorailway = "São Paulo Railway";
   String saoraimundo = "São Raimundo";
   String saoraimundoPA = "São Raimundo-PA";
   String saoraimundoRR = "São Raimundo-RR";
@@ -3468,7 +3472,7 @@ class ClubName{
   String socorrense = "Socorrense"; //SE
   String sorocaba = "Atlético de Sorocaba";
   String sorriso = "Sorriso"; //MT
-  String sousa = "Sousa PB";
+  String sousa = "Sousa";
   String sparta = "Sparta"; //TO
   String sulamerica = "Sul América"; //AM
   String tapajos = "Tapajós"; //PA
@@ -3496,6 +3500,7 @@ class ClubName{
   String uberlandia = "Uberlândia";
   String ubiratan = "Ubiratan";
   String ulbra = "Ulbra";
+  String unai = "Unaí";
   String unirb = "UNIRB";
   String uruguaiana = "Uruguaiana"; //RS
   String urt = "URT";
@@ -3767,6 +3772,7 @@ class ClubName{
   String iquitos = "Colegio Nacional Iquitos";
   String leonhuanuco = "León de Huánuco";
   String losepartanos = "Los Espartanos";
+  String mariscalsucre = "Mariscal Sucre";
   String melgar = "Melgar";
   String sanagustin = "San Agustín";
   String ancash = "Sport Ancash";
@@ -4347,14 +4353,14 @@ class ClubName{
   String changchun = "Changchun Yatai";
   String chinaOlympic = "China Olympic XI";
   String chongqing = "Chongqing Dangdai Lifan";
-  String dalian = "Dalian"; //1955-2012
+  String dalian = "Dalian Shide"; //1955-2012
   String foshan = "Foshan Fosti";
   //String ghizou = "Guizhou Hengfeng Zhicheng"; //1992-2022
   String jiangsu = "Jiangsu Suning"; //1958-2020
   String guangdong = "Guangdong Winnerway"; //EXTINTO
-  String ghuangzhou = "Ghuangzhou";
-  String ghuangzhouBaiyunshan = "Ghuangzhou Baiyunshan";
-  String ghuangzhouCity = "Ghuangzhou City";
+  String ghuangzhou = "Guangzhou";
+  String ghuangzhouBaiyunshan = "Guangzhou Baiyunshan";
+  String ghuangzhouCity = "Guangzhou City";
   String guizhou = "Guizhou Hengfeng";
   String harbin = "Harbin Guoli";
   String hebei = "Hebei FC";
@@ -6196,7 +6202,7 @@ class ClubName{
   String alba = "Alba";
   String dekedaha = "Dekedaha";
   String elman = "Elman";
-  String gaaddiidka = "Gaaddiidka";
+  String gaadiidka = "Gaadiidka";
   String heegan = "Heegan";
   String hoga = "Hoga";
   String horseed = "Horseed";

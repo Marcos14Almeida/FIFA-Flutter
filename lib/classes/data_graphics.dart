@@ -186,17 +186,20 @@ class DataGraphics{
     for(double year in listDivisionsHistoricResults.first.keys) {
       bool yearSet = false;
       int divisionNumber = 0;
+      if(year>=1940){
       for (Map<double,dynamic> divisionMapResults in listDivisionsHistoricResults) {
         if (!yearSet) {
           divisionNumber++;
           try {
             if (divisionMapResults[year].contains(clubName)) {
               int position = divisionMapResults[year].indexOf(clubName) + 1 + (divisionNumber - 1) * 20;
-              data.add(ClassificationData(year, position));
-              addTitlesCount(position);
-              addGxCount(position);
-              add2ndDivisionCount(position);
-              yearSet = true;
+
+                data.add(ClassificationData(year, position));
+                addTitlesCount(position);
+                addGxCount(position);
+                add2ndDivisionCount(position);
+                yearSet = true;
+
             }
         }catch(e){
             //print('divisão sem informações do campeonato naquele ano');
@@ -216,6 +219,7 @@ class DataGraphics{
           }
         }
     }
+      }
     }
 
 

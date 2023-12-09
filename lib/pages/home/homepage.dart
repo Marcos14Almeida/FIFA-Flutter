@@ -12,6 +12,7 @@ import 'package:fifa/pages/save/choose_save.dart';
 import 'package:fifa/pages/tournament_mode/single_match.dart';
 import 'package:fifa/pages/tournament_mode/tourn1_type.dart';
 import 'package:fifa/theme/textstyle.dart';
+import 'package:fifa/values/club_details.dart';
 import 'package:fifa/values/club_names.dart';
 import 'package:fifa/values/league_clubs.dart';
 import 'package:fifa/values/league_names.dart';
@@ -49,6 +50,7 @@ class _HomePageState extends State<HomePage> {
     final String raw = await rootBundle.loadString('assets/csv/classification.csv');
     globalHistoricRealChampions = const CsvToListConverter().convert(raw);
 
+    ClubDetails().getDataset();
   }
 
 ////////////////////////////////////////////////////////////////////////////

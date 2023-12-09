@@ -3,6 +3,7 @@ import 'package:fifa/values/clubs_all_names_list.dart';
 import '../global_variables.dart';
 
 class PlayerBasicInfo{
+
   String clubName = "";
   int clubID = -1;
   int playerID = -1;

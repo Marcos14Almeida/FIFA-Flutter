@@ -4,6 +4,7 @@ import 'package:fifa/classes/countries/flags_list.dart';
 import 'package:fifa/classes/countries/words.dart';
 import 'package:fifa/classes/data_graphics.dart';
 import 'package:fifa/classes/image_class.dart';
+import 'package:fifa/global_variables.dart';
 import 'package:fifa/pages/club_profile/all_infos_club_not_playable.dart';
 import 'package:fifa/pages/historic/leagues_historic.dart';
 import 'package:fifa/pages/historic/real_classification.dart';
@@ -42,7 +43,7 @@ class _MapListAllClubsState extends State<MapListAllClubs> {
   }
   getFlagsList(){
     Continents continents = Continents();
-    clubDetails.map.forEach((clubName, value) {
+    globalClubDetails.forEach((clubName, value) {
       String countryName = clubDetails.getCountry(clubName);
       if(!countryOptions.contains(countryName)){
         if(continents.funcCountryContinents(countryName) == widget.continent){
@@ -68,7 +69,7 @@ class _MapListAllClubsState extends State<MapListAllClubs> {
   Widget build(BuildContext context) {
 
     //Filtra os clubes do país
-    Iterable keysIterable = clubDetails.map.keys;
+    Iterable keysIterable = globalClubDetails.keys;
     Iterable showList = keysIterable.where((clubName) => selectedCountry == clubDetails.getCountry(clubName));
     showList = showList.where((clubName) => clubDetails.getCoordinate(clubName).latitude != 0);
 

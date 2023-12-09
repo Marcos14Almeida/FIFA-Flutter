@@ -64,7 +64,7 @@ class _MapExplorationState extends State<MapExploration> {
   getClubsLocation(GoogleMapController googleMapController) {
     controller = googleMapController;
     _markers = [];
-    clubDetails.map.forEach((key, value) {
+    globalClubDetails.forEach((key, value) {
       String clubName = key;
 
       if(clubDetails.getCoordinate(clubName).latitude != 0){
