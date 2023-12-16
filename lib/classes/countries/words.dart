@@ -173,6 +173,7 @@ class CountryNames {
   String get nauru => 'Nauru';
   String get nepal => 'Nepal';
   String get netherlands => 'Netherlands';
+  String get newcaledonia => 'New Caledonia';
   String get newzealand => 'New Zealand';
   String get nicaragua => 'Nicaragua';
   String get niger => 'Niger';

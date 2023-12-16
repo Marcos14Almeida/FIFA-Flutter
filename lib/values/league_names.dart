@@ -279,13 +279,17 @@ class LeagueOfficialNames{
 
   //SELEÇÕES
   String copamundo = "World Cup";
+  String copaconfederacoes = "Confederations Cup";
+  String olimpiadas = "Olympic Games";
+  String eurocopa = "UEFA Euro";
+  String copaamerica = "CONMEBOL Copa América";
+  String copaafrica = "Africa Cup of Nations";
+  String copaasia = "AFC Asian Cup";
+  String copaconcacaf = "CONCACAF Gold Cup";
+  String copaoceania = "OFC Nations Cup";
+
+  //FEMININO
   String copamundoFem = "Woman World Cup";
-  String eurocopa = "Eurocopa";
-  String copaamerica = "Copa América";
-  String copaafrica = "Copa África";
-  String copaasia = "Copa Ásia";
-  String copaconcacaf = "Copa Concacaf";
-  String copaconfederacoes = "Copa das Confederações";
 
   //SUPERCOPAS
   String recopaeuropa = "Supercopa da UEFA";
@@ -387,6 +391,9 @@ class LeagueOfficialNames{
       englandCup, italyCup, spainCup, germanyCup, franceCup,
       portugalCup, netherlandsCup, turkeyCup, russiaCup,
       brazilCup,
+
+      copamundo, copaconfederacoes, olimpiadas,
+      eurocopa, copaamerica, copaafrica, copaasia, copaconcacaf, copaoceania,
 
 
     ];
@@ -917,6 +924,16 @@ Map getLeagueNationalityMap(){
     leagueName.russiaCup: leagueName.russiaCup,
 
     leagueName.brazilCup: leagueName.brazilCup,
+
+    leagueName.copamundo: leagueName.copamundo,
+    leagueName.olimpiadas: leagueName.olimpiadas,
+    leagueName.copaconfederacoes: leagueName.copaconfederacoes,
+    leagueName.eurocopa: leagueName.eurocopa,
+    leagueName.copaamerica: leagueName.copaamerica,
+    leagueName.copaafrica: leagueName.copaafrica,
+    leagueName.copaasia: leagueName.copaasia,
+    leagueName.copaconcacaf: leagueName.copaconcacaf,
+    leagueName.copaoceania: leagueName.copaoceania,
   };
 }
 

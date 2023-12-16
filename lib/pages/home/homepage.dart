@@ -16,6 +16,7 @@ import 'package:fifa/values/club_details.dart';
 import 'package:fifa/values/club_names.dart';
 import 'package:fifa/values/league_clubs.dart';
 import 'package:fifa/values/league_names.dart';
+import 'package:fifa/values/player_past_clubs.dart';
 import 'package:fifa/widgets/button/pressable_button.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -50,7 +51,8 @@ class _HomePageState extends State<HomePage> {
     final String raw = await rootBundle.loadString('assets/csv/classification.csv');
     globalHistoricRealChampions = const CsvToListConverter().convert(raw);
 
-    ClubDetails().getDataset();
+    await ClubDetails().getDataset();
+    await PlayerPastClubs().saveList();
   }
 
 ////////////////////////////////////////////////////////////////////////////

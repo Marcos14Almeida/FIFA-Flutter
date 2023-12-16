@@ -27,18 +27,27 @@ class Images{
   String getEscudo(String clubName){
       return 'assets/clubs/${FIFAImages().imageLogo(clubName)}.png';
   }
+
   Widget getEscudoWidget(String clubName,[double _height=50.0, double _width=50.0]){
     String crest = FIFAImages().imageLogo(clubName);
     if(crest != 'generic'){
       //Se tem a imagem do logo
       return Image.asset('assets/clubs/$crest.png',height: _height,width: _width);
     }else{
-      //Logos genericos
-      return Padding(
-        padding: EdgeInsets.only(left: _height*0.07,right: _height*0.07,top: _height*0.13,bottom: _height*0.12),
-        child: CrestWidgets(size: _height*0.77).getCrest(clubName),
-      );
+      //Check International Crest
+      crest = FIFAImages().countryLogo(clubName);
+      if(crest != 'generic') {
+        return Image.asset(
+            'assets/national_crests/$crest.png', height: _height, width: _width);
+      }else{
+        //Logos genericos
+        return Padding(
+          padding: EdgeInsets.only(left: _height*0.07,right: _height*0.07,top: _height*0.13,bottom: _height*0.12),
+          child: CrestWidgets(size: _height*0.77).getCrest(clubName),
+        );
+      }
     }
+
   }
 
 

@@ -104,7 +104,7 @@ popUpChangeClub({required BuildContext originalContext}){
             child: Container(
               margin: const EdgeInsets.all(8.0),
               color: popupConfig.clicked && popupConfig.originalClub.index == gridClub.index ? Colors.blue :Colors.transparent ,
-              child: Image.asset(Images().getEscudo(gridClub.name)),
+              child: Images().getEscudoWidget(gridClub.name),
             ),
           );
         }),

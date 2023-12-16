@@ -80,7 +80,7 @@ popUpChangePlayerClub({required BuildContext originalContext,required PopupConfi
             child: Container(
               margin: const EdgeInsets.all(8.0),
               color: Colors.transparent,
-              child: Image.asset(Images().getEscudo(gridClub.name)),
+              child: Images().getEscudoWidget(gridClub.name),
             ),
           );
         }),

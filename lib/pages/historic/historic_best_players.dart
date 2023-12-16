@@ -3,7 +3,6 @@ import 'package:fifa/classes/image_class.dart';
 import 'package:fifa/global_variables.dart';
 import 'package:fifa/theme/background_color/background_classification.dart';
 import 'package:fifa/theme/textstyle.dart';
-import 'package:fifa/values/player_past_clubs.dart';
 import 'package:flutter/material.dart';
 
 class HistoricBestPlayersPage extends StatefulWidget {
@@ -123,8 +122,11 @@ class _HistoricPlayersBestPageState extends State<HistoricBestPlayersPage> {
     );
   }
 
-  getLegendsCarrerFullMap(){
-    Map playersMap  = PlayerPastClubs().map;
+  Map getLegendsCarrerFullMap(){
+
+    return globalFamousPlayersHistory;
+
+    Map playersMap = globalFamousPlayersHistory;
     //TRANSFORM CARRER MAP
     Map carrerFull = {};
     playersMap.forEach((playerName, carrer) {
@@ -146,6 +148,7 @@ class _HistoricPlayersBestPageState extends State<HistoricBestPlayersPage> {
     });
 
     return carrerFull;
+
   }
 
   legendsPlayers(String club){

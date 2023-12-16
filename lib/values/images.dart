@@ -1,9 +1,159 @@
+import 'package:fifa/classes/countries/words.dart';
 import 'package:fifa/global_variables.dart';
 import 'package:fifa/values/club_names.dart';
 
 import 'league_names.dart';
 
 class FIFAImages{
+
+ String countryLogo(String leagueName) {
+  String imageLogo = 'generic';
+  CountryNames c = CountryNames();
+
+  Map map = {};
+  map[c.austria] = 'austria';
+  map[c.belarus] = 'belarus';
+  map[c.belgium] = 'belgium';
+  map[c.bosnia] = 'bosnia';
+  map[c.bulgaria] = 'bulgaria';
+  map[c.croatia] = 'croatia';
+  map[c.czechrepublic] = 'czech republic';
+  map[c.england] = 'england';
+  map[c.denmark] = 'denmark';
+  map[c.france] = 'france';
+  map[c.estonia] = 'estonia';
+  map[c.greece] = 'greece';
+  map[c.hungary] = 'hungary';
+  map[c.iceland] = 'iceland';
+  map[c.ireland] = 'ireland';
+  map[c.israel] = 'israel';
+  map[c.italy] = 'italy';
+  map[c.germany] = 'germany';
+  map[c.latvia] = 'latvia';
+  map[c.lithuania] = 'lithuania';
+  map[c.luxembourg] = 'luxembourg';
+  map[c.montenegro] = 'montenegro';
+  map[c.netherlands] = 'netherlands';
+  map[c.northernIreland] = 'northern ireland';
+  map[c.norway] = 'norway';
+  map[c.poland] = 'poland';
+  map[c.portugal] = 'portugal';
+  map[c.romania] = 'romania';
+  map[c.russia] = 'russia';
+  map[c.scotland] = 'scotland';
+  map[c.serbia] = 'serbia';
+  map[c.slovakia] = 'slovakia';
+  map[c.slovenia] = 'slovenia';
+  map[c.spain] = 'spain';
+  map[c.sweden] = 'sweden';
+  map[c.switzerland] = 'switzerland';
+  map[c.turkey] = 'turkey';
+  map[c.ukraine] = 'ukraine';
+  map[c.wales] = 'wales';
+
+  map[c.brazil] = 'brazil';
+  map[c.argentina] = 'argentina';
+  map[c.bolivia] = 'bolivia';
+  map[c.chile] = 'chile';
+  map[c.colombia] = 'colombia';
+  map[c.ecuador] = 'ecuador';
+  map[c.paraguay] = 'paraguay';
+  map[c.peru] = 'peru';
+  map[c.uruguay] = 'uruguay';
+  map[c.venezuela] = 'venezuela';
+
+  map[c.canada] = 'canada';
+  map[c.mexico] = 'mexico';
+  map[c.unitedstates] = 'usa';
+
+  map[c.costarica] = 'costa rica';
+  map[c.cuba] = 'cuba';
+  map[c.elsalvador] = 'el salvador';
+  map[c.guatemala] = 'guatemala';
+  map[c.haiti] = 'haiti';
+  map[c.honduras] = 'honduras';
+  map[c.jamaica] = 'jamaica';
+  map[c.panama] = 'panama';
+  map[c.trinidadtobago] = 'trinidad and tobago';
+
+  map[c.bangladesh] = 'bangladesh';
+  map[c.cambodia] = 'cambodia';
+  map[c.china] = 'china';
+  map[c.hongkong] = 'hong kong';
+  map[c.japan] = 'japan';
+  map[c.india] = 'india';
+  map[c.indonesia] = 'indonesia';
+  map[c.kyrgyzstan] = 'kyrgyzstan';
+  map[c.malaysia] = 'malaysia';
+  map[c.myanmar] = 'myanmar';
+  map[c.northKorea] = 'north korea';
+  map[c.philippines] = 'philippines';
+  map[c.singapore] = 'singapore';
+  map[c.southkorea] = 'south korea';
+  map[c.taiwan] = 'taiwan';
+  map[c.thailand] = 'thailand';
+  map[c.uzbekistan] = 'uzbekistan';
+  map[c.turkmenistan] = 'turkmenistan';
+  map[c.vietnam] = 'vietnam';
+
+  map[c.bahrein] = 'bahrain';
+  map[c.iran] = 'iran';
+  map[c.iraq] = 'iraq';
+  map[c.jordan] = 'jordania';
+  map[c.kuwait] = 'kuwait';
+  map[c.lebanon] = 'lebanon';
+  map[c.oman] = 'oman';
+  map[c.palestine] = 'palestine';
+  map[c.qatar] = 'qatar';
+  map[c.saudiarabia] = 'saudi arabia';
+  map[c.uae] = 'uae';
+  map[c.syria] = 'syria';
+  map[c.yemen] = 'yemen';
+
+  map[c.algeria] = 'algeria';
+  map[c.angola] = 'angola';
+  map[c.burkina] = 'burkina faso';
+  map[c.cameroon] = 'cameroon';
+  map[c.congo] = 'congo';
+  map[c.congoRD] = 'dr congo';
+  map[c.egypt] = 'egypt';
+  map[c.guineaEquatorial] = 'equatorial guinea';
+  map[c.ethiopia] = 'ethiopia';
+  map[c.ghana] = 'ghana';
+  map[c.guinea] = 'guinea';
+  map[c.ivorycoast] = 'ivory coast';
+  map[c.libya] = 'libya';
+  map[c.mali] = 'mali';
+  map[c.morocco] = 'morocco';
+  map[c.mozambique] = 'mozambique';
+  map[c.nigeria] = 'nigeria';
+  map[c.senegal] = 'senegal';
+  map[c.southafrica] = 'south africa';
+  map[c.sudan] = 'sudan';
+  map[c.togo] = 'togo';
+  map[c.tunisia] = 'tunisia';
+  map[c.uganda] = 'uganda';
+  map[c.zambia] = 'zambia';
+  map[c.zimbabwe] = 'zimbabwe';
+
+  map[c.australia] = 'australia';
+  map[c.fiji] = 'fiji';
+  map[c.newcaledonia] = 'new caledonia';
+  map[c.newzealand] = 'new zealand';
+  map[c.papua] = 'papua';
+  map[c.solomon] = 'solomon islands';
+  map[c.tahiti] = 'tahiti';
+  map[c.vanuatu] = 'vanuatu';
+
+  map[c.urss] = '1ussr';
+  map[c.iuguslavia] = '1yuguslavia';
+
+  if(map.containsKey(leagueName)){
+   imageLogo = map[leagueName];
+  }
+
+  return imageLogo;
+ }
 
   String campeonatoLogo(String leagueName) {
     LeagueOfficialNames l = LeagueOfficialNames();
@@ -83,6 +233,17 @@ class FIFAImages{
     map[l.copaVerde] = 'others/copa verde';
     map[l.cupwinners] = 'others/cup winners';
     map[l.pequenaTaca] = 'others/pequena taca';
+
+
+    map[l.copamundo] = 'countries/world cup';
+    map[l.olimpiadas] = 'countries/olympic games';
+    map[l.copaconfederacoes] = 'countries/finalissima';
+    map[l.eurocopa] = 'countries/euro';
+    map[l.copaamerica] = 'countries/copa america';
+    map[l.copaasia] = 'countries/asia';
+    map[l.copaconcacaf] = 'countries/concacaf';
+    map[l.copaafrica] = 'countries/africa';
+    map[l.copaoceania] = 'countries/oceania';
 
     if(map.containsKey(leagueName)){
         imageLogo = map[leagueName];
@@ -1416,6 +1577,8 @@ String imageLogo(String timeFoto) {
     map[_name.daejeon] = 'daejeon';
     map[_name.gimcheon] = 'gimcheon';
     map[_name.gyeongnam] = 'gyeongnam';
+    map[_name.gwangju] = 'gwangju';
+    map[_name.incheon] = 'incheon';
     map[_name.jeonnam] = 'jeonnam dragons';
     map[_name.jeonbuk] = 'jeonbuk';
     map[_name.jeju] = 'jeju';
@@ -1461,7 +1624,9 @@ String imageLogo(String timeFoto) {
     map[_name.alhidd] = 'al hidd';
     map[_name.muharraq] = 'al muharraq';
     map[_name.alriffa] = 'al riffa';
+    map[_name.eastriffa] = 'east riffa';
     map[_name.manama] = 'manama';
+    map[_name.alahliBAH] = 'al ahli manama';
     //PHILLIPINES
     map[_name.maharlikaManila] = 'manila';
     map[_name.unitedCity] = 'united city';
@@ -1476,6 +1641,8 @@ String imageLogo(String timeFoto) {
     map[_name.policetero] = 'police tero';
     map[_name.portfc] = 'portfc';
     map[_name.ratchaburi] = 'ratchaburi';
+    //TIMOR
+    map[_name.karketudili] = 'karketu dili';
     //INDIA
     map[_name.bengaluru] = 'bengaluru';
     map[_name.chennaiyin] = 'chennaiyin';
@@ -1493,6 +1660,8 @@ String imageLogo(String timeFoto) {
     map[_name.dhakaAbahani] = 'dhaka';
     //BRUNEI
     map[_name.bruneidpmm] = 'brunei';
+    //BHOUTHAN
+    map[_name.thimphucity] = 'thimphu';
     //SINGAPORE
     map[_name.albirexSINGAPORE] = 'albirex';
     map[_name.warriors] = 'warriors';
@@ -1726,7 +1895,9 @@ String imageLogo(String timeFoto) {
     }else{
        //Se o time não tiver uma imagem
        return 'generic';
-   }
+     }
+
+
 }
 
 

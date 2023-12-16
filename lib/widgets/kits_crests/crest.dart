@@ -59,6 +59,7 @@ class CrestWidgets{
   Widget crestCircular(String clubName, LinearGradient pattern){
 
     //Text
+    clubName = clubName.replaceAll("  ", " ");
     String name = clubName[0];
     if (clubName.contains(" ")){
       List split = clubName.split(" ");

@@ -5308,7 +5308,7 @@ class ClubName{
   String centralsport = "Central Sport";
   String dragon = "Dragon";
   String excelsiorTAHITI = "AS Excelsior";
-  String jeunestahiti = " Jeunes Tahitiens";
+  String jeunestahiti = "Jeunes Tahitiens";
   String feipi = "Fei Pi";
   String manuura = "Manu-Ura";
   String pirae = "Pirae";
@@ -6272,7 +6272,7 @@ class ClubName{
   String policeUGA = "Police Uganda";
   //ZAMBIA
   String greenEagles = "Green Eagles";
-  String greenbuffaloes = "Green buffaloes";
+  String greenbuffaloes = "Green Buffaloes";
   String kabwe = "Kabwe Warriors";
   String lusaka = "City of Lusaka";
   String mufulira = "Mufulira Wanderers";

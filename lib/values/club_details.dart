@@ -42,6 +42,16 @@ class ClubDetails{
 
 
   getDataset() async{
+
+    final String rawCountries = await rootBundle.loadString('assets/csv/national_countries_details.csv');
+    List listRowsCountries = const CsvToListConverter().convert(rawCountries);
+    for(int i=0; i < listRowsCountries.length; i++){
+      String name = listRowsCountries[i][0];
+      globalClubDetails[name] = listRowsCountries[i];
+      globalClubDetails[name].insert(0, "");
+      globalClubDetails[name].insert(1, "");
+    }
+
     final String raw = await rootBundle.loadString('assets/csv/clubs_details.csv');
     List listRows = const CsvToListConverter().convert(raw);
 
@@ -56,8 +66,8 @@ class ClubDetails{
     Map tempMap = {};
     tempMap["Colors.cyanAccent"] = Colors.cyanAccent;
     tempMap["Colors.lightblue"] = Colors.lightBlueAccent;
-    tempMap["Colors.bluesoft"] = Colors.blueAccent;
-    tempMap["Colors.blue"] = const Color(0xFF1A41E2);
+    tempMap["Colors.blue"] = Colors.blueAccent;
+    tempMap["Colors.bluestrong"] = const Color(0xFF1A41E2);
     tempMap["Colors.darkblue"] = const Color(0xFF001050);
     tempMap["Colors.lightgreen"] = Colors.lightGreenAccent;
     tempMap["Colors.green"] = Colors.green;

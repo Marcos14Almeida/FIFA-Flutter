@@ -42,6 +42,19 @@ Image funcFlagsList(String country, double _height, double _width){
   ){
     code = Image.asset(FIFAImages().campeonatoLogo(country), fit: BoxFit.fill,width: _width-5,height: _height);
   }
+
+  if(country == LeagueOfficialNames().copamundo ||
+      country == LeagueOfficialNames().olimpiadas ||
+      country == LeagueOfficialNames().copaconfederacoes ||
+      country == LeagueOfficialNames().eurocopa ||
+      country == LeagueOfficialNames().copaamerica ||
+      country == LeagueOfficialNames().copaasia ||
+      country == LeagueOfficialNames().copaafrica ||
+      country == LeagueOfficialNames().copaconcacaf ||
+      country == LeagueOfficialNames().copaoceania
+  ){
+    code = Image.asset(FIFAImages().campeonatoLogo(country), fit: BoxFit.fill,width: _width-5,height: _height);
+  }
   
   if(country == Words.country.urss){code = Image.asset('assets/flags/urss.png', fit: BoxFit.fill,width: _width,height: _height);}
   else if(country == Words.country.ddr){code = Image.asset('assets/flags/ddr.png', fit: BoxFit.fill,width: _width,height: _height);}

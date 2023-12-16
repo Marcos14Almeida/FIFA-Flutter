@@ -463,8 +463,9 @@ class _HistoricLeagueState extends State<HistoricLeague> {
               children: [
                 const Text("Best Clubs", style: EstiloTextoBranco.negrito16),
                 const Spacer(),
-                for (int i=1;i<=10;i++)
+                for (int i=1;i<=8;i++)
                   SizedBox(width:19.3,child: Text(i.toString()+"º",style: EstiloTextoBranco.negrito14)),
+                const SizedBox(width:19.3,child: Text("<20",style: EstiloTextoBranco.negrito14)),
                 const SizedBox(width: 8),
               ],
             ),
@@ -485,6 +486,11 @@ class _HistoricLeagueState extends State<HistoricLeague> {
   }
   Widget clubHistoric(String clubName, int index){
     List positions = getClubPositions(clubName);
+    List subList = positions.sublist(8, 20);
+
+    // Calculate sum of elements in the sublist using reduce
+    int positions_8_20 = subList.reduce((value, element) => value + element);
+
     return GestureDetector(
       onTap: (){
         clickClub(clubName);
@@ -499,8 +505,9 @@ class _HistoricLeagueState extends State<HistoricLeague> {
             Images().getEscudoWidget(clubName,30,30),
             const SizedBox(width: 4),
             SizedBox(width:130,child: Text(clubName,style: EstiloTextoBranco.negrito14)),
-            for (int i=0;i<10;i++)
+            for (int i=0;i<8;i++)
               SizedBox(width:20,child: Text(" "+positions[i].toString(),style: EstiloTextoBranco.text14)),
+            SizedBox(width:20,child: Text(" "+positions_8_20.toString(),style: EstiloTextoBranco.text14)),
           ],
         ),
       ),

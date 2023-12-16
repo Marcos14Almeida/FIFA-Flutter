@@ -88,10 +88,12 @@ flutter:
     - assets/flags/
     - assets/trophy/
     - assets/continents/
+    - assets/national_crests/
     - assets/league_logos/
     - assets/league_logos/cup/
     - assets/league_logos/international/
     - assets/league_logos/others/
+    - assets/league_logos/countries/
     - assets/brands/
     - assets/brands/sports/
     - assets/brands/solid/

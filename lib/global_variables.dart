@@ -81,6 +81,7 @@ Map<int,String> weekRealDays = {
 
 
 Map globalClubDetails = {};
+Map globalFamousPlayersHistory = {};
 
 //COPY
 List<String> clubsAllNameListCopy = [];

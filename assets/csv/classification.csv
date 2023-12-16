@@ -495,10 +495,11 @@ Liga África,2008.0,8.0,Zamalek
 Liga África,2007.0,1.0,Étoile du Sahel
 Liga África,2007.0,2.0,Al Ahly
 Liga África,2007.0,3.0,Al-Hilal Omdurman
-Liga África,2007.0,4.0,ASEC Mimosas
-Liga África,2007.0,5.0,JS Kabylie
-Liga África,2007.0,6.0,FAR Rabat
-Liga África,2007.0,7.0,Espérance de Tunis
+Liga África,2007.0,4.0,Al Ittihad-LIB
+Liga África,2007.0,5.0,ASEC Mimosas
+Liga África,2007.0,6.0,JS Kabylie
+Liga África,2007.0,7.0,FAR Rabat
+Liga África,2007.0,8.0,Espérance de Tunis
 Liga África,2006.0,1.0,Al Ahly
 Liga África,2006.0,2.0,Sfaxien
 Liga África,2006.0,3.0,ASEC Mimosas
@@ -6311,7 +6312,7 @@ Liga Ásia,2022.0,10.0,Nasaf Qarshi
 Liga Ásia,2022.0,11.0,Al-Faisaly
 Liga Ásia,2022.0,12.0,Shabab Al-Ahli
 Liga Ásia,2022.0,13.0,Yokohama F. Marinos
-Liga Ásia,2022.0,14.0,Daegu FC
+Liga Ásia,2022.0,14.0,Daegu
 Liga Ásia,2022.0,15.0,Johor Darul Ta'zim
 Liga Ásia,2022.0,16.0,Kitchee
 Liga Ásia,2021.0,1.0,Al Hilal
@@ -6333,7 +6334,7 @@ Liga Ásia,2020.0,8.0,Al Ahli
 Liga Ásia,2019.0,1.0,Al Hilal
 Liga Ásia,2019.0,2.0,Urawa Red Diamonds
 Liga Ásia,2019.0,3.0,Al Sadd
-Liga Ásia,2019.0,4.0,Ghuangzhou
+Liga Ásia,2019.0,4.0,Guangzhou
 Liga Ásia,2019.0,5.0,Al Ittihad
 Liga Ásia,2019.0,6.0,Shanghai Port
 Liga Ásia,2019.0,7.0,Al Nassr
@@ -6352,7 +6353,7 @@ Liga Ásia,2017.0,3.0,Shanghai Port
 Liga Ásia,2017.0,4.0,Persepolis
 Liga Ásia,2017.0,5.0,Kawasaki Frontale
 Liga Ásia,2017.0,6.0,Al Ain-EAU
-Liga Ásia,2017.0,7.0,Ghuangzhou
+Liga Ásia,2017.0,7.0,Guangzhou
 Liga Ásia,2017.0,8.0,Al Ahli
 Liga Ásia,2016.0,1.0,Jeonbuk Hyundai
 Liga Ásia,2016.0,2.0,Al Ain-EAU
@@ -6362,7 +6363,7 @@ Liga Ásia,2016.0,5.0,Shanghai Port
 Liga Ásia,2016.0,6.0,Lokomotiv Tashkent
 Liga Ásia,2016.0,7.0,Al-Nasr Dubai
 Liga Ásia,2016.0,8.0,Shandong Taishan
-Liga Ásia,2015.0,1.0,Ghuangzhou
+Liga Ásia,2015.0,1.0,Guangzhou
 Liga Ásia,2015.0,2.0,Al Ahli
 Liga Ásia,2015.0,3.0,Al Hilal
 Liga Ásia,2015.0,4.0,Gamba Osaka
@@ -6374,11 +6375,11 @@ Liga Ásia,2014.0,1.0,Sydney Wanderers
 Liga Ásia,2014.0,2.0,Al Hilal
 Liga Ásia,2014.0,3.0,FC Seoul
 Liga Ásia,2014.0,4.0,Al Ain-EAU
-Liga Ásia,2014.0,5.0,Ghuangzhou
+Liga Ásia,2014.0,5.0,Guangzhou
 Liga Ásia,2014.0,6.0,Al Sadd
 Liga Ásia,2014.0,7.0,Pohang Steelers
 Liga Ásia,2014.0,8.0,Al Ittihad
-Liga Ásia,2013.0,1.0,Ghuangzhou
+Liga Ásia,2013.0,1.0,Guangzhou
 Liga Ásia,2013.0,2.0,FC Seoul
 Liga Ásia,2013.0,3.0,Esteghlal
 Liga Ásia,2013.0,4.0,Kashiwa Reysol
@@ -6393,7 +6394,7 @@ Liga Ásia,2012.0,4.0,Al Ittihad
 Liga Ásia,2012.0,5.0,Al Hilal
 Liga Ásia,2012.0,6.0,Sepahan
 Liga Ásia,2012.0,7.0,Adelaide United
-Liga Ásia,2012.0,8.0,Ghuangzhou
+Liga Ásia,2012.0,8.0,Guangzhou
 Liga Ásia,2011.0,1.0,Al Sadd
 Liga Ásia,2011.0,2.0,Jeonbuk Hyundai
 Liga Ásia,2011.0,3.0,Suwon Samsung
@@ -6454,13 +6455,13 @@ Liga Ásia,2004.0,1.0,Al Ittihad
 Liga Ásia,2004.0,2.0,Seongnam
 Liga Ásia,2004.0,3.0,Jeonbuk Hyundai
 Liga Ásia,2004.0,4.0,Pakhtakor
-Liga Ásia,2004.0,5.0,Dalian
+Liga Ásia,2004.0,5.0,Dalian Shide
 Liga Ásia,2004.0,6.0,Al Sharjah
 Liga Ásia,2004.0,7.0,Al Ain-EAU
 Liga Ásia,2004.0,8.0,Al Wahda
 Liga Ásia,2003.0,1.0,Al Ain-EAU
 Liga Ásia,2003.0,2.0,Police Tero
-Liga Ásia,2003.0,3.0,Dalian
+Liga Ásia,2003.0,3.0,Dalian Shide
 Liga Ásia,2003.0,4.0,Pakhtakor
 Liga Ásia,2003.0,5.0,Al Sadd
 Liga Ásia,2003.0,6.0,Daejeon Citizen
@@ -6470,7 +6471,7 @@ Liga Ásia,2002.0,1.0,Suwon Samsung
 Liga Ásia,2002.0,2.0,FC Seoul
 Liga Ásia,2002.0,3.0,Esteghlal
 Liga Ásia,2002.0,4.0,Nasaf Qarshi
-Liga Ásia,2002.0,5.0,Dalian
+Liga Ásia,2002.0,5.0,Dalian Shide
 Liga Ásia,2002.0,6.0,Kashima Antlers
 Liga Ásia,2002.0,7.0,Al-Kuwait
 Liga Ásia,2002.0,8.0,Al Wahda
@@ -6493,13 +6494,13 @@ Liga Ásia,2000.0,8.0,Sinthana
 Liga Ásia,1999.0,1.0,Jubilo Iwata
 Liga Ásia,1999.0,2.0,Esteghlal
 Liga Ásia,1999.0,3.0,Al Ain-EAU
-Liga Ásia,1999.0,4.0,Dalian
+Liga Ásia,1999.0,4.0,Dalian Shide
 Liga Ásia,1999.0,5.0,Pohang Steelers
 Liga Ásia,1999.0,6.0,Al Hilal
 Liga Ásia,1999.0,7.0,Busan
 Liga Ásia,1999.0,8.0,Köpetdag Aşgabat
 Liga Ásia,1998.0,1.0,Pohang Steelers
-Liga Ásia,1998.0,2.0,Dalian
+Liga Ásia,1998.0,2.0,Dalian Shide
 Liga Ásia,1998.0,3.0,Al Hilal
 Liga Ásia,1998.0,4.0,Persepolis
 Liga Ásia,1998.0,5.0,Kashima Antlers
@@ -12206,22 +12207,22 @@ Botswana Premier League,1970.0,1.0,Gaborone United
 Botswana Premier League,1969.0,1.0,Gaborone United
 Botswana Premier League,1967.0,1.0,Gaborone United
 Brasileirão,2023.0,1.0,Palmeiras
-Brasileirão,2023.0,2.0,Botafogo
-Brasileirão,2023.0,3.0,Flamengo
-Brasileirão,2023.0,4.0,Grêmio
-Brasileirão,2023.0,5.0,Atlético-MG
-Brasileirão,2023.0,6.0,Atlético-PR
-Brasileirão,2023.0,7.0,Bragantino
-Brasileirão,2023.0,8.0,Fluminense
-Brasileirão,2023.0,9.0,São Paulo
-Brasileirão,2023.0,10.0,Internacional
-Brasileirão,2023.0,11.0,Fortaleza
-Brasileirão,2023.0,12.0,Corinthians
-Brasileirão,2023.0,13.0,Cuiabá
-Brasileirão,2023.0,14.0,Bahia
-Brasileirão,2023.0,15.0,Santos
-Brasileirão,2023.0,16.0,Vasco
-Brasileirão,2023.0,17.0,Cruzeiro
+Brasileirão,2023.0,2.0,Grêmio
+Brasileirão,2023.0,3.0,Atlético-MG
+Brasileirão,2023.0,4.0,Flamengo
+Brasileirão,2023.0,5.0,Botafogo
+Brasileirão,2023.0,6.0,Bragantino
+Brasileirão,2023.0,7.0,Fluminense
+Brasileirão,2023.0,8.0,Atlético-PR
+Brasileirão,2023.0,9.0,Internacional
+Brasileirão,2023.0,10.0,Fortaleza
+Brasileirão,2023.0,11.0,São Paulo
+Brasileirão,2023.0,12.0,Cuiabá
+Brasileirão,2023.0,13.0,Corinthians
+Brasileirão,2023.0,14.0,Cruzeiro
+Brasileirão,2023.0,15.0,Vasco
+Brasileirão,2023.0,16.0,Bahia
+Brasileirão,2023.0,17.0,Santos
 Brasileirão,2023.0,18.0,Goiás
 Brasileirão,2023.0,19.0,Coritiba
 Brasileirão,2023.0,20.0,América-MG
@@ -12703,7 +12704,7 @@ Brasileirão,2000.0,11.0,Ponte Preta
 Brasileirão,2000.0,12.0,São Paulo
 Brasileirão,2000.0,13.0,Atlético-PR
 Brasileirão,2000.0,14.0,Bahia
-Brasileirão,2000.0,15.0,Malutrom
+Brasileirão,2000.0,15.0,J. Malucelli
 Brasileirão,2000.0,16.0,Remo
 Brasileirão,2000.0,17.0,Guarani
 Brasileirão,2000.0,18.0,Santos
@@ -13052,7 +13053,7 @@ Brasileirão,1986.0,31.0,Vitória
 Brasileirão,1986.0,32.0,Naútico
 Brasileirão,1986.0,33.0,Botafogo
 Brasileirão,1986.0,34.0,Central Caruaru
-Brasileirão,1986.0,35.0,Nacional AMAZ
+Brasileirão,1986.0,35.0,Nacional AM
 Brasileirão,1986.0,36.0,Comercial-MS
 Brasileirão,1986.0,37.0,Sobradinho
 Brasileirão,1986.0,38.0,Sergipe
@@ -13128,7 +13129,7 @@ Brasileirão,1985.0,26.0,Portuguesa
 Brasileirão,1985.0,27.0,América-RJ
 Brasileirão,1985.0,28.0,Santa Cruz
 Brasileirão,1985.0,29.0,Paysandu
-Brasileirão,1985.0,30.0,Nacional AMAZ
+Brasileirão,1985.0,30.0,Nacional AM
 Brasileirão,1985.0,31.0,Botafogo-PB
 Brasileirão,1985.0,32.0,Brasília
 Brasileirão,1985.0,33.0,Paraná
@@ -13156,7 +13157,7 @@ Brasileirão,1984.0,20.0,Palmeiras
 Brasileirão,1984.0,21.0,Botafogo
 Brasileirão,1984.0,22.0,Internacional
 Brasileirão,1984.0,23.0,Brasil de Pelotas
-Brasileirão,1984.0,24.0,CEOV
+Brasileirão,1984.0,24.0,Operário-MT
 Brasileirão,1984.0,25.0,Joinville
 Brasileirão,1984.0,26.0,Bahia
 Brasileirão,1984.0,27.0,CRB
@@ -13170,7 +13171,7 @@ Brasileirão,1984.0,34.0,Cruzeiro
 Brasileirão,1984.0,35.0,Bangu
 Brasileirão,1984.0,36.0,Anapolina
 Brasileirão,1984.0,37.0,Moto Club
-Brasileirão,1984.0,38.0,Nacional AMAZ
+Brasileirão,1984.0,38.0,Nacional AM
 Brasileirão,1984.0,39.0,Confiança
 Brasileirão,1984.0,40.0,Catuense
 Brasileirão,1984.0,41.0,Brasília
@@ -13258,7 +13259,7 @@ Brasileirão,1982.0,37.0,CSA
 Brasileirão,1982.0,38.0,Joinville
 Brasileirão,1982.0,39.0,Mixto
 Brasileirão,1982.0,40.0,América-RN
-Brasileirão,1982.0,41.0,Nacional AMAZ
+Brasileirão,1982.0,41.0,Nacional AM
 Brasileirão,1982.0,42.0,Itabaiana
 Brasileirão,1982.0,43.0,Ferroviário
 Brasileirão,1982.0,44.0,Taguatinga
@@ -13398,7 +13399,7 @@ Brasileirão,1979.0,57.0,Americano
 Brasileirão,1979.0,58.0,Goytacaz
 Brasileirão,1979.0,59.0,Rio Branco-ES
 Brasileirão,1979.0,60.0,Remo
-Brasileirão,1979.0,61.0,Nacional AMAZ
+Brasileirão,1979.0,61.0,Nacional AM
 Brasileirão,1979.0,62.0,Sport
 Brasileirão,1979.0,63.0,Juventude
 Brasileirão,1979.0,64.0,Sergipe
@@ -13505,7 +13506,7 @@ Brasileirão,1978.0,70.0,Confiança
 Brasileirão,1978.0,71.0,Rio Branco-ES
 Brasileirão,1978.0,72.0,Pelotas
 Brasileirão,1978.0,73.0,Sergipe
-Brasileirão,1978.0,74.0,Nacional AMAZ
+Brasileirão,1978.0,74.0,Nacional AM
 Brasileirão,1977.0,1.0,São Paulo
 Brasileirão,1977.0,2.0,Atlético-MG
 Brasileirão,1977.0,3.0,Operário-MS
@@ -13557,7 +13558,7 @@ Brasileirão,1977.0,48.0,Americano
 Brasileirão,1977.0,49.0,Paysandu
 Brasileirão,1977.0,50.0,Naútico
 Brasileirão,1977.0,51.0,Fortaleza
-Brasileirão,1977.0,52.0,Nacional AMAZ
+Brasileirão,1977.0,52.0,Nacional AM
 Brasileirão,1977.0,53.0,Treze
 Brasileirão,1977.0,54.0,Flamengo-PI
 Brasileirão,1977.0,55.0,Botafogo-PB
@@ -13602,7 +13603,7 @@ Brasileirão,1976.0,33.0,Mixto
 Brasileirão,1976.0,34.0,Volta Redonda
 Brasileirão,1976.0,35.0,Paysandu
 Brasileirão,1976.0,36.0,Avaí
-Brasileirão,1976.0,37.0,Nacional AMAZ
+Brasileirão,1976.0,37.0,Nacional AM
 Brasileirão,1976.0,38.0,Flamengo-PI
 Brasileirão,1976.0,39.0,Americano
 Brasileirão,1976.0,40.0,Rio Negro
@@ -13635,7 +13636,7 @@ Brasileirão,1975.0,12.0,Portuguesa
 Brasileirão,1975.0,13.0,Naútico
 Brasileirão,1975.0,14.0,Grêmio
 Brasileirão,1975.0,15.0,Botafogo
-Brasileirão,1975.0,16.0,Nacional AMAZ
+Brasileirão,1975.0,16.0,Nacional AM
 Brasileirão,1975.0,17.0,Goiás
 Brasileirão,1975.0,18.0,Remo
 Brasileirão,1975.0,19.0,Vasco
@@ -13762,7 +13763,7 @@ Brasileirão,1972.0,17.0,Remo
 Brasileirão,1972.0,18.0,Bahia
 Brasileirão,1972.0,19.0,Naútico
 Brasileirão,1972.0,20.0,Vitória
-Brasileirão,1972.0,21.0,Nacional AMAZ
+Brasileirão,1972.0,21.0,Nacional AM
 Brasileirão,1972.0,22.0,América-MG
 Brasileirão,1972.0,23.0,Portuguesa
 Brasileirão,1972.0,24.0,ABC
@@ -19308,511 +19309,511 @@ Chilean Primera División,1941.0,1.0,Colo-Colo
 Chilean Primera División,1941.0,2.0,Santiago Morning
 Chilean Primera División,1940.0,1.0,LaU
 Chilean Primera División,1940.0,2.0,Audax Italiano
-Chinese Super League,2021.0,1.0,Shandong Taishan
-Chinese Super League,2021.0,2.0,Shanghai Port
-Chinese Super League,2021.0,3.0,Guangzhou
-Chinese Super League,2021.0,4.0,Changchun Yatai
-Chinese Super League,2021.0,5.0,Beijing Guoan
-Chinese Super League,2021.0,6.0,Shenzhen
-Chinese Super League,2021.0,7.0,Guangzhou City
-Chinese Super League,2021.0,8.0,Hebei FC
-Chinese Super League,2021.0,9.0,Shanghai Shenhua
-Chinese Super League,2021.0,10.0,Henan S. Longmen
-Chinese Super League,2021.0,11.0,Cangzhou Mighty Lions
-Chinese Super League,2021.0,12.0,Tianjin Jinmen Tigers
-Chinese Super League,2021.0,13.0,Chongqing Dangdai Lifan
-Chinese Super League,2021.0,14.0,Wuhan
-Chinese Super League,2021.0,15.0,Dalian Professional
-Chinese Super League,2021.0,16.0,Qingdao FC
-Chinese Super League,2020.0,1.0,Jiangsu Suning
-Chinese Super League,2020.0,2.0,Guangzhou
-Chinese Super League,2020.0,3.0,Beijing Guoan
-Chinese Super League,2020.0,4.0,Shanghai Port
-Chinese Super League,2020.0,5.0,Chongqing Dangdai Lifan
-Chinese Super League,2020.0,6.0,Hebei FC
-Chinese Super League,2020.0,7.0,Shandong Taishan
-Chinese Super League,2020.0,8.0,Shanghai Shenhua
-Chinese Super League,2020.0,9.0,Shenzhen
-Chinese Super League,2020.0,10.0,Wuhan
-Chinese Super League,2020.0,11.0,Cangzhou Mighty Lions
-Chinese Super League,2020.0,12.0,Guangzhou City
-Chinese Super League,2020.0,13.0,Dalian Professional
-Chinese Super League,2020.0,14.0,Qingdao FC
-Chinese Super League,2020.0,15.0,Henan S. Longmen
-Chinese Super League,2020.0,16.0,Tianjin Jinmen Tigers
-Chinese Super League,2019.0,1.0,Guangzhou
-Chinese Super League,2019.0,2.0,Beijing Guoan
-Chinese Super League,2019.0,3.0,Shanghai Port
-Chinese Super League,2019.0,4.0,Jiangsu Suning
-Chinese Super League,2019.0,5.0,Shandong Taishan
-Chinese Super League,2019.0,6.0,Wuhan
-Chinese Super League,2019.0,7.0,Tianjin Jinmen Tigers
-Chinese Super League,2019.0,8.0,Dalian Professional
-Chinese Super League,2019.0,9.0,Chongqing Dangdai Lifan
-Chinese Super League,2019.0,10.0,Hebei FC
-Chinese Super League,2019.0,11.0,Guangzhou City
-Chinese Super League,2019.0,12.0,Shanghai Shenhua
-Chinese Super League,2019.0,13.0,Tianjin Jinmen Tigers
-Chinese Super League,2019.0,14.0,Shenzhen
-Chinese Super League,2019.0,15.0,Beijing Chengfeng
-Chinese Super League,1993.0,1.0,Liaoning Hongyun
-Chinese Super League,1993.0,2.0,Guangdong Winnerway
-Chinese Super League,1993.0,3.0,Beijing Guoan
-Chinese Super League,1993.0,4.0,Dalian Shide
-Chinese Super League,1993.0,5.0,August 1st
-Chinese Super League,1993.0,6.0,Foshan Fosti
-Chinese Super League,1993.0,7.0,Shanghai Shenhua
-Chinese Super League,1993.0,8.0,Guangzhou
-Chinese Super League,1988.0,1.0,Liaoning Hongyun
-Chinese Super League,1988.0,2.0,China Olympic XI
-Chinese Super League,1988.0,3.0,Tianjin Jinmen Tigers
-Chinese Super League,1988.0,4.0,Shandong Taishan
-Chinese Super League,1988.0,5.0,Guangdong Winnerway
-Chinese Super League,1988.0,6.0,Shanghai Shenhua
-Chinese Super League,1988.0,7.0,Guangzhou
-Chinese Super League,1988.0,8.0,August 1st
-Chinese Super League,1988.0,9.0,Beijing Guoan
-Chinese Super League,1988.0,10.0,Dalian Shide
-Chinese Super League,2023.0,1.0,Shanghai Port
-Chinese Super League,2023.0,2.0,Shandong Taishan
-Chinese Super League,2023.0,3.0,Zhejiang
-Chinese Super League,2023.0,4.0,Shanghai Shenhua
-Chinese Super League,2023.0,5.0,Chengdu Rongcheng
-Chinese Super League,2023.0,6.0,Beijing Guoan
-Chinese Super League,2023.0,7.0,Wuhan Three Towns
-Chinese Super League,2023.0,8.0,Tianjin Jinmen Tigers
-Chinese Super League,2023.0,9.0,Changchun Yatai
-Chinese Super League,2023.0,10.0,Henan S. Longmen
-Chinese Super League,2023.0,11.0,Meizhou Hakka
-Chinese Super League,2023.0,12.0,Cangzhou Mighty Lions
-Chinese Super League,2023.0,13.0,Qingdao FC
-Chinese Super League,2023.0,14.0,Nantong Zhiyun
-Chinese Super League,2023.0,15.0,Dalian Professional
-Chinese Super League,2023.0,16.0,Shenzhen
 Chinese Super League,2022.0,1.0,Wuhan Three Towns
-Chinese Super League,2022.0,2.0,Shandong Taishan
-Chinese Super League,2022.0,3.0,Zhejiang
-Chinese Super League,2022.0,4.0,Shanghai Port
-Chinese Super League,2022.0,5.0,Chengdu Rongcheng
-Chinese Super League,2022.0,6.0,Henan S. Longmen
-Chinese Super League,2022.0,7.0,Beijing Guoan
-Chinese Super League,2022.0,8.0,Tianjin Jinmen Tigers
-Chinese Super League,2022.0,9.0,Meizhou Hakka
-Chinese Super League,2022.0,10.0,Shanghai Shenhua
-Chinese Super League,2022.0,11.0,Dalian Professional
-Chinese Super League,2022.0,12.0,Cangzhou Mighty Lions
-Chinese Super League,2022.0,13.0,Changchun Yatai
-Chinese Super League,2022.0,14.0,Shenzhen
-Chinese Super League,2022.0,15.0,Guangzhou
-Chinese Super League,2022.0,16.0,Guangzhou City
-Chinese Super League,2022.0,17.0,Wuhan
-Chinese Super League,2022.0,18.0,Hebei FC
+Chinese Super League,2000.0,1.0,Dalian Shide
+Chinese Super League,1993.0,1.0,Liaoning Hongyun
+Chinese Super League,1999.0,1.0,Shandong Taishan
+Chinese Super League,2020.0,1.0,Jiangsu Suning
+Chinese Super League,1998.0,1.0,Dalian Shide
+Chinese Super League,2015.0,1.0,Guangzhou
+Chinese Super League,1997.0,1.0,Dalian Shide
+Chinese Super League,2007.0,1.0,Changchun Yatai
+Chinese Super League,1990.0,1.0,Liaoning Hongyun
+Chinese Super League,1989.0,1.0,China B
+Chinese Super League,2016.0,1.0,Guangzhou
+Chinese Super League,2017.0,1.0,Guangzhou
+Chinese Super League,1995.0,1.0,Shanghai Shenhua
+Chinese Super League,2019.0,1.0,Guangzhou
 Chinese Super League,2018.0,1.0,Shanghai Port
+Chinese Super League,1994.0,1.0,Dalian Shide
+Chinese Super League,2023.0,1.0,Shanghai Port
+Chinese Super League,1991.0,1.0,Liaoning Hongyun
+Chinese Super League,1988.0,1.0,Liaoning Hongyun
+Chinese Super League,1992.0,1.0,Liaoning Hongyun
+Chinese Super League,1996.0,1.0,Dalian Shide
+Chinese Super League,2013.0,1.0,Guangzhou
+Chinese Super League,2014.0,1.0,Guangzhou
+Chinese Super League,2004.0,1.0,Shenzhen
+Chinese Super League,2012.0,1.0,Guangzhou
+Chinese Super League,2006.0,1.0,Shandong Taishan
+Chinese Super League,2001.0,1.0,Dalian Shide
+Chinese Super League,1987.0,1.0,Liaoning Hongyun
+Chinese Super League,2002.0,1.0,Dalian Shide
+Chinese Super League,2021.0,1.0,Shandong Taishan
+Chinese Super League,2008.0,1.0,Shandong Taishan
+Chinese Super League,2011.0,1.0,Guangzhou
+Chinese Super League,2009.0,1.0,Beijing Guoan
+Chinese Super League,2005.0,1.0,Dalian Shide
+Chinese Super League,2010.0,1.0,Shandong Taishan
+Chinese Super League,2003.0,1.0,Shanghai Shenhua
+Chinese Super League,1995.0,2.0,Beijing Guoan
+Chinese Super League,2009.0,2.0,Changchun Yatai
 Chinese Super League,2018.0,2.0,Guangzhou
+Chinese Super League,2001.0,2.0,Shanghai Shenhua
+Chinese Super League,1994.0,2.0,Guangzhou
+Chinese Super League,2008.0,2.0,Shanghai Shenhua
+Chinese Super League,1988.0,2.0,China Olympic XI
+Chinese Super League,2006.0,2.0,Shanghai Shenhua
+Chinese Super League,1993.0,2.0,Guangdong Winnerway
+Chinese Super League,2005.0,2.0,Shanghai Shenhua
+Chinese Super League,2023.0,2.0,Shandong Taishan
+Chinese Super League,2010.0,2.0,Tianjin Jinmen Tigers
+Chinese Super League,1996.0,2.0,Shanghai Shenhua
+Chinese Super League,2004.0,2.0,Shandong Taishan
+Chinese Super League,2016.0,2.0,Jiangsu Suning
+Chinese Super League,1998.0,2.0,Shanghai Shenhua
+Chinese Super League,2003.0,2.0,Beijing Chengfeng
+Chinese Super League,2015.0,2.0,Shanghai Port
+Chinese Super League,2011.0,2.0,Beijing Guoan
+Chinese Super League,1999.0,2.0,Liaoning Hongyun
+Chinese Super League,2014.0,2.0,Beijing Guoan
+Chinese Super League,2000.0,2.0,Shanghai Shenhua
+Chinese Super League,2002.0,2.0,Shenzhen
+Chinese Super League,2012.0,2.0,Jiangsu Suning
+Chinese Super League,2013.0,2.0,Shandong Taishan
+Chinese Super League,2017.0,2.0,Shanghai Port
+Chinese Super League,1992.0,2.0,Guangzhou
+Chinese Super League,1997.0,2.0,Shanghai Shenhua
+Chinese Super League,2007.0,2.0,Beijing Guoan
+Chinese Super League,2019.0,2.0,Beijing Guoan
+Chinese Super League,1987.0,2.0,Tianjin Jinmen Tigers
+Chinese Super League,1991.0,2.0,Shanghai Shenhua
+Chinese Super League,1989.0,2.0,Liaoning Hongyun
+Chinese Super League,2020.0,2.0,Guangzhou
+Chinese Super League,2021.0,2.0,Shanghai Port
+Chinese Super League,1990.0,2.0,August 1st
+Chinese Super League,2022.0,2.0,Shandong Taishan
+Chinese Super League,2020.0,3.0,Beijing Guoan
+Chinese Super League,2002.0,3.0,Beijing Guoan
+Chinese Super League,2016.0,3.0,Shanghai Port
 Chinese Super League,2018.0,3.0,Shandong Taishan
+Chinese Super League,1998.0,3.0,Beijing Guoan
+Chinese Super League,2012.0,3.0,Beijing Guoan
+Chinese Super League,2001.0,3.0,Liaoning Hongyun
+Chinese Super League,1995.0,3.0,Dalian Shide
+Chinese Super League,1997.0,3.0,Beijing Guoan
+Chinese Super League,1991.0,3.0,Beijing Guoan
+Chinese Super League,2013.0,3.0,Beijing Guoan
+Chinese Super League,1989.0,3.0,Shanghai Shenhua
+Chinese Super League,2021.0,3.0,Guangzhou
+Chinese Super League,1992.0,3.0,Dalian Shide
+Chinese Super League,2017.0,3.0,Tianjin Jinmen Tigers
+Chinese Super League,2014.0,3.0,Guangzhou City
+Chinese Super League,1990.0,3.0,Dalian Shide
+Chinese Super League,1996.0,3.0,August 1st
+Chinese Super League,1999.0,3.0,Sichuan First City
+Chinese Super League,2015.0,3.0,Shandong Taishan
+Chinese Super League,2000.0,3.0,Sichuan First City
+Chinese Super League,2019.0,3.0,Shanghai Port
+Chinese Super League,2011.0,3.0,Liaoning Hongyun
+Chinese Super League,1988.0,3.0,Tianjin Jinmen Tigers
+Chinese Super League,2009.0,3.0,Henan S. Longmen
+Chinese Super League,2008.0,3.0,Beijing Guoan
+Chinese Super League,1987.0,3.0,Shanghai Shenhua
+Chinese Super League,2004.0,3.0,Beijing Chengfeng
+Chinese Super League,2005.0,3.0,Shandong Taishan
+Chinese Super League,2006.0,3.0,Beijing Guoan
+Chinese Super League,2023.0,3.0,Zhejiang
+Chinese Super League,2010.0,3.0,Shanghai Shenhua
+Chinese Super League,2003.0,3.0,Dalian Shide
+Chinese Super League,1993.0,3.0,Beijing Guoan
+Chinese Super League,2007.0,3.0,Shandong Taishan
+Chinese Super League,1994.0,3.0,Shanghai Shenhua
+Chinese Super League,2022.0,3.0,Zhejiang
+Chinese Super League,2015.0,4.0,Beijing Guoan
+Chinese Super League,2020.0,4.0,Shanghai Port
+Chinese Super League,2008.0,4.0,Tianjin Jinmen Tigers
+Chinese Super League,1999.0,4.0,Chongqing Dangdai Lifan
+Chinese Super League,2007.0,4.0,Shanghai Shenhua
+Chinese Super League,2022.0,4.0,Shanghai Port
+Chinese Super League,1990.0,4.0,Shanghai Shenhua
+Chinese Super League,2006.0,4.0,Changchun Yatai
+Chinese Super League,2000.0,4.0,Chongqing Dangdai Lifan
+Chinese Super League,2009.0,4.0,Shandong Taishan
+Chinese Super League,1989.0,4.0,August 1st
+Chinese Super League,2005.0,4.0,Tianjin Jinmen Tigers
+Chinese Super League,1987.0,4.0,Shandong Taishan
+Chinese Super League,2013.0,4.0,Beijing Chengfeng
+Chinese Super League,2004.0,4.0,Liaoning Hongyun
+Chinese Super League,2001.0,4.0,Sichuan First City
+Chinese Super League,2010.0,4.0,Zhejiang
+Chinese Super League,2021.0,4.0,Changchun Yatai
+Chinese Super League,2012.0,4.0,Beijing Chengfeng
+Chinese Super League,2003.0,4.0,Shenzhen
+Chinese Super League,2011.0,4.0,Jiangsu Suning
+Chinese Super League,2002.0,4.0,Shandong Taishan
+Chinese Super League,2014.0,4.0,Shandong Taishan
+Chinese Super League,1998.0,4.0,Guangzhou Matsunichi
+Chinese Super League,1992.0,4.0,August 1st
+Chinese Super League,2017.0,4.0,Hebei FC
+Chinese Super League,2019.0,4.0,Jiangsu Suning
+Chinese Super League,1991.0,4.0,Guangzhou Baiyunshan
+Chinese Super League,1996.0,4.0,Beijing Guoan
+Chinese Super League,1988.0,4.0,Shandong Taishan
+Chinese Super League,1994.0,4.0,Liaoning Hongyun
+Chinese Super League,1997.0,4.0,Yanbian Funde
+Chinese Super League,2016.0,4.0,Shanghai Shenhua
 Chinese Super League,2018.0,4.0,Beijing Guoan
+Chinese Super League,2023.0,4.0,Chengdu Rongcheng
+Chinese Super League,1993.0,4.0,Dalian Shide
+Chinese Super League,1995.0,4.0,Guangdong Winnerway
+Chinese Super League,2001.0,5.0,Shenzhen
+Chinese Super League,2014.0,5.0,Shanghai Port
+Chinese Super League,2019.0,5.0,Shandong Taishan
+Chinese Super League,1989.0,5.0,Tianjin Jinmen Tigers
+Chinese Super League,1991.0,5.0,August 1st
+Chinese Super League,2022.0,5.0,Chengdu Rongcheng
+Chinese Super League,2021.0,5.0,Beijing Guoan
+Chinese Super League,2000.0,5.0,Shandong Taishan
+Chinese Super League,2009.0,5.0,Shanghai Shenhua
+Chinese Super League,2006.0,5.0,Dalian Shide
+Chinese Super League,1996.0,5.0,Shandong Taishan
+Chinese Super League,1987.0,5.0,August 1st
+Chinese Super League,2013.0,5.0,Dalian Professional
+Chinese Super League,1995.0,5.0,Guangzhou
+Chinese Super League,1988.0,5.0,Guangdong Winnerway
+Chinese Super League,2002.0,5.0,Liaoning Hongyun
+Chinese Super League,2012.0,5.0,Dalian Professional
+Chinese Super League,2016.0,5.0,Beijing Guoan
 Chinese Super League,2018.0,5.0,Jiangsu Suning
+Chinese Super League,1990.0,5.0,Tianjin Jinmen Tigers
+Chinese Super League,1992.0,5.0,Shanghai Shenhua
+Chinese Super League,2010.0,5.0,Beijing Guoan
+Chinese Super League,2007.0,5.0,Dalian Shide
+Chinese Super League,2023.0,5.0,Shanghai Shenhua
+Chinese Super League,1998.0,5.0,Sichuan First City
+Chinese Super League,2020.0,5.0,Chongqing Dangdai Lifan
+Chinese Super League,1997.0,5.0,Chongqing Dangdai Lifan
+Chinese Super League,2004.0,5.0,Dalian Shide
+Chinese Super League,2017.0,5.0,Guangzhou City
+Chinese Super League,2015.0,5.0,Henan S. Longmen
+Chinese Super League,1993.0,5.0,August 1st
+Chinese Super League,2011.0,5.0,Shandong Taishan
+Chinese Super League,2005.0,5.0,Wuhan
+Chinese Super League,1994.0,5.0,Shandong Taishan
+Chinese Super League,2003.0,5.0,Guangzhou City
+Chinese Super League,2008.0,5.0,Beijing Chengfeng
+Chinese Super League,1999.0,5.0,Shanghai Shenhua
+Chinese Super League,2004.0,6.0,Tianjin Jinmen Tigers
+Chinese Super League,2011.0,6.0,Qingdao FC
+Chinese Super League,2012.0,6.0,Changchun Yatai
+Chinese Super League,1988.0,6.0,Shanghai Shenhua
+Chinese Super League,2023.0,6.0,Beijing Guoan
+Chinese Super League,2002.0,6.0,Chongqing Dangdai Lifan
+Chinese Super League,1995.0,6.0,Shandong Taishan
+Chinese Super League,2005.0,6.0,Beijing Guoan
+Chinese Super League,1989.0,6.0,Guangdong Winnerway
+Chinese Super League,1987.0,6.0,Beijing Guoan
+Chinese Super League,1994.0,6.0,Sichuan First City
+Chinese Super League,2003.0,6.0,Liaoning Hongyun
+Chinese Super League,2016.0,6.0,Guangzhou City
+Chinese Super League,2013.0,6.0,Guangzhou City
+Chinese Super League,2009.0,6.0,Tianjin Jinmen Tigers
+Chinese Super League,2020.0,6.0,Hebei FC
+Chinese Super League,2007.0,6.0,Tianjin Jinmen Tigers
+Chinese Super League,1998.0,6.0,Qingdao FC
+Chinese Super League,1997.0,6.0,Shandong Taishan
+Chinese Super League,2015.0,6.0,Shanghai Shenhua
+Chinese Super League,1993.0,6.0,Foshan Fosti
+Chinese Super League,2008.0,6.0,Changchun Yatai
+Chinese Super League,1999.0,6.0,Beijing Guoan
+Chinese Super League,1991.0,6.0,Dalian Shide
 Chinese Super League,2018.0,6.0,Hebei FC
+Chinese Super League,2017.0,6.0,Shandong Taishan
+Chinese Super League,1990.0,6.0,China Olympic XI
+Chinese Super League,2014.0,6.0,Beijing Chengfeng
+Chinese Super League,1992.0,6.0,Beijing Guoan
+Chinese Super League,2000.0,6.0,Beijing Guoan
+Chinese Super League,2021.0,6.0,Shenzhen
+Chinese Super League,2001.0,6.0,Shandong Taishan
+Chinese Super League,2010.0,6.0,Dalian Shide
+Chinese Super League,2022.0,6.0,Henan S. Longmen
+Chinese Super League,2019.0,6.0,Wuhan
+Chinese Super League,1996.0,6.0,Sichuan First City
+Chinese Super League,2006.0,6.0,Tianjin Jinmen Tigers
+Chinese Super League,2008.0,7.0,Guangzhou
+Chinese Super League,1993.0,7.0,Shanghai Shenhua
+Chinese Super League,2005.0,7.0,Qingdao FC
+Chinese Super League,1992.0,7.0,Guangdong Winnerway
+Chinese Super League,2006.0,7.0,Shanghai United
+Chinese Super League,1987.0,7.0,Guangzhou
+Chinese Super League,2022.0,7.0,Beijing Guoan
+Chinese Super League,2019.0,7.0,Tianjin Jinmen Tigers
+Chinese Super League,2007.0,7.0,Wuhan
+Chinese Super League,2009.0,7.0,Chengdu Rongcheng
+Chinese Super League,1988.0,7.0,Guangzhou
+Chinese Super League,1994.0,7.0,Guangdong Winnerway
+Chinese Super League,1995.0,7.0,Yanbian Funde
+Chinese Super League,1996.0,7.0,Guangzhou
+Chinese Super League,2014.0,7.0,Tianjin Jinmen Tigers
+Chinese Super League,1999.0,7.0,Tianjin Jinmen Tigers
+Chinese Super League,2000.0,7.0,Guangzhou City
+Chinese Super League,1990.0,7.0,Guangdong Winnerway
+Chinese Super League,2010.0,7.0,Liaoning Hongyun
+Chinese Super League,2015.0,7.0,Cangzhou Mighty Lions
+Chinese Super League,1997.0,7.0,Sichuan First City
+Chinese Super League,2013.0,7.0,Shanghai Shenxin
+Chinese Super League,2001.0,7.0,Tianjin Jinmen Tigers
 Chinese Super League,2018.0,7.0,Shanghai Shenhua
+Chinese Super League,2017.0,7.0,Changchun Yatai
+Chinese Super League,2021.0,7.0,Guangzhou City
+Chinese Super League,2012.0,7.0,Guangzhou City
+Chinese Super League,1998.0,7.0,Chongqing Dangdai Lifan
+Chinese Super League,2003.0,7.0,Yunnan Hongta
+Chinese Super League,2011.0,7.0,Changchun Yatai
+Chinese Super League,2023.0,7.0,Wuhan Three Towns
+Chinese Super League,1989.0,7.0,Shandong Taishan
+Chinese Super League,2020.0,7.0,Shandong Taishan
+Chinese Super League,2016.0,7.0,Hebei FC
+Chinese Super League,2004.0,7.0,Beijing Guoan
+Chinese Super League,2002.0,7.0,Yunnan Hongta
+Chinese Super League,1991.0,7.0,China Olympic XI
+Chinese Super League,2007.0,8.0,Qingdao FC
+Chinese Super League,1991.0,8.0,Tianjin Jinmen Tigers
+Chinese Super League,1998.0,8.0,Wuhan
+Chinese Super League,1997.0,8.0,Guangzhou
+Chinese Super League,1999.0,8.0,Yanbian Funde
+Chinese Super League,1989.0,8.0,Guangzhou
+Chinese Super League,1990.0,8.0,Henan S. Longmen
+Chinese Super League,2001.0,8.0,Beijing Guoan
+Chinese Super League,2006.0,8.0,Xiamen Lanshi
+Chinese Super League,1996.0,8.0,Tianjin Jinmen Tigers
+Chinese Super League,2002.0,8.0,Qingdao FC
+Chinese Super League,1995.0,8.0,Tianjin Jinmen Tigers
+Chinese Super League,2003.0,8.0,Sichuan First City
+Chinese Super League,1994.0,8.0,Beijing Guoan
+Chinese Super League,2005.0,8.0,Beijing Chengfeng
+Chinese Super League,2004.0,8.0,Guangzhou City
+Chinese Super League,1992.0,8.0,Shenyang
+Chinese Super League,2000.0,8.0,Liaoning Hongyun
+Chinese Super League,1987.0,8.0,Wuhan
+Chinese Super League,2017.0,8.0,Beijing Chengfeng
+Chinese Super League,2009.0,8.0,Dalian Shide
+Chinese Super League,1993.0,8.0,Guangzhou
+Chinese Super League,2021.0,8.0,Hebei FC
+Chinese Super League,2013.0,8.0,Shanghai Shenhua
+Chinese Super League,2010.0,8.0,Henan S. Longmen
+Chinese Super League,2020.0,8.0,Shanghai Shenhua
+Chinese Super League,1988.0,8.0,August 1st
+Chinese Super League,2014.0,8.0,Jiangsu Suning
+Chinese Super League,2008.0,8.0,Qingdao FC
+Chinese Super League,2023.0,8.0,Tianjin Jinmen Tigers
+Chinese Super League,2015.0,8.0,Chongqing Dangdai Lifan
+Chinese Super League,2016.0,8.0,Chongqing Dangdai Lifan
+Chinese Super League,2022.0,8.0,Tianjin Jinmen Tigers
 Chinese Super League,2018.0,8.0,Beijing Chengfeng
+Chinese Super League,2011.0,8.0,Zhejiang
+Chinese Super League,2012.0,8.0,Tianjin Jinmen Tigers
+Chinese Super League,2019.0,8.0,Dalian Professional
+Chinese Super League,1997.0,9.0,Qingdao FC
+Chinese Super League,2005.0,9.0,Sichuan First City
+Chinese Super League,2003.0,9.0,Beijing Guoan
+Chinese Super League,1996.0,9.0,Guangdong Winnerway
+Chinese Super League,2001.0,9.0,Harbin Guoli
+Chinese Super League,2002.0,9.0,Beijing Chengfeng
+Chinese Super League,2010.0,9.0,Changchun Yatai
+Chinese Super League,1995.0,9.0,August 1st
+Chinese Super League,2020.0,9.0,Shenzhen
+Chinese Super League,2011.0,9.0,Beijing Chengfeng
+Chinese Super League,2004.0,9.0,Sichuan First City
+Chinese Super League,2017.0,9.0,Beijing Guoan
+Chinese Super League,2019.0,9.0,Chongqing Dangdai Lifan
+Chinese Super League,2012.0,9.0,Shanghai Shenhua
+Chinese Super League,2013.0,9.0,Shanghai Port
+Chinese Super League,2014.0,9.0,Shanghai Shenhua
+Chinese Super League,2021.0,9.0,Shanghai Shenhua
+Chinese Super League,2016.0,9.0,Yanbian Funde
+Chinese Super League,2023.0,9.0,Changchun Yatai
+Chinese Super League,2007.0,9.0,Liaoning Hongyun
+Chinese Super League,1998.0,9.0,Shandong Taishan
 Chinese Super League,2018.0,9.0,Tianjin Jinmen Tigers
+Chinese Super League,2022.0,9.0,Meizhou Hakka
+Chinese Super League,2008.0,9.0,Zhejiang
+Chinese Super League,1999.0,9.0,Dalian Shide
+Chinese Super League,2006.0,9.0,Beijing Chengfeng
+Chinese Super League,1988.0,9.0,Beijing Guoan
+Chinese Super League,2009.0,9.0,Guangzhou
+Chinese Super League,2000.0,9.0,Shenzhen
+Chinese Super League,1994.0,9.0,August 1st
+Chinese Super League,2015.0,9.0,Jiangsu Suning
+Chinese Super League,2013.0,10.0,Liaoning Hongyun
+Chinese Super League,2012.0,10.0,Liaoning Hongyun
+Chinese Super League,1997.0,10.0,August 1st
+Chinese Super League,1998.0,10.0,Guangzhou City
+Chinese Super League,2001.0,10.0,Yunnan Hongta
+Chinese Super League,2016.0,10.0,Tianjin Jinmen Tigers
+Chinese Super League,1994.0,10.0,Yanbian Funde
+Chinese Super League,1988.0,10.0,Dalian Shide
+Chinese Super League,2002.0,10.0,Tianjin Jinmen Tigers
+Chinese Super League,2017.0,10.0,Chongqing Dangdai Lifan
+Chinese Super League,2014.0,10.0,Liaoning Hongyun
+Chinese Super League,2019.0,10.0,Hebei FC
+Chinese Super League,1999.0,10.0,Qingdao FC
+Chinese Super League,2015.0,10.0,Changchun Yatai
+Chinese Super League,2000.0,10.0,Tianjin Jinmen Tigers
+Chinese Super League,2009.0,10.0,Jiangsu Suning
+Chinese Super League,2023.0,10.0,Henan S. Longmen
+Chinese Super League,2004.0,10.0,Shanghai Shenhua
+Chinese Super League,1996.0,10.0,Yanbian Funde
+Chinese Super League,2021.0,10.0,Henan S. Longmen
+Chinese Super League,2010.0,10.0,Beijing Chengfeng
+Chinese Super League,2006.0,10.0,Wuhan
+Chinese Super League,1995.0,10.0,Sichuan First City
 Chinese Super League,2018.0,10.0,Guangzhou City
+Chinese Super League,2008.0,10.0,Henan S. Longmen
+Chinese Super League,2022.0,10.0,Shanghai Shenhua
+Chinese Super League,2005.0,10.0,Liaoning Hongyun
+Chinese Super League,2011.0,10.0,Tianjin Jinmen Tigers
+Chinese Super League,2020.0,10.0,Wuhan
+Chinese Super League,2003.0,10.0,Tianjin Jinmen Tigers
+Chinese Super League,2007.0,10.0,Guangzhou City
+Chinese Super League,2008.0,11.0,Guangzhou City
+Chinese Super League,1995.0,11.0,Qingdao FC
+Chinese Super League,2023.0,11.0,Meizhou Hakka
+Chinese Super League,2009.0,11.0,Shenzhen
+Chinese Super League,1996.0,11.0,Shenzhen
+Chinese Super League,2000.0,11.0,Qingdao FC
+Chinese Super League,2017.0,11.0,Shanghai Shenhua
+Chinese Super League,1998.0,11.0,Yanbian Funde
+Chinese Super League,2015.0,11.0,Zhejiang
+Chinese Super League,2016.0,11.0,Liaoning Hongyun
+Chinese Super League,2006.0,11.0,Shenzhen
 Chinese Super League,2018.0,11.0,Dalian Professional
+Chinese Super League,2014.0,11.0,Shanghai Shenxin
+Chinese Super League,1999.0,11.0,Guangzhou City
+Chinese Super League,2007.0,11.0,Zhejiang
+Chinese Super League,2022.0,11.0,Dalian Professional
+Chinese Super League,1994.0,11.0,Guangzhou City
+Chinese Super League,2021.0,11.0,Cangzhou Mighty Lions
+Chinese Super League,2012.0,11.0,Zhejiang
+Chinese Super League,2019.0,11.0,Guangzhou City
+Chinese Super League,2002.0,11.0,Guangzhou City
+Chinese Super League,2013.0,11.0,Tianjin Jinmen Tigers
+Chinese Super League,2011.0,11.0,Shanghai Shenhua
+Chinese Super League,2005.0,11.0,Shanghai Zobon
+Chinese Super League,2010.0,11.0,Jiangsu Suning
+Chinese Super League,2020.0,11.0,Cangzhou Mighty Lions
+Chinese Super League,2003.0,11.0,Qingdao FC
+Chinese Super League,2004.0,11.0,Qingdao FC
+Chinese Super League,2001.0,11.0,Chongqing Dangdai Lifan
+Chinese Super League,1997.0,11.0,Tianjin Jinmen Tigers
+Chinese Super League,1998.0,12.0,Shenzhen
+Chinese Super League,2003.0,12.0,Shandong Taishan
+Chinese Super League,1995.0,12.0,Liaoning Hongyun
+Chinese Super League,2016.0,12.0,Changchun Yatai
+Chinese Super League,2023.0,12.0,Cangzhou Mighty Lions
+Chinese Super League,2011.0,12.0,Dalian Shide
+Chinese Super League,2004.0,12.0,Chongqing Dangdai Lifan
+Chinese Super League,2008.0,12.0,Shenzhen
+Chinese Super League,2022.0,12.0,Cangzhou Mighty Lions
+Chinese Super League,2002.0,12.0,Shanghai Shenhua
+Chinese Super League,2012.0,12.0,Shandong Taishan
+Chinese Super League,2007.0,12.0,Henan S. Longmen
+Chinese Super League,2010.0,12.0,Shenzhen
+Chinese Super League,1994.0,12.0,Jiangsu Suning
+Chinese Super League,2014.0,12.0,Zhejiang
+Chinese Super League,1997.0,12.0,Guangdong Winnerway
+Chinese Super League,2001.0,12.0,August 1st
+Chinese Super League,2005.0,12.0,Shenzhen
+Chinese Super League,2021.0,12.0,Tianjin Jinmen Tigers
+Chinese Super League,2019.0,12.0,Shanghai Shenhua
+Chinese Super League,2000.0,12.0,Yunnan Hongta
+Chinese Super League,1999.0,12.0,Shenzhen
+Chinese Super League,2020.0,12.0,Guangzhou City
+Chinese Super League,1996.0,12.0,Guangzhou Matsunichi
+Chinese Super League,2006.0,12.0,Liaoning Hongyun
+Chinese Super League,2017.0,12.0,Jiangsu Suning
+Chinese Super League,2015.0,12.0,Liaoning Hongyun
+Chinese Super League,2013.0,12.0,Zhejiang
+Chinese Super League,2009.0,12.0,Beijing Chengfeng
 Chinese Super League,2018.0,12.0,Henan S. Longmen
 Chinese Super League,2018.0,13.0,Chongqing Dangdai Lifan
-Chinese Super League,2018.0,14.0,Tianjin Jinmen Tigers
-Chinese Super League,2018.0,15.0,Changchun Yatai
-Chinese Super League,2018.0,16.0,Guizhou Hengfeng
-Chinese Super League,2017.0,1.0,Guangzhou
-Chinese Super League,2017.0,2.0,Shanghai Port
-Chinese Super League,2017.0,3.0,Tianjin Jinmen Tigers
-Chinese Super League,2017.0,4.0,Hebei FC
-Chinese Super League,2017.0,5.0,Guangzhou City
-Chinese Super League,2017.0,6.0,Shandong Taishan
-Chinese Super League,2017.0,7.0,Changchun Yatai
-Chinese Super League,2017.0,8.0,Beijing Chengfeng
-Chinese Super League,2017.0,9.0,Beijing Guoan
-Chinese Super League,2017.0,10.0,Chongqing Dangdai Lifan
-Chinese Super League,2017.0,11.0,Shanghai Shenhua
-Chinese Super League,2017.0,12.0,Jiangsu Suning
 Chinese Super League,2017.0,13.0,Tianjin Jinmen Tigers
-Chinese Super League,2017.0,14.0,Henan S. Longmen
-Chinese Super League,2017.0,15.0,Yanbian Funde
-Chinese Super League,2017.0,16.0,Liaoning Hongyun
-Chinese Super League,2016.0,1.0,Guangzhou
-Chinese Super League,2016.0,2.0,Jiangsu Suning
-Chinese Super League,2016.0,3.0,Shanghai Port
-Chinese Super League,2016.0,4.0,Shanghai Shenhua
-Chinese Super League,2016.0,5.0,Beijing Guoan
-Chinese Super League,2016.0,6.0,Guangzhou City
-Chinese Super League,2016.0,7.0,Hebei FC
-Chinese Super League,2016.0,8.0,Chongqing Dangdai Lifan
-Chinese Super League,2016.0,9.0,Yanbian Funde
-Chinese Super League,2016.0,10.0,Tianjin Jinmen Tigers
-Chinese Super League,2016.0,11.0,Liaoning Hongyun
-Chinese Super League,2016.0,12.0,Changchun Yatai
-Chinese Super League,2016.0,13.0,Henan S. Longmen
-Chinese Super League,2016.0,14.0,Shandong Taishan
-Chinese Super League,2016.0,15.0,Zhejiang
-Chinese Super League,2016.0,16.0,Cangzhou Mighty Lions
-Chinese Super League,2015.0,1.0,Guangzhou
-Chinese Super League,2015.0,2.0,Shanghai Port
-Chinese Super League,2015.0,3.0,Shandong Taishan
-Chinese Super League,2015.0,4.0,Beijing Guoan
-Chinese Super League,2015.0,5.0,Henan S. Longmen
-Chinese Super League,2015.0,6.0,Shanghai Shenhua
-Chinese Super League,2015.0,7.0,Cangzhou Mighty Lions
-Chinese Super League,2015.0,8.0,Chongqing Dangdai Lifan
-Chinese Super League,2015.0,9.0,Jiangsu Suning
-Chinese Super League,2015.0,10.0,Changchun Yatai
-Chinese Super League,2015.0,11.0,Zhejiang
-Chinese Super League,2015.0,12.0,Liaoning Hongyun
-Chinese Super League,2015.0,13.0,Tianjin Jinmen Tigers
-Chinese Super League,2015.0,14.0,Guangzhou City
-Chinese Super League,2015.0,15.0,Beijing Chengfeng
-Chinese Super League,2015.0,16.0,Shanghai Shenxin
-Chinese Super League,2014.0,1.0,Guangzhou
-Chinese Super League,2014.0,2.0,Beijing Guoan
-Chinese Super League,2014.0,3.0,Guangzhou City
-Chinese Super League,2014.0,4.0,Shandong Taishan
-Chinese Super League,2014.0,5.0,Shanghai Port
-Chinese Super League,2014.0,6.0,Beijing Chengfeng
-Chinese Super League,2014.0,7.0,Tianjin Jinmen Tigers
-Chinese Super League,2014.0,8.0,Jiangsu Suning
-Chinese Super League,2014.0,9.0,Shanghai Shenhua
-Chinese Super League,2014.0,10.0,Liaoning Hongyun
-Chinese Super League,2014.0,11.0,Shanghai Shenxin
-Chinese Super League,2014.0,12.0,Zhejiang
-Chinese Super League,2014.0,13.0,Changchun Yatai
-Chinese Super League,2014.0,14.0,Henan S. Longmen
-Chinese Super League,2014.0,15.0,Dalian Professional
-Chinese Super League,2014.0,16.0,Shaoxing Keqiao Yuejia
-Chinese Super League,2013.0,1.0,Guangzhou
-Chinese Super League,2013.0,2.0,Shandong Taishan
-Chinese Super League,2013.0,3.0,Beijing Guoan
-Chinese Super League,2013.0,4.0,Beijing Chengfeng
-Chinese Super League,2013.0,5.0,Dalian Professional
-Chinese Super League,2013.0,6.0,Guangzhou City
-Chinese Super League,2013.0,7.0,Shanghai Shenxin
-Chinese Super League,2013.0,8.0,Shanghai Shenhua
-Chinese Super League,2013.0,9.0,Shanghai Port
-Chinese Super League,2013.0,10.0,Liaoning Hongyun
-Chinese Super League,2013.0,11.0,Tianjin Jinmen Tigers
-Chinese Super League,2013.0,12.0,Zhejiang
 Chinese Super League,2013.0,13.0,Jiangsu Suning
-Chinese Super League,2013.0,14.0,Changchun Yatai
-Chinese Super League,2013.0,15.0,Qingdao FC
-Chinese Super League,2013.0,16.0,Wuhan
-Chinese Super League,2012.0,1.0,Guangzhou
-Chinese Super League,2012.0,2.0,Jiangsu Suning
-Chinese Super League,2012.0,3.0,Beijing Guoan
-Chinese Super League,2012.0,4.0,Beijing Chengfeng
-Chinese Super League,2012.0,5.0,Dalian Professional
-Chinese Super League,2012.0,6.0,Changchun Yatai
-Chinese Super League,2012.0,7.0,Guangzhou City
-Chinese Super League,2012.0,8.0,Tianjin Jinmen Tigers
-Chinese Super League,2012.0,9.0,Shanghai Shenhua
-Chinese Super League,2012.0,10.0,Liaoning Hongyun
-Chinese Super League,2012.0,11.0,Zhejiang
-Chinese Super League,2012.0,12.0,Shandong Taishan
-Chinese Super League,2012.0,13.0,Qingdao FC
-Chinese Super League,2012.0,14.0,Dalian Shide
-Chinese Super League,2012.0,15.0,Shanghai Shenxin
-Chinese Super League,2012.0,16.0,Henan S. Longmen
-Chinese Super League,2011.0,1.0,Guangzhou
-Chinese Super League,2011.0,2.0,Beijing Guoan
-Chinese Super League,2011.0,3.0,Liaoning Hongyun
-Chinese Super League,2011.0,4.0,Jiangsu Suning
-Chinese Super League,2011.0,5.0,Shandong Taishan
-Chinese Super League,2011.0,6.0,Qingdao FC
-Chinese Super League,2011.0,7.0,Changchun Yatai
-Chinese Super League,2011.0,8.0,Zhejiang
-Chinese Super League,2011.0,9.0,Beijing Chengfeng
-Chinese Super League,2011.0,10.0,Tianjin Jinmen Tigers
-Chinese Super League,2011.0,11.0,Shanghai Shenhua
-Chinese Super League,2011.0,12.0,Dalian Shide
-Chinese Super League,2011.0,13.0,Henan S. Longmen
-Chinese Super League,2011.0,14.0,Shanghai Shenxin
-Chinese Super League,2011.0,15.0,Chengdu Rongcheng
-Chinese Super League,2011.0,16.0,Shenzhen
-Chinese Super League,2010.0,1.0,Shandong Taishan
-Chinese Super League,2010.0,2.0,Tianjin Jinmen Tigers
-Chinese Super League,2010.0,3.0,Shanghai Shenhua
-Chinese Super League,2010.0,4.0,Zhejiang
-Chinese Super League,2010.0,5.0,Beijing Guoan
-Chinese Super League,2010.0,6.0,Dalian Shide
-Chinese Super League,2010.0,7.0,Liaoning Hongyun
-Chinese Super League,2010.0,8.0,Henan S. Longmen
-Chinese Super League,2010.0,9.0,Changchun Yatai
-Chinese Super League,2010.0,10.0,Beijing Chengfeng
-Chinese Super League,2010.0,11.0,Jiangsu Suning
-Chinese Super League,2010.0,12.0,Shenzhen
-Chinese Super League,2010.0,13.0,Shanghai Shenxin
-Chinese Super League,2010.0,14.0,Qingdao FC
-Chinese Super League,2010.0,15.0,Chongqing Dangdai Lifan
-Chinese Super League,2010.0,16.0,Guangzhou City
-Chinese Super League,2009.0,1.0,Beijing Guoan
-Chinese Super League,2009.0,2.0,Changchun Yatai
-Chinese Super League,2009.0,3.0,Henan S. Longmen
-Chinese Super League,2009.0,4.0,Shandong Taishan
-Chinese Super League,2009.0,5.0,Shanghai Shenhua
-Chinese Super League,2009.0,6.0,Tianjin Jinmen Tigers
-Chinese Super League,2009.0,7.0,Chengdu Rongcheng
-Chinese Super League,2009.0,8.0,Dalian Shide
-Chinese Super League,2009.0,9.0,Guangzhou
-Chinese Super League,2009.0,10.0,Jiangsu Suning
-Chinese Super League,2009.0,11.0,Shenzhen
-Chinese Super League,2009.0,12.0,Beijing Chengfeng
-Chinese Super League,2009.0,13.0,Qingdao FC
-Chinese Super League,2009.0,14.0,Guangzhou City
-Chinese Super League,2009.0,15.0,Zhejiang
-Chinese Super League,2009.0,16.0,Chongqing Dangdai Lifan
-Chinese Super League,2008.0,1.0,Shandong Taishan
-Chinese Super League,2008.0,2.0,Shanghai Shenhua
-Chinese Super League,2008.0,3.0,Beijing Guoan
-Chinese Super League,2008.0,4.0,Tianjin Jinmen Tigers
-Chinese Super League,2008.0,5.0,Beijing Chengfeng
-Chinese Super League,2008.0,6.0,Changchun Yatai
-Chinese Super League,2008.0,7.0,Guangzhou
-Chinese Super League,2008.0,8.0,Qingdao FC
-Chinese Super League,2008.0,9.0,Zhejiang
-Chinese Super League,2008.0,10.0,Henan S. Longmen
-Chinese Super League,2008.0,11.0,Guangzhou City
-Chinese Super League,2008.0,12.0,Shenzhen
+Chinese Super League,2016.0,13.0,Henan S. Longmen
 Chinese Super League,2008.0,13.0,Chengdu Rongcheng
-Chinese Super League,2008.0,14.0,Dalian Shide
-Chinese Super League,2008.0,15.0,Liaoning Hongyun
-Chinese Super League,2008.0,16.0,Wuhan
-Chinese Super League,2007.0,1.0,Changchun Yatai
-Chinese Super League,2007.0,2.0,Beijing Guoan
-Chinese Super League,2007.0,3.0,Shandong Taishan
-Chinese Super League,2007.0,4.0,Shanghai Shenhua
-Chinese Super League,2007.0,5.0,Dalian Shide
-Chinese Super League,2007.0,6.0,Tianjin Jinmen Tigers
-Chinese Super League,2007.0,7.0,Wuhan
-Chinese Super League,2007.0,8.0,Qingdao FC
-Chinese Super League,2007.0,9.0,Liaoning Hongyun
-Chinese Super League,2007.0,10.0,Guangzhou City
-Chinese Super League,2007.0,11.0,Zhejiang
-Chinese Super League,2007.0,12.0,Henan S. Longmen
 Chinese Super League,2007.0,13.0,Beijing Chengfeng
-Chinese Super League,2007.0,14.0,Shenzhen
-Chinese Super League,2007.0,15.0,Xiamen Lanshi
-Chinese Super League,2006.0,1.0,Shandong Taishan
-Chinese Super League,2006.0,2.0,Shanghai Shenhua
-Chinese Super League,2006.0,3.0,Beijing Guoan
-Chinese Super League,2006.0,4.0,Changchun Yatai
-Chinese Super League,2006.0,5.0,Dalian Shide
-Chinese Super League,2006.0,6.0,Tianjin Jinmen Tigers
-Chinese Super League,2006.0,7.0,Shanghai United
-Chinese Super League,2006.0,8.0,Xiamen Lanshi
-Chinese Super League,2006.0,9.0,Beijing Chengfeng
-Chinese Super League,2006.0,10.0,Wuhan
-Chinese Super League,2006.0,11.0,Shenzhen
-Chinese Super League,2006.0,12.0,Liaoning Hongyun
+Chinese Super League,2022.0,13.0,Changchun Yatai
+Chinese Super League,2009.0,13.0,Qingdao FC
 Chinese Super League,2006.0,13.0,Guangzhou City
-Chinese Super League,2006.0,14.0,Qingdao FC
-Chinese Super League,2006.0,15.0,Chongqing Dangdai Lifan
-Chinese Super League,2005.0,1.0,Dalian Shide
-Chinese Super League,2005.0,2.0,Shanghai Shenhua
-Chinese Super League,2005.0,3.0,Shandong Taishan
-Chinese Super League,2005.0,4.0,Tianjin Jinmen Tigers
-Chinese Super League,2005.0,5.0,Wuhan
-Chinese Super League,2005.0,6.0,Beijing Guoan
-Chinese Super League,2005.0,7.0,Qingdao FC
-Chinese Super League,2005.0,8.0,Beijing Chengfeng
-Chinese Super League,2005.0,9.0,Sichuan First City
-Chinese Super League,2005.0,10.0,Liaoning Hongyun
-Chinese Super League,2005.0,11.0,Shanghai Zobon
-Chinese Super League,2005.0,12.0,Shenzhen
+Chinese Super League,2010.0,13.0,Shanghai Shenxin
 Chinese Super League,2005.0,13.0,Guangzhou City
-Chinese Super League,2005.0,14.0,Chongqing Dangdai Lifan
-Chinese Super League,2004.0,1.0,Shenzhen
-Chinese Super League,2004.0,2.0,Shandong Taishan
-Chinese Super League,2004.0,3.0,Beijing Chengfeng
-Chinese Super League,2004.0,4.0,Liaoning Hongyun
-Chinese Super League,2004.0,5.0,Dalian Shide
-Chinese Super League,2004.0,6.0,Tianjin Jinmen Tigers
-Chinese Super League,2004.0,7.0,Beijing Guoan
-Chinese Super League,2004.0,8.0,Guangzhou City
-Chinese Super League,2004.0,9.0,Sichuan First City
-Chinese Super League,2004.0,10.0,Shanghai Shenhua
-Chinese Super League,2004.0,11.0,Qingdao FC
-Chinese Super League,2004.0,12.0,Chongqing Dangdai Lifan
-Chinese Super League,2003.0,1.0,Shanghai Shenhua
-Chinese Super League,2003.0,2.0,Beijing Chengfeng
-Chinese Super League,2003.0,3.0,Dalian Shide
-Chinese Super League,2003.0,4.0,Shenzhen
-Chinese Super League,2003.0,5.0,Guangzhou City
-Chinese Super League,2003.0,6.0,Liaoning Hongyun
-Chinese Super League,2003.0,7.0,Yunnan Hongta
-Chinese Super League,2003.0,8.0,Sichuan First City
-Chinese Super League,2003.0,9.0,Beijing Guoan
-Chinese Super League,2003.0,10.0,Tianjin Jinmen Tigers
-Chinese Super League,2003.0,11.0,Qingdao FC
-Chinese Super League,2003.0,12.0,Shandong Taishan
-Chinese Super League,2003.0,13.0,Chongqing Dangdai Lifan
-Chinese Super League,2003.0,14.0,August 1st
-Chinese Super League,2003.0,15.0,Harbin Guoli
-Chinese Super League,2002.0,1.0,Dalian Shide
-Chinese Super League,2002.0,2.0,Shenzhen
-Chinese Super League,2002.0,3.0,Beijing Guoan
-Chinese Super League,2002.0,4.0,Shandong Taishan
-Chinese Super League,2002.0,5.0,Liaoning Hongyun
-Chinese Super League,2002.0,6.0,Chongqing Dangdai Lifan
-Chinese Super League,2002.0,7.0,Yunnan Hongta
-Chinese Super League,2002.0,8.0,Qingdao FC
-Chinese Super League,2002.0,9.0,Beijing Chengfeng
-Chinese Super League,2002.0,10.0,Tianjin Jinmen Tigers
-Chinese Super League,2002.0,11.0,Guangzhou City
-Chinese Super League,2002.0,12.0,Shanghai Shenhua
-Chinese Super League,2002.0,13.0,August 1st
-Chinese Super League,2002.0,14.0,Sichuan First City
-Chinese Super League,2002.0,15.0,Harbin Guoli
-Chinese Super League,2001.0,1.0,Dalian Shide
-Chinese Super League,2001.0,2.0,Shanghai Shenhua
-Chinese Super League,2001.0,3.0,Liaoning Hongyun
-Chinese Super League,2001.0,4.0,Sichuan First City
-Chinese Super League,2001.0,5.0,Shenzhen
-Chinese Super League,2001.0,6.0,Shandong Taishan
-Chinese Super League,2001.0,7.0,Tianjin Jinmen Tigers
-Chinese Super League,2001.0,8.0,Beijing Guoan
-Chinese Super League,2001.0,9.0,Harbin Guoli
-Chinese Super League,2001.0,10.0,Yunnan Hongta
-Chinese Super League,2001.0,11.0,Chongqing Dangdai Lifan
-Chinese Super League,2001.0,12.0,August 1st
-Chinese Super League,2001.0,13.0,Qingdao FC
-Chinese Super League,2001.0,14.0,Guangzhou City
-Chinese Super League,2000.0,1.0,Dalian Shide
-Chinese Super League,2000.0,2.0,Shanghai Shenhua
-Chinese Super League,2000.0,3.0,Sichuan First City
-Chinese Super League,2000.0,4.0,Chongqing Dangdai Lifan
-Chinese Super League,2000.0,5.0,Shandong Taishan
-Chinese Super League,2000.0,6.0,Beijing Guoan
-Chinese Super League,2000.0,7.0,Guangzhou City
-Chinese Super League,2000.0,8.0,Liaoning Hongyun
-Chinese Super League,2000.0,9.0,Shenzhen
-Chinese Super League,2000.0,10.0,Tianjin Jinmen Tigers
-Chinese Super League,2000.0,11.0,Qingdao FC
-Chinese Super League,2000.0,12.0,Yunnan Hongta
-Chinese Super League,2000.0,13.0,Xiamen Lanshi
-Chinese Super League,2000.0,14.0,Yanbian Funde
-Chinese Super League,1999.0,1.0,Shandong Taishan
-Chinese Super League,1999.0,2.0,Liaoning Hongyun
-Chinese Super League,1999.0,3.0,Sichuan First City
-Chinese Super League,1999.0,4.0,Chongqing Dangdai Lifan
-Chinese Super League,1999.0,5.0,Shanghai Shenhua
-Chinese Super League,1999.0,6.0,Beijing Guoan
-Chinese Super League,1999.0,7.0,Tianjin Jinmen Tigers
-Chinese Super League,1999.0,8.0,Yanbian Funde
-Chinese Super League,1999.0,9.0,Dalian Shide
-Chinese Super League,1999.0,10.0,Qingdao FC
-Chinese Super League,1999.0,11.0,Guangzhou City
-Chinese Super League,1999.0,12.0,Shenzhen
-Chinese Super League,1999.0,13.0,Guangzhou Matsunichi
-Chinese Super League,1999.0,14.0,Wuhan
-Chinese Super League,1998.0,1.0,Dalian Shide
-Chinese Super League,1998.0,2.0,Shanghai Shenhua
-Chinese Super League,1998.0,3.0,Beijing Guoan
-Chinese Super League,1998.0,4.0,Guangzhou Matsunichi
-Chinese Super League,1998.0,5.0,Sichuan First City
-Chinese Super League,1998.0,6.0,Qingdao FC
-Chinese Super League,1998.0,7.0,Chongqing Dangdai Lifan
-Chinese Super League,1998.0,8.0,Wuhan
-Chinese Super League,1998.0,9.0,Shandong Taishan
-Chinese Super League,1998.0,10.0,Guangzhou City
-Chinese Super League,1998.0,11.0,Yanbian Funde
-Chinese Super League,1998.0,12.0,Shenzhen
+Chinese Super League,2021.0,13.0,Chongqing Dangdai Lifan
+Chinese Super League,2011.0,13.0,Henan S. Longmen
 Chinese Super League,1998.0,13.0,August 1st
+Chinese Super League,2003.0,13.0,Chongqing Dangdai Lifan
+Chinese Super League,2012.0,13.0,Qingdao FC
+Chinese Super League,2002.0,13.0,August 1st
+Chinese Super League,2001.0,13.0,Qingdao FC
+Chinese Super League,2019.0,13.0,Tianjin Jinmen Tigers
+Chinese Super League,2014.0,13.0,Changchun Yatai
+Chinese Super League,2000.0,13.0,Xiamen Lanshi
+Chinese Super League,2015.0,13.0,Tianjin Jinmen Tigers
+Chinese Super League,1999.0,13.0,Guangzhou Matsunichi
+Chinese Super League,2020.0,13.0,Dalian Professional
+Chinese Super League,2023.0,13.0,Qingdao FC
+Chinese Super League,2020.0,14.0,Qingdao FC
+Chinese Super League,2021.0,14.0,Wuhan
+Chinese Super League,2022.0,14.0,Shenzhen
+Chinese Super League,2019.0,14.0,Shenzhen
+Chinese Super League,2015.0,14.0,Guangzhou City
+Chinese Super League,2023.0,14.0,Nantong Zhiyun
+Chinese Super League,2005.0,14.0,Chongqing Dangdai Lifan
+Chinese Super League,2014.0,14.0,Henan S. Longmen
+Chinese Super League,2000.0,14.0,Yanbian Funde
+Chinese Super League,2010.0,14.0,Qingdao FC
+Chinese Super League,2003.0,14.0,August 1st
+Chinese Super League,2011.0,14.0,Shanghai Shenxin
+Chinese Super League,1999.0,14.0,Wuhan
+Chinese Super League,2002.0,14.0,Sichuan First City
+Chinese Super League,2013.0,14.0,Changchun Yatai
+Chinese Super League,2006.0,14.0,Qingdao FC
 Chinese Super League,1998.0,14.0,Guangzhou
-Chinese Super League,1997.0,1.0,Dalian Shide
-Chinese Super League,1997.0,2.0,Shanghai Shenhua
-Chinese Super League,1997.0,3.0,Beijing Guoan
-Chinese Super League,1997.0,4.0,Yanbian Funde
-Chinese Super League,1997.0,5.0,Chongqing Dangdai Lifan
-Chinese Super League,1997.0,6.0,Shandong Taishan
-Chinese Super League,1997.0,7.0,Sichuan First City
-Chinese Super League,1997.0,8.0,Guangzhou
-Chinese Super League,1997.0,9.0,Qingdao FC
-Chinese Super League,1997.0,10.0,August 1st
-Chinese Super League,1997.0,11.0,Tianjin Jinmen Tigers
-Chinese Super League,1997.0,12.0,Guangdong Winnerway
-Chinese Super League,1996.0,1.0,Dalian Shide
-Chinese Super League,1996.0,2.0,Shanghai Shenhua
-Chinese Super League,1996.0,3.0,August 1st
-Chinese Super League,1996.0,4.0,Beijing Guoan
-Chinese Super League,1996.0,5.0,Shandong Taishan
-Chinese Super League,1996.0,6.0,Sichuan First City
-Chinese Super League,1996.0,7.0,Guangzhou
-Chinese Super League,1996.0,8.0,Tianjin Jinmen Tigers
-Chinese Super League,1996.0,9.0,Guangdong Winnerway
-Chinese Super League,1996.0,10.0,Yanbian Funde
-Chinese Super League,1996.0,11.0,Shenzhen
-Chinese Super League,1996.0,12.0,Guangzhou Matsunichi
-Chinese Super League,1995.0,1.0,Shanghai Shenhua
-Chinese Super League,1995.0,2.0,Beijing Guoan
-Chinese Super League,1995.0,3.0,Dalian Shide
-Chinese Super League,1995.0,4.0,Guangdong Winnerway
-Chinese Super League,1995.0,5.0,Guangzhou
-Chinese Super League,1995.0,6.0,Shandong Taishan
-Chinese Super League,1995.0,7.0,Yanbian Funde
-Chinese Super League,1995.0,8.0,Tianjin Jinmen Tigers
-Chinese Super League,1995.0,9.0,August 1st
-Chinese Super League,1995.0,10.0,Sichuan First City
-Chinese Super League,1995.0,11.0,Qingdao FC
-Chinese Super League,1995.0,12.0,Liaoning Hongyun
-Chinese Super League,1994.0,1.0,Dalian Shide
-Chinese Super League,1994.0,2.0,Guangzhou
-Chinese Super League,1994.0,3.0,Shanghai Shenhua
-Chinese Super League,1994.0,4.0,Liaoning Hongyun
-Chinese Super League,1994.0,5.0,Shandong Taishan
-Chinese Super League,1994.0,6.0,Sichuan First City
-Chinese Super League,1994.0,7.0,Guangdong Winnerway
-Chinese Super League,1994.0,8.0,Beijing Guoan
-Chinese Super League,1994.0,9.0,August 1st
-Chinese Super League,1994.0,10.0,Yanbian Funde
-Chinese Super League,1994.0,11.0,Guangzhou City
-Chinese Super League,1994.0,12.0,Jiangsu Suning
-Chinese Super League,1992.0,1.0,Liaoning Hongyun
-Chinese Super League,1992.0,2.0,Guangzhou
-Chinese Super League,1992.0,3.0,Dalian Shide
-Chinese Super League,1992.0,4.0,August 1st
-Chinese Super League,1992.0,5.0,Shanghai Shenhua
-Chinese Super League,1992.0,6.0,Beijing Guoan
-Chinese Super League,1992.0,7.0,Guangdong Winnerway
-Chinese Super League,1992.0,8.0,Shenyang
-Chinese Super League,1991.0,1.0,Liaoning Hongyun
-Chinese Super League,1991.0,2.0,Shanghai Shenhua
-Chinese Super League,1991.0,3.0,Beijing Guoan
-Chinese Super League,1991.0,4.0,Guangzhou Baiyunshan
-Chinese Super League,1991.0,5.0,August 1st
-Chinese Super League,1991.0,6.0,Dalian Shide
-Chinese Super League,1991.0,7.0,China Olympic XI
-Chinese Super League,1991.0,8.0,Tianjin Jinmen Tigers
-Chinese Super League,1990.0,1.0,Liaoning Hongyun
-Chinese Super League,1990.0,2.0,August 1st
-Chinese Super League,1990.0,3.0,Dalian Shide
-Chinese Super League,1990.0,4.0,Shanghai Shenhua
-Chinese Super League,1990.0,5.0,Tianjin Jinmen Tigers
-Chinese Super League,1990.0,6.0,China Olympic XI
-Chinese Super League,1990.0,7.0,Guangdong Winnerway
-Chinese Super League,1990.0,8.0,Henan S. Longmen
-Chinese Super League,1989.0,1.0,China B
-Chinese Super League,1989.0,2.0,Liaoning Hongyun
-Chinese Super League,1989.0,3.0,Shanghai Shenhua
-Chinese Super League,1989.0,4.0,August 1st
-Chinese Super League,1989.0,5.0,Tianjin Jinmen Tigers
-Chinese Super League,1989.0,6.0,Guangdong Winnerway
-Chinese Super League,1989.0,7.0,Shandong Taishan
-Chinese Super League,1989.0,8.0,Guangzhou
-Chinese Super League,1987.0,1.0,Liaoning Hongyun
-Chinese Super League,1987.0,2.0,Tianjin Jinmen Tigers
-Chinese Super League,1987.0,3.0,Shanghai Shenhua
-Chinese Super League,1987.0,4.0,Shandong Taishan
-Chinese Super League,1987.0,5.0,August 1st
-Chinese Super League,1987.0,6.0,Beijing Guoan
-Chinese Super League,1987.0,7.0,Guangzhou
-Chinese Super League,1987.0,8.0,Wuhan
+Chinese Super League,2009.0,14.0,Guangzhou City
+Chinese Super League,2017.0,14.0,Henan S. Longmen
+Chinese Super League,2012.0,14.0,Dalian Shide
+Chinese Super League,2007.0,14.0,Shenzhen
+Chinese Super League,2018.0,14.0,Tianjin Jinmen Tigers
+Chinese Super League,2008.0,14.0,Dalian Shide
+Chinese Super League,2016.0,14.0,Shandong Taishan
+Chinese Super League,2001.0,14.0,Guangzhou City
+Chinese Super League,2012.0,15.0,Shanghai Shenxin
+Chinese Super League,2023.0,15.0,Dalian Professional
+Chinese Super League,2011.0,15.0,Chengdu Rongcheng
+Chinese Super League,2006.0,15.0,Chongqing Dangdai Lifan
+Chinese Super League,2022.0,15.0,Guangzhou
+Chinese Super League,2009.0,15.0,Zhejiang
+Chinese Super League,2007.0,15.0,Xiamen Lanshi
+Chinese Super League,2021.0,15.0,Dalian Professional
+Chinese Super League,2010.0,15.0,Chongqing Dangdai Lifan
+Chinese Super League,2008.0,15.0,Liaoning Hongyun
+Chinese Super League,2020.0,15.0,Henan S. Longmen
+Chinese Super League,2013.0,15.0,Qingdao FC
+Chinese Super League,2018.0,15.0,Changchun Yatai
+Chinese Super League,2002.0,15.0,Harbin Guoli
+Chinese Super League,2014.0,15.0,Dalian Professional
+Chinese Super League,2017.0,15.0,Yanbian Funde
+Chinese Super League,2019.0,15.0,Beijing Chengfeng
+Chinese Super League,2015.0,15.0,Beijing Chengfeng
+Chinese Super League,2016.0,15.0,Zhejiang
+Chinese Super League,2003.0,15.0,Harbin Guoli
+Chinese Super League,2023.0,16.0,Shenzhen
+Chinese Super League,2018.0,16.0,Guizhou Hengfeng
+Chinese Super League,2009.0,16.0,Chongqing Dangdai Lifan
+Chinese Super League,2017.0,16.0,Liaoning Hongyun
+Chinese Super League,2016.0,16.0,Cangzhou Mighty Lions
+Chinese Super League,2022.0,16.0,Guangzhou City
+Chinese Super League,2008.0,16.0,Wuhan
+Chinese Super League,2010.0,16.0,Guangzhou City
+Chinese Super League,2015.0,16.0,Shanghai Shenxin
+Chinese Super League,2011.0,16.0,Shenzhen
+Chinese Super League,2014.0,16.0,Shaoxing Keqiao Yuejia
+Chinese Super League,2021.0,16.0,Qingdao FC
+Chinese Super League,2012.0,16.0,Henan S. Longmen
+Chinese Super League,2020.0,16.0,Tianjin Jinmen Tigers
+Chinese Super League,2013.0,16.0,Wuhan
+Chinese Super League,2022.0,17.0,Wuhan
+Chinese Super League,2022.0,18.0,Hebei FC
 Categoría Primera A,2022.0,1.0,Atlético Nacional
 Categoría Primera A,1956.0,1.0,Deportes Quindio
 Categoría Primera A,1955.0,1.0,I. Medellín
@@ -24311,6 +24312,1352 @@ Copa Verde,2014.0,1.0,Brasília
 Copa Verde,2014.0,2.0,Paysandu
 Copa Verde,2014.0,3.0,Brasiliense
 Copa Verde,2014.0,4.0,Remo
+Africa Cup of Nations,2021.0,1.0,Senegal
+Africa Cup of Nations,2021.0,2.0,Egypt
+Africa Cup of Nations,2021.0,3.0,Cameroon
+Africa Cup of Nations,2021.0,4.0,Burkina Faso
+Africa Cup of Nations,2019.0,1.0,Algeria
+Africa Cup of Nations,2019.0,2.0,Senegal
+Africa Cup of Nations,2019.0,3.0,Nigeria
+Africa Cup of Nations,2019.0,4.0,Tunisia
+Africa Cup of Nations,2017.0,1.0,Cameroon
+Africa Cup of Nations,2017.0,2.0,Egypt
+Africa Cup of Nations,2017.0,3.0,Burkina Faso
+Africa Cup of Nations,2017.0,4.0,Ghana
+Africa Cup of Nations,2015.0,1.0,Ivory Coast
+Africa Cup of Nations,2015.0,2.0,Ghana
+Africa Cup of Nations,2015.0,3.0,Democratic Republic Congo
+Africa Cup of Nations,2015.0,4.0,Equatorial Guinea
+Africa Cup of Nations,2013.0,1.0,Nigeria
+Africa Cup of Nations,2013.0,2.0,Burkina Faso
+Africa Cup of Nations,2013.0,3.0,Mali
+Africa Cup of Nations,2013.0,4.0,Ghana
+Africa Cup of Nations,2012.0,1.0,Zambia
+Africa Cup of Nations,2012.0,2.0,Ivory Coast
+Africa Cup of Nations,2012.0,3.0,Mali
+Africa Cup of Nations,2012.0,4.0,Ghana
+Africa Cup of Nations,2010.0,1.0,Egypt
+Africa Cup of Nations,2010.0,2.0,Ghana
+Africa Cup of Nations,2010.0,3.0,Nigeria
+Africa Cup of Nations,2010.0,4.0,Algeria
+Africa Cup of Nations,2008.0,1.0,Egypt
+Africa Cup of Nations,2008.0,2.0,Cameroon
+Africa Cup of Nations,2008.0,3.0,Ghana
+Africa Cup of Nations,2008.0,4.0,Ivory Coast
+Africa Cup of Nations,2006.0,1.0,Egypt
+Africa Cup of Nations,2006.0,2.0,Ivory Coast
+Africa Cup of Nations,2006.0,3.0,Nigeria
+Africa Cup of Nations,2006.0,4.0,Senegal
+Africa Cup of Nations,2004.0,1.0,Tunisia
+Africa Cup of Nations,2004.0,2.0,Morocco
+Africa Cup of Nations,2004.0,3.0,Nigeria
+Africa Cup of Nations,2004.0,4.0,Mali
+Africa Cup of Nations,2002.0,1.0,Cameroon
+Africa Cup of Nations,2002.0,2.0,Senegal
+Africa Cup of Nations,2002.0,3.0,Nigeria
+Africa Cup of Nations,2002.0,4.0,Mali
+Africa Cup of Nations,2000.0,1.0,Cameroon
+Africa Cup of Nations,2000.0,2.0,Nigeria
+Africa Cup of Nations,2000.0,3.0,South Africa
+Africa Cup of Nations,2000.0,4.0,Tunisia
+Africa Cup of Nations,1998.0,1.0,Egypt
+Africa Cup of Nations,1998.0,2.0,South Africa
+Africa Cup of Nations,1998.0,3.0,Democratic Republic Congo
+Africa Cup of Nations,1998.0,4.0,Burkina Faso
+Africa Cup of Nations,1996.0,1.0,South Africa
+Africa Cup of Nations,1996.0,2.0,Tunisia
+Africa Cup of Nations,1996.0,3.0,Zambia
+Africa Cup of Nations,1996.0,4.0,Ghana
+Africa Cup of Nations,1994.0,1.0,Nigeria
+Africa Cup of Nations,1994.0,2.0,Zambia
+Africa Cup of Nations,1994.0,3.0,Ivory Coast
+Africa Cup of Nations,1994.0,4.0,Mali
+Africa Cup of Nations,1992.0,1.0,Ivory Coast
+Africa Cup of Nations,1992.0,2.0,Ghana
+Africa Cup of Nations,1992.0,3.0,Nigeria
+Africa Cup of Nations,1992.0,4.0,Cameroon
+Africa Cup of Nations,1990.0,1.0,Algeria
+Africa Cup of Nations,1990.0,2.0,Nigeria
+Africa Cup of Nations,1990.0,3.0,Zambia
+Africa Cup of Nations,1990.0,4.0,Senegal
+Africa Cup of Nations,1988.0,1.0,Cameroon
+Africa Cup of Nations,1988.0,2.0,Nigeria
+Africa Cup of Nations,1988.0,3.0,Zambia
+Africa Cup of Nations,1988.0,4.0,Senegal
+Africa Cup of Nations,1986.0,1.0,Egypt
+Africa Cup of Nations,1986.0,2.0,Cameroon
+Africa Cup of Nations,1986.0,3.0,Ivory Coast
+Africa Cup of Nations,1986.0,4.0,Morocco
+Africa Cup of Nations,1984.0,1.0,Cameroon
+Africa Cup of Nations,1984.0,2.0,Nigeria
+Africa Cup of Nations,1984.0,3.0,Algeria
+Africa Cup of Nations,1984.0,4.0,Egypt
+Africa Cup of Nations,1982.0,1.0,Ghana
+Africa Cup of Nations,1982.0,2.0,Libya
+Africa Cup of Nations,1982.0,3.0,Zambia
+Africa Cup of Nations,1982.0,4.0,Algeria
+Africa Cup of Nations,1980.0,1.0,Nigeria
+Africa Cup of Nations,1980.0,2.0,Algeria
+Africa Cup of Nations,1980.0,3.0,Morocco
+Africa Cup of Nations,1980.0,4.0,Egypt
+Africa Cup of Nations,1978.0,1.0,Ghana
+Africa Cup of Nations,1978.0,2.0,Uganda
+Africa Cup of Nations,1978.0,3.0,Nigeria
+Africa Cup of Nations,1978.0,4.0,Tunisia
+Africa Cup of Nations,1976.0,1.0,Morocco
+Africa Cup of Nations,1976.0,2.0,Guinea
+Africa Cup of Nations,1976.0,3.0,Nigeria
+Africa Cup of Nations,1976.0,4.0,Egypt
+Africa Cup of Nations,1974.0,1.0,Democratic Republic Congo
+Africa Cup of Nations,1974.0,2.0,Zambia
+Africa Cup of Nations,1974.0,3.0,Egypt
+Africa Cup of Nations,1974.0,4.0,Congo
+Africa Cup of Nations,1972.0,1.0,Congo
+Africa Cup of Nations,1972.0,2.0,Mali
+Africa Cup of Nations,1972.0,3.0,Cameroon
+Africa Cup of Nations,1972.0,4.0,Democratic Republic Congo
+Africa Cup of Nations,1970.0,1.0,Sudan
+Africa Cup of Nations,1970.0,2.0,Ghana
+Africa Cup of Nations,1970.0,3.0,Egypt
+Africa Cup of Nations,1970.0,4.0,Ivory Coast
+Africa Cup of Nations,1968.0,1.0,Democratic Republic Congo
+Africa Cup of Nations,1968.0,2.0,Ghana
+Africa Cup of Nations,1968.0,3.0,Ivory Coast
+Africa Cup of Nations,1968.0,4.0,Ethiopia
+Africa Cup of Nations,1965.0,1.0,Ghana
+Africa Cup of Nations,1965.0,2.0,Tunisia
+Africa Cup of Nations,1965.0,3.0,Ivory Coast
+Africa Cup of Nations,1965.0,4.0,Senegal
+Africa Cup of Nations,1963.0,1.0,Ghana
+Africa Cup of Nations,1963.0,2.0,Sudan
+Africa Cup of Nations,1963.0,3.0,Egypt
+Africa Cup of Nations,1963.0,4.0,Ethiopia
+Africa Cup of Nations,1962.0,1.0,Ethiopia
+Africa Cup of Nations,1962.0,2.0,Egypt
+Africa Cup of Nations,1962.0,3.0,Tunisia
+Africa Cup of Nations,1962.0,4.0,Uganda
+Africa Cup of Nations,1959.0,1.0,Egypt
+Africa Cup of Nations,1959.0,2.0,Sudan
+Africa Cup of Nations,1959.0,3.0,Ethiopia
+Africa Cup of Nations,1957.0,1.0,Egypt
+Africa Cup of Nations,1957.0,2.0,Ethiopia
+Africa Cup of Nations,1957.0,3.0,Sudan
+CONMEBOL Copa América,2021.0,1.0,Argentina
+CONMEBOL Copa América,2021.0,2.0,Brazil
+CONMEBOL Copa América,2021.0,3.0,Colombia
+CONMEBOL Copa América,2021.0,4.0,Peru
+CONMEBOL Copa América,2021.0,5.0,Uruguay
+CONMEBOL Copa América,2021.0,6.0,Paraguay
+CONMEBOL Copa América,2021.0,7.0,Chile
+CONMEBOL Copa América,2021.0,8.0,Ecuador
+CONMEBOL Copa América,2021.0,9.0,Venezuela
+CONMEBOL Copa América,2021.0,10.0,Bolivia
+CONMEBOL Copa América,2019.0,1.0,Brazil
+CONMEBOL Copa América,2019.0,2.0,Peru
+CONMEBOL Copa América,2019.0,3.0,Argentina
+CONMEBOL Copa América,2019.0,4.0,Chile
+CONMEBOL Copa América,2019.0,5.0,Colombia
+CONMEBOL Copa América,2019.0,6.0,Uruguay
+CONMEBOL Copa América,2019.0,7.0,Venezuela
+CONMEBOL Copa América,2019.0,8.0,Paraguay
+CONMEBOL Copa América,2019.0,9.0,Japan
+CONMEBOL Copa América,2019.0,10.0,Qatar
+CONMEBOL Copa América,2019.0,11.0,Ecuador
+CONMEBOL Copa América,2019.0,12.0,Bolivia
+CONMEBOL Copa América,2016.0,1.0,Chile
+CONMEBOL Copa América,2016.0,2.0,Argentina
+CONMEBOL Copa América,2016.0,3.0,Colombia
+CONMEBOL Copa América,2016.0,4.0,United States
+CONMEBOL Copa América,2016.0,5.0,Peru
+CONMEBOL Copa América,2016.0,6.0,Venezuela
+CONMEBOL Copa América,2016.0,7.0,Mexico
+CONMEBOL Copa América,2016.0,8.0,Ecuador
+CONMEBOL Copa América,2016.0,9.0,Brazil
+CONMEBOL Copa América,2016.0,10.0,Costa Rica
+CONMEBOL Copa América,2016.0,11.0,Uruguay
+CONMEBOL Copa América,2016.0,12.0,Panama
+CONMEBOL Copa América,2016.0,13.0,Paraguay
+CONMEBOL Copa América,2016.0,14.0,Bolivia
+CONMEBOL Copa América,2016.0,15.0,Jamaica
+CONMEBOL Copa América,2016.0,16.0,Haiti
+CONMEBOL Copa América,2015.0,1.0,Chile
+CONMEBOL Copa América,2015.0,2.0,Argentina
+CONMEBOL Copa América,2015.0,3.0,Peru
+CONMEBOL Copa América,2015.0,4.0,Paraguay
+CONMEBOL Copa América,2015.0,5.0,Brazil
+CONMEBOL Copa América,2015.0,6.0,Colombia
+CONMEBOL Copa América,2015.0,7.0,Uruguay
+CONMEBOL Copa América,2015.0,8.0,Bolivia
+CONMEBOL Copa América,2015.0,9.0,Venezuela
+CONMEBOL Copa América,2015.0,10.0,Ecuador
+CONMEBOL Copa América,2015.0,11.0,Mexico
+CONMEBOL Copa América,2015.0,12.0,Jamaica
+CONMEBOL Copa América,2011.0,1.0,Uruguay
+CONMEBOL Copa América,2011.0,2.0,Paraguay
+CONMEBOL Copa América,2011.0,3.0,Peru
+CONMEBOL Copa América,2011.0,4.0,Venezuela
+CONMEBOL Copa América,2011.0,5.0,Argentina
+CONMEBOL Copa América,2011.0,6.0,Brazil
+CONMEBOL Copa América,2011.0,7.0,Colombia
+CONMEBOL Copa América,2011.0,8.0,Chile
+CONMEBOL Copa América,2011.0,9.0,Costa Rica
+CONMEBOL Copa América,2011.0,10.0,Ecuador
+CONMEBOL Copa América,2011.0,11.0,Bolivia
+CONMEBOL Copa América,2011.0,12.0,Mexico
+CONMEBOL Copa América,2007.0,1.0,Brazil
+CONMEBOL Copa América,2007.0,2.0,Argentina
+CONMEBOL Copa América,2007.0,3.0,Mexico
+CONMEBOL Copa América,2007.0,4.0,Uruguay
+CONMEBOL Copa América,2007.0,5.0,Chile
+CONMEBOL Copa América,2007.0,6.0,Peru
+CONMEBOL Copa América,2007.0,7.0,Paraguay
+CONMEBOL Copa América,2007.0,8.0,Venezuela
+CONMEBOL Copa América,2007.0,9.0,Colombia
+CONMEBOL Copa América,2007.0,10.0,Ecuador
+CONMEBOL Copa América,2007.0,11.0,United States
+CONMEBOL Copa América,2004.0,1.0,Brazil
+CONMEBOL Copa América,2004.0,2.0,Argentina
+CONMEBOL Copa América,2004.0,3.0,Uruguay
+CONMEBOL Copa América,2004.0,4.0,Colombia
+CONMEBOL Copa América,2004.0,5.0,Mexico
+CONMEBOL Copa América,2004.0,6.0,Peru
+CONMEBOL Copa América,2004.0,7.0,Paraguay
+CONMEBOL Copa América,2004.0,8.0,Costa Rica
+CONMEBOL Copa América,2004.0,9.0,Bolivia
+CONMEBOL Copa América,2004.0,10.0,Chile
+CONMEBOL Copa América,2004.0,11.0,Venezuela
+CONMEBOL Copa América,2004.0,12.0,Ecuador
+CONMEBOL Copa América,2001.0,1.0,Colombia
+CONMEBOL Copa América,2001.0,2.0,Mexico
+CONMEBOL Copa América,2001.0,3.0,Honduras
+CONMEBOL Copa América,2001.0,4.0,Uruguay
+CONMEBOL Copa América,2001.0,5.0,Peru
+CONMEBOL Copa América,2001.0,6.0,Chile
+CONMEBOL Copa América,2001.0,7.0,Brazil
+CONMEBOL Copa América,2001.0,8.0,Costa Rica
+CONMEBOL Copa América,2001.0,9.0,Ecuador
+CONMEBOL Copa América,2001.0,10.0,Paraguay
+CONMEBOL Copa América,2001.0,11.0,Bolivia
+CONMEBOL Copa América,2001.0,12.0,Venezuela
+CONMEBOL Copa América,1999.0,1.0,Brazil
+CONMEBOL Copa América,1999.0,2.0,Uruguay
+CONMEBOL Copa América,1999.0,3.0,Mexico
+CONMEBOL Copa América,1999.0,4.0,Chile
+CONMEBOL Copa América,1999.0,5.0,Colombia
+CONMEBOL Copa América,1999.0,6.0,Paraguay
+CONMEBOL Copa América,1999.0,7.0,Peru
+CONMEBOL Copa América,1999.0,8.0,Argentina
+CONMEBOL Copa América,1999.0,9.0,Bolivia
+CONMEBOL Copa América,1999.0,10.0,Japan
+CONMEBOL Copa América,1999.0,11.0,Ecuador
+CONMEBOL Copa América,1999.0,12.0,Venezuela
+CONMEBOL Copa América,1997.0,1.0,Brazil
+CONMEBOL Copa América,1997.0,2.0,Bolivia
+CONMEBOL Copa América,1997.0,3.0,Mexico
+CONMEBOL Copa América,1997.0,4.0,Peru
+CONMEBOL Copa América,1997.0,5.0,Ecuador
+CONMEBOL Copa América,1997.0,6.0,Argentina
+CONMEBOL Copa América,1997.0,7.0,Paraguay
+CONMEBOL Copa América,1997.0,8.0,Colombia
+CONMEBOL Copa América,1997.0,9.0,Uruguay
+CONMEBOL Copa América,1997.0,10.0,Costa Rica
+CONMEBOL Copa América,1997.0,11.0,Chile
+CONMEBOL Copa América,1997.0,12.0,Venezuela
+CONMEBOL Copa América,1995.0,1.0,Uruguay
+CONMEBOL Copa América,1995.0,2.0,Brazil
+CONMEBOL Copa América,1995.0,3.0,Colombia
+CONMEBOL Copa América,1995.0,4.0,United States
+CONMEBOL Copa América,1995.0,5.0,Bolivia
+CONMEBOL Copa América,1995.0,6.0,Argentina
+CONMEBOL Copa América,1995.0,7.0,Paraguay
+CONMEBOL Copa América,1995.0,8.0,Mexico
+CONMEBOL Copa América,1995.0,9.0,Ecuador
+CONMEBOL Copa América,1995.0,10.0,Peru
+CONMEBOL Copa América,1995.0,11.0,Chile
+CONMEBOL Copa América,1995.0,12.0,Venezuela
+CONMEBOL Copa América,1993.0,1.0,Argentina
+CONMEBOL Copa América,1993.0,2.0,Mexico
+CONMEBOL Copa América,1993.0,3.0,Colombia
+CONMEBOL Copa América,1993.0,4.0,Ecuador
+CONMEBOL Copa América,1993.0,5.0,Peru
+CONMEBOL Copa América,1993.0,6.0,Brazil
+CONMEBOL Copa América,1993.0,7.0,Uruguay
+CONMEBOL Copa América,1993.0,8.0,Paraguay
+CONMEBOL Copa América,1993.0,9.0,Venezuela
+CONMEBOL Copa América,1993.0,10.0,Chile
+CONMEBOL Copa América,1993.0,11.0,Bolivia
+CONMEBOL Copa América,1993.0,12.0,United States
+CONMEBOL Copa América,1991.0,1.0,Argentina
+CONMEBOL Copa América,1991.0,2.0,Brazil
+CONMEBOL Copa América,1991.0,3.0,Chile
+CONMEBOL Copa América,1991.0,4.0,Colombia
+CONMEBOL Copa América,1991.0,5.0,Uruguay
+CONMEBOL Copa América,1991.0,6.0,Paraguay
+CONMEBOL Copa América,1991.0,7.0,Ecuador
+CONMEBOL Copa América,1991.0,8.0,Peru
+CONMEBOL Copa América,1991.0,9.0,Bolivia
+CONMEBOL Copa América,1991.0,10.0,Venezuela
+CONMEBOL Copa América,1989.0,1.0,Brazil
+CONMEBOL Copa América,1989.0,2.0,Uruguay
+CONMEBOL Copa América,1989.0,3.0,Argentina
+CONMEBOL Copa América,1989.0,4.0,Paraguay
+CONMEBOL Copa América,1989.0,5.0,Chile
+CONMEBOL Copa América,1989.0,6.0,Colombia
+CONMEBOL Copa América,1989.0,7.0,Ecuador
+CONMEBOL Copa América,1989.0,8.0,Peru
+CONMEBOL Copa América,1989.0,9.0,Bolivia
+CONMEBOL Copa América,1989.0,10.0,Venezuela
+CONMEBOL Copa América,1987.0,1.0,Uruguay
+CONMEBOL Copa América,1987.0,2.0,Chile
+CONMEBOL Copa América,1987.0,3.0,Colombia
+CONMEBOL Copa América,1987.0,4.0,Argentina
+CONMEBOL Copa América,1987.0,5.0,Brazil
+CONMEBOL Copa América,1987.0,6.0,Peru
+CONMEBOL Copa América,1987.0,7.0,Bolivia
+CONMEBOL Copa América,1987.0,8.0,Ecuador
+CONMEBOL Copa América,1987.0,9.0,Paraguay
+CONMEBOL Copa América,1987.0,10.0,Venezuela
+CONMEBOL Copa América,1983.0,1.0,Uruguay
+CONMEBOL Copa América,1983.0,2.0,Brazil
+CONMEBOL Copa América,1983.0,3.0,Peru
+CONMEBOL Copa América,1983.0,4.0,Paraguay
+CONMEBOL Copa América,1983.0,5.0,Chile
+CONMEBOL Copa América,1983.0,6.0,Argentina
+CONMEBOL Copa América,1983.0,7.0,Colombia
+CONMEBOL Copa América,1983.0,8.0,Bolivia
+CONMEBOL Copa América,1983.0,9.0,Ecuador
+CONMEBOL Copa América,1983.0,10.0,Venezuela
+CONMEBOL Copa América,1979.0,1.0,Paraguay
+CONMEBOL Copa América,1979.0,2.0,Chile
+CONMEBOL Copa América,1979.0,3.0,Brazil
+CONMEBOL Copa América,1979.0,4.0,Peru
+CONMEBOL Copa América,1979.0,5.0,Colombia
+CONMEBOL Copa América,1979.0,6.0,Uruguay
+CONMEBOL Copa América,1979.0,7.0,Bolivia
+CONMEBOL Copa América,1979.0,8.0,Argentina
+CONMEBOL Copa América,1979.0,9.0,Ecuador
+CONMEBOL Copa América,1979.0,10.0,Venezuela
+CONMEBOL Copa América,1975.0,1.0,Peru
+CONMEBOL Copa América,1975.0,2.0,Colombia
+CONMEBOL Copa América,1975.0,3.0,Brazil
+CONMEBOL Copa América,1975.0,4.0,Uruguay
+CONMEBOL Copa América,1975.0,5.0,Argentina
+CONMEBOL Copa América,1975.0,6.0,Chile
+CONMEBOL Copa América,1975.0,7.0,Paraguay
+CONMEBOL Copa América,1975.0,8.0,Bolivia
+CONMEBOL Copa América,1975.0,9.0,Ecuador
+CONMEBOL Copa América,1975.0,10.0,Venezuela
+CONMEBOL Copa América,1967.0,1.0,Uruguay
+CONMEBOL Copa América,1967.0,2.0,Argentina
+CONMEBOL Copa América,1967.0,3.0,Chile
+CONMEBOL Copa América,1967.0,4.0,Paraguay
+CONMEBOL Copa América,1967.0,5.0,Venezuela
+CONMEBOL Copa América,1967.0,6.0,Bolivia
+CONMEBOL Copa América,1963.0,1.0,Bolivia
+CONMEBOL Copa América,1963.0,2.0,Paraguay
+CONMEBOL Copa América,1963.0,3.0,Argentina
+CONMEBOL Copa América,1963.0,4.0,Brazil
+CONMEBOL Copa América,1963.0,5.0,Peru
+CONMEBOL Copa América,1963.0,6.0,Ecuador
+CONMEBOL Copa América,1963.0,7.0,Colombia
+CONMEBOL Copa América,1959.5,1.0,Uruguay
+CONMEBOL Copa América,1959.5,2.0,Argentina
+CONMEBOL Copa América,1959.5,3.0,Brazil
+CONMEBOL Copa América,1959.5,4.0,Ecuador
+CONMEBOL Copa América,1959.5,5.0,Paraguay
+CONMEBOL Copa América,1959.0,1.0,Argentina
+CONMEBOL Copa América,1959.0,2.0,Brazil
+CONMEBOL Copa América,1959.0,3.0,Paraguay
+CONMEBOL Copa América,1959.0,4.0,Peru
+CONMEBOL Copa América,1959.0,5.0,Chile
+CONMEBOL Copa América,1959.0,6.0,Uruguay
+CONMEBOL Copa América,1959.0,7.0,Bolivia
+CONMEBOL Copa América,1957.0,1.0,Argentina
+CONMEBOL Copa América,1957.0,2.0,Brazil
+CONMEBOL Copa América,1957.0,3.0,Uruguay
+CONMEBOL Copa América,1957.0,4.0,Peru
+CONMEBOL Copa América,1957.0,5.0,Colombia
+CONMEBOL Copa América,1957.0,6.0,Chile
+CONMEBOL Copa América,1957.0,7.0,Ecuador
+CONMEBOL Copa América,1956.0,1.0,Uruguay
+CONMEBOL Copa América,1956.0,2.0,Chile
+CONMEBOL Copa América,1956.0,3.0,Argentina
+CONMEBOL Copa América,1956.0,4.0,Brazil
+CONMEBOL Copa América,1956.0,5.0,Paraguay
+CONMEBOL Copa América,1956.0,6.0,Peru
+CONMEBOL Copa América,1955.0,1.0,Argentina
+CONMEBOL Copa América,1955.0,2.0,Chile
+CONMEBOL Copa América,1955.0,3.0,Peru
+CONMEBOL Copa América,1955.0,4.0,Uruguay
+CONMEBOL Copa América,1955.0,5.0,Paraguay
+CONMEBOL Copa América,1955.0,6.0,Ecuador
+CONMEBOL Copa América,1953.0,1.0,Paraguay
+CONMEBOL Copa América,1953.0,2.0,Brazil
+CONMEBOL Copa América,1953.0,3.0,Uruguay
+CONMEBOL Copa América,1953.0,4.0,Chile
+CONMEBOL Copa América,1953.0,5.0,Peru
+CONMEBOL Copa América,1953.0,6.0,Bolivia
+CONMEBOL Copa América,1953.0,7.0,Ecuador
+CONMEBOL Copa América,1949.0,1.0,Brazil
+CONMEBOL Copa América,1949.0,2.0,Paraguay
+CONMEBOL Copa América,1949.0,3.0,Peru
+CONMEBOL Copa América,1949.0,4.0,Bolivia
+CONMEBOL Copa América,1949.0,5.0,Chile
+CONMEBOL Copa América,1949.0,6.0,Uruguay
+CONMEBOL Copa América,1949.0,7.0,Ecuador
+CONMEBOL Copa América,1949.0,8.0,Colombia
+CONMEBOL Copa América,1947.0,1.0,Argentina
+CONMEBOL Copa América,1947.0,2.0,Paraguay
+CONMEBOL Copa América,1947.0,3.0,Uruguay
+CONMEBOL Copa América,1947.0,4.0,Chile
+CONMEBOL Copa América,1947.0,5.0,Peru
+CONMEBOL Copa América,1947.0,6.0,Ecuador
+CONMEBOL Copa América,1947.0,7.0,Bolivia
+CONMEBOL Copa América,1947.0,8.0,Colombia
+CONMEBOL Copa América,1946.0,1.0,Argentina
+CONMEBOL Copa América,1946.0,2.0,Brazil
+CONMEBOL Copa América,1946.0,3.0,Paraguay
+CONMEBOL Copa América,1946.0,4.0,Uruguay
+CONMEBOL Copa América,1946.0,5.0,Chile
+CONMEBOL Copa América,1946.0,6.0,Bolivia
+CONMEBOL Copa América,1945.0,1.0,Argentina
+CONMEBOL Copa América,1945.0,2.0,Brazil
+CONMEBOL Copa América,1945.0,3.0,Chile
+CONMEBOL Copa América,1945.0,4.0,Uruguay
+CONMEBOL Copa América,1945.0,5.0,Colombia
+CONMEBOL Copa América,1945.0,6.0,Bolivia
+CONMEBOL Copa América,1945.0,7.0,Ecuador
+CONMEBOL Copa América,1942.0,1.0,Uruguay
+CONMEBOL Copa América,1942.0,2.0,Argentina
+CONMEBOL Copa América,1942.0,3.0,Brazil
+CONMEBOL Copa América,1942.0,4.0,Paraguay
+CONMEBOL Copa América,1942.0,5.0,Peru
+CONMEBOL Copa América,1942.0,6.0,Chile
+CONMEBOL Copa América,1942.0,7.0,Ecuador
+CONMEBOL Copa América,1941.0,1.0,Argentina
+CONMEBOL Copa América,1941.0,2.0,Uruguay
+CONMEBOL Copa América,1941.0,3.0,Chile
+CONMEBOL Copa América,1941.0,4.0,Peru
+CONMEBOL Copa América,1941.0,5.0,Ecuador
+CONMEBOL Copa América,1939.0,1.0,Peru
+CONMEBOL Copa América,1939.0,2.0,Uruguay
+CONMEBOL Copa América,1939.0,3.0,Paraguay
+CONMEBOL Copa América,1939.0,4.0,Chile
+CONMEBOL Copa América,1939.0,5.0,Ecuador
+CONMEBOL Copa América,1937.0,1.0,Argentina
+CONMEBOL Copa América,1937.0,2.0,Brazil
+CONMEBOL Copa América,1937.0,3.0,Uruguay
+CONMEBOL Copa América,1937.0,4.0,Paraguay
+CONMEBOL Copa América,1937.0,5.0,Chile
+CONMEBOL Copa América,1937.0,6.0,Peru
+CONMEBOL Copa América,1935.0,1.0,Uruguay
+CONMEBOL Copa América,1935.0,2.0,Argentina
+CONMEBOL Copa América,1935.0,3.0,Peru
+CONMEBOL Copa América,1935.0,4.0,Chile
+CONMEBOL Copa América,1929.0,1.0,Argentina
+CONMEBOL Copa América,1929.0,2.0,Paraguay
+CONMEBOL Copa América,1929.0,3.0,Uruguay
+CONMEBOL Copa América,1929.0,4.0,Peru
+CONMEBOL Copa América,1927.0,1.0,Argentina
+CONMEBOL Copa América,1927.0,2.0,Uruguay
+CONMEBOL Copa América,1927.0,3.0,Peru
+CONMEBOL Copa América,1927.0,4.0,Bolivia
+CONMEBOL Copa América,1926.0,1.0,Uruguay
+CONMEBOL Copa América,1926.0,2.0,Argentina
+CONMEBOL Copa América,1926.0,3.0,Chile
+CONMEBOL Copa América,1926.0,4.0,Paraguay
+CONMEBOL Copa América,1926.0,5.0,Bolivia
+CONMEBOL Copa América,1925.0,1.0,Argentina
+CONMEBOL Copa América,1925.0,2.0,Brazil
+CONMEBOL Copa América,1925.0,3.0,Paraguay
+CONMEBOL Copa América,1924.0,1.0,Uruguay
+CONMEBOL Copa América,1924.0,2.0,Argentina
+CONMEBOL Copa América,1924.0,3.0,Paraguay
+CONMEBOL Copa América,1924.0,4.0,Chile
+CONMEBOL Copa América,1923.0,1.0,Uruguay
+CONMEBOL Copa América,1923.0,2.0,Argentina
+CONMEBOL Copa América,1923.0,3.0,Paraguay
+CONMEBOL Copa América,1923.0,4.0,Brazil
+CONMEBOL Copa América,1922.0,1.0,Brazil
+CONMEBOL Copa América,1922.0,2.0,Paraguay
+CONMEBOL Copa América,1922.0,3.0,Uruguay
+CONMEBOL Copa América,1922.0,4.0,Argentina
+CONMEBOL Copa América,1922.0,5.0,Chile
+CONMEBOL Copa América,1921.0,1.0,Argentina
+CONMEBOL Copa América,1921.0,2.0,Brazil
+CONMEBOL Copa América,1921.0,3.0,Uruguay
+CONMEBOL Copa América,1921.0,4.0,Paraguay
+CONMEBOL Copa América,1920.0,1.0,Uruguay
+CONMEBOL Copa América,1920.0,2.0,Argentina
+CONMEBOL Copa América,1920.0,3.0,Brazil
+CONMEBOL Copa América,1920.0,4.0,Chile
+CONMEBOL Copa América,1919.0,1.0,Brazil
+CONMEBOL Copa América,1919.0,2.0,Uruguay
+CONMEBOL Copa América,1919.0,3.0,Argentina
+CONMEBOL Copa América,1919.0,4.0,Chile
+CONMEBOL Copa América,1917.0,1.0,Uruguay
+CONMEBOL Copa América,1917.0,2.0,Argentina
+CONMEBOL Copa América,1917.0,3.0,Brazil
+CONMEBOL Copa América,1917.0,4.0,Chile
+CONMEBOL Copa América,1916.0,1.0,Uruguay
+CONMEBOL Copa América,1916.0,2.0,Argentina
+CONMEBOL Copa América,1916.0,3.0,Brazil
+CONMEBOL Copa América,1916.0,4.0,Chile
+AFC Asian Cup,2019.0,1.0,Qatar
+AFC Asian Cup,2019.0,2.0,Japan
+AFC Asian Cup,2019.0,3.0,Iran
+AFC Asian Cup,2019.0,4.0,United Arab Emirates
+AFC Asian Cup,2019.0,5.0,South Korea
+AFC Asian Cup,2019.0,6.0,China
+AFC Asian Cup,2019.0,7.0,Australia
+AFC Asian Cup,2019.0,8.0,Vietnam
+AFC Asian Cup,2019.0,9.0,Jordan
+AFC Asian Cup,2019.0,10.0,Uzbekistan
+AFC Asian Cup,2019.0,11.0,Iraq
+AFC Asian Cup,2019.0,12.0,Saudi Arabia
+AFC Asian Cup,2019.0,13.0,Kyrgyzstan
+AFC Asian Cup,2019.0,14.0,Bahrain
+AFC Asian Cup,2019.0,15.0,Thailand
+AFC Asian Cup,2019.0,16.0,Oman
+AFC Asian Cup,2019.0,17.0,Lebanon
+AFC Asian Cup,2019.0,18.0,Palestine
+AFC Asian Cup,2019.0,19.0,India
+AFC Asian Cup,2019.0,20.0,Syria
+AFC Asian Cup,2019.0,21.0,Philippines
+AFC Asian Cup,2019.0,22.0,Turkmenistan
+AFC Asian Cup,2019.0,23.0,Yemen
+AFC Asian Cup,2019.0,24.0,North Korea
+AFC Asian Cup,2015.0,1.0,Australia
+AFC Asian Cup,2015.0,2.0,South Korea
+AFC Asian Cup,2015.0,3.0,United Arab Emirates
+AFC Asian Cup,2015.0,4.0,Iraq
+AFC Asian Cup,2015.0,5.0,Japan
+AFC Asian Cup,2015.0,6.0,Iran
+AFC Asian Cup,2015.0,7.0,China
+AFC Asian Cup,2015.0,8.0,Uzbekistan
+AFC Asian Cup,2015.0,9.0,Jordan
+AFC Asian Cup,2015.0,10.0,Saudi Arabia
+AFC Asian Cup,2015.0,11.0,Bahrain
+AFC Asian Cup,2015.0,12.0,Oman
+AFC Asian Cup,2015.0,13.0,North Korea
+AFC Asian Cup,2015.0,14.0,Qatar
+AFC Asian Cup,2015.0,15.0,Kuwait
+AFC Asian Cup,2015.0,16.0,Palestine
+AFC Asian Cup,2011.0,1.0,Japan
+AFC Asian Cup,2011.0,2.0,Australia
+AFC Asian Cup,2011.0,3.0,South Korea
+AFC Asian Cup,2011.0,4.0,Uzbekistan
+AFC Asian Cup,2011.0,5.0,Iran
+AFC Asian Cup,2011.0,6.0,Jordan
+AFC Asian Cup,2011.0,7.0,Qatar
+AFC Asian Cup,2011.0,8.0,Iraq
+AFC Asian Cup,2011.0,9.0,China
+AFC Asian Cup,2011.0,10.0,Bahrain
+AFC Asian Cup,2011.0,11.0,Syria
+AFC Asian Cup,2011.0,12.0,North Korea
+AFC Asian Cup,2011.0,13.0,United Arab Emirates
+AFC Asian Cup,2011.0,14.0,Kuwait
+AFC Asian Cup,2011.0,15.0,Saudi Arabia
+AFC Asian Cup,2011.0,16.0,India
+AFC Asian Cup,2007.0,1.0,Iraq
+AFC Asian Cup,2007.0,2.0,Saudi Arabia
+AFC Asian Cup,2007.0,3.0,South Korea
+AFC Asian Cup,2007.0,4.0,Japan
+AFC Asian Cup,2007.0,5.0,Iran
+AFC Asian Cup,2007.0,6.0,Uzbekistan
+AFC Asian Cup,2007.0,7.0,Australia
+AFC Asian Cup,2007.0,8.0,Vietnam
+AFC Asian Cup,2007.0,9.0,China
+AFC Asian Cup,2007.0,10.0,Thailand
+AFC Asian Cup,2007.0,11.0,Indonesia
+AFC Asian Cup,2007.0,12.0,United Arab Emirates
+AFC Asian Cup,2007.0,13.0,Bahrain
+AFC Asian Cup,2007.0,14.0,Qatar
+AFC Asian Cup,2007.0,15.0,Oman
+AFC Asian Cup,2007.0,16.0,Malaysia
+AFC Asian Cup,2004.0,1.0,Japan
+AFC Asian Cup,2004.0,2.0,China
+AFC Asian Cup,2004.0,3.0,Iran
+AFC Asian Cup,2004.0,4.0,Bahrain
+AFC Asian Cup,2004.0,5.0,Uzbekistan
+AFC Asian Cup,2004.0,6.0,South Korea
+AFC Asian Cup,2004.0,7.0,Jordan
+AFC Asian Cup,2004.0,8.0,Iraq
+AFC Asian Cup,2004.0,9.0,Oman
+AFC Asian Cup,2004.0,10.0,Kuwait
+AFC Asian Cup,2004.0,11.0,Indonesia
+AFC Asian Cup,2004.0,12.0,Turkmenistan
+AFC Asian Cup,2004.0,13.0,Saudi Arabia
+AFC Asian Cup,2004.0,14.0,Qatar
+AFC Asian Cup,2004.0,15.0,United Arab Emirates
+AFC Asian Cup,2004.0,16.0,Thailand
+AFC Asian Cup,2000.0,1.0,Japan
+AFC Asian Cup,2000.0,2.0,Saudi Arabia
+AFC Asian Cup,2000.0,3.0,South Korea
+AFC Asian Cup,2000.0,4.0,China
+AFC Asian Cup,2000.0,5.0,Iran
+AFC Asian Cup,2000.0,6.0,Kuwait
+AFC Asian Cup,2000.0,7.0,Iraq
+AFC Asian Cup,2000.0,8.0,Qatar
+AFC Asian Cup,2000.0,9.0,Thailand
+AFC Asian Cup,2000.0,10.0,Lebanon
+AFC Asian Cup,2000.0,11.0,Indonesia
+AFC Asian Cup,2000.0,12.0,Uzbekistan
+AFC Asian Cup,1996.0,1.0,Saudi Arabia
+AFC Asian Cup,1996.0,2.0,United Arab Emirates
+AFC Asian Cup,1996.0,3.0,Iran
+AFC Asian Cup,1996.0,4.0,Kuwait
+AFC Asian Cup,1996.0,5.0,Japan
+AFC Asian Cup,1996.0,6.0,Iraq
+AFC Asian Cup,1996.0,7.0,South Korea
+AFC Asian Cup,1996.0,8.0,China
+AFC Asian Cup,1996.0,9.0,Syria
+AFC Asian Cup,1996.0,10.0,Uzbekistan
+AFC Asian Cup,1996.0,11.0,Indonesia
+AFC Asian Cup,1996.0,12.0,Thailand
+AFC Asian Cup,1992.0,1.0,Japan
+AFC Asian Cup,1992.0,2.0,Saudi Arabia
+AFC Asian Cup,1992.0,3.0,China
+AFC Asian Cup,1992.0,4.0,United Arab Emirates
+AFC Asian Cup,1992.0,5.0,Iran
+AFC Asian Cup,1992.0,6.0,Qatar
+AFC Asian Cup,1992.0,7.0,Thailand
+AFC Asian Cup,1992.0,8.0,North Korea
+AFC Asian Cup,1988.0,1.0,Saudi Arabia
+AFC Asian Cup,1988.0,2.0,South Korea
+AFC Asian Cup,1988.0,3.0,Iran
+AFC Asian Cup,1988.0,4.0,China
+AFC Asian Cup,1988.0,5.0,Qatar
+AFC Asian Cup,1988.0,6.0,Syria
+AFC Asian Cup,1988.0,7.0,Kuwait
+AFC Asian Cup,1988.0,8.0,United Arab Emirates
+AFC Asian Cup,1988.0,9.0,Bahrain
+AFC Asian Cup,1988.0,10.0,Japan
+AFC Asian Cup,1984.0,1.0,Saudi Arabia
+AFC Asian Cup,1984.0,2.0,China
+AFC Asian Cup,1984.0,3.0,Kuwait
+AFC Asian Cup,1984.0,4.0,Iran
+AFC Asian Cup,1984.0,5.0,Qatar
+AFC Asian Cup,1984.0,6.0,United Arab Emirates
+AFC Asian Cup,1984.0,7.0,Singapore
+AFC Asian Cup,1984.0,8.0,Syria
+AFC Asian Cup,1984.0,9.0,South Korea
+AFC Asian Cup,1984.0,10.0,India
+AFC Asian Cup,1980.0,1.0,Kuwait
+AFC Asian Cup,1980.0,2.0,South Korea
+AFC Asian Cup,1980.0,3.0,Iran
+AFC Asian Cup,1980.0,4.0,North Korea
+AFC Asian Cup,1980.0,5.0,Syria
+AFC Asian Cup,1980.0,6.0,Malaysia
+AFC Asian Cup,1980.0,7.0,China
+AFC Asian Cup,1980.0,8.0,Qatar
+AFC Asian Cup,1980.0,9.0,United Arab Emirates
+AFC Asian Cup,1980.0,10.0,Bangladesh
+AFC Asian Cup,1976.0,1.0,Iran
+AFC Asian Cup,1976.0,2.0,Kuwait
+AFC Asian Cup,1976.0,3.0,China
+AFC Asian Cup,1976.0,4.0,Iraq
+AFC Asian Cup,1976.0,5.0,Malaysia
+AFC Asian Cup,1976.0,6.0,Yemen
+AFC Asian Cup,1972.0,1.0,Iran
+AFC Asian Cup,1972.0,2.0,South Korea
+AFC Asian Cup,1972.0,3.0,Thailand
+AFC Asian Cup,1972.0,4.0,Cambodia
+AFC Asian Cup,1972.0,5.0,Kuwait
+AFC Asian Cup,1972.0,6.0,Iraq
+AFC Asian Cup,1968.0,1.0,Iran
+AFC Asian Cup,1968.0,2.0,Myanmar
+AFC Asian Cup,1968.0,3.0,Israel
+AFC Asian Cup,1968.0,4.0,Taiwan
+AFC Asian Cup,1968.0,5.0,Hong Kong
+AFC Asian Cup,1964.0,1.0,Israel
+AFC Asian Cup,1964.0,2.0,India
+AFC Asian Cup,1964.0,3.0,South Korea
+AFC Asian Cup,1964.0,4.0,Hong Kong
+AFC Asian Cup,1960.0,1.0,South Korea
+AFC Asian Cup,1960.0,2.0,Israel
+AFC Asian Cup,1960.0,3.0,Taiwan
+AFC Asian Cup,1960.0,4.0,Vietnam
+AFC Asian Cup,1956.0,1.0,South Korea
+AFC Asian Cup,1956.0,2.0,Israel
+AFC Asian Cup,1956.0,3.0,Hong Kong
+AFC Asian Cup,1956.0,4.0,Vietnam
+CONCACAF Gold Cup,2023.0,1.0,Mexico
+CONCACAF Gold Cup,2023.0,2.0,Panama
+CONCACAF Gold Cup,2023.0,3.0,Jamaica
+CONCACAF Gold Cup,2023.0,4.0,Panama
+CONCACAF Gold Cup,2021.0,1.0,United States
+CONCACAF Gold Cup,2021.0,2.0,Mexico
+CONCACAF Gold Cup,2021.0,3.0,Canada
+CONCACAF Gold Cup,2021.0,4.0,Qatar
+CONCACAF Gold Cup,2019.0,1.0,Mexico
+CONCACAF Gold Cup,2019.0,2.0,United States
+CONCACAF Gold Cup,2019.0,3.0,Haiti
+CONCACAF Gold Cup,2019.0,4.0,Jamaica
+CONCACAF Gold Cup,2017.0,1.0,United States
+CONCACAF Gold Cup,2017.0,2.0,Jamaica
+CONCACAF Gold Cup,2017.0,3.0,Costa Rica
+CONCACAF Gold Cup,2017.0,4.0,Mexico
+CONCACAF Gold Cup,2015.0,1.0,Mexico
+CONCACAF Gold Cup,2015.0,2.0,Jamaica
+CONCACAF Gold Cup,2015.0,3.0,Panama
+CONCACAF Gold Cup,2015.0,4.0,United States
+CONCACAF Gold Cup,2013.0,1.0,United States
+CONCACAF Gold Cup,2013.0,2.0,Panama
+CONCACAF Gold Cup,2013.0,3.0,Honduras
+CONCACAF Gold Cup,2013.0,4.0,Mexico
+CONCACAF Gold Cup,2011.0,1.0,Mexico
+CONCACAF Gold Cup,2011.0,2.0,United States
+CONCACAF Gold Cup,2011.0,3.0,Honduras
+CONCACAF Gold Cup,2011.0,4.0,Panama
+CONCACAF Gold Cup,2009.0,1.0,Mexico
+CONCACAF Gold Cup,2009.0,2.0,United States
+CONCACAF Gold Cup,2009.0,3.0,Costa Rica
+CONCACAF Gold Cup,2009.0,4.0,Honduras
+CONCACAF Gold Cup,2007.0,1.0,United States
+CONCACAF Gold Cup,2007.0,2.0,Mexico
+CONCACAF Gold Cup,2007.0,3.0,Canada
+CONCACAF Gold Cup,2005.0,1.0,United States
+CONCACAF Gold Cup,2005.0,2.0,Panama
+CONCACAF Gold Cup,2005.0,3.0,Colombia
+CONCACAF Gold Cup,2005.0,4.0,Honduras
+CONCACAF Gold Cup,2003.0,1.0,Mexico
+CONCACAF Gold Cup,2003.0,2.0,Brazil
+CONCACAF Gold Cup,2003.0,3.0,United States
+CONCACAF Gold Cup,2003.0,4.0,Costa Rica
+CONCACAF Gold Cup,2002.0,1.0,United States
+CONCACAF Gold Cup,2002.0,2.0,Costa Rica
+CONCACAF Gold Cup,2002.0,3.0,Canada
+CONCACAF Gold Cup,2002.0,4.0,South Korea
+CONCACAF Gold Cup,2000.0,1.0,Canada
+CONCACAF Gold Cup,2000.0,2.0,Colombia
+CONCACAF Gold Cup,2000.0,3.0,Peru
+CONCACAF Gold Cup,2000.0,4.0,Trinidad and Tobago
+CONCACAF Gold Cup,1998.0,1.0,Mexico
+CONCACAF Gold Cup,1998.0,2.0,United States
+CONCACAF Gold Cup,1998.0,3.0,Brazil
+CONCACAF Gold Cup,1998.0,4.0,Jamaica
+CONCACAF Gold Cup,1996.0,1.0,Mexico
+CONCACAF Gold Cup,1996.0,2.0,Brazil
+CONCACAF Gold Cup,1996.0,3.0,United States
+CONCACAF Gold Cup,1996.0,4.0,Guatemala
+CONCACAF Gold Cup,1993.0,1.0,Mexico
+CONCACAF Gold Cup,1993.0,2.0,United States
+CONCACAF Gold Cup,1993.0,3.0,Costa Rica
+CONCACAF Gold Cup,1993.0,4.0,Jamaica
+CONCACAF Gold Cup,1991.0,1.0,United States
+CONCACAF Gold Cup,1991.0,2.0,Honduras
+CONCACAF Gold Cup,1991.0,3.0,Mexico
+CONCACAF Gold Cup,1991.0,4.0,Costa Rica
+Confederations Cup,2022.0,1.0,Argentina
+Confederations Cup,2022.0,2.0,Italy
+Confederations Cup,2017.0,1.0,Germany
+Confederations Cup,2017.0,2.0,Chile
+Confederations Cup,2017.0,3.0,Portugal
+Confederations Cup,2017.0,4.0,Italy
+Confederations Cup,2013.0,1.0,Brazil
+Confederations Cup,2013.0,2.0,Spain
+Confederations Cup,2013.0,3.0,Italy
+Confederations Cup,2013.0,4.0,Uruguay
+Confederations Cup,2009.0,1.0,Brazil
+Confederations Cup,2009.0,2.0,United States
+Confederations Cup,2009.0,3.0,Spain
+Confederations Cup,2009.0,4.0,South Africa
+Confederations Cup,2005.0,1.0,Brazil
+Confederations Cup,2005.0,2.0,Argentina
+Confederations Cup,2005.0,3.0,Germany
+Confederations Cup,2005.0,4.0,Mexico
+Confederations Cup,2001.0,1.0,France
+Confederations Cup,2001.0,2.0,Japan
+Confederations Cup,2001.0,3.0,Australia
+Confederations Cup,2001.0,4.0,Brazil
+Confederations Cup,1999.0,1.0,Mexico
+Confederations Cup,1999.0,2.0,Brazil
+Confederations Cup,1999.0,3.0,United States
+Confederations Cup,1999.0,4.0,Saudi Arabia
+Confederations Cup,1997.0,1.0,Brazil
+Confederations Cup,1997.0,2.0,Australia
+Confederations Cup,1997.0,3.0,Czech Republic
+Confederations Cup,1997.0,4.0,Uruguay
+Confederations Cup,1995.0,1.0,Denmark
+Confederations Cup,1995.0,2.0,Argentina
+Confederations Cup,1995.0,3.0,Mexico
+Confederations Cup,1995.0,4.0,Nigeria
+Confederations Cup,1993.0,1.0,Argentina
+Confederations Cup,1993.0,2.0,Denmark
+Confederations Cup,1992.0,1.0,Argentina
+Confederations Cup,1992.0,2.0,Saudi Arabia
+Confederations Cup,1992.0,3.0,United States
+Confederations Cup,1992.0,4.0,Ivory Coast
+Confederations Cup,1985.0,1.0,France
+Confederations Cup,1985.0,2.0,Uruguay
+World Cup,2022.0,1.0,Argentina
+World Cup,2022.0,2.0,France
+World Cup,2022.0,3.0,Croatia
+World Cup,2022.0,4.0,Morocco
+World Cup,2022.0,5.0,Netherlands
+World Cup,2022.0,6.0,England
+World Cup,2022.0,7.0,Brazil
+World Cup,2022.0,8.0,Portugal
+World Cup,2022.0,9.0,Japan
+World Cup,2022.0,10.0,Senegal
+World Cup,2022.0,11.0,Australia
+World Cup,2022.0,12.0,Switzerland
+World Cup,2022.0,13.0,Spain
+World Cup,2022.0,14.0,United States
+World Cup,2022.0,15.0,Poland
+World Cup,2022.0,16.0,South Korea
+World Cup,2022.0,17.0,Germany
+World Cup,2022.0,18.0,Ecuador
+World Cup,2022.0,19.0,Cameroon
+World Cup,2022.0,20.0,Uruguay
+World Cup,2022.0,21.0,Tunisia
+World Cup,2022.0,22.0,Mexico
+World Cup,2022.0,23.0,Belgium
+World Cup,2022.0,24.0,Ghana
+World Cup,2022.0,25.0,Saudi Arabia
+World Cup,2022.0,26.0,Iran
+World Cup,2022.0,27.0,Costa Rica
+World Cup,2022.0,28.0,Denmark
+World Cup,2022.0,29.0,Serbia
+World Cup,2022.0,30.0,Wales
+World Cup,2022.0,31.0,Canada
+World Cup,2022.0,32.0,Qatar
+World Cup,2018.0,1.0,France
+World Cup,2018.0,2.0,Croatia
+World Cup,2018.0,3.0,Belgium
+World Cup,2018.0,4.0,England
+World Cup,2018.0,5.0,Uruguay
+World Cup,2018.0,6.0,Brazil
+World Cup,2018.0,7.0,Sweden
+World Cup,2018.0,8.0,Russia
+World Cup,2018.0,9.0,Colombia
+World Cup,2018.0,10.0,Spain
+World Cup,2018.0,11.0,Denmark
+World Cup,2018.0,12.0,Mexico
+World Cup,2018.0,13.0,Portugal
+World Cup,2018.0,14.0,Switzerland
+World Cup,2018.0,15.0,Japan
+World Cup,2018.0,16.0,Argentina
+World Cup,2018.0,17.0,Senegal
+World Cup,2018.0,18.0,Iran
+World Cup,2018.0,19.0,South Korea
+World Cup,2018.0,20.0,Peru
+World Cup,2018.0,21.0,Nigeria
+World Cup,2018.0,22.0,Germany
+World Cup,2018.0,23.0,Serbia
+World Cup,2018.0,24.0,Tunisia
+World Cup,2018.0,25.0,Poland
+World Cup,2018.0,26.0,Saudi Arabia
+World Cup,2018.0,27.0,Morocco
+World Cup,2018.0,28.0,Iceland
+World Cup,2018.0,29.0,Costa Rica
+World Cup,2018.0,30.0,Australia
+World Cup,2018.0,31.0,Egypt
+World Cup,2018.0,32.0,Panama
+World Cup,2014.0,1.0,Germany
+World Cup,2014.0,2.0,Argentina
+World Cup,2014.0,3.0,Netherlands
+World Cup,2014.0,4.0,Brazil
+World Cup,2014.0,5.0,Belgium
+World Cup,2014.0,6.0,Colombia
+World Cup,2014.0,7.0,France
+World Cup,2014.0,8.0,Costa Rica
+World Cup,2014.0,9.0,Chile
+World Cup,2014.0,10.0,Mexico
+World Cup,2014.0,11.0,Switzerland
+World Cup,2014.0,12.0,Uruguay
+World Cup,2014.0,13.0,Greece
+World Cup,2014.0,14.0,Algeria
+World Cup,2014.0,15.0,United States
+World Cup,2014.0,16.0,Nigeria
+World Cup,2014.0,17.0,Ecuador
+World Cup,2014.0,18.0,Portugal
+World Cup,2014.0,19.0,Croatia
+World Cup,2014.0,20.0,Bosnia
+World Cup,2014.0,21.0,Ivory Coast
+World Cup,2014.0,22.0,Italy
+World Cup,2014.0,23.0,Spain
+World Cup,2014.0,24.0,Russia
+World Cup,2014.0,25.0,Ghana
+World Cup,2014.0,26.0,England
+World Cup,2014.0,27.0,South Korea
+World Cup,2014.0,28.0,Iran
+World Cup,2014.0,29.0,Japan
+World Cup,2014.0,30.0,Australia
+World Cup,2014.0,31.0,Honduras
+World Cup,2014.0,32.0,Cameroon
+World Cup,2010.0,1.0,Spain
+World Cup,2010.0,2.0,Netherlands
+World Cup,2010.0,3.0,Germany
+World Cup,2010.0,4.0,Uruguay
+World Cup,2010.0,5.0,Argentina
+World Cup,2010.0,6.0,Brazil
+World Cup,2010.0,7.0,Ghana
+World Cup,2010.0,8.0,Paraguay
+World Cup,2010.0,9.0,Japan
+World Cup,2010.0,10.0,Chile
+World Cup,2010.0,11.0,Portugal
+World Cup,2010.0,12.0,United States
+World Cup,2010.0,13.0,England
+World Cup,2010.0,14.0,Mexico
+World Cup,2010.0,15.0,South Korea
+World Cup,2010.0,16.0,Slovakia
+World Cup,2010.0,17.0,Ivory Coast
+World Cup,2010.0,18.0,Slovenia
+World Cup,2010.0,19.0,Switzerland
+World Cup,2010.0,20.0,South Africa
+World Cup,2010.0,21.0,Australia
+World Cup,2010.0,22.0,New Zealand
+World Cup,2010.0,23.0,Serbia
+World Cup,2010.0,24.0,Denmark
+World Cup,2010.0,25.0,Greece
+World Cup,2010.0,26.0,Italy
+World Cup,2010.0,27.0,Nigeria
+World Cup,2010.0,28.0,Algeria
+World Cup,2010.0,29.0,France
+World Cup,2010.0,30.0,Honduras
+World Cup,2010.0,31.0,Cameroon
+World Cup,2010.0,32.0,North Korea
+World Cup,2006.0,1.0,Italy
+World Cup,2006.0,2.0,France
+World Cup,2006.0,3.0,Germany
+World Cup,2006.0,4.0,Portugal
+World Cup,2006.0,5.0,Brazil
+World Cup,2006.0,6.0,Argentina
+World Cup,2006.0,7.0,England
+World Cup,2006.0,8.0,Ukraine
+World Cup,2006.0,9.0,Spain
+World Cup,2006.0,10.0,Switzerland
+World Cup,2006.0,11.0,Netherlands
+World Cup,2006.0,12.0,Ecuador
+World Cup,2006.0,13.0,Ghana
+World Cup,2006.0,14.0,Sweden
+World Cup,2006.0,15.0,Mexico
+World Cup,2006.0,16.0,Australia
+World Cup,2006.0,17.0,South Korea
+World Cup,2006.0,18.0,Paraguay
+World Cup,2006.0,19.0,Ivory Coast
+World Cup,2006.0,20.0,Czech Republic
+World Cup,2006.0,21.0,Poland
+World Cup,2006.0,22.0,Croatia
+World Cup,2006.0,23.0,Angola
+World Cup,2006.0,24.0,Tunisia
+World Cup,2006.0,25.0,Iran
+World Cup,2006.0,26.0,United States
+World Cup,2006.0,27.0,Trinidad and Tobago
+World Cup,2006.0,28.0,Japan
+World Cup,2006.0,29.0,Saudi Arabia
+World Cup,2006.0,30.0,Togo
+World Cup,2006.0,31.0,Costa Rica
+World Cup,2006.0,32.0,Serbia
+World Cup,2002.0,1.0,Brazil
+World Cup,2002.0,2.0,Germany
+World Cup,2002.0,3.0,Turkey
+World Cup,2002.0,4.0,South Korea
+World Cup,2002.0,5.0,Spain
+World Cup,2002.0,6.0,England
+World Cup,2002.0,7.0,Senegal
+World Cup,2002.0,8.0,United States
+World Cup,2002.0,9.0,Japan
+World Cup,2002.0,10.0,Denmark
+World Cup,2002.0,11.0,Mexico
+World Cup,2002.0,12.0,Ireland
+World Cup,2002.0,13.0,Sweden
+World Cup,2002.0,14.0,Belgium
+World Cup,2002.0,15.0,Italy
+World Cup,2002.0,16.0,Paraguay
+World Cup,2002.0,17.0,South Africa
+World Cup,2002.0,18.0,Argentina
+World Cup,2002.0,19.0,Costa Rica
+World Cup,2002.0,20.0,Cameroon
+World Cup,2002.0,21.0,Portugal
+World Cup,2002.0,22.0,Russia
+World Cup,2002.0,23.0,Croatia
+World Cup,2002.0,24.0,Ecuador
+World Cup,2002.0,25.0,Poland
+World Cup,2002.0,26.0,Uruguay
+World Cup,2002.0,27.0,Nigeria
+World Cup,2002.0,28.0,France
+World Cup,2002.0,29.0,Tunisia
+World Cup,2002.0,30.0,Slovenia
+World Cup,2002.0,31.0,China
+World Cup,2002.0,32.0,Saudi Arabia
+World Cup,1998.0,1.0,France
+World Cup,1998.0,2.0,Brazil
+World Cup,1998.0,3.0,Croatia
+World Cup,1998.0,4.0,Netherlands
+World Cup,1998.0,5.0,Italy
+World Cup,1998.0,6.0,Argentina
+World Cup,1998.0,7.0,Germany
+World Cup,1998.0,8.0,Denmark
+World Cup,1998.0,9.0,England
+World Cup,1998.0,10.0,Yuguslavia
+World Cup,1998.0,11.0,Romania
+World Cup,1998.0,12.0,Nigeria
+World Cup,1998.0,13.0,Mexico
+World Cup,1998.0,14.0,Paraguay
+World Cup,1998.0,15.0,Norway
+World Cup,1998.0,16.0,Chile
+World Cup,1998.0,17.0,Spain
+World Cup,1998.0,18.0,Morocco
+World Cup,1998.0,19.0,Belgium
+World Cup,1998.0,20.0,Iran
+World Cup,1998.0,21.0,Colombia
+World Cup,1998.0,22.0,Jamaica
+World Cup,1998.0,23.0,Austria
+World Cup,1998.0,24.0,South Africa
+World Cup,1998.0,25.0,Cameroon
+World Cup,1998.0,26.0,Tunisia
+World Cup,1998.0,27.0,Scotland
+World Cup,1998.0,28.0,Saudi Arabia
+World Cup,1998.0,29.0,Bulgaria
+World Cup,1998.0,30.0,South Korea
+World Cup,1998.0,31.0,Japan
+World Cup,1998.0,32.0,United States
+World Cup,1994.0,1.0,Brazil
+World Cup,1994.0,2.0,Italy
+World Cup,1994.0,3.0,Sweden
+World Cup,1994.0,4.0,Bulgaria
+World Cup,1994.0,5.0,Germany
+World Cup,1994.0,6.0,Romania
+World Cup,1994.0,7.0,Netherlands
+World Cup,1994.0,8.0,Spain
+World Cup,1994.0,9.0,Nigeria
+World Cup,1994.0,10.0,Argentina
+World Cup,1994.0,11.0,Belgium
+World Cup,1994.0,12.0,Saudi Arabia
+World Cup,1994.0,13.0,Mexico
+World Cup,1994.0,14.0,United States
+World Cup,1994.0,15.0,Switzerland
+World Cup,1994.0,16.0,Ireland
+World Cup,1994.0,17.0,Norway
+World Cup,1994.0,18.0,Russia
+World Cup,1994.0,19.0,Colombia
+World Cup,1994.0,20.0,South Korea
+World Cup,1994.0,21.0,Bolivia
+World Cup,1994.0,22.0,Cameroon
+World Cup,1994.0,23.0,Morocco
+World Cup,1994.0,24.0,Greece
+World Cup,1990.0,1.0,Germany
+World Cup,1990.0,2.0,Argentina
+World Cup,1990.0,3.0,Italy
+World Cup,1990.0,4.0,England
+World Cup,1990.0,5.0,Yuguslavia
+World Cup,1990.0,6.0,Czech Republic
+World Cup,1990.0,7.0,Cameroon
+World Cup,1990.0,8.0,Ireland
+World Cup,1990.0,9.0,Brazil
+World Cup,1990.0,10.0,Spain
+World Cup,1990.0,11.0,Spain
+World Cup,1990.0,12.0,Romania
+World Cup,1990.0,13.0,Belgium
+World Cup,1990.0,14.0,Costa Rica
+World Cup,1990.0,15.0,Netherlands
+World Cup,1990.0,16.0,Colombia
+World Cup,1990.0,17.0,Uruguay
+World Cup,1990.0,18.0,URSS
+World Cup,1990.0,19.0,Austria
+World Cup,1990.0,20.0,Scotland
+World Cup,1990.0,21.0,Egypt
+World Cup,1990.0,22.0,Sweden
+World Cup,1990.0,23.0,South Korea
+World Cup,1990.0,24.0,United States
+World Cup,1990.0,25.0,United Arab Emirates
+World Cup,1986.0,1.0,Argentina
+World Cup,1986.0,2.0,Germany
+World Cup,1986.0,3.0,France
+World Cup,1986.0,4.0,Belgium
+World Cup,1986.0,5.0,Brazil
+World Cup,1986.0,6.0,Mexico
+World Cup,1986.0,7.0,Spain
+World Cup,1986.0,8.0,England
+World Cup,1986.0,9.0,Denmark
+World Cup,1986.0,10.0,URSS
+World Cup,1986.0,11.0,Morocco
+World Cup,1986.0,12.0,Italy
+World Cup,1986.0,13.0,Paraguay
+World Cup,1986.0,14.0,Poland
+World Cup,1986.0,15.0,Bulgaria
+World Cup,1986.0,16.0,Uruguay
+World Cup,1986.0,17.0,Portugal
+World Cup,1986.0,18.0,Hungary
+World Cup,1986.0,19.0,Scotland
+World Cup,1986.0,20.0,South Korea
+World Cup,1986.0,21.0,Northern Ireland
+World Cup,1986.0,22.0,Algeria
+World Cup,1986.0,23.0,Iraq
+World Cup,1986.0,24.0,Canada
+World Cup,1982.0,1.0,Italy
+World Cup,1982.0,2.0,Germany
+World Cup,1982.0,3.0,Poland
+World Cup,1982.0,4.0,France
+World Cup,1982.0,5.0,Brazil
+World Cup,1982.0,6.0,England
+World Cup,1982.0,7.0,URSS
+World Cup,1982.0,8.0,Austria
+World Cup,1982.0,9.0,Belgium
+World Cup,1982.0,10.0,Northern Ireland
+World Cup,1982.0,11.0,Argentina
+World Cup,1982.0,12.0,Spain
+World Cup,1982.0,13.0,Algeria
+World Cup,1982.0,14.0,Hungary
+World Cup,1982.0,15.0,Scotland
+World Cup,1982.0,16.0,Yuguslavia
+World Cup,1982.0,17.0,Cameroon
+World Cup,1982.0,18.0,Honduras
+World Cup,1982.0,19.0,Czech Republic
+World Cup,1982.0,20.0,Peru
+World Cup,1982.0,21.0,Kuwait
+World Cup,1982.0,22.0,Chile
+World Cup,1982.0,23.0,New Zealand
+World Cup,1982.0,24.0,El Salvador
+World Cup,1978.0,1.0,Argentina
+World Cup,1978.0,2.0,Netherlands
+World Cup,1978.0,3.0,Brazil
+World Cup,1978.0,4.0,Italy
+World Cup,1978.0,5.0,Poland
+World Cup,1978.0,6.0,Germany
+World Cup,1978.0,7.0,Austria
+World Cup,1978.0,8.0,Peru
+World Cup,1978.0,9.0,Tunisia
+World Cup,1978.0,10.0,Spain
+World Cup,1978.0,11.0,Scotland
+World Cup,1978.0,12.0,France
+World Cup,1978.0,13.0,Sweden
+World Cup,1978.0,14.0,Iran
+World Cup,1978.0,15.0,Hungary
+World Cup,1978.0,16.0,Mexico
+World Cup,1974.0,1.0,Germany
+World Cup,1974.0,2.0,Netherlands
+World Cup,1974.0,3.0,Poland
+World Cup,1974.0,4.0,Brazil
+World Cup,1974.0,5.0,Sweden
+World Cup,1974.0,6.0,Germany
+World Cup,1974.0,7.0,Yuguslavia
+World Cup,1974.0,8.0,Argentina
+World Cup,1974.0,9.0,Scotland
+World Cup,1974.0,10.0,Italy
+World Cup,1974.0,11.0,Chile
+World Cup,1974.0,12.0,Bulgaria
+World Cup,1974.0,13.0,Uruguay
+World Cup,1974.0,14.0,Australia
+World Cup,1974.0,15.0,Haiti
+World Cup,1974.0,16.0,Democratic Republic Congo
+World Cup,1970.0,1.0,Brazil
+World Cup,1970.0,2.0,Italy
+World Cup,1970.0,3.0,Germany
+World Cup,1970.0,4.0,Uruguay
+World Cup,1970.0,5.0,URSS
+World Cup,1970.0,6.0,Mexico
+World Cup,1970.0,7.0,Peru
+World Cup,1970.0,8.0,England
+World Cup,1970.0,9.0,Sweden
+World Cup,1970.0,10.0,Belgium
+World Cup,1970.0,11.0,Romania
+World Cup,1970.0,12.0,Israel
+World Cup,1970.0,13.0,Bulgaria
+World Cup,1970.0,14.0,Morocco
+World Cup,1970.0,15.0,Czech Republic
+World Cup,1970.0,16.0,El Salvador
+World Cup,1966.0,1.0,England
+World Cup,1966.0,2.0,Germany
+World Cup,1966.0,3.0,Portugal
+World Cup,1966.0,4.0,URSS
+World Cup,1966.0,5.0,Argentina
+World Cup,1966.0,6.0,Hungary
+World Cup,1966.0,7.0,Uruguay
+World Cup,1966.0,8.0,North Korea
+World Cup,1966.0,9.0,Italy
+World Cup,1966.0,10.0,Spain
+World Cup,1966.0,11.0,Brazil
+World Cup,1966.0,12.0,Mexico
+World Cup,1966.0,13.0,Chile
+World Cup,1966.0,14.0,France
+World Cup,1966.0,15.0,Bulgaria
+World Cup,1966.0,16.0,Switzerland
+World Cup,1962.0,1.0,Brazil
+World Cup,1962.0,2.0,Czech Republic
+World Cup,1962.0,3.0,Chile
+World Cup,1962.0,4.0,Yuguslavia
+World Cup,1962.0,5.0,Hungary
+World Cup,1962.0,6.0,URSS
+World Cup,1962.0,7.0,Germany
+World Cup,1962.0,8.0,England
+World Cup,1962.0,9.0,Italy
+World Cup,1962.0,10.0,Argentina
+World Cup,1962.0,11.0,Mexico
+World Cup,1962.0,12.0,Spain
+World Cup,1962.0,13.0,Uruguay
+World Cup,1962.0,14.0,Colombia
+World Cup,1962.0,15.0,Bulgaria
+World Cup,1962.0,16.0,Switzerland
+World Cup,1958.0,1.0,Brazil
+World Cup,1958.0,2.0,Sweden
+World Cup,1958.0,3.0,France
+World Cup,1958.0,4.0,Germany
+World Cup,1958.0,5.0,Wales
+World Cup,1958.0,6.0,URSS
+World Cup,1958.0,7.0,Northern Ireland
+World Cup,1958.0,8.0,Yuguslavia
+World Cup,1958.0,9.0,Czech Republic
+World Cup,1958.0,10.0,Hungary
+World Cup,1958.0,11.0,England
+World Cup,1958.0,12.0,Paraguay
+World Cup,1958.0,13.0,Argentina
+World Cup,1958.0,14.0,Scotland
+World Cup,1958.0,15.0,Austria
+World Cup,1958.0,16.0,Mexico
+World Cup,1954.0,1.0,Germany
+World Cup,1954.0,2.0,Hungary
+World Cup,1954.0,3.0,Austria
+World Cup,1954.0,4.0,Uruguay
+World Cup,1954.0,5.0,Switzerland
+World Cup,1954.0,6.0,Brazil
+World Cup,1954.0,7.0,England
+World Cup,1954.0,8.0,Yuguslavia
+World Cup,1954.0,9.0,France
+World Cup,1954.0,10.0,Turkey
+World Cup,1954.0,11.0,Italy
+World Cup,1954.0,12.0,Belgium
+World Cup,1954.0,13.0,Mexico
+World Cup,1954.0,14.0,Czech Republic
+World Cup,1954.0,15.0,Scotland
+World Cup,1954.0,16.0,South Korea
+World Cup,1950.0,1.0,Uruguay
+World Cup,1950.0,2.0,Brazil
+World Cup,1950.0,3.0,Sweden
+World Cup,1950.0,4.0,Spain
+World Cup,1950.0,5.0,Yuguslavia
+World Cup,1950.0,6.0,Switzerland
+World Cup,1950.0,7.0,Italy
+World Cup,1950.0,8.0,England
+World Cup,1950.0,9.0,Chile
+World Cup,1950.0,10.0,United States
+World Cup,1950.0,11.0,Paraguay
+World Cup,1950.0,12.0,Mexico
+World Cup,1950.0,13.0,Bolivia
+World Cup,1938.0,1.0,Italy
+World Cup,1938.0,2.0,Hungary
+World Cup,1938.0,3.0,Brazil
+World Cup,1938.0,4.0,Sweden
+World Cup,1938.0,5.0,Czech Republic
+World Cup,1938.0,6.0,Switzerland
+World Cup,1938.0,7.0,Cuba
+World Cup,1938.0,8.0,France
+World Cup,1938.0,9.0,Romania
+World Cup,1938.0,10.0,Germany
+World Cup,1938.0,11.0,Poland
+World Cup,1938.0,12.0,Norway
+World Cup,1938.0,13.0,Belgium
+World Cup,1938.0,14.0,Netherlands
+World Cup,1938.0,15.0,Indonesia
+World Cup,1934.0,1.0,Italy
+World Cup,1934.0,2.0,Czech Republic
+World Cup,1934.0,3.0,Germany
+World Cup,1934.0,4.0,Austria
+World Cup,1934.0,5.0,Spain
+World Cup,1934.0,6.0,Hungary
+World Cup,1934.0,7.0,Switzerland
+World Cup,1934.0,8.0,Sweden
+World Cup,1934.0,9.0,Argentina
+World Cup,1934.0,10.0,France
+World Cup,1934.0,11.0,Netherlands
+World Cup,1934.0,12.0,Romania
+World Cup,1934.0,13.0,Egypt
+World Cup,1934.0,14.0,Brazil
+World Cup,1934.0,15.0,Belgium
+World Cup,1934.0,16.0,United States
+World Cup,1930.0,1.0,Uruguay
+World Cup,1930.0,2.0,Argentina
+World Cup,1930.0,3.0,Yuguslavia
+World Cup,1930.0,4.0,United States
+World Cup,1930.0,5.0,Chile
+World Cup,1930.0,6.0,Brazil
+World Cup,1930.0,7.0,Romania
+World Cup,1930.0,8.0,Paraguay
+World Cup,1930.0,9.0,France
+World Cup,1930.0,10.0,Peru
+World Cup,1930.0,11.0,Belgium
+World Cup,1930.0,12.0,Bolivia
+World Cup,1930.0,13.0,Mexico
+World Cup,1928.0,1.0,Uruguay
+World Cup,1928.0,2.0,Argentina
+World Cup,1928.0,3.0,Italy
+World Cup,1928.0,4.0,Egypt
+World Cup,1928.0,5.0,Germany
+World Cup,1928.0,6.0,Belgium
+World Cup,1928.0,7.0,Spain
+World Cup,1928.0,8.0,Portugal
+World Cup,1928.0,9.0,Netherlands
+World Cup,1928.0,10.0,United States
+World Cup,1928.0,11.0,France
+World Cup,1928.0,12.0,Turkey
+World Cup,1928.0,13.0,Switzerland
+World Cup,1928.0,14.0,Luxembourg
+World Cup,1928.0,15.0,Mexico
+World Cup,1928.0,16.0,Yuguslavia
+World Cup,1924.0,1.0,Uruguay
+World Cup,1924.0,2.0,Switzerland
+World Cup,1924.0,3.0,Sweden
+World Cup,1924.0,4.0,Netherlands
+World Cup,1924.0,5.0,Italy
+World Cup,1924.0,6.0,France
+World Cup,1924.0,7.0,Ireland
+World Cup,1924.0,8.0,Egypt
+World Cup,1924.0,9.0,Czech Republic
+World Cup,1924.0,10.0,Hungary
+World Cup,1924.0,11.0,United States
+World Cup,1924.0,12.0,Bulgaria
+World Cup,1924.0,13.0,Luxembourg
+World Cup,1924.0,14.0,Romania
+World Cup,1924.0,15.0,Latvia
+World Cup,1924.0,16.0,Belgium
+World Cup,1924.0,17.0,Spain
+World Cup,1924.0,18.0,Estonia
+World Cup,1924.0,19.0,Turkey
+World Cup,1924.0,20.0,Poland
+World Cup,1924.0,21.0,Yuguslavia
+World Cup,1924.0,22.0,Lithuania
+OFC Nations Cup,2016.0,1.0,New Zealand
+OFC Nations Cup,2016.0,2.0,Papua New Guinea
+OFC Nations Cup,2016.0,3.0,New Caledonia
+OFC Nations Cup,2016.0,4.0,Solomon Islands
+OFC Nations Cup,2012.0,1.0,Tahiti
+OFC Nations Cup,2012.0,2.0,New Caledonia
+OFC Nations Cup,2012.0,3.0,New Zealand
+OFC Nations Cup,2012.0,4.0,Solomon Islands
+OFC Nations Cup,2008.0,1.0,New Zealand
+OFC Nations Cup,2008.0,2.0,New Caledonia
+OFC Nations Cup,2008.0,3.0,Fiji
+OFC Nations Cup,2008.0,4.0,Vanuatu
+OFC Nations Cup,2004.0,1.0,Australia
+OFC Nations Cup,2004.0,2.0,Solomon Islands
+OFC Nations Cup,2004.0,3.0,New Zealand
+OFC Nations Cup,2004.0,4.0,Fiji
+OFC Nations Cup,2002.0,1.0,New Zealand
+OFC Nations Cup,2002.0,2.0,Australia
+OFC Nations Cup,2002.0,3.0,Tahiti
+OFC Nations Cup,2002.0,4.0,Vanuatu
+OFC Nations Cup,2000.0,1.0,Australia
+OFC Nations Cup,2000.0,2.0,New Zealand
+OFC Nations Cup,2000.0,3.0,Solomon Islands
+OFC Nations Cup,2000.0,4.0,Vanuatu
+OFC Nations Cup,1998.0,1.0,New Zealand
+OFC Nations Cup,1998.0,2.0,Australia
+OFC Nations Cup,1998.0,3.0,Fiji
+OFC Nations Cup,1998.0,4.0,Tahiti
+OFC Nations Cup,1996.0,1.0,Australia
+OFC Nations Cup,1996.0,2.0,Tahiti
+OFC Nations Cup,1996.0,3.0,New Zealand
+OFC Nations Cup,1996.0,4.0,Solomon Islands
+OFC Nations Cup,1980.0,1.0,Australia
+OFC Nations Cup,1980.0,2.0,Tahiti
+OFC Nations Cup,1980.0,3.0,New Caledonia
+OFC Nations Cup,1980.0,4.0,Fiji
+OFC Nations Cup,1973.0,1.0,New Zealand
+OFC Nations Cup,1973.0,2.0,Tahiti
+OFC Nations Cup,1973.0,3.0,New Caledonia
 Liga FPD,2022.5,1.0,Saprissa
 Liga FPD,2022.5,2.0,Alajuelense
 Liga FPD,2022.0,1.0,Saprissa
@@ -33722,6 +35069,171 @@ Ethiopian Premier League,1963.0,1.0,Cotton
 Ethiopian Premier League,1962.0,1.0,Cotton
 Ethiopian Premier League,1961.0,1.0,Ethio-Cement
 Ethiopian Premier League,1960.0,1.0,Cotton
+UEFA Euro,2020.0,1.0,Italy
+UEFA Euro,2020.0,2.0,England
+UEFA Euro,2020.0,3.0,Spain
+UEFA Euro,2020.0,4.0,Denmark
+UEFA Euro,2020.0,5.0,Belgium
+UEFA Euro,2020.0,6.0,Ukraine
+UEFA Euro,2020.0,7.0,Switzerland
+UEFA Euro,2020.0,8.0,Czech Republic
+UEFA Euro,2020.0,9.0,Austria
+UEFA Euro,2020.0,10.0,Germany
+UEFA Euro,2020.0,11.0,Portugal
+UEFA Euro,2020.0,12.0,France
+UEFA Euro,2020.0,13.0,Croatia
+UEFA Euro,2020.0,14.0,Switzerland
+UEFA Euro,2020.0,15.0,Netherlands
+UEFA Euro,2020.0,16.0,Wales
+UEFA Euro,2016.0,1.0,Portugal
+UEFA Euro,2016.0,2.0,France
+UEFA Euro,2016.0,3.0,Wales
+UEFA Euro,2016.0,4.0,Germany
+UEFA Euro,2016.0,5.0,Poland
+UEFA Euro,2016.0,6.0,Iceland
+UEFA Euro,2016.0,7.0,Belgium
+UEFA Euro,2016.0,8.0,Italy
+UEFA Euro,2016.0,9.0,Croatia
+UEFA Euro,2016.0,10.0,Ireland
+UEFA Euro,2016.0,11.0,Switzerland
+UEFA Euro,2016.0,12.0,Croatia
+UEFA Euro,2016.0,13.0,Northern Ireland
+UEFA Euro,2016.0,14.0,Hungary
+UEFA Euro,2016.0,15.0,Slovakia
+UEFA Euro,2016.0,16.0,Spain
+UEFA Euro,2016.0,17.0,England
+UEFA Euro,2012.0,1.0,Spain
+UEFA Euro,2012.0,2.0,Italy
+UEFA Euro,2012.0,3.0,Germany
+UEFA Euro,2012.0,4.0,Portugal
+UEFA Euro,2012.0,5.0,France
+UEFA Euro,2012.0,6.0,England
+UEFA Euro,2012.0,7.0,Greece
+UEFA Euro,2012.0,8.0,Czech Republic
+UEFA Euro,2012.0,9.0,Russia
+UEFA Euro,2012.0,10.0,Croatia
+UEFA Euro,2012.0,11.0,Denmark
+UEFA Euro,2012.0,12.0,Ukraine
+UEFA Euro,2012.0,13.0,Sweden
+UEFA Euro,2012.0,14.0,Ireland
+UEFA Euro,2012.0,15.0,Poland
+UEFA Euro,2012.0,16.0,Netherlands
+UEFA Euro,2008.0,1.0,Spain
+UEFA Euro,2008.0,2.0,Germany
+UEFA Euro,2008.0,3.0,Russia
+UEFA Euro,2008.0,4.0,Turkey
+UEFA Euro,2008.0,5.0,Italy
+UEFA Euro,2008.0,6.0,Portugal
+UEFA Euro,2008.0,7.0,Netherlands
+UEFA Euro,2008.0,8.0,Croatia
+UEFA Euro,2008.0,9.0,Sweden
+UEFA Euro,2008.0,10.0,Czech Republic
+UEFA Euro,2008.0,11.0,Romania
+UEFA Euro,2008.0,12.0,Austria
+UEFA Euro,2008.0,13.0,Switzerland
+UEFA Euro,2008.0,14.0,Poland
+UEFA Euro,2008.0,15.0,France
+UEFA Euro,2008.0,16.0,Greece
+UEFA Euro,2004.0,1.0,Greece
+UEFA Euro,2004.0,2.0,Portugal
+UEFA Euro,2004.0,3.0,Czech Republic
+UEFA Euro,2004.0,4.0,Netherlands
+UEFA Euro,2004.0,5.0,France
+UEFA Euro,2004.0,6.0,England
+UEFA Euro,2004.0,7.0,Denmark
+UEFA Euro,2004.0,8.0,Sweden
+UEFA Euro,2004.0,9.0,Italy
+UEFA Euro,2004.0,10.0,Spain
+UEFA Euro,2004.0,11.0,Croatia
+UEFA Euro,2004.0,12.0,Germany
+UEFA Euro,2004.0,13.0,Russia
+UEFA Euro,2004.0,14.0,Switzerland
+UEFA Euro,2004.0,15.0,Latvia
+UEFA Euro,2004.0,16.0,Bulgaria
+UEFA Euro,2000.0,1.0,France
+UEFA Euro,2000.0,2.0,Italy
+UEFA Euro,2000.0,3.0,Netherlands
+UEFA Euro,2000.0,4.0,Portugal
+UEFA Euro,2000.0,5.0,Spain
+UEFA Euro,2000.0,6.0,Romania
+UEFA Euro,2000.0,7.0,Yuguslavia
+UEFA Euro,2000.0,8.0,Turkey
+UEFA Euro,2000.0,9.0,Norway
+UEFA Euro,2000.0,10.0,Czech Republic
+UEFA Euro,2000.0,11.0,England
+UEFA Euro,2000.0,12.0,Belgium
+UEFA Euro,2000.0,13.0,Slovenia
+UEFA Euro,2000.0,14.0,Germany
+UEFA Euro,2000.0,15.0,Sweden
+UEFA Euro,2000.0,16.0,Denmark
+UEFA Euro,1996.0,1.0,Germany
+UEFA Euro,1996.0,2.0,Czech Republic
+UEFA Euro,1996.0,3.0,England
+UEFA Euro,1996.0,4.0,France
+UEFA Euro,1996.0,5.0,Croatia
+UEFA Euro,1996.0,6.0,Portugal
+UEFA Euro,1996.0,7.0,Spain
+UEFA Euro,1996.0,8.0,Netherlands
+UEFA Euro,1996.0,9.0,Italy
+UEFA Euro,1996.0,10.0,Denmark
+UEFA Euro,1996.0,11.0,Bulgaria
+UEFA Euro,1996.0,12.0,Scotland
+UEFA Euro,1996.0,13.0,Switzerland
+UEFA Euro,1996.0,14.0,Russia
+UEFA Euro,1996.0,15.0,Turkey
+UEFA Euro,1996.0,16.0,Romania
+UEFA Euro,1992.0,1.0,Denmark
+UEFA Euro,1992.0,2.0,Germany
+UEFA Euro,1992.0,3.0,Netherlands
+UEFA Euro,1992.0,4.0,Sweden
+UEFA Euro,1992.0,5.0,Scotland
+UEFA Euro,1992.0,6.0,France
+UEFA Euro,1992.0,7.0,England
+UEFA Euro,1992.0,8.0,Russia
+UEFA Euro,1988.0,1.0,Netherlands
+UEFA Euro,1988.0,2.0,URSS
+UEFA Euro,1988.0,3.0,Germany
+UEFA Euro,1988.0,4.0,Italy
+UEFA Euro,1988.0,5.0,Ireland
+UEFA Euro,1988.0,6.0,Spain
+UEFA Euro,1988.0,7.0,England
+UEFA Euro,1988.0,8.0,Denmark
+UEFA Euro,1984.0,1.0,France
+UEFA Euro,1984.0,2.0,Spain
+UEFA Euro,1984.0,3.0,Denmark
+UEFA Euro,1984.0,4.0,Portugal
+UEFA Euro,1984.0,5.0,Germany
+UEFA Euro,1984.0,6.0,Belgium
+UEFA Euro,1984.0,7.0,Romania
+UEFA Euro,1984.0,8.0,Yuguslavia
+UEFA Euro,1980.0,1.0,Germany
+UEFA Euro,1980.0,2.0,Belgium
+UEFA Euro,1980.0,3.0,Czech Republic
+UEFA Euro,1980.0,4.0,Italy
+UEFA Euro,1980.0,5.0,Netherlands
+UEFA Euro,1980.0,6.0,England
+UEFA Euro,1980.0,7.0,Spain
+UEFA Euro,1980.0,8.0,Greece
+UEFA Euro,1976.0,1.0,Czech Republic
+UEFA Euro,1976.0,2.0,Germany
+UEFA Euro,1976.0,3.0,Netherlands
+UEFA Euro,1976.0,4.0,Yuguslavia
+UEFA Euro,1972.0,1.0,Germany
+UEFA Euro,1972.0,2.0,URSS
+UEFA Euro,1972.0,3.0,Belgium
+UEFA Euro,1972.0,4.0,Hungary
+UEFA Euro,1968.0,1.0,Italy
+UEFA Euro,1968.0,2.0,Yuguslavia
+UEFA Euro,1968.0,3.0,England
+UEFA Euro,1968.0,4.0,URSS
+UEFA Euro,1964.0,1.0,Spain
+UEFA Euro,1964.0,2.0,URSS
+UEFA Euro,1964.0,3.0,Hungary
+UEFA Euro,1964.0,4.0,Denmark
+UEFA Euro,1960.0,1.0,URSS
+UEFA Euro,1960.0,2.0,Yuguslavia
+UEFA Euro,1960.0,3.0,Czech Republic
+UEFA Euro,1960.0,4.0,France
 Europa League,2023.0,1.0,Sevilla
 Europa League,2023.0,2.0,Roma
 Europa League,2023.0,3.0,Juventus
@@ -52759,12 +54271,13 @@ Kenyan Premier League,1963.0,1.0,Nakuru
 Liga Kosovo,2023.0,1.0,Ballkani
 Liga Kosovo,2023.0,2.0,Drita
 Liga Kosovo,2023.0,3.0,Gjilani
-Liga Kosovo,2023.0,4.0,Prishtina
-Liga Kosovo,2023.0,5.0,Malisheva
-Liga Kosovo,2023.0,6.0,Llapi
-Liga Kosovo,2023.0,7.0,Ferizaj
-Liga Kosovo,2023.0,8.0,Trepça 89
-Liga Kosovo,2023.0,9.0,Drenica
+Liga Kosovo,2023.0,4.0,Dukagjini
+Liga Kosovo,2023.0,5.0,Prishtina
+Liga Kosovo,2023.0,6.0,Malisheva
+Liga Kosovo,2023.0,7.0,Llapi
+Liga Kosovo,2023.0,8.0,Ferizaj
+Liga Kosovo,2023.0,9.0,Trepça 89
+Liga Kosovo,2023.0,10.0,Drenica
 Liga Kosovo,2022.0,1.0,Ballkani
 Liga Kosovo,2022.0,2.0,Drita
 Liga Kosovo,2022.0,3.0,Gjilani
@@ -65759,6 +67272,204 @@ Eliteserien,2014.0,13.0,Bodø/Glimt
 Eliteserien,2014.0,14.0,Brann
 Eliteserien,2014.0,15.0,Sogndal
 Eliteserien,2014.0,16.0,Sandnes Ulf
+Olimpic Games,2020.0,1.0,Brazil
+Olimpic Games,2020.0,2.0,Spain
+Olimpic Games,2020.0,3.0,Mexico
+Olimpic Games,2020.0,4.0,Japan
+Olimpic Games,2020.0,5.0,South Korea
+Olimpic Games,2020.0,6.0,New Zealand
+Olimpic Games,2020.0,7.0,Ivory Coast
+Olimpic Games,2020.0,8.0,Egypt
+Olimpic Games,2016.0,1.0,Brazil
+Olimpic Games,2016.0,2.0,Germany
+Olimpic Games,2016.0,3.0,Nigeria
+Olimpic Games,2016.0,4.0,Honduras
+Olimpic Games,2016.0,5.0,South Korea
+Olimpic Games,2016.0,6.0,Portugal
+Olimpic Games,2016.0,7.0,Colombia
+Olimpic Games,2016.0,8.0,Denmark
+Olimpic Games,2012.0,1.0,Mexico
+Olimpic Games,2012.0,2.0,Brazil
+Olimpic Games,2012.0,3.0,South Korea
+Olimpic Games,2012.0,4.0,Japan
+Olimpic Games,2012.0,5.0,England
+Olimpic Games,2012.0,6.0,Senegal
+Olimpic Games,2012.0,7.0,Honduras
+Olimpic Games,2012.0,8.0,Egypt
+Olimpic Games,2008.0,1.0,Argentina
+Olimpic Games,2008.0,2.0,Nigeria
+Olimpic Games,2008.0,3.0,Brazil
+Olimpic Games,2008.0,4.0,Belgium
+Olimpic Games,2008.0,5.0,Italy
+Olimpic Games,2008.0,6.0,Ivory Coast
+Olimpic Games,2008.0,7.0,Netherlands
+Olimpic Games,2008.0,8.0,Cameroon
+Olimpic Games,2004.0,1.0,Argentina
+Olimpic Games,2004.0,2.0,Paraguay
+Olimpic Games,2004.0,3.0,Italy
+Olimpic Games,2004.0,4.0,Iraq
+Olimpic Games,2004.0,5.0,Mali
+Olimpic Games,2004.0,6.0,South Korea
+Olimpic Games,2004.0,7.0,Australia
+Olimpic Games,2004.0,8.0,Costa Rica
+Olimpic Games,2000.0,1.0,Cameroon
+Olimpic Games,2000.0,2.0,Spain
+Olimpic Games,2000.0,3.0,Chile
+Olimpic Games,2000.0,4.0,United States
+Olimpic Games,2000.0,5.0,Italy
+Olimpic Games,2000.0,6.0,Japan
+Olimpic Games,2000.0,7.0,Brazil
+Olimpic Games,2000.0,8.0,Nigeria
+Olimpic Games,1996.0,1.0,Nigeria
+Olimpic Games,1996.0,2.0,Argentina
+Olimpic Games,1996.0,3.0,Brazil
+Olimpic Games,1996.0,4.0,Portugal
+Olimpic Games,1996.0,5.0,France
+Olimpic Games,1996.0,6.0,Spain
+Olimpic Games,1996.0,7.0,Mexico
+Olimpic Games,1996.0,8.0,Ghana
+Olimpic Games,1992.0,1.0,Spain
+Olimpic Games,1992.0,2.0,Poland
+Olimpic Games,1992.0,3.0,Ghana
+Olimpic Games,1992.0,4.0,Australia
+Olimpic Games,1992.0,5.0,Italy
+Olimpic Games,1992.0,6.0,Sweden
+Olimpic Games,1992.0,7.0,Paraguay
+Olimpic Games,1992.0,8.0,Qatar
+Olimpic Games,1988.0,1.0,URSS
+Olimpic Games,1988.0,2.0,Brazil
+Olimpic Games,1988.0,3.0,Germany
+Olimpic Games,1988.0,4.0,Italy
+Olimpic Games,1988.0,5.0,Zambia
+Olimpic Games,1988.0,6.0,Sweden
+Olimpic Games,1988.0,7.0,Australia
+Olimpic Games,1988.0,8.0,Argentina
+Olimpic Games,1984.0,1.0,France
+Olimpic Games,1984.0,2.0,Brazil
+Olimpic Games,1984.0,3.0,Yuguslavia
+Olimpic Games,1984.0,4.0,Italy
+Olimpic Games,1984.0,5.0,Germany
+Olimpic Games,1984.0,6.0,Canada
+Olimpic Games,1984.0,7.0,Chile
+Olimpic Games,1984.0,8.0,Egypt
+Olimpic Games,1980.0,1.0,Czech Republic
+Olimpic Games,1980.0,2.0,DDR
+Olimpic Games,1980.0,3.0,URSS
+Olimpic Games,1980.0,4.0,Yuguslavia
+Olimpic Games,1980.0,5.0,Kuwait
+Olimpic Games,1980.0,6.0,Iraq
+Olimpic Games,1980.0,7.0,Cuba
+Olimpic Games,1980.0,8.0,Algeria
+Olimpic Games,1976.0,1.0,DDR
+Olimpic Games,1976.0,2.0,Poland
+Olimpic Games,1976.0,3.0,URSS
+Olimpic Games,1976.0,4.0,Brazil
+Olimpic Games,1976.0,5.0,France
+Olimpic Games,1976.0,6.0,Israel
+Olimpic Games,1976.0,7.0,Iran
+Olimpic Games,1976.0,8.0,North Korea
+Olimpic Games,1972.0,1.0,Poland
+Olimpic Games,1972.0,2.0,Hungary
+Olimpic Games,1972.0,3.0,DDR
+Olimpic Games,1972.0,4.0,URSS
+Olimpic Games,1972.0,5.0,Germany
+Olimpic Games,1972.0,6.0,Denmark
+Olimpic Games,1972.0,7.0,Mexico
+Olimpic Games,1972.0,8.0,Morocco
+Olimpic Games,1968.0,1.0,Hungary
+Olimpic Games,1968.0,2.0,Bulgaria
+Olimpic Games,1968.0,3.0,Japan
+Olimpic Games,1968.0,4.0,Mexico
+Olimpic Games,1968.0,5.0,Israel
+Olimpic Games,1968.0,6.0,Spain
+Olimpic Games,1968.0,7.0,France
+Olimpic Games,1968.0,8.0,Guatemala
+Olimpic Games,1964.0,1.0,Hungary
+Olimpic Games,1964.0,2.0,Czech Republic
+Olimpic Games,1964.0,3.0,Germany
+Olimpic Games,1964.0,4.0,Egypt
+Olimpic Games,1960.0,1.0,Yuguslavia
+Olimpic Games,1960.0,2.0,Denmark
+Olimpic Games,1960.0,3.0,Hungary
+Olimpic Games,1960.0,4.0,Italy
+Olimpic Games,1956.0,1.0,URSS
+Olimpic Games,1956.0,2.0,Yuguslavia
+Olimpic Games,1956.0,3.0,Bulgaria
+Olimpic Games,1956.0,4.0,India
+Olimpic Games,1952.0,1.0,Hungary
+Olimpic Games,1952.0,2.0,Yuguslavia
+Olimpic Games,1952.0,3.0,Sweden
+Olimpic Games,1952.0,4.0,Germany
+Olimpic Games,1948.0,1.0,Sweden
+Olimpic Games,1948.0,2.0,Yuguslavia
+Olimpic Games,1948.0,3.0,Denmark
+Olimpic Games,1948.0,4.0,England
+Olimpic Games,1936.0,1.0,Italy
+Olimpic Games,1936.0,2.0,Austria
+Olimpic Games,1936.0,3.0,Norway
+Olimpic Games,1936.0,4.0,Poland
+Olimpic Games,1928.0,1.0,Uruguay
+Olimpic Games,1928.0,2.0,Argentina
+Olimpic Games,1928.0,3.0,Italy
+Olimpic Games,1928.0,4.0,Egypt
+Olimpic Games,1928.0,5.0,Germany
+Olimpic Games,1928.0,6.0,Belgium
+Olimpic Games,1928.0,7.0,Spain
+Olimpic Games,1928.0,8.0,Portugal
+Olimpic Games,1928.0,9.0,Netherlands
+Olimpic Games,1928.0,10.0,United States
+Olimpic Games,1928.0,11.0,France
+Olimpic Games,1928.0,12.0,Turkey
+Olimpic Games,1928.0,13.0,Switzerland
+Olimpic Games,1928.0,14.0,Luxembourg
+Olimpic Games,1928.0,15.0,Mexico
+Olimpic Games,1928.0,16.0,Yuguslavia
+Olimpic Games,1924.0,1.0,Uruguay
+Olimpic Games,1924.0,2.0,Switzerland
+Olimpic Games,1924.0,3.0,Sweden
+Olimpic Games,1924.0,4.0,Netherlands
+Olimpic Games,1924.0,5.0,Italy
+Olimpic Games,1924.0,6.0,France
+Olimpic Games,1924.0,7.0,Ireland
+Olimpic Games,1924.0,8.0,Egypt
+Olimpic Games,1924.0,9.0,Czech Republic
+Olimpic Games,1924.0,10.0,Hungary
+Olimpic Games,1924.0,11.0,United States
+Olimpic Games,1924.0,12.0,Bulgaria
+Olimpic Games,1924.0,13.0,Luxembourg
+Olimpic Games,1924.0,14.0,Romania
+Olimpic Games,1924.0,15.0,Latvia
+Olimpic Games,1924.0,16.0,Belgium
+Olimpic Games,1924.0,17.0,Spain
+Olimpic Games,1924.0,18.0,Estonia
+Olimpic Games,1924.0,19.0,Turkey
+Olimpic Games,1924.0,20.0,Poland
+Olimpic Games,1924.0,21.0,Yuguslavia
+Olimpic Games,1924.0,22.0,Lithuania
+Olimpic Games,1920.0,1.0,Belgium
+Olimpic Games,1920.0,2.0,Spain
+Olimpic Games,1920.0,3.0,Netherlands
+Olimpic Games,1920.0,4.0,Italy
+Olimpic Games,1920.0,5.0,Sweden
+Olimpic Games,1920.0,6.0,France
+Olimpic Games,1920.0,7.0,Norway
+Olimpic Games,1920.0,8.0,Egypt
+Olimpic Games,1912.0,1.0,England
+Olimpic Games,1912.0,2.0,Denmark
+Olimpic Games,1912.0,3.0,Netherlands
+Olimpic Games,1912.0,4.0,Finland
+Olimpic Games,1912.0,5.0,Austria
+Olimpic Games,1912.0,6.0,Russia
+Olimpic Games,1912.0,7.0,Hungary
+Olimpic Games,1912.0,8.0,Norway
+Olimpic Games,1912.0,9.0,Sweden
+Olimpic Games,1912.0,10.0,Italy
+Olimpic Games,1912.0,11.0,Germany
+Olimpic Games,1908.0,1.0,England
+Olimpic Games,1908.0,2.0,Denmark
+Olimpic Games,1908.0,3.0,Netherlands
+Olimpic Games,1908.0,4.0,Sweden
+Olimpic Games,1908.0,5.0,France
 Oman Professional League,2022.0,1.0,Al Seeb
 Oman Professional League,2022.0,2.0,Al Nahda Oman
 Oman Professional League,2020.0,1.0,Al Seeb
@@ -96677,9 +98388,18 @@ Yemeni League,1992.0,1.0,Al-Ahli San'a
 Yemeni League,1992.0,2.0,Al-Tilal Aden
 Yemeni League,1992.0,3.0,Al-Shula Aden
 Yemeni League,1991.0,1.0,Al-Tilal Aden
-Zambia Super League,2023.0,1.0,Dynamos FC
+Zambia Super League,2023.0,1.0,Power Dynamos
+Zambia Super League,2023.0,2.0,Maestro United
+Zambia Super League,2023.0,3.0,Zesco United
+Zambia Super League,2023.0,4.0,Green Buffaloes
 Zambia Super League,2022.0,1.0,Red Arrows
+Zambia Super League,2022.0,2.0,Zesco United
+Zambia Super League,2022.0,3.0,Green Eagles
+Zambia Super League,2022.0,4.0,Nkana
 Zambia Super League,2021.0,1.0,Zesco United
+Zambia Super League,2021.0,2.0,Zanaco
+Zambia Super League,2021.0,3.0,Red Arrows
+Zambia Super League,2021.0,4.0,Kabwe Warriors
 Zambia Super League,2020.0,1.0,Nkana
 Zambia Super League,2019.0,1.0,Zesco United
 Zambia Super League,2018.0,1.0,Zesco United
@@ -96719,15 +98439,15 @@ Zambia Super League,1985.0,1.0,Nkana
 Zambia Super League,1984.0,1.0,Power Dynamos
 Zambia Super League,1983.0,1.0,Nkana
 Zambia Super League,1982.0,1.0,Nkana
-Zambia Super League,1981.0,1.0,Green buffaloes
+Zambia Super League,1981.0,1.0,Green Buffaloes
 Zambia Super League,1980.0,1.0,Nchanga Rangers
-Zambia Super League,1979.0,1.0,Green buffaloes
+Zambia Super League,1979.0,1.0,Green Buffaloes
 Zambia Super League,1978.0,1.0,Mufulira Wanderers
-Zambia Super League,1977.0,1.0,Green buffaloes
+Zambia Super League,1977.0,1.0,Green Buffaloes
 Zambia Super League,1976.0,1.0,Mufulira Wanderers
-Zambia Super League,1975.0,1.0,Green buffaloes
-Zambia Super League,1974.0,1.0,Green buffaloes
-Zambia Super League,1973.0,1.0,Green buffaloes
+Zambia Super League,1975.0,1.0,Green Buffaloes
+Zambia Super League,1974.0,1.0,Green Buffaloes
+Zambia Super League,1973.0,1.0,Green Buffaloes
 Zambia Super League,1972.0,1.0,Kabwe Warriors
 Zambia Super League,1971.0,1.0,Kabwe Warriors
 Zambia Super League,1970.0,1.0,Kabwe Warriors
