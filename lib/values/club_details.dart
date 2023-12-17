@@ -59,6 +59,16 @@ class ClubDetails{
       String name = listRows[i][2];
       globalClubDetails[name] = listRows[i];
     }
+
+  }
+
+  String filterLegendsClubs(String clubName){
+    //Flamengo 1981 -> same clubdetails as Flamengo
+    RegExp regex = RegExp(r'\d{4}$');
+    if (regex.hasMatch(clubName)){
+      clubName = clubName.substring(0, -5);
+    }
+    return clubName;
   }
 
   Color convertColors(String color){
@@ -99,6 +109,8 @@ class ClubDetails{
   }
 
   ClubColors getColors(String clubName){
+    clubName = filterLegendsClubs(clubName);
+
     try {
 
       Color primary = convertColors(globalClubDetails[clubName][11]);
@@ -113,6 +125,7 @@ class ClubDetails{
     }
 
   ClubColors getColorsShortsSocks(String clubName){
+    clubName = filterLegendsClubs(clubName);
 
     ClubColors officialColors = getColors(clubName);
 
@@ -147,6 +160,7 @@ class ClubDetails{
   }
 
   String getPattern(String clubName){
+    clubName = filterLegendsClubs(clubName);
     ClubPattern pattern = ClubPattern();
 
     Map tempMap = {};
@@ -177,6 +191,8 @@ class ClubDetails{
   }
 
   Coordinates getCoordinate(String clubName){
+    clubName = filterLegendsClubs(clubName);
+
     try {
       return Coordinates(globalClubDetails[clubName][8], globalClubDetails[clubName][9]);
     }catch(e){
@@ -185,12 +201,18 @@ class ClubDetails{
   }
 
   String getStadium(String clubName){
+    clubName = filterLegendsClubs(clubName);
+
     return globalClubDetails[clubName][6] ?? "";
   }
   int getStadiumCapacity(String clubName){
+    clubName = filterLegendsClubs(clubName);
+
     return globalClubDetails[clubName][7] ?? 0;
   }
   String getStadiumCapacityPointFormat(String clubName){
+    clubName = filterLegendsClubs(clubName);
+
     int capacity = getStadiumCapacity(clubName);
     if(capacity>=100000){
       return capacity.toString()[0]+capacity.toString()[1]+capacity.toString()[2]+'.'+capacity.toString()[3]+capacity.toString()[4]+capacity.toString()[5];
@@ -204,15 +226,18 @@ class ClubDetails{
     return capacity.toString();
   }
   int getFoundationYear(String clubName){
+    clubName = filterLegendsClubs(clubName);
     return globalClubDetails[clubName][4];
   }
   int getExtinto(String clubName){
     return globalClubDetails[clubName][5];
   }
   String getCountry(String clubName){
+    clubName = filterLegendsClubs(clubName);
     return globalClubDetails[clubName][0];
   }
   String getState(String clubName){
+    clubName = filterLegendsClubs(clubName);
     try {
       return globalClubDetails[clubName][1];
     }catch (e) {
@@ -222,10 +247,12 @@ class ClubDetails{
   }
 
   String getContinent(String clubName){
+    clubName = filterLegendsClubs(clubName);
     return Continents().funcCountryContinents(getCountry(clubName));
   }
 
   double getOverall(String clubName){
+    clubName = filterLegendsClubs(clubName);
     try {
       return globalClubDetails[clubName][3];
     }catch(e){
@@ -233,6 +260,7 @@ class ClubDetails{
     }
   }
   List getRivals(String clubName){
+    clubName = filterLegendsClubs(clubName);
     try {
       return globalClubDetails[clubName][15];
     }catch(e){

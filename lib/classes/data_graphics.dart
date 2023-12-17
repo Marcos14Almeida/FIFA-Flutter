@@ -106,11 +106,11 @@ class DataGraphics{
     calculatePoints();
     //historico estadual
     if(state.isNotEmpty) {
-      defineHistoricEstadual(clubName, state);
+      await defineHistoricEstadual(clubName, state);
       participationsEstadual();
     }
     //historico copas
-    defineHistoricCups(clubName);
+    await defineHistoricCups(clubName);
     participationsCups();
 
 
@@ -139,8 +139,10 @@ class DataGraphics{
     calculatePoints();
 
     //historico copas
-    defineHistoricCups(club.name);
+    await defineHistoricCups(club.name);
+    print('aqio');
     participationsCups();
+    print(nTitulosCups);
 
     //historico internacional
     defineSimulationClassificationInternational(club);
@@ -290,7 +292,7 @@ class DataGraphics{
   /////////////////////////////////////////////////////////////////////////////
   // ESTADUAL
   ////////////////////////////////////////////////////////////////////////////
-  void defineHistoricEstadual(String clubName, String state) async{
+  defineHistoricEstadual(String clubName, String state) async{
     String stateLeague = getLeagueNationalityMap().keys.firstWhere((k) => getLeagueNationalityMap()[k] == state, orElse: () => null);
 
     //para cada ano
@@ -320,7 +322,7 @@ class DataGraphics{
   /////////////////////////////////////////////////////////////////////////////
   // COPAS
   ////////////////////////////////////////////////////////////////////////////
-  void defineHistoricCups(String clubName) async{
+  defineHistoricCups(String clubName) async{
     cupName = getCup(leagueName);
 
     //para cada ano

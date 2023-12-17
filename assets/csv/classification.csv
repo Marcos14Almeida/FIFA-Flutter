@@ -170,7 +170,7 @@ Acre,1969.0,1.0,Juventus AC
 Acre,1969.0,2.0,Independência
 Acre,1968.0,1.0,Atlético Acreano
 Acre,1968.0,2.0,Juventus AC
-Acre,1967.0,1.0,Grêmio Samapio
+Acre,1967.0,1.0,Grêmio Sampaio
 Acre,1967.0,2.0,Vasco AC
 Acre,1966.0,1.0,Juventus AC
 Acre,1966.0,2.0,Independência
@@ -6594,244 +6594,186 @@ Liga Ásia,1967.0,1.0,Hapoel Tel Aviv
 Liga Ásia,1967.0,2.0,Selangor
 Liga Ásia,1967.0,3.0,Korea Tungsten Company
 Liga Ásia,1967.0,4.0,Bangkok Bank
-A-League,2004.0,1.0,Perth Glory
-A-League,2004.0,2.0,Parramatta Power
-A-League,2004.0,3.0,Adelaide United
-A-League,2004.0,4.0,Marconi Stallions
-A-League,2004.0,5.0,South Melbourne
-A-League,2003.0,1.0,Perth Glory
-A-League,2003.0,2.0,Sydney Olympic
-A-League,2003.0,3.0,Adelaide City
-A-League,2003.0,4.0,Parramatta Power
-A-League,2002.0,1.0,Sydney Olympic
-A-League,2002.0,2.0,Perth Glory
-A-League,2001.0,1.0,Wollongong Wolves
-A-League,2001.0,2.0,South Melbourne
-A-League,2000.0,1.0,Wollongong Wolves
-A-League,2000.0,2.0,Perth Glory
-A-League,1999.0,1.0,South Melbourne
-A-League,1999.0,2.0,Sydney United
-A-League,1998.0,1.0,South Melbourne
-A-League,1998.0,2.0,Carlton
-A-League,1997.0,1.0,Brisbane Strikers
-A-League,1997.0,2.0,Sydney United
-A-League,1996.0,1.0,Melbourne Knights
-A-League,1996.0,2.0,Marconi Stallions
-A-League,1995.0,1.0,Melbourne Knights
-A-League,1995.0,2.0,Adelaide City
-A-League,1994.0,1.0,Adelaide City
-A-League,1994.0,2.0,Melbourne Knights
-A-League,1993.0,1.0,Marconi Stallions
-A-League,1993.0,2.0,Adelaide City
-A-League,1992.0,1.0,Adelaide City
-A-League,1992.0,2.0,Melbourne Knights
-A-League,1991.0,1.0,South Melbourne
-A-League,1991.0,2.0,Melbourne Knights
-A-League,1990.0,1.0,Sydney Olympic
-A-League,1990.0,2.0,Marconi Stallions
-A-League,1989.0,1.0,Marconi Stallions
-A-League,1989.0,2.0,Sydney Olympic
-A-League,1988.0,1.0,Marconi Stallions
-A-League,1988.0,2.0,Sydney United
-A-League,1987.0,1.0,APIA Leichhardt
-A-League,1987.0,2.0,Preston Lions
-A-League,1986.0,1.0,Adelaide City
-A-League,1986.0,2.0,Sydney Olympic
-A-League,1985.0,1.0,Brunswick Juventus
-A-League,1985.0,2.0,Maccabi Hakoah Sydney City
-A-League,1984.0,1.0,South Melbourne
-A-League,1984.0,2.0,Sydney Olympic
-A-League,1983.0,1.0,St. George
-A-League,1983.0,2.0,Maccabi Hakoah Sydney City
-A-League,1982.0,1.0,Maccabi Hakoah Sydney City
-A-League,1982.0,2.0,St. George
-A-League,1981.0,1.0,Maccabi Hakoah Sydney City
-A-League,1980.0,1.0,Maccabi Hakoah Sydney City
-A-League,1979.0,1.0,Marconi Stallions
-A-League,1978.0,1.0,West Adelaide
-A-League,1978.0,2.0,Maccabi Hakoah Sydney City
-A-League,1977.0,1.0,Maccabi Hakoah Sydney City
-A-League,1977.0,2.0,Marconi Stallions
 A-League,2023.0,1.0,Central Coast Mariners
-A-League,2023.0,2.0,Melbourne City
-A-League,2023.0,3.0,Adelaide United
-A-League,2023.0,4.0,Sydney Wanderers
-A-League,2023.0,5.0,Sydney FC
-A-League,2023.0,6.0,Wellington Phoenix
-A-League,2023.0,7.0,Western United
-A-League,2023.0,8.0,Brisbane Roar
-A-League,2023.0,9.0,Perth Glory
-A-League,2023.0,10.0,Newcastle Jets
-A-League,2023.0,11.0,Melbourne Victory
-A-League,2023.0,12.0,Macarthur FC
-A-League,2022.0,1.0,Western United
-A-League,2022.0,2.0,Melbourne City
-A-League,2022.0,3.0,Melbourne Victory
-A-League,2022.0,4.0,Adelaide United
-A-League,2022.0,5.0,Central Coast Mariners
-A-League,2022.0,6.0,Wellington Phoenix
-A-League,2022.0,7.0,Macarthur FC
-A-League,2022.0,8.0,Sydney FC
-A-League,2022.0,9.0,Newcastle Jets
-A-League,2022.0,10.0,Sydney Wanderers
-A-League,2022.0,11.0,Brisbane Roar
-A-League,2022.0,12.0,Perth Glory
-A-League,2021.0,1.0,Melbourne City
-A-League,2021.0,2.0,Sydney FC
-A-League,2021.0,3.0,Macarthur FC
-A-League,2021.0,4.0,Adelaide United
-A-League,2021.0,5.0,Central Coast Mariners
-A-League,2021.0,6.0,Brisbane Roar
-A-League,2021.0,7.0,Wellington Phoenix
-A-League,2021.0,8.0,Sydney Wanderers
-A-League,2021.0,9.0,Perth Glory
-A-League,2021.0,10.0,Western United
-A-League,2021.0,11.0,Newcastle Jets
-A-League,2021.0,12.0,Melbourne Victory
-A-League,2020.0,1.0,Sydney FC
-A-League,2020.0,2.0,Melbourne City
-A-League,2020.0,3.0,Perth Glory
-A-League,2020.0,4.0,Western United
-A-League,2020.0,5.0,Wellington Phoenix
-A-League,2020.0,6.0,Brisbane Roar
-A-League,2020.0,7.0,Adelaide United
-A-League,2020.0,8.0,Newcastle Jets
-A-League,2020.0,9.0,Sydney Wanderers
-A-League,2020.0,10.0,Melbourne Victory
-A-League,2020.0,11.0,Central Coast Mariners
-A-League,2019.0,1.0,Sydney FC
-A-League,2019.0,2.0,Perth Glory
-A-League,2019.0,3.0,Melbourne Victory
-A-League,2019.0,4.0,Adelaide United
-A-League,2019.0,5.0,Melbourne City
-A-League,2019.0,6.0,Wellington Phoenix
-A-League,2019.0,7.0,Newcastle Jets
-A-League,2019.0,8.0,Sydney Wanderers
-A-League,2019.0,9.0,Brisbane Roar
-A-League,2019.0,10.0,Central Coast Mariners
 A-League,2018.0,1.0,Melbourne Victory
-A-League,2018.0,2.0,Newcastle Jets
-A-League,2018.0,3.0,Sydney FC
-A-League,2018.0,4.0,Melbourne City
-A-League,2018.0,5.0,Adelaide United
-A-League,2018.0,6.0,Brisbane Roar
-A-League,2018.0,7.0,Sydney Wanderers
-A-League,2018.0,8.0,Perth Glory
-A-League,2018.0,9.0,Wellington Phoenix
-A-League,2018.0,10.0,Central Coast Mariners
 A-League,2013.0,1.0,Central Coast Mariners
-A-League,2013.0,2.0,Sydney Wanderers
-A-League,2013.0,3.0,Melbourne Victory
-A-League,2013.0,4.0,Adelaide United
-A-League,2013.0,5.0,Brisbane Roar
-A-League,2013.0,6.0,Perth Glory
-A-League,2013.0,7.0,Sydney FC
-A-League,2013.0,8.0,Newcastle Jets
-A-League,2013.0,9.0,Melbourne City
-A-League,2013.0,10.0,Wellington Phoenix
 A-League,2012.0,1.0,Brisbane Roar
-A-League,2012.0,2.0,Perth Glory
-A-League,2012.0,3.0,Central Coast Mariners
-A-League,2012.0,4.0,Wellington Phoenix
-A-League,2012.0,5.0,Sydney FC
-A-League,2012.0,6.0,Melbourne City
-A-League,2012.0,7.0,Newcastle Jets
-A-League,2012.0,8.0,Melbourne Victory
-A-League,2012.0,9.0,Adelaide United
-A-League,2012.0,10.0,Gold Coast
+A-League,2020.0,1.0,Sydney FC
 A-League,2008.0,1.0,Newcastle Jets
-A-League,2008.0,2.0,Central Coast Mariners
-A-League,2008.0,3.0,Sydney FC
-A-League,2008.0,4.0,Brisbane Roar
-A-League,2008.0,5.0,Melbourne Victory
-A-League,2008.0,6.0,Adelaide United
-A-League,2008.0,7.0,Perth Glory
-A-League,2008.0,8.0,Wellington Phoenix
 A-League,2006.0,1.0,Sydney FC
-A-League,2006.0,2.0,Central Coast Mariners
-A-League,2006.0,3.0,Adelaide United
-A-League,2006.0,4.0,Newcastle Jets
-A-League,2006.0,5.0,Perth Glory
-A-League,2006.0,6.0,Brisbane Roar
-A-League,2006.0,7.0,Melbourne Victory
-A-League,2006.0,8.0,New Zealand Knights
 A-League,2017.0,1.0,Sydney FC
-A-League,2017.0,2.0,Melbourne Victory
-A-League,2017.0,3.0,Brisbane Roar
-A-League,2017.0,4.0,Melbourne City
-A-League,2017.0,5.0,Perth Glory
-A-League,2017.0,6.0,Sydney Wanderers
-A-League,2017.0,7.0,Wellington Phoenix
-A-League,2017.0,8.0,Central Coast Mariners
-A-League,2017.0,9.0,Adelaide United
-A-League,2017.0,10.0,Newcastle Jets
 A-League,2016.0,1.0,Adelaide United
-A-League,2016.0,2.0,Sydney Wanderers
-A-League,2016.0,3.0,Brisbane Roar
-A-League,2016.0,4.0,Melbourne City
-A-League,2016.0,5.0,Perth Glory
-A-League,2016.0,6.0,Melbourne Victory
-A-League,2016.0,7.0,Sydney FC
-A-League,2016.0,8.0,Newcastle Jets
-A-League,2016.0,9.0,Wellington Phoenix
-A-League,2016.0,10.0,Central Coast Mariners
+A-League,2019.0,1.0,Sydney FC
 A-League,2015.0,1.0,Melbourne Victory
-A-League,2015.0,2.0,Sydney FC
-A-League,2015.0,3.0,Adelaide United
-A-League,2015.0,4.0,Wellington Phoenix
-A-League,2015.0,5.0,Melbourne City
-A-League,2015.0,6.0,Brisbane Roar
-A-League,2015.0,7.0,Perth Glory
-A-League,2015.0,8.0,Central Coast Mariners
-A-League,2015.0,9.0,Sydney Wanderers
-A-League,2015.0,10.0,Newcastle Jets
 A-League,2014.0,1.0,Brisbane Roar
-A-League,2014.0,2.0,Sydney Wanderers
-A-League,2014.0,3.0,Central Coast Mariners
-A-League,2014.0,4.0,Melbourne Victory
-A-League,2014.0,5.0,Sydney FC
-A-League,2014.0,6.0,Adelaide United
-A-League,2014.0,7.0,Newcastle Jets
-A-League,2014.0,8.0,Perth Glory
-A-League,2014.0,9.0,Wellington Phoenix
-A-League,2014.0,10.0,Melbourne City
 A-League,2011.0,1.0,Brisbane Roar
-A-League,2011.0,2.0,Central Coast Mariners
-A-League,2011.0,3.0,Adelaide United
-A-League,2011.0,4.0,Gold Coast
-A-League,2011.0,5.0,Melbourne Victory
-A-League,2011.0,6.0,Wellington Phoenix
-A-League,2011.0,7.0,Newcastle Jets
-A-League,2011.0,8.0,Melbourne City
-A-League,2011.0,9.0,Sydney FC
-A-League,2011.0,10.0,Perth Glory
-A-League,2011.0,11.0,North Queensland Fury
+A-League,2021.0,1.0,Melbourne City
+A-League,2022.0,1.0,Western United
 A-League,2010.0,1.0,Sydney FC
-A-League,2010.0,2.0,Melbourne Victory
-A-League,2010.0,3.0,Gold Coast
-A-League,2010.0,4.0,Wellington Phoenix
-A-League,2010.0,5.0,Perth Glory
-A-League,2010.0,6.0,Newcastle Jets
-A-League,2010.0,7.0,North Queensland Fury
-A-League,2010.0,8.0,Central Coast Mariners
-A-League,2010.0,9.0,Brisbane Roar
-A-League,2010.0,10.0,Adelaide United
-A-League,2009.0,1.0,Melbourne Victory
-A-League,2009.0,2.0,Adelaide United
-A-League,2009.0,3.0,Brisbane Roar
-A-League,2009.0,4.0,Central Coast Mariners
-A-League,2009.0,5.0,Sydney FC
-A-League,2009.0,6.0,Wellington Phoenix
-A-League,2009.0,7.0,Perth Glory
-A-League,2009.0,8.0,Newcastle Jets
 A-League,2007.0,1.0,Melbourne Victory
+A-League,2009.0,1.0,Melbourne Victory
+A-League,2011.0,2.0,Central Coast Mariners
+A-League,2023.0,2.0,Melbourne City
+A-League,2018.0,2.0,Newcastle Jets
+A-League,2013.0,2.0,Sydney Wanderers
 A-League,2007.0,2.0,Adelaide United
+A-League,2012.0,2.0,Perth Glory
+A-League,2020.0,2.0,Melbourne City
+A-League,2008.0,2.0,Central Coast Mariners
+A-League,2009.0,2.0,Adelaide United
+A-League,2022.0,2.0,Melbourne City
+A-League,2006.0,2.0,Central Coast Mariners
+A-League,2015.0,2.0,Sydney FC
+A-League,2014.0,2.0,Sydney Wanderers
+A-League,2017.0,2.0,Melbourne Victory
+A-League,2016.0,2.0,Sydney Wanderers
+A-League,2019.0,2.0,Perth Glory
+A-League,2021.0,2.0,Sydney FC
+A-League,2010.0,2.0,Melbourne Victory
+A-League,2009.0,3.0,Brisbane Roar
+A-League,2012.0,3.0,Central Coast Mariners
+A-League,2016.0,3.0,Brisbane Roar
+A-League,2010.0,3.0,Gold Coast
+A-League,2015.0,3.0,Adelaide United
+A-League,2013.0,3.0,Melbourne Victory
+A-League,2011.0,3.0,Adelaide United
 A-League,2007.0,3.0,Newcastle Jets
+A-League,2018.0,3.0,Sydney FC
+A-League,2006.0,3.0,Adelaide United
+A-League,2014.0,3.0,Central Coast Mariners
+A-League,2019.0,3.0,Melbourne Victory
+A-League,2017.0,3.0,Brisbane Roar
+A-League,2008.0,3.0,Sydney FC
+A-League,2020.0,3.0,Perth Glory
+A-League,2021.0,3.0,Macarthur FC
+A-League,2022.0,3.0,Melbourne Victory
+A-League,2023.0,3.0,Adelaide United
+A-League,2019.0,4.0,Adelaide United
+A-League,2020.0,4.0,Western United
+A-League,2012.0,4.0,Wellington Phoenix
+A-League,2010.0,4.0,Wellington Phoenix
+A-League,2006.0,4.0,Newcastle Jets
+A-League,2021.0,4.0,Adelaide United
+A-League,2011.0,4.0,Gold Coast
+A-League,2009.0,4.0,Central Coast Mariners
+A-League,2022.0,4.0,Adelaide United
+A-League,2016.0,4.0,Melbourne City
+A-League,2014.0,4.0,Melbourne Victory
+A-League,2015.0,4.0,Wellington Phoenix
+A-League,2017.0,4.0,Melbourne City
+A-League,2013.0,4.0,Adelaide United
+A-League,2008.0,4.0,Brisbane Roar
+A-League,2023.0,4.0,Sydney Wanderers
+A-League,2018.0,4.0,Melbourne City
 A-League,2007.0,4.0,Sydney FC
+A-League,2018.0,5.0,Adelaide United
+A-League,2021.0,5.0,Central Coast Mariners
+A-League,2023.0,5.0,Sydney FC
+A-League,2017.0,5.0,Perth Glory
+A-League,2011.0,5.0,Melbourne Victory
+A-League,2020.0,5.0,Wellington Phoenix
 A-League,2007.0,5.0,Brisbane Roar
+A-League,2016.0,5.0,Perth Glory
+A-League,2014.0,5.0,Sydney FC
+A-League,2022.0,5.0,Central Coast Mariners
+A-League,2019.0,5.0,Melbourne City
+A-League,2015.0,5.0,Melbourne City
+A-League,2008.0,5.0,Melbourne Victory
+A-League,2010.0,5.0,Perth Glory
+A-League,2006.0,5.0,Perth Glory
+A-League,2013.0,5.0,Brisbane Roar
+A-League,2009.0,5.0,Sydney FC
+A-League,2012.0,5.0,Sydney FC
+A-League,2010.0,6.0,Newcastle Jets
+A-League,2015.0,6.0,Brisbane Roar
+A-League,2022.0,6.0,Wellington Phoenix
+A-League,2013.0,6.0,Perth Glory
+A-League,2019.0,6.0,Wellington Phoenix
+A-League,2014.0,6.0,Adelaide United
+A-League,2016.0,6.0,Melbourne Victory
 A-League,2007.0,6.0,Central Coast Mariners
+A-League,2009.0,6.0,Wellington Phoenix
+A-League,2023.0,6.0,Wellington Phoenix
+A-League,2012.0,6.0,Melbourne City
+A-League,2021.0,6.0,Brisbane Roar
+A-League,2017.0,6.0,Sydney Wanderers
+A-League,2006.0,6.0,Brisbane Roar
+A-League,2020.0,6.0,Brisbane Roar
+A-League,2008.0,6.0,Adelaide United
+A-League,2018.0,6.0,Brisbane Roar
+A-League,2011.0,6.0,Wellington Phoenix
+A-League,2006.0,7.0,Melbourne Victory
+A-League,2020.0,7.0,Adelaide United
 A-League,2007.0,7.0,Perth Glory
+A-League,2015.0,7.0,Perth Glory
+A-League,2013.0,7.0,Sydney FC
+A-League,2008.0,7.0,Perth Glory
+A-League,2014.0,7.0,Newcastle Jets
+A-League,2016.0,7.0,Sydney FC
+A-League,2019.0,7.0,Newcastle Jets
+A-League,2011.0,7.0,Newcastle Jets
+A-League,2021.0,7.0,Wellington Phoenix
+A-League,2012.0,7.0,Newcastle Jets
+A-League,2009.0,7.0,Perth Glory
+A-League,2017.0,7.0,Wellington Phoenix
+A-League,2010.0,7.0,North Queensland Fury
+A-League,2023.0,7.0,Western United
+A-League,2018.0,7.0,Sydney Wanderers
+A-League,2022.0,7.0,Macarthur FC
+A-League,2011.0,8.0,Melbourne City
+A-League,2009.0,8.0,Newcastle Jets
+A-League,2023.0,8.0,Brisbane Roar
+A-League,2010.0,8.0,Central Coast Mariners
+A-League,2014.0,8.0,Perth Glory
 A-League,2007.0,8.0,New Zealand Knights
+A-League,2017.0,8.0,Central Coast Mariners
+A-League,2018.0,8.0,Perth Glory
+A-League,2020.0,8.0,Newcastle Jets
+A-League,2013.0,8.0,Newcastle Jets
+A-League,2006.0,8.0,New Zealand Knights
+A-League,2016.0,8.0,Newcastle Jets
+A-League,2021.0,8.0,Sydney Wanderers
+A-League,2019.0,8.0,Sydney Wanderers
+A-League,2012.0,8.0,Melbourne Victory
+A-League,2022.0,8.0,Sydney FC
+A-League,2015.0,8.0,Central Coast Mariners
+A-League,2008.0,8.0,Wellington Phoenix
+A-League,2013.0,9.0,Melbourne City
+A-League,2015.0,9.0,Sydney Wanderers
+A-League,2018.0,9.0,Wellington Phoenix
+A-League,2011.0,9.0,Sydney FC
+A-League,2021.0,9.0,Perth Glory
+A-League,2023.0,9.0,Perth Glory
+A-League,2010.0,9.0,Brisbane Roar
+A-League,2017.0,9.0,Adelaide United
+A-League,2020.0,9.0,Sydney Wanderers
+A-League,2014.0,9.0,Wellington Phoenix
+A-League,2016.0,9.0,Wellington Phoenix
+A-League,2019.0,9.0,Brisbane Roar
+A-League,2022.0,9.0,Newcastle Jets
+A-League,2012.0,9.0,Adelaide United
+A-League,2018.0,10.0,Central Coast Mariners
+A-League,2020.0,10.0,Melbourne Victory
+A-League,2019.0,10.0,Central Coast Mariners
+A-League,2013.0,10.0,Wellington Phoenix
+A-League,2015.0,10.0,Newcastle Jets
+A-League,2023.0,10.0,Newcastle Jets
+A-League,2012.0,10.0,Gold Coast
+A-League,2021.0,10.0,Western United
+A-League,2011.0,10.0,Perth Glory
+A-League,2017.0,10.0,Newcastle Jets
+A-League,2014.0,10.0,Melbourne City
+A-League,2016.0,10.0,Central Coast Mariners
+A-League,2022.0,10.0,Sydney Wanderers
+A-League,2010.0,10.0,Adelaide United
+A-League,2021.0,11.0,Newcastle Jets
+A-League,2023.0,11.0,Melbourne Victory
+A-League,2011.0,11.0,North Queensland Fury
+A-League,2020.0,11.0,Central Coast Mariners
+A-League,2022.0,11.0,Brisbane Roar
+A-League,2021.0,12.0,Melbourne Victory
+A-League,2023.0,12.0,Macarthur FC
+A-League,2022.0,12.0,Perth Glory
 Austrian Football Bundesliga,1950.0,1.0,Austria Viena
 Austrian Football Bundesliga,1950.0,2.0,Rapid Wien
 Austrian Football Bundesliga,1950.0,3.0,Wacker Innsbruck
@@ -25349,21 +25291,20 @@ World Cup,1990.0,7.0,Cameroon
 World Cup,1990.0,8.0,Ireland
 World Cup,1990.0,9.0,Brazil
 World Cup,1990.0,10.0,Spain
-World Cup,1990.0,11.0,Spain
-World Cup,1990.0,12.0,Romania
-World Cup,1990.0,13.0,Belgium
-World Cup,1990.0,14.0,Costa Rica
-World Cup,1990.0,15.0,Netherlands
-World Cup,1990.0,16.0,Colombia
-World Cup,1990.0,17.0,Uruguay
-World Cup,1990.0,18.0,URSS
-World Cup,1990.0,19.0,Austria
-World Cup,1990.0,20.0,Scotland
-World Cup,1990.0,21.0,Egypt
-World Cup,1990.0,22.0,Sweden
-World Cup,1990.0,23.0,South Korea
-World Cup,1990.0,24.0,United States
-World Cup,1990.0,25.0,United Arab Emirates
+World Cup,1990.0,11.0,Romania
+World Cup,1990.0,12.0,Belgium
+World Cup,1990.0,13.0,Costa Rica
+World Cup,1990.0,14.0,Netherlands
+World Cup,1990.0,15.0,Colombia
+World Cup,1990.0,16.0,Uruguay
+World Cup,1990.0,17.0,URSS
+World Cup,1990.0,18.0,Austria
+World Cup,1990.0,19.0,Scotland
+World Cup,1990.0,20.0,Egypt
+World Cup,1990.0,21.0,Sweden
+World Cup,1990.0,22.0,South Korea
+World Cup,1990.0,23.0,United States
+World Cup,1990.0,24.0,United Arab Emirates
 World Cup,1986.0,1.0,Argentina
 World Cup,1986.0,2.0,Germany
 World Cup,1986.0,3.0,France
@@ -42129,9 +42070,9 @@ Ghana Premier League,2000.0,1.0,Hearts Of Oak
 Ghana Premier League,1999.0,1.0,Hearts Of Oak
 Ghana Premier League,1998.0,1.0,Hearts Of Oak
 Ghana Premier League,1997.0,1.0,Hearts Of Oak
-Ghana Premier League,1996.0,1.0,Goldfields
-Ghana Premier League,1995.0,1.0,Goldfields
-Ghana Premier League,1994.0,1.0,Goldfields
+Ghana Premier League,1996.0,1.0,Ashanti Gold
+Ghana Premier League,1995.0,1.0,Ashanti Gold
+Ghana Premier League,1994.0,1.0,Ashanti Gold
 Ghana Premier League,1993.0,1.0,Asante Kotoko
 Ghana Premier League,1992.0,1.0,Asante Kotoko
 Ghana Premier League,1991.0,1.0,Asante Kotoko
@@ -67272,204 +67213,204 @@ Eliteserien,2014.0,13.0,Bodø/Glimt
 Eliteserien,2014.0,14.0,Brann
 Eliteserien,2014.0,15.0,Sogndal
 Eliteserien,2014.0,16.0,Sandnes Ulf
-Olimpic Games,2020.0,1.0,Brazil
-Olimpic Games,2020.0,2.0,Spain
-Olimpic Games,2020.0,3.0,Mexico
-Olimpic Games,2020.0,4.0,Japan
-Olimpic Games,2020.0,5.0,South Korea
-Olimpic Games,2020.0,6.0,New Zealand
-Olimpic Games,2020.0,7.0,Ivory Coast
-Olimpic Games,2020.0,8.0,Egypt
-Olimpic Games,2016.0,1.0,Brazil
-Olimpic Games,2016.0,2.0,Germany
-Olimpic Games,2016.0,3.0,Nigeria
-Olimpic Games,2016.0,4.0,Honduras
-Olimpic Games,2016.0,5.0,South Korea
-Olimpic Games,2016.0,6.0,Portugal
-Olimpic Games,2016.0,7.0,Colombia
-Olimpic Games,2016.0,8.0,Denmark
-Olimpic Games,2012.0,1.0,Mexico
-Olimpic Games,2012.0,2.0,Brazil
-Olimpic Games,2012.0,3.0,South Korea
-Olimpic Games,2012.0,4.0,Japan
-Olimpic Games,2012.0,5.0,England
-Olimpic Games,2012.0,6.0,Senegal
-Olimpic Games,2012.0,7.0,Honduras
-Olimpic Games,2012.0,8.0,Egypt
-Olimpic Games,2008.0,1.0,Argentina
-Olimpic Games,2008.0,2.0,Nigeria
-Olimpic Games,2008.0,3.0,Brazil
-Olimpic Games,2008.0,4.0,Belgium
-Olimpic Games,2008.0,5.0,Italy
-Olimpic Games,2008.0,6.0,Ivory Coast
-Olimpic Games,2008.0,7.0,Netherlands
-Olimpic Games,2008.0,8.0,Cameroon
-Olimpic Games,2004.0,1.0,Argentina
-Olimpic Games,2004.0,2.0,Paraguay
-Olimpic Games,2004.0,3.0,Italy
-Olimpic Games,2004.0,4.0,Iraq
-Olimpic Games,2004.0,5.0,Mali
-Olimpic Games,2004.0,6.0,South Korea
-Olimpic Games,2004.0,7.0,Australia
-Olimpic Games,2004.0,8.0,Costa Rica
-Olimpic Games,2000.0,1.0,Cameroon
-Olimpic Games,2000.0,2.0,Spain
-Olimpic Games,2000.0,3.0,Chile
-Olimpic Games,2000.0,4.0,United States
-Olimpic Games,2000.0,5.0,Italy
-Olimpic Games,2000.0,6.0,Japan
-Olimpic Games,2000.0,7.0,Brazil
-Olimpic Games,2000.0,8.0,Nigeria
-Olimpic Games,1996.0,1.0,Nigeria
-Olimpic Games,1996.0,2.0,Argentina
-Olimpic Games,1996.0,3.0,Brazil
-Olimpic Games,1996.0,4.0,Portugal
-Olimpic Games,1996.0,5.0,France
-Olimpic Games,1996.0,6.0,Spain
-Olimpic Games,1996.0,7.0,Mexico
-Olimpic Games,1996.0,8.0,Ghana
-Olimpic Games,1992.0,1.0,Spain
-Olimpic Games,1992.0,2.0,Poland
-Olimpic Games,1992.0,3.0,Ghana
-Olimpic Games,1992.0,4.0,Australia
-Olimpic Games,1992.0,5.0,Italy
-Olimpic Games,1992.0,6.0,Sweden
-Olimpic Games,1992.0,7.0,Paraguay
-Olimpic Games,1992.0,8.0,Qatar
-Olimpic Games,1988.0,1.0,URSS
-Olimpic Games,1988.0,2.0,Brazil
-Olimpic Games,1988.0,3.0,Germany
-Olimpic Games,1988.0,4.0,Italy
-Olimpic Games,1988.0,5.0,Zambia
-Olimpic Games,1988.0,6.0,Sweden
-Olimpic Games,1988.0,7.0,Australia
-Olimpic Games,1988.0,8.0,Argentina
-Olimpic Games,1984.0,1.0,France
-Olimpic Games,1984.0,2.0,Brazil
-Olimpic Games,1984.0,3.0,Yuguslavia
-Olimpic Games,1984.0,4.0,Italy
-Olimpic Games,1984.0,5.0,Germany
-Olimpic Games,1984.0,6.0,Canada
-Olimpic Games,1984.0,7.0,Chile
-Olimpic Games,1984.0,8.0,Egypt
-Olimpic Games,1980.0,1.0,Czech Republic
-Olimpic Games,1980.0,2.0,DDR
-Olimpic Games,1980.0,3.0,URSS
-Olimpic Games,1980.0,4.0,Yuguslavia
-Olimpic Games,1980.0,5.0,Kuwait
-Olimpic Games,1980.0,6.0,Iraq
-Olimpic Games,1980.0,7.0,Cuba
-Olimpic Games,1980.0,8.0,Algeria
-Olimpic Games,1976.0,1.0,DDR
-Olimpic Games,1976.0,2.0,Poland
-Olimpic Games,1976.0,3.0,URSS
-Olimpic Games,1976.0,4.0,Brazil
-Olimpic Games,1976.0,5.0,France
-Olimpic Games,1976.0,6.0,Israel
-Olimpic Games,1976.0,7.0,Iran
-Olimpic Games,1976.0,8.0,North Korea
-Olimpic Games,1972.0,1.0,Poland
-Olimpic Games,1972.0,2.0,Hungary
-Olimpic Games,1972.0,3.0,DDR
-Olimpic Games,1972.0,4.0,URSS
-Olimpic Games,1972.0,5.0,Germany
-Olimpic Games,1972.0,6.0,Denmark
-Olimpic Games,1972.0,7.0,Mexico
-Olimpic Games,1972.0,8.0,Morocco
-Olimpic Games,1968.0,1.0,Hungary
-Olimpic Games,1968.0,2.0,Bulgaria
-Olimpic Games,1968.0,3.0,Japan
-Olimpic Games,1968.0,4.0,Mexico
-Olimpic Games,1968.0,5.0,Israel
-Olimpic Games,1968.0,6.0,Spain
-Olimpic Games,1968.0,7.0,France
-Olimpic Games,1968.0,8.0,Guatemala
-Olimpic Games,1964.0,1.0,Hungary
-Olimpic Games,1964.0,2.0,Czech Republic
-Olimpic Games,1964.0,3.0,Germany
-Olimpic Games,1964.0,4.0,Egypt
-Olimpic Games,1960.0,1.0,Yuguslavia
-Olimpic Games,1960.0,2.0,Denmark
-Olimpic Games,1960.0,3.0,Hungary
-Olimpic Games,1960.0,4.0,Italy
-Olimpic Games,1956.0,1.0,URSS
-Olimpic Games,1956.0,2.0,Yuguslavia
-Olimpic Games,1956.0,3.0,Bulgaria
-Olimpic Games,1956.0,4.0,India
-Olimpic Games,1952.0,1.0,Hungary
-Olimpic Games,1952.0,2.0,Yuguslavia
-Olimpic Games,1952.0,3.0,Sweden
-Olimpic Games,1952.0,4.0,Germany
-Olimpic Games,1948.0,1.0,Sweden
-Olimpic Games,1948.0,2.0,Yuguslavia
-Olimpic Games,1948.0,3.0,Denmark
-Olimpic Games,1948.0,4.0,England
-Olimpic Games,1936.0,1.0,Italy
-Olimpic Games,1936.0,2.0,Austria
-Olimpic Games,1936.0,3.0,Norway
-Olimpic Games,1936.0,4.0,Poland
-Olimpic Games,1928.0,1.0,Uruguay
-Olimpic Games,1928.0,2.0,Argentina
-Olimpic Games,1928.0,3.0,Italy
-Olimpic Games,1928.0,4.0,Egypt
-Olimpic Games,1928.0,5.0,Germany
-Olimpic Games,1928.0,6.0,Belgium
-Olimpic Games,1928.0,7.0,Spain
-Olimpic Games,1928.0,8.0,Portugal
-Olimpic Games,1928.0,9.0,Netherlands
-Olimpic Games,1928.0,10.0,United States
-Olimpic Games,1928.0,11.0,France
-Olimpic Games,1928.0,12.0,Turkey
-Olimpic Games,1928.0,13.0,Switzerland
-Olimpic Games,1928.0,14.0,Luxembourg
-Olimpic Games,1928.0,15.0,Mexico
-Olimpic Games,1928.0,16.0,Yuguslavia
-Olimpic Games,1924.0,1.0,Uruguay
-Olimpic Games,1924.0,2.0,Switzerland
-Olimpic Games,1924.0,3.0,Sweden
-Olimpic Games,1924.0,4.0,Netherlands
-Olimpic Games,1924.0,5.0,Italy
-Olimpic Games,1924.0,6.0,France
-Olimpic Games,1924.0,7.0,Ireland
-Olimpic Games,1924.0,8.0,Egypt
-Olimpic Games,1924.0,9.0,Czech Republic
-Olimpic Games,1924.0,10.0,Hungary
-Olimpic Games,1924.0,11.0,United States
-Olimpic Games,1924.0,12.0,Bulgaria
-Olimpic Games,1924.0,13.0,Luxembourg
-Olimpic Games,1924.0,14.0,Romania
-Olimpic Games,1924.0,15.0,Latvia
-Olimpic Games,1924.0,16.0,Belgium
-Olimpic Games,1924.0,17.0,Spain
-Olimpic Games,1924.0,18.0,Estonia
-Olimpic Games,1924.0,19.0,Turkey
-Olimpic Games,1924.0,20.0,Poland
-Olimpic Games,1924.0,21.0,Yuguslavia
-Olimpic Games,1924.0,22.0,Lithuania
-Olimpic Games,1920.0,1.0,Belgium
-Olimpic Games,1920.0,2.0,Spain
-Olimpic Games,1920.0,3.0,Netherlands
-Olimpic Games,1920.0,4.0,Italy
-Olimpic Games,1920.0,5.0,Sweden
-Olimpic Games,1920.0,6.0,France
-Olimpic Games,1920.0,7.0,Norway
-Olimpic Games,1920.0,8.0,Egypt
-Olimpic Games,1912.0,1.0,England
-Olimpic Games,1912.0,2.0,Denmark
-Olimpic Games,1912.0,3.0,Netherlands
-Olimpic Games,1912.0,4.0,Finland
-Olimpic Games,1912.0,5.0,Austria
-Olimpic Games,1912.0,6.0,Russia
-Olimpic Games,1912.0,7.0,Hungary
-Olimpic Games,1912.0,8.0,Norway
-Olimpic Games,1912.0,9.0,Sweden
-Olimpic Games,1912.0,10.0,Italy
-Olimpic Games,1912.0,11.0,Germany
-Olimpic Games,1908.0,1.0,England
-Olimpic Games,1908.0,2.0,Denmark
-Olimpic Games,1908.0,3.0,Netherlands
-Olimpic Games,1908.0,4.0,Sweden
-Olimpic Games,1908.0,5.0,France
+Olympic Games,2020.0,1.0,Brazil
+Olympic Games,2020.0,2.0,Spain
+Olympic Games,2020.0,3.0,Mexico
+Olympic Games,2020.0,4.0,Japan
+Olympic Games,2020.0,5.0,South Korea
+Olympic Games,2020.0,6.0,New Zealand
+Olympic Games,2020.0,7.0,Ivory Coast
+Olympic Games,2020.0,8.0,Egypt
+Olympic Games,2016.0,1.0,Brazil
+Olympic Games,2016.0,2.0,Germany
+Olympic Games,2016.0,3.0,Nigeria
+Olympic Games,2016.0,4.0,Honduras
+Olympic Games,2016.0,5.0,South Korea
+Olympic Games,2016.0,6.0,Portugal
+Olympic Games,2016.0,7.0,Colombia
+Olympic Games,2016.0,8.0,Denmark
+Olympic Games,2012.0,1.0,Mexico
+Olympic Games,2012.0,2.0,Brazil
+Olympic Games,2012.0,3.0,South Korea
+Olympic Games,2012.0,4.0,Japan
+Olympic Games,2012.0,5.0,England
+Olympic Games,2012.0,6.0,Senegal
+Olympic Games,2012.0,7.0,Honduras
+Olympic Games,2012.0,8.0,Egypt
+Olympic Games,2008.0,1.0,Argentina
+Olympic Games,2008.0,2.0,Nigeria
+Olympic Games,2008.0,3.0,Brazil
+Olympic Games,2008.0,4.0,Belgium
+Olympic Games,2008.0,5.0,Italy
+Olympic Games,2008.0,6.0,Ivory Coast
+Olympic Games,2008.0,7.0,Netherlands
+Olympic Games,2008.0,8.0,Cameroon
+Olympic Games,2004.0,1.0,Argentina
+Olympic Games,2004.0,2.0,Paraguay
+Olympic Games,2004.0,3.0,Italy
+Olympic Games,2004.0,4.0,Iraq
+Olympic Games,2004.0,5.0,Mali
+Olympic Games,2004.0,6.0,South Korea
+Olympic Games,2004.0,7.0,Australia
+Olympic Games,2004.0,8.0,Costa Rica
+Olympic Games,2000.0,1.0,Cameroon
+Olympic Games,2000.0,2.0,Spain
+Olympic Games,2000.0,3.0,Chile
+Olympic Games,2000.0,4.0,United States
+Olympic Games,2000.0,5.0,Italy
+Olympic Games,2000.0,6.0,Japan
+Olympic Games,2000.0,7.0,Brazil
+Olympic Games,2000.0,8.0,Nigeria
+Olympic Games,1996.0,1.0,Nigeria
+Olympic Games,1996.0,2.0,Argentina
+Olympic Games,1996.0,3.0,Brazil
+Olympic Games,1996.0,4.0,Portugal
+Olympic Games,1996.0,5.0,France
+Olympic Games,1996.0,6.0,Spain
+Olympic Games,1996.0,7.0,Mexico
+Olympic Games,1996.0,8.0,Ghana
+Olympic Games,1992.0,1.0,Spain
+Olympic Games,1992.0,2.0,Poland
+Olympic Games,1992.0,3.0,Ghana
+Olympic Games,1992.0,4.0,Australia
+Olympic Games,1992.0,5.0,Italy
+Olympic Games,1992.0,6.0,Sweden
+Olympic Games,1992.0,7.0,Paraguay
+Olympic Games,1992.0,8.0,Qatar
+Olympic Games,1988.0,1.0,URSS
+Olympic Games,1988.0,2.0,Brazil
+Olympic Games,1988.0,3.0,Germany
+Olympic Games,1988.0,4.0,Italy
+Olympic Games,1988.0,5.0,Zambia
+Olympic Games,1988.0,6.0,Sweden
+Olympic Games,1988.0,7.0,Australia
+Olympic Games,1988.0,8.0,Argentina
+Olympic Games,1984.0,1.0,France
+Olympic Games,1984.0,2.0,Brazil
+Olympic Games,1984.0,3.0,Yuguslavia
+Olympic Games,1984.0,4.0,Italy
+Olympic Games,1984.0,5.0,Germany
+Olympic Games,1984.0,6.0,Canada
+Olympic Games,1984.0,7.0,Chile
+Olympic Games,1984.0,8.0,Egypt
+Olympic Games,1980.0,1.0,Czech Republic
+Olympic Games,1980.0,2.0,DDR
+Olympic Games,1980.0,3.0,URSS
+Olympic Games,1980.0,4.0,Yuguslavia
+Olympic Games,1980.0,5.0,Kuwait
+Olympic Games,1980.0,6.0,Iraq
+Olympic Games,1980.0,7.0,Cuba
+Olympic Games,1980.0,8.0,Algeria
+Olympic Games,1976.0,1.0,DDR
+Olympic Games,1976.0,2.0,Poland
+Olympic Games,1976.0,3.0,URSS
+Olympic Games,1976.0,4.0,Brazil
+Olympic Games,1976.0,5.0,France
+Olympic Games,1976.0,6.0,Israel
+Olympic Games,1976.0,7.0,Iran
+Olympic Games,1976.0,8.0,North Korea
+Olympic Games,1972.0,1.0,Poland
+Olympic Games,1972.0,2.0,Hungary
+Olympic Games,1972.0,3.0,DDR
+Olympic Games,1972.0,4.0,URSS
+Olympic Games,1972.0,5.0,Germany
+Olympic Games,1972.0,6.0,Denmark
+Olympic Games,1972.0,7.0,Mexico
+Olympic Games,1972.0,8.0,Morocco
+Olympic Games,1968.0,1.0,Hungary
+Olympic Games,1968.0,2.0,Bulgaria
+Olympic Games,1968.0,3.0,Japan
+Olympic Games,1968.0,4.0,Mexico
+Olympic Games,1968.0,5.0,Israel
+Olympic Games,1968.0,6.0,Spain
+Olympic Games,1968.0,7.0,France
+Olympic Games,1968.0,8.0,Guatemala
+Olympic Games,1964.0,1.0,Hungary
+Olympic Games,1964.0,2.0,Czech Republic
+Olympic Games,1964.0,3.0,Germany
+Olympic Games,1964.0,4.0,Egypt
+Olympic Games,1960.0,1.0,Yuguslavia
+Olympic Games,1960.0,2.0,Denmark
+Olympic Games,1960.0,3.0,Hungary
+Olympic Games,1960.0,4.0,Italy
+Olympic Games,1956.0,1.0,URSS
+Olympic Games,1956.0,2.0,Yuguslavia
+Olympic Games,1956.0,3.0,Bulgaria
+Olympic Games,1956.0,4.0,India
+Olympic Games,1952.0,1.0,Hungary
+Olympic Games,1952.0,2.0,Yuguslavia
+Olympic Games,1952.0,3.0,Sweden
+Olympic Games,1952.0,4.0,Germany
+Olympic Games,1948.0,1.0,Sweden
+Olympic Games,1948.0,2.0,Yuguslavia
+Olympic Games,1948.0,3.0,Denmark
+Olympic Games,1948.0,4.0,England
+Olympic Games,1936.0,1.0,Italy
+Olympic Games,1936.0,2.0,Austria
+Olympic Games,1936.0,3.0,Norway
+Olympic Games,1936.0,4.0,Poland
+Olympic Games,1928.0,1.0,Uruguay
+Olympic Games,1928.0,2.0,Argentina
+Olympic Games,1928.0,3.0,Italy
+Olympic Games,1928.0,4.0,Egypt
+Olympic Games,1928.0,5.0,Germany
+Olympic Games,1928.0,6.0,Belgium
+Olympic Games,1928.0,7.0,Spain
+Olympic Games,1928.0,8.0,Portugal
+Olympic Games,1928.0,9.0,Netherlands
+Olympic Games,1928.0,10.0,United States
+Olympic Games,1928.0,11.0,France
+Olympic Games,1928.0,12.0,Turkey
+Olympic Games,1928.0,13.0,Switzerland
+Olympic Games,1928.0,14.0,Luxembourg
+Olympic Games,1928.0,15.0,Mexico
+Olympic Games,1928.0,16.0,Yuguslavia
+Olympic Games,1924.0,1.0,Uruguay
+Olympic Games,1924.0,2.0,Switzerland
+Olympic Games,1924.0,3.0,Sweden
+Olympic Games,1924.0,4.0,Netherlands
+Olympic Games,1924.0,5.0,Italy
+Olympic Games,1924.0,6.0,France
+Olympic Games,1924.0,7.0,Ireland
+Olympic Games,1924.0,8.0,Egypt
+Olympic Games,1924.0,9.0,Czech Republic
+Olympic Games,1924.0,10.0,Hungary
+Olympic Games,1924.0,11.0,United States
+Olympic Games,1924.0,12.0,Bulgaria
+Olympic Games,1924.0,13.0,Luxembourg
+Olympic Games,1924.0,14.0,Romania
+Olympic Games,1924.0,15.0,Latvia
+Olympic Games,1924.0,16.0,Belgium
+Olympic Games,1924.0,17.0,Spain
+Olympic Games,1924.0,18.0,Estonia
+Olympic Games,1924.0,19.0,Turkey
+Olympic Games,1924.0,20.0,Poland
+Olympic Games,1924.0,21.0,Yuguslavia
+Olympic Games,1924.0,22.0,Lithuania
+Olympic Games,1920.0,1.0,Belgium
+Olympic Games,1920.0,2.0,Spain
+Olympic Games,1920.0,3.0,Netherlands
+Olympic Games,1920.0,4.0,Italy
+Olympic Games,1920.0,5.0,Sweden
+Olympic Games,1920.0,6.0,France
+Olympic Games,1920.0,7.0,Norway
+Olympic Games,1920.0,8.0,Egypt
+Olympic Games,1912.0,1.0,England
+Olympic Games,1912.0,2.0,Denmark
+Olympic Games,1912.0,3.0,Netherlands
+Olympic Games,1912.0,4.0,Finland
+Olympic Games,1912.0,5.0,Austria
+Olympic Games,1912.0,6.0,Russia
+Olympic Games,1912.0,7.0,Hungary
+Olympic Games,1912.0,8.0,Norway
+Olympic Games,1912.0,9.0,Sweden
+Olympic Games,1912.0,10.0,Italy
+Olympic Games,1912.0,11.0,Germany
+Olympic Games,1908.0,1.0,England
+Olympic Games,1908.0,2.0,Denmark
+Olympic Games,1908.0,3.0,Netherlands
+Olympic Games,1908.0,4.0,Sweden
+Olympic Games,1908.0,5.0,France
 Oman Professional League,2022.0,1.0,Al Seeb
 Oman Professional League,2022.0,2.0,Al Nahda Oman
 Oman Professional League,2020.0,1.0,Al Seeb
@@ -82072,6 +82013,45 @@ Seychelles Premier League,1982.0,1.0,Foresters Mont Fleuri
 Seychelles Premier League,1981.0,1.0,Saint-Louis Suns
 Seychelles Premier League,1980.0,1.0,Saint-Louis Suns
 Seychelles Premier League,1979.0,1.0,Saint-Louis Suns
+Sierra Leone Premier League,2023.0,1.0,Bo Rangers
+Sierra Leone Premier League,2022.0,1.0,Bo Rangers
+Sierra Leone Premier League,2019.0,1.0,East End Lions
+Sierra Leone Premier League,2013.0,1.0,Diamond Stars
+Sierra Leone Premier League,2012.0,1.0,Diamond Stars
+Sierra Leone Premier League,2011.0,1.0,Ports Authority
+Sierra Leone Premier League,2010.0,1.0,East End Lions
+Sierra Leone Premier League,2009.0,1.0,East End Lions
+Sierra Leone Premier League,2008.0,1.0,Ports Authority
+Sierra Leone Premier League,2006.0,1.0,Kallon
+Sierra Leone Premier League,2005.0,1.0,East End Lions
+Sierra Leone Premier League,2001.0,1.0,Mighty Blackpool
+Sierra Leone Premier League,2000.0,1.0,Mighty Blackpool
+Sierra Leone Premier League,1999.0,1.0,East End Lions
+Sierra Leone Premier League,1998.0,1.0,Mighty Blackpool
+Sierra Leone Premier League,1997.0,1.0,East End Lions
+Sierra Leone Premier League,1996.0,1.0,Mighty Blackpool
+Sierra Leone Premier League,1995.0,1.0,Mighty Blackpool
+Sierra Leone Premier League,1994.0,1.0,East End Lions
+Sierra Leone Premier League,1993.0,1.0,East End Lions
+Sierra Leone Premier League,1992.0,1.0,East End Lions
+Sierra Leone Premier League,1991.0,1.0,Mighty Blackpool
+Sierra Leone Premier League,1990.0,1.0,Old Edwardians
+Sierra Leone Premier League,1989.0,1.0,Freetown United
+Sierra Leone Premier League,1988.0,1.0,Mighty Blackpool
+Sierra Leone Premier League,1987.0,1.0,Sierra Fisheries
+Sierra Leone Premier League,1986.0,1.0,Sierra Fisheries
+Sierra Leone Premier League,1985.0,1.0,East End Lions
+Sierra Leone Premier League,1984.0,1.0,Real Republicans
+Sierra Leone Premier League,1983.0,1.0,Real Republicans
+Sierra Leone Premier League,1982.0,1.0,Sierra Fisheries
+Sierra Leone Premier League,1981.0,1.0,Real Republicans
+Sierra Leone Premier League,1980.0,1.0,East End Lions
+Sierra Leone Premier League,1979.0,1.0,Mighty Blackpool
+Sierra Leone Premier League,1978.0,1.0,Mighty Blackpool
+Sierra Leone Premier League,1977.0,1.0,East End Lions
+Sierra Leone Premier League,1974.0,1.0,Mighty Blackpool
+Sierra Leone Premier League,1973.0,1.0,Ports Authority
+Sierra Leone Premier League,1968.0,1.0,Mighty Blackpool
 Singapore Premier League,2022.0,1.0,Albirex Niigata Singapore
 Singapore Premier League,2021.0,1.0,Lion City Sailors
 Singapore Premier League,2020.0,1.0,Tampines Rovers
@@ -82837,38 +82817,8 @@ Telekom S-League,2003.0,1.0,Koloale
 Telekom S-League,2002.0,1.0,Koloale
 Telekom S-League,2001.0,1.0,Koloale
 Telekom S-League,2000.0,1.0,Laugu United
-Somali First Division,2023.0,1.0,Gaaddiidka
-Somali First Division,2021.0,1.0,Horseed
-Somali First Division,2020.0,1.0,Mogadishu City
-Somali First Division,2019.0,1.0,Dekedaha
-Somali First Division,2018.0,1.0,Dekedaha
-Somali First Division,2017.0,1.0,Dekedaha
-Somali First Division,2016.0,1.0,Mogadishu City
 Somali First Division,2015.0,1.0,Heegan
-Somali First Division,2014.0,1.0,Mogadishu City
-Somali First Division,2012.0,1.0,Elman
-Somali First Division,2011.0,1.0,Elman
-Somali First Division,2010.0,1.0,Mogadishu City
-Somali First Division,2009.0,1.0,Mogadishu City
-Somali First Division,2007.0,1.0,Ports Authority
-Somali First Division,2006.0,1.0,Mogadishu City
-Somali First Division,2003.0,1.0,Elman
-Somali First Division,2002.0,1.0,Elman
-Somali First Division,2001.0,1.0,Elman
-Somali First Division,2000.0,1.0,Elman
-Somali First Division,1999.0,1.0,Mogadishu City
-Somali First Division,1998.0,1.0,Ports Authority
-Somali First Division,1995.0,1.0,Alba
-Somali First Division,1994.0,1.0,Merca New Supplies
-Somali First Division,1990.0,1.0,Gaaddiidka
-Somali First Division,1989.0,1.0,Mogadishu Municipality
-Somali First Division,1988.0,1.0,Wagad
-Somali First Division,1987.0,1.0,Wagad
-Somali First Division,1986.0,1.0,Mogadishu Municipality
-Somali First Division,1985.0,1.0,Wagad
-Somali First Division,1983.0,1.0,Printing Agency
 Somali First Division,1982.0,1.0,Wagad
-Somali First Division,1981.0,1.0,Lavori Publici
 Somali First Division,1980.0,1.0,Horseed
 Somali First Division,1979.0,1.0,Horseed
 Somali First Division,1978.0,1.0,Horseed
@@ -82882,6 +82832,41 @@ Somali First Division,1970.0,1.0,Lavori Publici
 Somali First Division,1969.0,1.0,Lavori Publici
 Somali First Division,1968.0,1.0,Hoga
 Somali First Division,1967.0,1.0,Somali National Police
+Somali First Division,2017.0,1.0,Dekedaha
+Somali First Division,2016.0,1.0,Mogadishu City
+Somali First Division,2020.0,1.0,Mogadishu City
+Somali First Division,1983.0,1.0,Printing Agency
+Somali First Division,1985.0,1.0,Wagad
+Somali First Division,1981.0,1.0,Lavori Publici
+Somali First Division,1987.0,1.0,Wagad
+Somali First Division,2014.0,1.0,Mogadishu City
+Somali First Division,2012.0,1.0,Elman
+Somali First Division,2011.0,1.0,Elman
+Somali First Division,2010.0,1.0,Mogadishu City
+Somali First Division,2009.0,1.0,Mogadishu City
+Somali First Division,1986.0,1.0,Mogadishu Municipality
+Somali First Division,2006.0,1.0,Mogadishu City
+Somali First Division,2003.0,1.0,Elman
+Somali First Division,2002.0,1.0,Elman
+Somali First Division,2007.0,1.0,Ports Authority
+Somali First Division,2000.0,1.0,Elman
+Somali First Division,2001.0,1.0,Elman
+Somali First Division,1989.0,1.0,Mogadishu Municipality
+Somali First Division,1990.0,1.0,Gaadiidka
+Somali First Division,1988.0,1.0,Wagad
+Somali First Division,1995.0,1.0,Alba
+Somali First Division,1998.0,1.0,Ports Authority
+Somali First Division,1999.0,1.0,Mogadishu City
+Somali First Division,1994.0,1.0,Merca New Supplies
+Somali First Division,2020.0,2.0,Dekedaha
+Somali First Division,2020.0,3.0,Elman
+Somali First Division,2020.0,4.0,Horseed
+Somali First Division,2020.0,5.0,Heegan
+Somali First Division,2020.0,6.0,Gaadiidka
+Somali First Division,2020.0,7.0,Midnimo
+Somali First Division,2020.0,8.0,Raadsan
+Somali First Division,2020.0,9.0,Rajo
+Somali First Division,2020.0,10.0,Jazeera
 South African Premier Division,2023.0,1.0,Mamelodi Sundowns
 South African Premier Division,2023.0,2.0,Orlando Pirates
 South African Premier Division,2023.0,3.0,Supersport United
@@ -87726,7 +87711,7 @@ Sudan Premier League,1994.0,1.0,Al-Hilal Omdurman
 Sudan Premier League,1994.0,2.0,Al-Merrikh
 Sudan Premier League,1993.0,1.0,Al-Merrikh
 Sudan Premier League,1993.0,2.0,Al-Hilal Omdurman
-Sudan Premier League,1992.0,1.0,Al-Hilal Omdurman
+Sudan Premier League,1992.0,1.0,Hilal Alsahil
 Sudan Premier League,1992.0,2.0,Al-Merrikh
 Sudan Premier League,1991.0,1.0,Al-Hilal Omdurman
 Sudan Premier League,1991.0,2.0,Al-Merrikh
@@ -87746,6 +87731,7 @@ Sudan Premier League,1984.0,2.0,Al-Merrikh
 Sudan Premier League,1983.0,1.0,Al-Hilal Omdurman
 Sudan Premier League,1983.0,2.0,Al-Merrikh
 Sudan Premier League,1982.0,1.0,Al-Merrikh
+Sudan Premier League,1982.0,2.0,Al-Ahli Wad Medani
 Sudan Premier League,1981.0,1.0,Al-Hilal Omdurman
 Sudan Premier League,1981.0,2.0,Hay Al-Arab
 Sudan Premier League,1977.0,1.0,Al-Merrikh
@@ -87756,6 +87742,16 @@ Sudan Premier League,1973.0,1.0,Al-Hilal Omdurman
 Sudan Premier League,1973.0,2.0,Al-Merrikh
 Sudan Premier League,1972.0,1.0,Al-Merrikh
 Sudan Premier League,1972.0,2.0,Al-Hilal Omdurman
+Sudan Premier League,1970.0,1.0,Al-Merrikh
+Sudan Premier League,1970.0,2.0,Al-Hilal Omdurman
+Sudan Premier League,1969.0,1.0,Al-Hilal Omdurman
+Sudan Premier League,1969.0,2.0,Al-Ahli Wad Medani
+Sudan Premier League,1968.0,1.0,Burri
+Sudan Premier League,1968.0,2.0,Al-Merrikh
+Sudan Premier League,1967.0,1.0,Al-Mourada
+Sudan Premier League,1967.0,2.0,Al-Merrikh
+Sudan Premier League,1966.0,1.0,Al-Hilal Omdurman
+Sudan Premier League,1965.0,1.0,Al-Hilal Omdurman
 Copa Sul-Americana,2022.0,1.0,I. Del Valle
 Copa Sul-Americana,2022.0,2.0,São Paulo
 Copa Sul-Americana,2022.0,3.0,Melgar
@@ -97524,6 +97520,424 @@ MLS,1969.0,2.0,Atlanta Chiefs
 MLS,1969.0,3.0,Dallas Tornado
 MLS,1969.0,4.0,Baltimore Bays
 MLS,1969.0,5.0,St. Louis Stars
+Uzbekistan Super League,2022.0,1.0,Pakhtakor
+Uzbekistan Super League,2002.0,1.0,Pakhtakor
+Uzbekistan Super League,1992.0,1.0,Pakhtakor
+Uzbekistan Super League,2019.0,1.0,Pakhtakor
+Uzbekistan Super League,2006.0,1.0,Pakhtakor
+Uzbekistan Super League,2001.0,1.0,Neftchi Fargona
+Uzbekistan Super League,2018.0,1.0,Lokomotiv Tashkent
+Uzbekistan Super League,2007.0,1.0,Pakhtakor
+Uzbekistan Super League,1993.0,1.0,Neftchi Fargona
+Uzbekistan Super League,2017.0,1.0,Lokomotiv Tashkent
+Uzbekistan Super League,1997.0,1.0,MHSK
+Uzbekistan Super League,2008.0,1.0,Bunyodkor
+Uzbekistan Super League,1994.0,1.0,Neftchi Fargona
+Uzbekistan Super League,2016.0,1.0,Lokomotiv Tashkent
+Uzbekistan Super League,2009.0,1.0,Bunyodkor
+Uzbekistan Super League,1999.0,1.0,Dustlik
+Uzbekistan Super League,2015.0,1.0,Pakhtakor
+Uzbekistan Super League,1995.0,1.0,Neftchi Fargona
+Uzbekistan Super League,2010.0,1.0,Bunyodkor
+Uzbekistan Super League,1998.0,1.0,Pakhtakor
+Uzbekistan Super League,2014.0,1.0,Pakhtakor
+Uzbekistan Super League,1996.0,1.0,Navbahor Namangan
+Uzbekistan Super League,2011.0,1.0,Bunyodkor
+Uzbekistan Super League,2013.0,1.0,Bunyodkor
+Uzbekistan Super League,2020.0,1.0,Pakhtakor
+Uzbekistan Super League,2005.0,1.0,Pakhtakor
+Uzbekistan Super League,2000.0,1.0,Dustlik
+Uzbekistan Super League,2023.0,1.0,Pakhtakor
+Uzbekistan Super League,2004.0,1.0,Pakhtakor
+Uzbekistan Super League,2003.0,1.0,Pakhtakor
+Uzbekistan Super League,2021.0,1.0,Pakhtakor
+Uzbekistan Super League,2012.0,1.0,Pakhtakor
+Uzbekistan Super League,2002.0,2.0,Neftchi Fargona
+Uzbekistan Super League,2017.0,2.0,Nasaf Qarshi
+Uzbekistan Super League,2021.0,2.0,Sogdiyona Jizzakh
+Uzbekistan Super League,2008.0,2.0,Pakhtakor
+Uzbekistan Super League,2000.0,2.0,Neftchi Fargona
+Uzbekistan Super League,1994.0,2.0,Buxoro
+Uzbekistan Super League,2005.0,2.0,Mash'al Mubarek
+Uzbekistan Super League,2023.0,2.0,Nasaf
+Uzbekistan Super League,2009.0,2.0,Pakhtakor
+Uzbekistan Super League,2003.0,2.0,Neftchi Fargona
+Uzbekistan Super League,1999.0,2.0,Neftchi Fargona
+Uzbekistan Super League,1995.0,2.0,MHSK
+Uzbekistan Super League,2020.0,2.0,Nasaf Qarshi
+Uzbekistan Super League,2015.0,2.0,Lokomotiv Tashkent
+Uzbekistan Super League,2004.0,2.0,Neftchi Fargona
+Uzbekistan Super League,2010.0,2.0,Pakhtakor
+Uzbekistan Super League,2014.0,2.0,Lokomotiv Tashkent
+Uzbekistan Super League,1998.0,2.0,Neftchi Fargona
+Uzbekistan Super League,1996.0,2.0,Neftchi Fargona
+Uzbekistan Super League,2011.0,2.0,Nasaf Qarshi
+Uzbekistan Super League,2022.0,2.0,Navbahor Namangan
+Uzbekistan Super League,2013.0,2.0,Lokomotiv Tashkent
+Uzbekistan Super League,2012.0,2.0,Bunyodkor
+Uzbekistan Super League,1997.0,2.0,Neftchi Fargona
+Uzbekistan Super League,1993.0,2.0,Pakhtakor
+Uzbekistan Super League,2007.0,2.0,Bunyodkor
+Uzbekistan Super League,2016.0,2.0,Bunyodkor
+Uzbekistan Super League,2001.0,2.0,Pakhtakor
+Uzbekistan Super League,2006.0,2.0,Neftchi Fargona
+Uzbekistan Super League,2018.0,2.0,Pakhtakor
+Uzbekistan Super League,2019.0,2.0,Lokomotiv Tashkent
+Uzbekistan Super League,1992.0,2.0,Neftchi Fargona
+Uzbekistan Super League,2005.0,3.0,Nasaf Qarshi
+Uzbekistan Super League,2020.0,3.0,AGMK Olmaliq
+Uzbekistan Super League,1995.0,3.0,Navbahor Namangan
+Uzbekistan Super League,2006.0,3.0,Nasaf Qarshi
+Uzbekistan Super League,2015.0,3.0,Nasaf Qarshi
+Uzbekistan Super League,1999.0,3.0,Navbahor Namangan
+Uzbekistan Super League,2010.0,3.0,Nasaf Qarshi
+Uzbekistan Super League,2004.0,3.0,Navbahor Namangan
+Uzbekistan Super League,2007.0,3.0,Mash'al Mubarek
+Uzbekistan Super League,2009.0,3.0,Nasaf Qarshi
+Uzbekistan Super League,2014.0,3.0,Nasaf Qarshi
+Uzbekistan Super League,1998.0,3.0,Navbahor Namangan
+Uzbekistan Super League,1992.0,3.0,Sogdiyona Jizzakh
+Uzbekistan Super League,2011.0,3.0,Pakhtakor
+Uzbekistan Super League,2022.0,3.0,Nasaf Qarshi
+Uzbekistan Super League,2013.0,3.0,Nasaf Qarshi
+Uzbekistan Super League,2012.0,3.0,Lokomotiv Tashkent
+Uzbekistan Super League,1997.0,3.0,Navbahor Namangan
+Uzbekistan Super League,2002.0,3.0,Qizilqum
+Uzbekistan Super League,1996.0,3.0,MHSK
+Uzbekistan Super League,2023.0,3.0,Navbahor
+Uzbekistan Super League,2019.0,3.0,Bunyodkor
+Uzbekistan Super League,2000.0,3.0,Nasaf Qarshi
+Uzbekistan Super League,2018.0,3.0,Navbahor Namangan
+Uzbekistan Super League,2008.0,3.0,Neftchi Fargona
+Uzbekistan Super League,2003.0,3.0,Navbahor Namangan
+Uzbekistan Super League,2017.0,3.0,Pakhtakor
+Uzbekistan Super League,2001.0,3.0,Nasaf Qarshi
+Uzbekistan Super League,1994.0,3.0,Navbahor Namangan
+Uzbekistan Super League,1993.0,3.0,Navbahor Namangan
+Uzbekistan Super League,2016.0,3.0,Nasaf Qarshi
+Uzbekistan Super League,2021.0,3.0,AGMK Olmaliq
+Uzbekistan Super League,1993.0,4.0,Sogdiyona Jizzakh
+Uzbekistan Super League,2017.0,4.0,Bunyodkor
+Uzbekistan Super League,2014.0,4.0,Bunyodkor
+Uzbekistan Super League,2011.0,4.0,Neftchi Fargona
+Uzbekistan Super League,2022.0,4.0,AGMK Olmaliq
+Uzbekistan Super League,2016.0,4.0,Buxoro
+Uzbekistan Super League,2021.0,4.0,Nasaf Qarshi
+Uzbekistan Super League,1998.0,4.0,Sogdiyona Jizzakh
+Uzbekistan Super League,2006.0,4.0,Mash'al Mubarek
+Uzbekistan Super League,2013.0,4.0,Pakhtakor
+Uzbekistan Super League,2012.0,4.0,Nasaf Qarshi
+Uzbekistan Super League,2001.0,4.0,Navbahor Namangan
+Uzbekistan Super League,2002.0,4.0,Neftchi Fargona
+Uzbekistan Super League,1997.0,4.0,Dustlik
+Uzbekistan Super League,1992.0,4.0,Buxoro
+Uzbekistan Super League,1996.0,4.0,Dustlik
+Uzbekistan Super League,2000.0,4.0,Dinamo Samarqand
+Uzbekistan Super League,2008.0,4.0,Andijon
+Uzbekistan Super League,2005.0,4.0,Traktor Tashkent
+Uzbekistan Super League,2009.0,4.0,AGMK Olmaliq
+Uzbekistan Super League,2003.0,4.0,Nasaf Qarshi
+Uzbekistan Super League,1995.0,4.0,Pakhtakor
+Uzbekistan Super League,1994.0,4.0,MHSK
+Uzbekistan Super League,2019.0,4.0,Sogdiyona Jizzakh
+Uzbekistan Super League,2004.0,4.0,Nasaf Qarshi
+Uzbekistan Super League,2015.0,4.0,Bunyodkor
+Uzbekistan Super League,2020.0,4.0,Bunyodkor
+Uzbekistan Super League,2018.0,4.0,Bunyodkor
+Uzbekistan Super League,2023.0,4.0,AGMK
+Uzbekistan Super League,2007.0,4.0,Neftchi Fargona
+Uzbekistan Super League,2010.0,4.0,Shurtan Guzar
+Uzbekistan Super League,1999.0,4.0,Pakhtakor
+Uzbekistan Super League,2011.0,5.0,Mash'al Mubarek
+Uzbekistan Super League,2003.0,5.0,Qizilqum
+Uzbekistan Super League,2000.0,5.0,Navbahor Namangan
+Uzbekistan Super League,2009.0,5.0,Neftchi Fargona
+Uzbekistan Super League,2004.0,5.0,Traktor Tashkent
+Uzbekistan Super League,2002.0,5.0,Nasaf Qarshi
+Uzbekistan Super League,1998.0,5.0,Nasaf Qarshi
+Uzbekistan Super League,2006.0,5.0,Traktor Tashkent
+Uzbekistan Super League,2010.0,5.0,Mash'al Mubarek
+Uzbekistan Super League,1999.0,5.0,Dinamo Samarqand
+Uzbekistan Super League,2005.0,5.0,Neftchi Fargona
+Uzbekistan Super League,2007.0,5.0,Dinamo Samarqand
+Uzbekistan Super League,2001.0,5.0,Academia Tashkent
+Uzbekistan Super League,2012.0,5.0,Shurtan Guzar
+Uzbekistan Super League,2008.0,5.0,Dinamo Samarqand
+Uzbekistan Super League,2013.0,5.0,AGMK Olmaliq
+Uzbekistan Super League,1997.0,5.0,Pakhtakor
+Uzbekistan Super League,2016.0,5.0,Pakhtakor
+Uzbekistan Super League,1994.0,5.0,Kokand 1912
+Uzbekistan Super League,2017.0,5.0,Navbahor Namangan
+Uzbekistan Super League,2018.0,5.0,Metallurg Bekabad
+Uzbekistan Super League,1996.0,5.0,Buxoro
+Uzbekistan Super League,2014.0,5.0,Mash'al Mubarek
+Uzbekistan Super League,1993.0,5.0,Buxoro
+Uzbekistan Super League,1995.0,5.0,Buxoro
+Uzbekistan Super League,2019.0,5.0,Metallurg Bekabad
+Uzbekistan Super League,1992.0,5.0,Navbahor Namangan
+Uzbekistan Super League,2015.0,5.0,Neftchi Fargona
+Uzbekistan Super League,2020.0,5.0,Kokand 1912
+Uzbekistan Super League,2022.0,5.0,Qizilqum
+Uzbekistan Super League,2021.0,5.0,Bunyodkor
+Uzbekistan Super League,2023.0,5.0,Neftchi
+Uzbekistan Super League,2006.0,6.0,Qizilqum
+Uzbekistan Super League,1995.0,6.0,Dustlik
+Uzbekistan Super League,2009.0,6.0,Lokomotiv Tashkent
+Uzbekistan Super League,2000.0,6.0,Buxoro
+Uzbekistan Super League,2016.0,6.0,Qizilqum
+Uzbekistan Super League,2004.0,6.0,Buxoro
+Uzbekistan Super League,1994.0,6.0,Sogdiyona Jizzakh
+Uzbekistan Super League,2017.0,6.0,Buxoro
+Uzbekistan Super League,2022.0,6.0,Olympic Tashkent
+Uzbekistan Super League,2018.0,6.0,Buxoro
+Uzbekistan Super League,2020.0,6.0,Sogdiyona Jizzakh
+Uzbekistan Super League,2023.0,6.0,Surkhon
+Uzbekistan Super League,2003.0,6.0,Mash'al Mubarek
+Uzbekistan Super League,1993.0,6.0,Kokand 1912
+Uzbekistan Super League,2005.0,6.0,Navbahor Namangan
+Uzbekistan Super League,2002.0,6.0,Metallurg Bekabad
+Uzbekistan Super League,2019.0,6.0,Surkhon Termez
+Uzbekistan Super League,2021.0,6.0,Navbahor Namangan
+Uzbekistan Super League,1992.0,6.0,Kokand 1912
+Uzbekistan Super League,2001.0,6.0,Qizilqum
+Uzbekistan Super League,2007.0,6.0,Nasaf Qarshi
+Uzbekistan Super League,2008.0,6.0,Metallurg Bekabad
+Uzbekistan Super League,1996.0,6.0,Pakhtakor
+Uzbekistan Super League,1999.0,6.0,Andijon
+Uzbekistan Super League,2011.0,6.0,Navbahor Namangan
+Uzbekistan Super League,2013.0,6.0,Buxoro
+Uzbekistan Super League,1997.0,6.0,Nasaf Qarshi
+Uzbekistan Super League,2015.0,6.0,AGMK Olmaliq
+Uzbekistan Super League,1998.0,6.0,Buxoro
+Uzbekistan Super League,2014.0,6.0,AGMK Olmaliq
+Uzbekistan Super League,2010.0,6.0,Metallurg Bekabad
+Uzbekistan Super League,2012.0,6.0,Buxoro
+Uzbekistan Super League,2021.0,7.0,Lokomotiv Tashkent
+Uzbekistan Super League,2001.0,7.0,Andijon
+Uzbekistan Super League,1999.0,7.0,Xorazm Urganch
+Uzbekistan Super League,2018.0,7.0,Nasaf Qarshi
+Uzbekistan Super League,1992.0,7.0,Andijon
+Uzbekistan Super League,2003.0,7.0,Andijon
+Uzbekistan Super League,2007.0,7.0,Qizilqum
+Uzbekistan Super League,2004.0,7.0,Sogdiyona Jizzakh
+Uzbekistan Super League,1993.0,7.0,Andijon
+Uzbekistan Super League,2020.0,7.0,Metallurg Bekabad
+Uzbekistan Super League,2002.0,7.0,Navbahor Namangan
+Uzbekistan Super League,2019.0,7.0,Nasaf Qarshi
+Uzbekistan Super League,2014.0,7.0,Navbahor Namangan
+Uzbekistan Super League,2011.0,7.0,Shurtan Guzar
+Uzbekistan Super League,2006.0,7.0,Navbahor Namangan
+Uzbekistan Super League,2015.0,7.0,Mash'al Mubarek
+Uzbekistan Super League,2008.0,7.0,Lokomotiv Tashkent
+Uzbekistan Super League,1995.0,7.0,Atlaschi
+Uzbekistan Super League,2013.0,7.0,Metallurg Bekabad
+Uzbekistan Super League,2016.0,7.0,Metallurg Bekabad
+Uzbekistan Super League,2022.0,7.0,Sogdiyona Jizzakh
+Uzbekistan Super League,2009.0,7.0,Andijon
+Uzbekistan Super League,2023.0,7.0,Andijon
+Uzbekistan Super League,1998.0,7.0,Kokand 1912
+Uzbekistan Super League,2010.0,7.0,Andijon
+Uzbekistan Super League,2012.0,7.0,AGMK Olmaliq
+Uzbekistan Super League,2000.0,7.0,Pakhtakor
+Uzbekistan Super League,1994.0,7.0,Dustlik
+Uzbekistan Super League,2017.0,7.0,Mash'al Mubarek
+Uzbekistan Super League,1996.0,7.0,Traktor Tashkent
+Uzbekistan Super League,2005.0,7.0,Qizilqum
+Uzbekistan Super League,1997.0,7.0,Buxoro
+Uzbekistan Super League,2003.0,8.0,Dinamo Samarqand
+Uzbekistan Super League,1998.0,8.0,Dustlik
+Uzbekistan Super League,1992.0,8.0,Kosonsoy
+Uzbekistan Super League,2023.0,8.0,Bunyodkor
+Uzbekistan Super League,2022.0,8.0,Neftchi Fargona
+Uzbekistan Super League,2021.0,8.0,Kokand 1912
+Uzbekistan Super League,2005.0,8.0,Dinamo Samarqand
+Uzbekistan Super League,2020.0,8.0,Navbahor Namangan
+Uzbekistan Super League,2006.0,8.0,Dinamo Samarqand
+Uzbekistan Super League,2013.0,8.0,Dinamo Samarqand
+Uzbekistan Super League,2012.0,8.0,Dinamo Samarqand
+Uzbekistan Super League,1993.0,8.0,MHSK
+Uzbekistan Super League,2008.0,8.0,Nasaf Qarshi
+Uzbekistan Super League,1995.0,8.0,Andijon
+Uzbekistan Super League,2016.0,8.0,Mash'al Mubarek
+Uzbekistan Super League,2010.0,8.0,Qizilqum
+Uzbekistan Super League,2009.0,8.0,Shurtan Guzar
+Uzbekistan Super League,2000.0,8.0,Andijon
+Uzbekistan Super League,2015.0,8.0,Navbahor Namangan
+Uzbekistan Super League,1996.0,8.0,Andijon
+Uzbekistan Super League,1994.0,8.0,Pakhtakor
+Uzbekistan Super League,2017.0,8.0,AGMK Olmaliq
+Uzbekistan Super League,1997.0,8.0,Sogdiyona Jizzakh
+Uzbekistan Super League,2001.0,8.0,Buxoro
+Uzbekistan Super League,2004.0,8.0,Metallurg Bekabad
+Uzbekistan Super League,2018.0,8.0,Qizilqum
+Uzbekistan Super League,2014.0,8.0,Neftchi Fargona
+Uzbekistan Super League,1999.0,8.0,Metallurg Bekabad
+Uzbekistan Super League,2019.0,8.0,Navbahor Namangan
+Uzbekistan Super League,2011.0,8.0,Metallurg Bekabad
+Uzbekistan Super League,2002.0,8.0,Buxoro
+Uzbekistan Super League,2007.0,8.0,Navbahor Namangan
+Uzbekistan Super League,1995.0,9.0,Sogdiyona Jizzakh
+Uzbekistan Super League,2002.0,9.0,Dustlik
+Uzbekistan Super League,2023.0,9.0,Olympic
+Uzbekistan Super League,1993.0,9.0,Dustlik
+Uzbekistan Super League,1994.0,9.0,Traktor Tashkent
+Uzbekistan Super League,1996.0,9.0,Atlaschi
+Uzbekistan Super League,2003.0,9.0,Surkhon Termez
+Uzbekistan Super League,1999.0,9.0,Buxoro
+Uzbekistan Super League,1998.0,9.0,Andijon
+Uzbekistan Super League,2001.0,9.0,Dustlik
+Uzbekistan Super League,2000.0,9.0,Surkhon Termez
+Uzbekistan Super League,1997.0,9.0,Zarafshon Navoi
+Uzbekistan Super League,2008.0,9.0,AGMK Olmaliq
+Uzbekistan Super League,2012.0,9.0,Metallurg Bekabad
+Uzbekistan Super League,2006.0,9.0,Lokomotiv Tashkent
+Uzbekistan Super League,2015.0,9.0,Metallurg Bekabad
+Uzbekistan Super League,2004.0,9.0,Mash'al Mubarek
+Uzbekistan Super League,2016.0,9.0,Shurtan Guzar
+Uzbekistan Super League,2011.0,9.0,Buxoro
+Uzbekistan Super League,2017.0,9.0,Kokand 1912
+Uzbekistan Super League,2014.0,9.0,Metallurg Bekabad
+Uzbekistan Super League,2010.0,9.0,Navbahor Namangan
+Uzbekistan Super League,2019.0,9.0,AGMK Olmaliq
+Uzbekistan Super League,2018.0,9.0,Kokand 1912
+Uzbekistan Super League,2020.0,9.0,Lokomotiv Tashkent
+Uzbekistan Super League,2009.0,9.0,Dinamo Samarqand
+Uzbekistan Super League,2021.0,9.0,Qizilqum
+Uzbekistan Super League,2007.0,9.0,Buxoro
+Uzbekistan Super League,2022.0,9.0,Metallurg Bekabad
+Uzbekistan Super League,2005.0,9.0,Tupolang Sariosiyo
+Uzbekistan Super League,2013.0,9.0,Neftchi Fargona
+Uzbekistan Super League,2010.0,10.0,Neftchi Fargona
+Uzbekistan Super League,2000.0,10.0,Traktor Tashkent
+Uzbekistan Super League,1999.0,10.0,Kokand 1912
+Uzbekistan Super League,2011.0,10.0,Dinamo Samarqand
+Uzbekistan Super League,2012.0,10.0,Qizilqum
+Uzbekistan Super League,1998.0,10.0,Surkhon Termez
+Uzbekistan Super League,2013.0,10.0,Sogdiyona Jizzakh
+Uzbekistan Super League,2009.0,10.0,Xorazm Urganch
+Uzbekistan Super League,1996.0,10.0,Dinamo Samarqand
+Uzbekistan Super League,2014.0,10.0,Dinamo Samarqand
+Uzbekistan Super League,2015.0,10.0,Qizilqum
+Uzbekistan Super League,2001.0,10.0,Sogdiyona Jizzakh
+Uzbekistan Super League,2016.0,10.0,Sogdiyona Jizzakh
+Uzbekistan Super League,1995.0,10.0,Yangiyer
+Uzbekistan Super League,2017.0,10.0,Metallurg Bekabad
+Uzbekistan Super League,1994.0,10.0,Surkhon Termez
+Uzbekistan Super League,2018.0,10.0,AGMK Olmaliq
+Uzbekistan Super League,2019.0,10.0,Andijon
+Uzbekistan Super League,1993.0,10.0,Traktor Tashkent
+Uzbekistan Super League,2020.0,10.0,Mash'al Mubarek
+Uzbekistan Super League,2021.0,10.0,Surkhon Termez
+Uzbekistan Super League,2022.0,10.0,Surkhon Termez
+Uzbekistan Super League,2023.0,10.0,Metallurg
+Uzbekistan Super League,1997.0,10.0,Xorazm Urganch
+Uzbekistan Super League,2008.0,10.0,Sogdiyona Jizzakh
+Uzbekistan Super League,2004.0,10.0,Qizilqum
+Uzbekistan Super League,2007.0,10.0,Andijon
+Uzbekistan Super League,2002.0,10.0,Surkhon Termez
+Uzbekistan Super League,2006.0,10.0,Andijon
+Uzbekistan Super League,2005.0,10.0,Lokomotiv Tashkent
+Uzbekistan Super League,2003.0,10.0,Kokand 1912
+Uzbekistan Super League,2002.0,11.0,Mash'al Mubarek
+Uzbekistan Super League,2013.0,11.0,Navbahor Namangan
+Uzbekistan Super League,2014.0,11.0,Qizilqum
+Uzbekistan Super League,2015.0,11.0,Shurtan Guzar
+Uzbekistan Super League,2016.0,11.0,Neftchi Fargona
+Uzbekistan Super League,2017.0,11.0,Qizilqum
+Uzbekistan Super League,2003.0,11.0,Dustlik
+Uzbekistan Super League,2008.0,11.0,Shurtan Guzar
+Uzbekistan Super League,2018.0,11.0,Sogdiyona Jizzakh
+Uzbekistan Super League,2019.0,11.0,Kokand 1912
+Uzbekistan Super League,2020.0,11.0,Qizilqum
+Uzbekistan Super League,2005.0,11.0,Metallurg Bekabad
+Uzbekistan Super League,2021.0,11.0,Metallurg Bekabad
+Uzbekistan Super League,2022.0,11.0,Lokomotiv Tashkent
+Uzbekistan Super League,2004.0,11.0,Surkhon Termez
+Uzbekistan Super League,2023.0,11.0,Sogdiana
+Uzbekistan Super League,2012.0,11.0,Navbahor Namangan
+Uzbekistan Super League,2011.0,11.0,AGMK Olmaliq
+Uzbekistan Super League,2006.0,11.0,Buxoro
+Uzbekistan Super League,2010.0,11.0,AGMK Olmaliq
+Uzbekistan Super League,2009.0,11.0,Qizilqum
+Uzbekistan Super League,2007.0,11.0,Traktor Tashkent
+Uzbekistan Super League,2008.0,12.0,Navbahor Namangan
+Uzbekistan Super League,2010.0,12.0,Dinamo Samarqand
+Uzbekistan Super League,2015.0,12.0,Kokand 1912
+Uzbekistan Super League,2016.0,12.0,Kokand 1912
+Uzbekistan Super League,2021.0,12.0,Mash'al Mubarek
+Uzbekistan Super League,2020.0,12.0,Surkhon Termez
+Uzbekistan Super League,2022.0,12.0,Kokand 1912
+Uzbekistan Super League,2014.0,12.0,Buxoro
+Uzbekistan Super League,2006.0,12.0,Shurtan Guzar
+Uzbekistan Super League,2004.0,12.0,Dinamo Samarqand
+Uzbekistan Super League,2017.0,12.0,Dinamo Samarqand
+Uzbekistan Super League,2007.0,12.0,Tupolang Sariosiyo
+Uzbekistan Super League,2019.0,12.0,Buxoro
+Uzbekistan Super League,2012.0,12.0,Mash'al Mubarek
+Uzbekistan Super League,2011.0,12.0,Andijon
+Uzbekistan Super League,2002.0,12.0,Andijon
+Uzbekistan Super League,2023.0,12.0,Qizilqum
+Uzbekistan Super League,2009.0,12.0,Metallurg Bekabad
+Uzbekistan Super League,2005.0,12.0,Buxoro
+Uzbekistan Super League,2003.0,12.0,Buxoro
+Uzbekistan Super League,2013.0,12.0,Qizilqum
+Uzbekistan Super League,2018.0,12.0,Neftchi Fargona
+Uzbekistan Super League,2020.0,13.0,Andijon
+Uzbekistan Super League,2009.0,13.0,Mash'al Mubarek
+Uzbekistan Super League,2017.0,13.0,Sogdiyona Jizzakh
+Uzbekistan Super League,2016.0,13.0,AGMK Olmaliq
+Uzbekistan Super League,2003.0,13.0,Metallurg Bekabad
+Uzbekistan Super League,2010.0,13.0,Lokomotiv Tashkent
+Uzbekistan Super League,2019.0,13.0,Qizilqum
+Uzbekistan Super League,2021.0,13.0,Andijon
+Uzbekistan Super League,2002.0,13.0,Traktor Tashkent
+Uzbekistan Super League,2012.0,13.0,Andijon
+Uzbekistan Super League,2011.0,13.0,Qizilqum
+Uzbekistan Super League,2008.0,13.0,Qizilqum
+Uzbekistan Super League,2013.0,13.0,Guliston
+Uzbekistan Super League,2007.0,13.0,Shurtan Guzar
+Uzbekistan Super League,2014.0,13.0,Sogdiyona Jizzakh
+Uzbekistan Super League,2004.0,13.0,Andijon
+Uzbekistan Super League,2022.0,13.0,Dinamo Samarqand
+Uzbekistan Super League,2005.0,13.0,Shurtan Guzar
+Uzbekistan Super League,2015.0,13.0,Andijon
+Uzbekistan Super League,2006.0,13.0,Tupolang Sariosiyo
+Uzbekistan Super League,2023.0,13.0,Turon
+Uzbekistan Super League,2006.0,14.0,Sogdiyona Jizzakh
+Uzbekistan Super League,2021.0,14.0,Turon
+Uzbekistan Super League,2020.0,14.0,Buxoro
+Uzbekistan Super League,2008.0,14.0,Buxoro
+Uzbekistan Super League,2005.0,14.0,Sogdiyona Jizzakh
+Uzbekistan Super League,2009.0,14.0,Navbahor Namangan
+Uzbekistan Super League,2002.0,14.0,Dinamo Samarqand
+Uzbekistan Super League,2023.0,14.0,Buxoro
+Uzbekistan Super League,2015.0,14.0,Buxoro
+Uzbekistan Super League,2010.0,14.0,Xorazm Urganch
+Uzbekistan Super League,2017.0,14.0,Shurtan Guzar
+Uzbekistan Super League,2013.0,14.0,Shurtan Guzar
+Uzbekistan Super League,2011.0,14.0,Sogdiyona Jizzakh
+Uzbekistan Super League,2014.0,14.0,Andijon
+Uzbekistan Super League,2003.0,14.0,Traktor Tashkent
+Uzbekistan Super League,2007.0,14.0,Lokomotiv Tashkent
+Uzbekistan Super League,2016.0,14.0,Obod
+Uzbekistan Super League,2019.0,14.0,Dinamo Samarqand
+Uzbekistan Super League,2007.0,15.0,Metallurg Bekabad
+Uzbekistan Super League,2015.0,15.0,Sogdiyona Jizzakh
+Uzbekistan Super League,2008.0,15.0,Uz-Dong-Joo
+Uzbekistan Super League,2016.0,15.0,Navbahor Namangan
+Uzbekistan Super League,2009.0,15.0,Buxoro
+Uzbekistan Super League,2003.0,15.0,Sementchi Kuvasoy
+Uzbekistan Super League,2002.0,15.0,Kokand 1912
+Uzbekistan Super League,2006.0,15.0,Xorazm Urganch
+Uzbekistan Super League,2017.0,15.0,Neftchi Fargona
+Uzbekistan Super League,2009.0,16.0,Sogdiyona Jizzakh
+Uzbekistan Super League,2015.0,16.0,Dinamo Samarqand
+Uzbekistan Super League,2007.0,16.0,Vobkent
+Uzbekistan Super League,2003.0,16.0,Guliston
+Uzbekistan Super League,2017.0,16.0,Obod
+Uzbekistan Super League,2002.0,16.0,Zarafshon Navoi
+Uzbekistan Super League,2016.0,16.0,Andijon
+Uzbekistan Super League,2002.0,17.0,Sogdiyona Jizzakh
 Port Vila Football League,2023.0,1.0,Ifira Black Bird
 Port Vila Football League,2023.0,2.0,ABM Galaxy
 Port Vila Football League,2022.0,1.0,Ifira Black Bird

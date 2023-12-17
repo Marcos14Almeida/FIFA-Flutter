@@ -71,11 +71,12 @@ class _MapListAllClubsState extends State<MapListAllClubs> {
     //Filtra os clubes do país
     Iterable keysIterable = globalClubDetails.keys;
     Iterable showList = keysIterable.where((clubName) => selectedCountry == clubDetails.getCountry(clubName));
-    showList = showList.where((clubName) => clubDetails.getCoordinate(clubName).latitude != 0);
+    showList = showList.where((clubName) => clubDetails.getFoundationYear(clubName) > 0);
 
     return Scaffold(
       body: Stack(
         children: [
+
           Images().getWallpaper(),
 
           Column(

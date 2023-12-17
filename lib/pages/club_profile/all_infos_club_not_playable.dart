@@ -189,8 +189,13 @@ class _ClubProfileNotPlayableState extends State<ClubProfileNotPlayable> with Ti
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    funcFlagsList(clubdetails.getCountry(widget.clubName), 35, 50),
-                    clubState.isNotEmpty ? funcFlagsList(clubdetails.getState(widget.clubName), 35, 50) : Container(),
+                    funcFlagsList(clubdetails.getCountry(widget.clubName), 30, 40),
+                    clubState.isNotEmpty
+                        ? Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: funcFlagsList(clubdetails.getState(widget.clubName), 30, 40),
+                        )
+                        : Container(),
                   ],
                 ),
                 Text(clubdetails.getFoundationYear(widget.clubName).toString(),style: EstiloTextoBranco.text16),
@@ -234,8 +239,6 @@ class _ClubProfileNotPlayableState extends State<ClubProfileNotPlayable> with Ti
           trophy(dataGraphics),
 
           totalTrophyWidget(widget.clubName, dataGraphics),
-
-          predictions(dataGraphics.data),
 
           Container(
               color: AppColors().greyTransparent,

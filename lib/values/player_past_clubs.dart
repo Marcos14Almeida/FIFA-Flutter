@@ -2,7 +2,6 @@
 
 import 'package:csv/csv.dart';
 import 'package:fifa/global_variables.dart';
-import 'package:fifa/values/club_names.dart';
 import 'package:flutter/services.dart';
 
 class PlayerPastClubs{
@@ -14,10 +13,13 @@ class PlayerPastClubs{
       for(int i=1; i < listRows.length; i++){
         String name = listRows[i][0];
         globalFamousPlayersHistory[name] = {};
-        for(int year=1947; year <= anoInicial; year++){
-          if(listRows[i][year-1947+1] != 'retired'){
-            globalFamousPlayersHistory[name][year] = listRows[i][year-1947+1];
+
+        int minyear = 1947;
+        for(int year=minyear; year <= anoInicial; year++){
+          if(listRows[i][year-minyear+1] != 'retired'){
+            globalFamousPlayersHistory[name][year] = listRows[i][year-minyear+1];
           }
+
       }
     }
 
