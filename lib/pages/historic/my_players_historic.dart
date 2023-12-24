@@ -83,10 +83,10 @@ class _MyPlayersHistoricState extends State<MyPlayersHistoric> {
               listPlayersWidget(),
 
               const SizedBox(height: 10),
-              Row(
+              const Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 crossAxisAlignment: CrossAxisAlignment.start,
-                children: const [
+                children: [
                   Text('Comprados',style: EstiloTextoBranco.negrito18),
                   Text('Vendidos',style: EstiloTextoBranco.negrito18),
                 ],

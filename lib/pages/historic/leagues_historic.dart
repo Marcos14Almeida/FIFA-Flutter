@@ -1,4 +1,5 @@
 import 'package:fifa/classes/club.dart';
+import 'package:fifa/classes/functions/size.dart';
 import 'package:fifa/classes/historic/historic_club_year.dart';
 import 'package:fifa/classes/image_class.dart';
 import 'package:fifa/classes/league.dart';
@@ -465,8 +466,7 @@ class _HistoricLeagueState extends State<HistoricLeague> {
                 const Spacer(),
                 for (int i=1;i<=8;i++)
                   SizedBox(width:19.3,child: Text(i.toString()+"º",style: EstiloTextoBranco.negrito14)),
-                const SizedBox(width:19.3,child: Text("<20",style: EstiloTextoBranco.negrito14)),
-                const SizedBox(width: 8),
+                const SizedBox(width:38.6,child: Text("<20º",style: EstiloTextoBranco.negrito14)),
               ],
             ),
             Expanded(
@@ -502,12 +502,15 @@ class _HistoricLeagueState extends State<HistoricLeague> {
         child: Row(
           children: [
             const SizedBox(width: 4),
-            Images().getEscudoWidget(clubName,30,30),
+            Images().getEscudoWidget(clubName,26,26),
             const SizedBox(width: 4),
-            SizedBox(width:130,child: Text(clubName,style: EstiloTextoBranco.negrito14)),
+            SizedBox(width: Sized(context).width*0.36, child: Text(clubName,style: EstiloTextoBranco.negrito14)),
+            const Spacer(),
             for (int i=0;i<8;i++)
               SizedBox(width:20,child: Text(" "+positions[i].toString(),style: EstiloTextoBranco.text14)),
+            const SizedBox(width: 8),
             SizedBox(width:20,child: Text(" "+positions_8_20.toString(),style: EstiloTextoBranco.text14)),
+            const SizedBox(width: 8),
           ],
         ),
       ),

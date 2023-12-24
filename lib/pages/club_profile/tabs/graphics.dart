@@ -17,8 +17,6 @@ import 'package:fifa/widgets/trophy.dart';
 import 'package:flutter/material.dart';
 import 'package:syncfusion_flutter_charts/charts.dart';
 
-import '../../../classes/club.dart';
-
 class ClubGraphics extends StatefulWidget {
   final Club club;
   const ClubGraphics({Key? key,required this.club}) : super(key: key);

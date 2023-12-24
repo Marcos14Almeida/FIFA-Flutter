@@ -110,133 +110,130 @@ class _ChooseTeamState extends State<ChooseTeam> {
             height: Sized(context).height,
             width: Sized(context).width,
             decoration: Images().getWallpaperContainerDecoration(),
-            child: SingleChildScrollView(
-              child: Column(
-                children: [
+            child: Column(
+              children: [
 
-                  backButtonText(context,'Create new carrer'),
+                backButtonText(context,'Create new carrer'),
 
-                  const SizedBox(height: 8),
+                title(),
 
-                  title(),
+                const SizedBox(height: 8),
 
-                  const SizedBox(height: 8),
-
-                  ////////////
-                  //PAIS
-                  ////////////
-                  Container(
-                    margin: const EdgeInsets.symmetric(horizontal: 8),
-                    padding: const EdgeInsets.symmetric(vertical: 4),
-                    decoration: BoxDecoration(
-                      color: AppColors().greyTransparent,
-                      boxShadow: boxShadowApp(),
-                    ),
-                    child: Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceAround,
-                      children: [
-
-                        Column(
-                          children: [
-                            Padding(
-                              padding: const EdgeInsets.all(12.0),
-                              child: leftButton(onTap: (){
-                                if(posicaoPais>0) {
-                                  posicaoPais --;
-                                  posicao = 0;
-                                }else{
-                                  posicaoPais = leaguesListRealIndex.length-1;
-                                  posicao = 0;
-                                }
-                              }),
-                            ),
-
-                            rightButton(
-                                onTap: (){
-                                  if(posicaoPais< leaguesListRealIndex.length-1) {
-                                    posicaoPais ++;
-                                    posicao = 0;
-                                  }else{
-                                    posicaoPais = 0;
-                                    posicao = 0;
-                                  }
-                                }),
-                          ],
-                        ),
-
-
-                        leagueLogoAndName(),
-                      ],
-                    ),
+                ////////////
+                //PAIS
+                ////////////
+                Container(
+                  margin: const EdgeInsets.symmetric(horizontal: 8),
+                  padding: const EdgeInsets.symmetric(vertical: 4),
+                  decoration: BoxDecoration(
+                    color: AppColors().greyTransparent,
+                    boxShadow: boxShadowApp(),
                   ),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceAround,
+                    children: [
 
-                  const SizedBox(height: 16),
-                  /////////////////////////////////////////
-                  //TIME
-                  /////////////////////////////////////////
-                  Container(
-                    margin: const EdgeInsets.symmetric(horizontal: 8),
-                    padding: const EdgeInsets.symmetric(vertical: 4),
-                    decoration: BoxDecoration(
-                      color: AppColors().greyTransparent,
-                      boxShadow: boxShadowApp(),
-                    ),
-                    child: Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceAround,
-                      children: [
-
-                        Column(
-                          children: [
-
-                            Padding(
-                              padding: const EdgeInsets.all(12.0),
-                              child: leftButton(onTap: (){
-                                if(posicao>0) {
-                                  posicao --;
-                                }else{
-                                  posicao = nLeagueTeams-1;
-                                }
-                              }),
-                            ),
-
-                            rightButton(onTap: (){
-                              if(posicao<nLeagueTeams-1) {
-                                posicao ++;
+                      Column(
+                        children: [
+                          Padding(
+                            padding: const EdgeInsets.all(12.0),
+                            child: leftButton(onTap: (){
+                              if(posicaoPais>0) {
+                                posicaoPais --;
+                                posicao = 0;
                               }else{
+                                posicaoPais = leaguesListRealIndex.length-1;
                                 posicao = 0;
                               }
                             }),
+                          ),
 
-                          ],
-                        ),
+                          rightButton(
+                              onTap: (){
+                                if(posicaoPais< leaguesListRealIndex.length-1) {
+                                  posicaoPais ++;
+                                  posicao = 0;
+                                }else{
+                                  posicaoPais = 0;
+                                  posicao = 0;
+                                }
+                              }),
+                        ],
+                      ),
 
-                        //ESCUDO E UNIFORME
-                        loaded ? wHomeClubLogoAndKitStack(context, club) : SizedBox(
-                          height: 200+40,
-                          width: 200,
-                        child:  loaderCircle()),
 
-                      ],
-                    ),
+                      leagueLogoAndName(),
+                    ],
                   ),
+                ),
 
-
-                  const SizedBox(height: 24),
-                  Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 8.0),
-                    child: continueButton(),
+                const SizedBox(height: 16),
+                /////////////////////////////////////////
+                //TIME
+                /////////////////////////////////////////
+                Container(
+                  margin: const EdgeInsets.symmetric(horizontal: 8),
+                  padding: const EdgeInsets.symmetric(vertical: 4),
+                  decoration: BoxDecoration(
+                    color: AppColors().greyTransparent,
+                    boxShadow: boxShadowApp(),
                   ),
-                  const SizedBox(height: 24),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceAround,
+                    children: [
 
-                  HomeBottomRowButtons(
-                      context: context, clubID: clubID,
-                      refreshCallback: (){
-                        setState((){});
-                      }),
+                      Column(
+                        children: [
+
+                          Padding(
+                            padding: const EdgeInsets.all(12.0),
+                            child: leftButton(onTap: (){
+                              if(posicao>0) {
+                                posicao --;
+                              }else{
+                                posicao = nLeagueTeams-1;
+                              }
+                            }),
+                          ),
+
+                          rightButton(onTap: (){
+                            if(posicao<nLeagueTeams-1) {
+                              posicao ++;
+                            }else{
+                              posicao = 0;
+                            }
+                          }),
+
+                        ],
+                      ),
+
+                      //ESCUDO E UNIFORME
+                      loaded ? wHomeClubLogoAndKitStack(context, club) : SizedBox(
+                        height: 200+40,
+                        width: 200,
+                      child:  loaderCircle()),
+
+                    ],
+                  ),
+                ),
+
+                const Spacer(),
+
+                Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 8.0),
+                  child: continueButton(),
+                ),
+                const SizedBox(height: 16),
+
+                HomeBottomRowButtons(
+                    context: context, clubID: clubID,
+                    refreshCallback: (){
+                      setState((){});
+                    }),
+                const SizedBox(height: 8),
 
 
-                ],
-              ),
+              ],
             ),
           ),
       );
@@ -246,8 +243,8 @@ class _ChooseTeamState extends State<ChooseTeam> {
 //                               WIDGETS                                  //
 ////////////////////////////////////////////////////////////////////////////
   Widget title(){
-    return Stack(
-      children: const [
+    return const Stack(
+      children:  [
         Text('FSIM 2024',style: EstiloRowdies.titleWhite),
         Padding(
           padding: EdgeInsets.only(left:2.0,top: 1),

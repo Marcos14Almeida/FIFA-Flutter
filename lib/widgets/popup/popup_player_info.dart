@@ -8,14 +8,11 @@ import 'package:fifa/classes/jogador.dart';
 import 'package:fifa/classes/my.dart';
 import 'package:fifa/global_variables.dart';
 import 'package:fifa/pages/negotiation/negotiation_class.dart';
-import 'package:fifa/theme/background_color/background_age.dart';
 import 'package:fifa/theme/background_color/color_grade.dart';
-import 'package:fifa/theme/background_color/background_moral.dart';
 import 'package:fifa/theme/colors.dart';
 import 'package:fifa/theme/decoration/black_decoration.dart';
 import 'package:fifa/theme/translation.dart';
 import 'package:fifa/theme/custom_toast.dart';
-import 'package:fifa/theme/background_color/background_overall.dart';
 import 'package:fifa/theme/textstyle.dart';
 import 'package:fifa/values/club_details.dart';
 import 'package:fifa/values/images.dart';
@@ -125,48 +122,6 @@ Future popUpOkShowPlayerInfos({required BuildContext context, required int playe
 //                             WIDGET                                     //
 ////////////////////////////////////////////////////////////////////////////
 
-mainStatus(BuildContext context, Jogador jogador){
-  double sizeIcon = 25;
-  return Column(
-    children: [
-      Row(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children:[
-          const SizedBox(width:50,child: Text('Overall',style: EstiloTextoBranco.text14)),
-          const SizedBox(width: 4),
-          Container(
-            margin: const EdgeInsets.only(right: 4),
-              height:sizeIcon,width: sizeIcon,
-              color: colorOverallBackground(jogador.overall),
-              child: Center(child: Text(jogador.overall.toString(), textAlign:TextAlign.center, style: EstiloTextoPreto.text14)),
-          ),
-        ],
-      ),
-      Row(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children:[
-          const SizedBox(width:50,child: Text('Idade',style: EstiloTextoBranco.text14)),
-          const SizedBox(width: 4),
-          Container(
-            margin: const EdgeInsets.only(right: 4),
-            height:sizeIcon,width: sizeIcon,
-            color: colorAgeBackground(jogador.age),
-            child: Center(child: Text(jogador.age.toString(), textAlign:TextAlign.center, style: EstiloTextoPreto.text14)),
-          ),
-        ],
-      ),
-      Row(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children:[
-          const SizedBox(
-              width:50,
-              child: Text('Moral',style: EstiloTextoBranco.text14)),
-          moralContainer(jogador.moral,size: sizeIcon),
-        ],
-      ),
-    ],
-  );
-}
 
 Widget healthWithTitle(BuildContext context, Jogador player){
   return    Column(
@@ -194,10 +149,10 @@ Widget thisSeasonStats(BuildContext context, Jogador jogador){
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: [
-                const SizedBox(width: 40, child: Text('Stats', style: EstiloTextoBranco.negrito18)),
+                const SizedBox(width: 40, child: Text('Stats', style: EstiloTextoBranco.negrito16)),
                 const Text('Jogos', style: EstiloTextoBranco.text14),
-                Image.asset('assets/icons/bola.png',height: 15,width: 15),
-                Image.asset('assets/icons/assists.png',height: 15,width: 15),
+                Image.asset('assets/icons/goal.png',height: 18,width: 18),
+                Image.asset('assets/icons/assists.png',height: 18,width: 18),
 
               ],
             ),
@@ -270,7 +225,7 @@ Widget lesoesCartoes(BuildContext context, Jogador jogador){
             children: [
               Container(
                 height: 15,width: 15,color: Colors.white,
-                child: const Center(child: Text('+',style: TextStyle(fontSize: 15,color: Colors.red),)),
+                child: const Center(child: Text('+',style: TextStyle(fontSize: 12, fontWeight: FontWeight.bold, color: Colors.red),)),
               ),
               Text(jogador.injury.toString(), style: EstiloTextoBranco.text20),
             ],

@@ -250,8 +250,8 @@ class _TransfersState extends State<Transfers> {
             child: Column(
               mainAxisSize: MainAxisSize.min,
               children: [
-                Row(
-                  children: const [
+                const Row(
+                  children: [
                     Text("Sort by",style: EstiloTextoPreto.negrito16),
                   ],
                 ),

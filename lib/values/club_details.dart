@@ -43,14 +43,14 @@ class ClubDetails{
 
   getDataset() async{
 
-    final String rawCountries = await rootBundle.loadString('assets/csv/national_countries_details.csv');
-    List listRowsCountries = const CsvToListConverter().convert(rawCountries);
-    for(int i=0; i < listRowsCountries.length; i++){
-      String name = listRowsCountries[i][0];
-      globalClubDetails[name] = listRowsCountries[i];
-      globalClubDetails[name].insert(0, "");
-      globalClubDetails[name].insert(1, "");
-    }
+    //final String rawCountries = await rootBundle.loadString('assets/csv/national_countries_details.csv');
+    //List listRowsCountries = const CsvToListConverter().convert(rawCountries);
+    //for(int i=0; i < listRowsCountries.length; i++){
+      //String name = listRowsCountries[i][0];
+      //globalClubDetails[name] = listRowsCountries[i];
+      //globalClubDetails[name].insert(0, "");
+      //globalClubDetails[name].insert(1, "");
+    //}
 
     final String raw = await rootBundle.loadString('assets/csv/clubs_details.csv');
     List listRows = const CsvToListConverter().convert(raw);
@@ -64,10 +64,36 @@ class ClubDetails{
 
   String filterLegendsClubs(String clubName){
     //Flamengo 1981 -> same clubdetails as Flamengo
-    RegExp regex = RegExp(r'\d{4}$');
+    RegExp regex = RegExp(r' \d{4}$');
     if (regex.hasMatch(clubName)){
-      clubName = clubName.substring(0, -5);
+      clubName = clubName.substring(0, clubName.length - 5);
     }
+
+    // Rename some clubs
+    if (clubName == "Dortmund"){
+      clubName = "Borussia Dortmund";
+    } if (clubName == "Man Utd"){
+      clubName = "Manchester United";
+    } if (clubName == "Bochum"){
+      clubName = "Bochum";
+    } if (clubName == "Be Quick"){
+      clubName = "Be Quick 1887";
+    } if (clubName == "PAS Lamia"){
+      clubName = "PAS Lamia 1964";
+    } if (clubName == "Radnicki"){
+      clubName = "Radnicki 1923";
+    }if (clubName == "Istra"){
+      clubName = "Istra 1961";
+    }if (clubName == "DAC"){
+      clubName = "DAC 1904";
+    }if (clubName == "Petrzalka"){
+      clubName = "Petrzalka 1898";
+    }if (clubName == "Kokand"){
+      clubName = "Kokand 1912";
+    }if (clubName == "Port-Louis"){
+      clubName = "Port-Louis 2000";
+    }
+
     return clubName;
   }
 

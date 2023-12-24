@@ -43,6 +43,7 @@ class _YearResumeState extends State<YearResume> {
     super.initState();
   }
   Future getClassificationNames() async{
+    results = {};
     for(String leagueName in LeagueOfficialNames().getAllLeagueNames()){
       customToast("Loading $leagueName");
       await hasHistoric(leagueName);
@@ -100,7 +101,7 @@ class _YearResumeState extends State<YearResume> {
 
   @override
   Widget build(BuildContext context) {
-    print(results);
+
     return Scaffold(
       body: Stack(
         children: [

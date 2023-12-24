@@ -4,8 +4,6 @@ import 'package:fifa/classes/club.dart';
 import 'package:fifa/classes/simulate/player_variables/origin/grade.dart';
 import 'package:fifa/global_variables.dart';
 
-import '../../../../classes/club.dart';
-
 class RedCard{
 
   my(Club clubClass){

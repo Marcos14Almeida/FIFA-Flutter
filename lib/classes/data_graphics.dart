@@ -140,7 +140,6 @@ class DataGraphics{
 
     //historico copas
     await defineHistoricCups(club.name);
-    print('aqio');
     participationsCups();
     print(nTitulosCups);
 

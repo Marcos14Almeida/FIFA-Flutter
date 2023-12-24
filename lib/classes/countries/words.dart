@@ -200,6 +200,7 @@ class CountryNames {
   String get stKitts => 'Saint Kitts and Nevis';
   String get stLucia => 'Saint Lucia';
   String get saotome => 'São Tomé e Príncipe';
+  String get stvicent => 'Saint Vincent and the Grenadines';
   String get samoa => 'Samoa';
   String get sanMarino => 'San Marino';
   String get senegal => 'Senegal';
@@ -219,7 +220,7 @@ class CountryNames {
   String get southSudan => 'South Sudan';
   String get suriname => 'Suriname';
   String get spain => 'Spain';
-  String get stvicent => 'Saint Vincent and the Grenadines';
+  String get stvincent => 'Saint Vincent and the Grenadines';
   String get stlucia => 'Saint Lucia';
   String get stcristovao => 'Saint Kitts';
   String get srilanka => 'Sri Lanka';

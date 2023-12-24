@@ -27,10 +27,13 @@ class _FimCampeonatoState extends State<FimCampeonato> {
 ////////////////////////////////////////////////////////////////////////////
   @override
   Widget build(BuildContext context) {
-    //_height = MediaQuery.of(context).size.height;
-    return WillPopScope(//IF GO BACK TO PREVIOUS PAGE
-      onWillPop: () async{
-        return true;
+
+    return PopScope(//IF GO BACK TO PREVIOUS PAGE
+      canPop: true,
+      onPopInvoked : (didPop) async{
+        if(didPop){
+          return;
+        }
       },
       child: Scaffold(
           body:  Stack(

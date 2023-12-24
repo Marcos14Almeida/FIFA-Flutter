@@ -124,8 +124,8 @@ class _RankingBestClubsHistoryState extends State<RankingBestClubsHistory> {
   Widget title(){
     return Container( 
       padding: const EdgeInsets.all(4),
-      child:  Row(
-      children: const [
+      child:  const Row(
+      children: [
         SizedBox(width: 35),
         Text('Club', style: EstiloTextoBranco.negrito16),
         Spacer(),

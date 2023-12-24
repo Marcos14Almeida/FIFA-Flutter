@@ -4,8 +4,6 @@ import 'package:fifa/classes/club.dart';
 import 'package:fifa/classes/simulate/player_variables/origin/grade.dart';
 import 'package:fifa/global_variables.dart';
 
-import '../../../../global_variables.dart';
-
 class YellowCard{
   my(Club clubClass){
     //Se for o meu time

@@ -126,29 +126,6 @@ class _HistoricPlayersBestPageState extends State<HistoricBestPlayersPage> {
 
     return globalFamousPlayersHistory;
 
-    Map playersMap = globalFamousPlayersHistory;
-    //TRANSFORM CARRER MAP
-    Map carrerFull = {};
-    playersMap.forEach((playerName, carrer) {
-      Map carrerMap = {};
-      List carrerClubs = carrer.values.toList();
-      List carrerYears = carrer.keys.toList();
-      String clubName = carrerClubs.first;
-      int lastyear = anoInicial;
-      if(carrerClubs.last == 'retired'){
-        lastyear = carrerYears.last-1;
-      }
-      for (int year = carrerYears.first; year<=lastyear;year++) {
-        if(carrerYears.contains(year)){
-          clubName = carrerClubs[carrerYears.indexOf(year)];
-        }
-        carrerMap[year] = clubName;
-      }
-      carrerFull[playerName] = carrerMap;
-    });
-
-    return carrerFull;
-
   }
 
   legendsPlayers(String club){
@@ -181,7 +158,7 @@ class _HistoricPlayersBestPageState extends State<HistoricBestPlayersPage> {
     Map legendPlayers = legendsPlayers(clubName);
 
     Map yearPlayers = {};
-    for(int year = 1940; year<=anoInicial;year++){
+    for(int year = 1930; year<=anoInicial;year++){
       yearPlayers[year] = [];
     }
 

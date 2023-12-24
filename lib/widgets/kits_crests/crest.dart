@@ -93,7 +93,7 @@ class CrestWidgets{
                 fontFamily: 'Rajdhani',
                 color: textColor,
                 fontWeight: FontWeight.bold,
-                fontSize: _height*0.66,
+                fontSize: _height*0.64,
               ))),
         )
     );

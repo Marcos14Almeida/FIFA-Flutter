@@ -70,7 +70,7 @@ class _HomePageState extends State<HomePage> {
           Column(
             children: [
 
-              const SizedBox(height: 70),
+              const SizedBox(height: 40),
               title(),
               const SizedBox(height: 8),
 
@@ -152,8 +152,8 @@ class _HomePageState extends State<HomePage> {
 //                               WIDGETS                                  //
 ////////////////////////////////////////////////////////////////////////////
   Widget title(){
-    return Stack(
-      children: const [
+    return const Stack(
+      children: [
         Text('FSIM 2024',style: EstiloRowdies.titleWhite),
         Padding(
           padding: EdgeInsets.only(left:2.0,top: 1),

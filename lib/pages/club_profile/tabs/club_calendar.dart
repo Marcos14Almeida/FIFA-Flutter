@@ -68,7 +68,7 @@ class _ClubCalendarState extends State<ClubCalendar> {
 ////////////////////////////////////////////////////////////////////////////
 Widget calendarRow(int week){
 
-    double heightSize = 50;
+    double heightSize = 52;
     Semana weekClass = Semana(week);
     CalendarResult calendarResult = CalendarResult(semanaLocal: week, club: widget.club);
 
