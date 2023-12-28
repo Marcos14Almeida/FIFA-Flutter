@@ -5,9 +5,9 @@ import 'package:fifa/classes/league.dart';
 import 'package:fifa/classes/my.dart';
 import 'package:fifa/classes/countries/flags_list.dart';
 import 'package:fifa/classes/functions/func_number_clubs_total.dart';
+import 'package:fifa/classes/team_details.dart';
 import 'package:fifa/pages/table/table_nacional.dart';
 import 'package:fifa/theme/custom_toast.dart';
-import 'package:fifa/values/club_details.dart';
 import 'package:fifa/widgets/button/pressable_button.dart';
 import 'package:fifa/widgets/league_selection_row.dart';
 import 'package:fifa/pages/ranking_clubs/ranking_clubs_control.dart';
@@ -242,7 +242,7 @@ Widget rowClub(int ranking, Club club){
               const SizedBox(width: 4),
               numberCircle(ranking+1, 35),
               const SizedBox(width: 8),
-              funcFlagsList(ClubDetails().getCountry(club.name), 15, 22),
+              funcFlagsList(ClubBasics(name: club.name).country, 15, 22),
               const SizedBox(width: 4),
               Images().getEscudoWidget(club.name,32,32),
               const SizedBox(width: 8),

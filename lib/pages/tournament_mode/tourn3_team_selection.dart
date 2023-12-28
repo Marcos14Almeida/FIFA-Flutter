@@ -2,6 +2,7 @@ import 'dart:async';
 
 import 'package:fifa/classes/functions/size.dart';
 import 'package:fifa/classes/image_class.dart';
+import 'package:fifa/classes/team_details.dart';
 import 'package:fifa/pages/tournament_mode/custom_tournament.dart';
 import 'package:fifa/pages/tournament_mode/tourn_menu.dart';
 import 'package:fifa/theme/colors.dart';
@@ -130,7 +131,7 @@ class _TeamSelectionState extends State<TeamSelection> {
             Row(
               children: [
                 const SizedBox(width: 6),
-                starsWidgetFromOverall(clubdetails.getOverall(clubName),14),
+                starsWidgetFromOverall(ClubBasics(name: clubName).overall,14),
               ],
             ),
           ],

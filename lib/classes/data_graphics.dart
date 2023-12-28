@@ -3,6 +3,7 @@ import 'package:fifa/classes/club.dart';
 import 'package:fifa/classes/historic/historic_club_year.dart';
 import 'package:fifa/classes/historic/historic_champions_league.dart';
 import 'package:fifa/classes/countries/countries_continents.dart';
+import 'package:fifa/classes/team_details.dart';
 import 'package:fifa/global_variables.dart';
 import 'package:fifa/values/club_details.dart';
 import 'package:fifa/values/historic_champions/historic_champions.dart';
@@ -81,8 +82,9 @@ class DataGraphics{
 
   Future getDataNotPlayabale(String clubName, ClubDetails clubDetails) async{
 
-    String country = clubDetails.getCountry(clubName);
-    String state = clubDetails.getState(clubName);
+    ClubBasics clubBasics = ClubBasics(name: clubName);
+    String country = clubBasics.country;
+    String state = clubBasics.state;
 
     //GET LEAGUE NAME
     Map leagueNationality = getLeagueNationalityMap();

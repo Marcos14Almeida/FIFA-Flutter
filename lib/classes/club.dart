@@ -3,6 +3,7 @@ import 'package:fifa/classes/jogador.dart';
 import 'package:fifa/classes/countries/countries_continents.dart';
 import 'package:fifa/classes/functions/internat_league_manipulation.dart';
 import 'package:fifa/classes/playing_international.dart';
+import 'package:fifa/classes/team_details.dart';
 import 'package:fifa/global_variables.dart';
 import 'package:fifa/values/club_details.dart';
 import 'package:fifa/values/clubs_all_names_list.dart';
@@ -73,12 +74,13 @@ class Club{
     }
     if(clubDetails){
       ClubDetails clubDetails = ClubDetails();
-      nationality = clubDetails.getCountry(name);
-      foundationYear = clubDetails.getFoundationYear(name);
-      stadiumName = clubDetails.getStadium(name);
-      stadiumSize = clubDetails.getStadiumCapacity(name);
+      ClubBasics clubBasics = ClubBasics(name: name);
+      nationality = clubBasics.country;
+      foundationYear = clubBasics.foundationYear;
+      stadiumName = clubBasics.stadium;
+      stadiumSize = clubBasics.stadiumSize;
       continent = Continents().funcCountryContinents(nationality);
-      stateName = clubDetails.getState(name);
+      stateName = clubBasics.state;
       colors = clubDetails.getColors(name);
       if(stateName.isNotEmpty){
         estadualLeagueName = getLeagueNationalityMap().keys.firstWhere((k) => getLeagueNationalityMap()[k] == stateName, orElse: () => null);

@@ -1,9 +1,9 @@
 import 'package:fifa/classes/club.dart';
 import 'package:fifa/classes/functions/size.dart';
 import 'package:fifa/classes/image_class.dart';
+import 'package:fifa/classes/team_details.dart';
 import 'package:fifa/theme/colors.dart';
 import 'package:fifa/theme/textstyle.dart';
-import 'package:fifa/values/club_details.dart';
 import 'package:flutter/material.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 
@@ -118,8 +118,8 @@ class _ClubGeralInfosPageState extends State<ClubGeralInfosPage> {
 
         initialCameraPosition: CameraPosition(
           target: LatLng(
-                ClubDetails().getCoordinate(widget.club.name).latitude,
-                ClubDetails().getCoordinate(widget.club.name).longitude
+              ClubBasics(name: widget.club.name).coordinates.latitude,
+              ClubBasics(name: widget.club.name).coordinates.longitude,
           ),
           zoom: 16.4,
         ),

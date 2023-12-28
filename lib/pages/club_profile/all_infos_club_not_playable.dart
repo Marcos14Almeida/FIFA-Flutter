@@ -2,6 +2,7 @@ import 'package:fifa/classes/club.dart';
 import 'package:fifa/classes/functions/size.dart';
 import 'package:fifa/classes/image_class.dart';
 import 'package:fifa/classes/countries/flags_list.dart';
+import 'package:fifa/classes/team_details.dart';
 import 'package:fifa/global_variables.dart';
 import 'package:fifa/classes/data_graphics.dart';
 import 'package:fifa/pages/club_profile/club_profile.dart';
@@ -55,10 +56,10 @@ class _ClubProfileNotPlayableState extends State<ClubProfileNotPlayable> with Ti
     super.initState();
   }
   getDataGraphics() async{
-    clubState = clubdetails.getState(widget.clubName);
+    clubState = ClubBasics(name: widget.clubName).state;
 
     try {
-      clubCountry = clubdetails.getCountry(widget.clubName);
+      clubCountry = ClubBasics(name: widget.clubName).country;
 
       await dataGraphics.getDataNotPlayabale(widget.clubName, clubdetails);
       setState((){});
@@ -176,7 +177,7 @@ class _ClubProfileNotPlayableState extends State<ClubProfileNotPlayable> with Ti
           Column(
             children: [
               Images().getEscudoWidget(widget.clubName,75,75),
-              starsWidgetFromOverall(clubdetails.getOverall(widget.clubName),20),
+              starsWidgetFromOverall(ClubBasics(name: widget.clubName).overall,20),
             ],
           ),
 
@@ -189,16 +190,16 @@ class _ClubProfileNotPlayableState extends State<ClubProfileNotPlayable> with Ti
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    funcFlagsList(clubdetails.getCountry(widget.clubName), 30, 40),
+                    funcFlagsList(ClubBasics(name: widget.clubName).country, 30, 40),
                     clubState.isNotEmpty
                         ? Padding(
                           padding: const EdgeInsets.all(8.0),
-                          child: funcFlagsList(clubdetails.getState(widget.clubName), 30, 40),
+                          child: funcFlagsList(ClubBasics(name: widget.clubName).state, 30, 40),
                         )
                         : Container(),
                   ],
                 ),
-                Text(clubdetails.getFoundationYear(widget.clubName).toString(),style: EstiloTextoBranco.text16),
+                Text(ClubBasics(name: widget.clubName).foundationYear.toString(),style: EstiloTextoBranco.text16),
 
               ],
             ),
@@ -269,7 +270,7 @@ class _ClubProfileNotPlayableState extends State<ClubProfileNotPlayable> with Ti
               child: SingleChildScrollView(
                 child: Column(
                   children: [
-                    clubdetails.getState(widget.clubName).isNotEmpty
+                    ClubBasics(name: widget.clubName).state.isNotEmpty
                         ? heatMapPositions('Estadual',dataGraphics.dataEstadual)
                         : Container(),
                     heatMapPositions('Nacional',dataGraphics.data),

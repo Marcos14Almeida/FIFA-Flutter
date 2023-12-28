@@ -3,6 +3,7 @@ import 'package:fifa/classes/click_navigator/click_club.dart';
 import 'package:fifa/classes/countries/words.dart';
 import 'package:fifa/classes/functions/size.dart';
 import 'package:fifa/classes/image_class.dart';
+import 'package:fifa/pages/club_profile/country_profile.dart';
 import 'package:fifa/pages/historic/leagues_historic.dart';
 import 'package:fifa/pages/historic/real_classification.dart';
 import 'package:fifa/pages/home/choose_team.dart';
@@ -133,6 +134,13 @@ class _HomePageState extends State<HomePage> {
                           'assets/icons/home_map.png',
                           90,
                               (){navigatorPush(context, MapExploration(clubName: ClubName().arsenal));}
+                      ),
+
+                      buttonRow(
+                          "Country Page",
+                          'assets/icons/home_map.png',
+                          90,
+                              (){navigatorPush(context, const CountryProfile(nationalTeam: 'Brazil'));}
                       ),
                     ],
                   ),

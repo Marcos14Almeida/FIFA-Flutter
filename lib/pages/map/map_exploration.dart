@@ -6,6 +6,7 @@ import 'package:fifa/classes/functions/size.dart';
 import 'package:fifa/classes/image_class.dart';
 import 'package:fifa/classes/countries/words.dart';
 import 'package:fifa/classes/countries/flags_list.dart';
+import 'package:fifa/classes/team_details.dart';
 import 'package:fifa/global_variables.dart';
 import 'package:fifa/theme/colors.dart';
 import 'package:fifa/theme/textstyle.dart';
@@ -67,8 +68,8 @@ class _MapExplorationState extends State<MapExploration> {
     globalClubDetails.forEach((key, value) {
       String clubName = key;
 
-      if(clubDetails.getCoordinate(clubName).latitude != 0){
-        coordinates.add(clubDetails.getCoordinate(clubName));
+      if(ClubBasics(name: clubName).coordinates.latitude != 0){
+        coordinates.add(ClubBasics(name: clubName).coordinates);
 
         //ADD MARKER
         _markers.add(
@@ -79,8 +80,8 @@ class _MapExplorationState extends State<MapExploration> {
 
               String city = '';
               List<Placemark> placemarks = await placemarkFromCoordinates(
-                clubDetails.getCoordinate(clubName).latitude,
-                clubDetails.getCoordinate(clubName).longitude,
+                  ClubBasics(name: clubName).coordinates.latitude,
+                  ClubBasics(name: clubName).coordinates.longitude,
               );
               //print(placemarks[0]);
               if(placemarks[0].locality!.isNotEmpty){
@@ -190,7 +191,10 @@ class _MapExplorationState extends State<MapExploration> {
                 compassEnabled: false,
 
                 initialCameraPosition: CameraPosition(
-                  target: LatLng(clubDetails.getCoordinate(widget.clubName).latitude, clubDetails.getCoordinate(widget.clubName).longitude),
+                  target: LatLng(
+                      ClubBasics(name: widget.clubName).coordinates.latitude,
+                      ClubBasics(name: widget.clubName).coordinates.longitude,
+                  ),
                   zoom: 6.0,
                 ),
                 onMapCreated: getClubsLocation,
@@ -235,10 +239,10 @@ class _MapExplorationState extends State<MapExploration> {
         yearTimeline++;
         List temp = List.from(_markers);
         _markersShow = List.from(_markers);
-        temp.removeWhere((element) => clubDetails.getFoundationYear(element.markerId.value) < yearTimeline);
+        temp.removeWhere((element) => ClubBasics(name: element.markerId.value).foundationYear < yearTimeline);
         _markersShow.removeWhere((element) => temp.contains(element));
         if(removePreviousFoundedTeams){
-          _markersShow.removeWhere((element) => clubDetails.getFoundationYear(element.markerId.value) < int.parse(controllerSimulationYear.text));
+          _markersShow.removeWhere((element) => ClubBasics(name: element.markerId.value).foundationYear < int.parse(controllerSimulationYear.text));
         }
         setState((){});
       }
@@ -315,7 +319,10 @@ class _MapExplorationState extends State<MapExploration> {
 
         //Zoom
         var newPosition = CameraPosition(
-            target: LatLng(clubDetails.getCoordinate(club.name).latitude, clubDetails.getCoordinate(club.name).longitude),
+            target: LatLng(
+                ClubBasics(name: club.name).coordinates.latitude,
+                ClubBasics(name: club.name).coordinates.longitude,
+            ),
             zoom: 16);
         CameraUpdate cameraUpdate = CameraUpdate.newCameraPosition(newPosition);
         controller.moveCamera(cameraUpdate);
@@ -328,10 +335,10 @@ class _MapExplorationState extends State<MapExploration> {
           children: [
             Row(
               children: [
-                Text(clubDetails.getStadium(club.name)+': ',style: EstiloTextoPreto.text16),
-                Text(clubDetails.getStadiumCapacity(club.name).toString()),
+                Text(ClubBasics(name: club.name).stadium+': ',style: EstiloTextoPreto.text16),
+                Text(ClubBasics(name: club.name).stadiumSize.toString()),
                 const Spacer(),
-                funcFlagsList(clubDetails.getCountry(club.name), 15, 25),
+                funcFlagsList(ClubBasics(name: club.name).country, 15, 25),
                 dataGraphics.nTitulos > 0 ? SizedBox(
                   height: 32,
                   width: 30,
@@ -361,7 +368,7 @@ class _MapExplorationState extends State<MapExploration> {
               children: [
                 Text(club.leagueName),
                 Text(city),
-                Text(clubDetails.getFoundationYear(club.name).toString()),
+                Text(ClubBasics(name: club.name).foundationYear.toString()),
               ],
             ),
           ],
@@ -379,7 +386,10 @@ class _MapExplorationState extends State<MapExploration> {
       onTap: () {
         //Zoom
         var newPosition = CameraPosition(
-            target: LatLng(clubDetails.getCoordinate(clubName).latitude, clubDetails.getCoordinate(clubName).longitude),
+            target: LatLng(
+                ClubBasics(name: clubName).coordinates.latitude,
+                ClubBasics(name: clubName).coordinates.longitude,
+            ),
             zoom: 16);
         CameraUpdate cameraUpdate = CameraUpdate.newCameraPosition(newPosition);
         controller.moveCamera(cameraUpdate);
@@ -392,10 +402,10 @@ class _MapExplorationState extends State<MapExploration> {
           children: [
             Row(
               children: [
-                Text(clubDetails.getStadium(clubName)+': ',style: EstiloTextoPreto.text16),
-                Text(clubDetails.getStadiumCapacity(clubName).toString()),
+                Text(ClubBasics(name: clubName).stadium+': ',style: EstiloTextoPreto.text16),
+                Text(ClubBasics(name: clubName).stadiumSize.toString()),
                 const Spacer(),
-                funcFlagsList(clubDetails.getCountry(clubName), 15, 25),
+                funcFlagsList(ClubBasics(name: clubName).country, 15, 25),
                 dataGraphics.nTitulos > 0 ? SizedBox(
                   height: 32,
                   width: 30,
@@ -420,7 +430,7 @@ class _MapExplorationState extends State<MapExploration> {
                 const SizedBox(width: 8),
                 Text(clubName,style: EstiloTextoPreto.negrito20,),
                 const Spacer(),
-                Text(clubDetails.getFoundationYear(clubName).toString()),
+                Text(ClubBasics(name: clubName).foundationYear.toString()),
               ],
             ),
 
@@ -502,11 +512,11 @@ class _MapExplorationState extends State<MapExploration> {
             width: 120,
             child: DropdownButton<String>(
               isExpanded: true,
-              value: clubDetails.getCountry(widget.clubName),
+              value: ClubBasics(name: widget.clubName).country,
               items: finalResultCountries,
               onChanged: (Object? nationality) {
                 _markersShow = List.from(_markers);
-                _markersShow.removeWhere((element) => clubDetails.getCountry(element.markerId.value) != nationality.toString());
+                _markersShow.removeWhere((element) => ClubBasics(name: element.markerId.value).country != nationality.toString());
                 setState((){});
                 Navigator.pop(c);
               },
@@ -545,8 +555,8 @@ class _MapExplorationState extends State<MapExploration> {
             GestureDetector(
                   onTap:() {
                     Navigator.pop(c);
-                  _markersShow.removeWhere((element) => clubDetails.getFoundationYear(element.markerId.value) < int.parse(controllerMin.text));
-                  _markersShow.removeWhere((element) => clubDetails.getFoundationYear(element.markerId.value) > int.parse(controllerMax.text));
+                  _markersShow.removeWhere((element) => ClubBasics(name: element.markerId.value).foundationYear < int.parse(controllerMin.text));
+                  _markersShow.removeWhere((element) => ClubBasics(name: element.markerId.value).foundationYear > int.parse(controllerMax.text));
 
                   },child: Container(
                     color: Colors.grey,
@@ -633,8 +643,8 @@ class _MapExplorationState extends State<MapExploration> {
               GestureDetector(
                 onTap:() {
                   Navigator.pop(c);
-                  _markersShow.removeWhere((element) => clubDetails.getStadiumCapacity(element.markerId.value) < int.parse(controllerStadiumMin.text));
-                  _markersShow.removeWhere((element) => clubDetails.getStadiumCapacity(element.markerId.value) > int.parse(controllerStadiumMax.text));
+                  _markersShow.removeWhere((element) => ClubBasics(name: element.markerId.value).stadiumSize < int.parse(controllerStadiumMin.text));
+                  _markersShow.removeWhere((element) => ClubBasics(name: element.markerId.value).stadiumSize > int.parse(controllerStadiumMax.text));
 
                 },child: Container(
                 color: Colors.grey,

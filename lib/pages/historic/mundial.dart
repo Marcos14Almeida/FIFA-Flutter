@@ -4,11 +4,11 @@ import 'package:fifa/classes/image_class.dart';
 import 'package:fifa/classes/match/confronto.dart';
 import 'package:fifa/classes/mundial.dart';
 import 'package:fifa/classes/my.dart';
+import 'package:fifa/classes/team_details.dart';
 import 'package:fifa/global_variables.dart';
 import 'package:fifa/pages/club_profile/all_infos_club_not_playable.dart';
 import 'package:fifa/theme/colors.dart';
 import 'package:fifa/theme/textstyle.dart';
-import 'package:fifa/values/club_details.dart';
 import 'package:fifa/values/images.dart';
 import 'package:fifa/values/league_names.dart';
 import 'package:fifa/widgets/background_image/backimage_international_league.dart';
@@ -123,7 +123,7 @@ class _TableMundialState extends State<TableMundial> {
           Text(year.toString(),textAlign:TextAlign.center,style: EstiloTextoBranco.negrito18),
           const SizedBox(width: 16),
 
-          funcFlagsList(ClubDetails().getCountry(clubName1), 15, 25),
+          funcFlagsList(ClubBasics(name: clubName1).country, 15, 25),
           const SizedBox(width: 4),
           PressableButton(onTap:(){
             navigatorPush(context, ClubProfileNotPlayable(clubName: clubName1));
@@ -138,7 +138,7 @@ class _TableMundialState extends State<TableMundial> {
             navigatorPush(context, ClubProfileNotPlayable(clubName: clubName2));
           },child: Images().getEscudoWidget(clubName2,40,40)),
           const SizedBox(width: 4),
-          funcFlagsList(ClubDetails().getCountry(clubName2), 15, 25),
+          funcFlagsList(ClubBasics(name: clubName2).country, 15, 25),
         ],
       )
       );

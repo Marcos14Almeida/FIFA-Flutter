@@ -1,8 +1,8 @@
 import 'package:fifa/classes/countries/flags_list.dart';
 import 'package:fifa/classes/image_class.dart';
+import 'package:fifa/classes/team_details.dart';
 import 'package:fifa/pages/club_profile/all_infos_club_not_playable.dart';
 import 'package:fifa/theme/textstyle.dart';
-import 'package:fifa/values/club_details.dart';
 import 'package:flutter/material.dart';
 
 Widget wInternationalHistoricColumn(BuildContext context, String leagueInternational, Map mapClassifications, int year) {
@@ -12,7 +12,7 @@ Widget wInternationalHistoricColumn(BuildContext context, String leagueInternati
     child: ListView.builder(
       itemCount: list.length,
       itemBuilder: (c, i) {
-        String nationality = ClubDetails().getCountry(list[i]);
+        String nationality = ClubBasics(name: list[i]).country;
         int position = i + 1;
         return GestureDetector(
           onTap: (){

@@ -1,5 +1,4 @@
 import 'package:csv/csv.dart';
-import 'package:fifa/classes/countries/countries_continents.dart';
 import 'package:fifa/global_variables.dart';
 import 'package:fifa/widgets/kits_crests/patterns.dart';
 import 'package:flutter/material.dart';
@@ -38,19 +37,20 @@ class ClubImage{
   }
 }
 
+
+
+
+
+
+
+
+
+
+
 class ClubDetails{
 
 
   getDataset() async{
-
-    //final String rawCountries = await rootBundle.loadString('assets/csv/national_countries_details.csv');
-    //List listRowsCountries = const CsvToListConverter().convert(rawCountries);
-    //for(int i=0; i < listRowsCountries.length; i++){
-      //String name = listRowsCountries[i][0];
-      //globalClubDetails[name] = listRowsCountries[i];
-      //globalClubDetails[name].insert(0, "");
-      //globalClubDetails[name].insert(1, "");
-    //}
 
     final String raw = await rootBundle.loadString('assets/csv/clubs_details.csv');
     List listRows = const CsvToListConverter().convert(raw);
@@ -62,40 +62,7 @@ class ClubDetails{
 
   }
 
-  String filterLegendsClubs(String clubName){
-    //Flamengo 1981 -> same clubdetails as Flamengo
-    RegExp regex = RegExp(r' \d{4}$');
-    if (regex.hasMatch(clubName)){
-      clubName = clubName.substring(0, clubName.length - 5);
-    }
 
-    // Rename some clubs
-    if (clubName == "Dortmund"){
-      clubName = "Borussia Dortmund";
-    } if (clubName == "Man Utd"){
-      clubName = "Manchester United";
-    } if (clubName == "Bochum"){
-      clubName = "Bochum";
-    } if (clubName == "Be Quick"){
-      clubName = "Be Quick 1887";
-    } if (clubName == "PAS Lamia"){
-      clubName = "PAS Lamia 1964";
-    } if (clubName == "Radnicki"){
-      clubName = "Radnicki 1923";
-    }if (clubName == "Istra"){
-      clubName = "Istra 1961";
-    }if (clubName == "DAC"){
-      clubName = "DAC 1904";
-    }if (clubName == "Petrzalka"){
-      clubName = "Petrzalka 1898";
-    }if (clubName == "Kokand"){
-      clubName = "Kokand 1912";
-    }if (clubName == "Port-Louis"){
-      clubName = "Port-Louis 2000";
-    }
-
-    return clubName;
-  }
 
   Color convertColors(String color){
 
@@ -135,7 +102,6 @@ class ClubDetails{
   }
 
   ClubColors getColors(String clubName){
-    clubName = filterLegendsClubs(clubName);
 
     try {
 
@@ -151,7 +117,6 @@ class ClubDetails{
     }
 
   ClubColors getColorsShortsSocks(String clubName){
-    clubName = filterLegendsClubs(clubName);
 
     ClubColors officialColors = getColors(clubName);
 
@@ -186,7 +151,6 @@ class ClubDetails{
   }
 
   String getPattern(String clubName){
-    clubName = filterLegendsClubs(clubName);
     ClubPattern pattern = ClubPattern();
 
     Map tempMap = {};
@@ -216,30 +180,8 @@ class ClubDetails{
     return tempMap[globalClubDetails[clubName][10]] ?? pattern.solid;
   }
 
-  Coordinates getCoordinate(String clubName){
-    clubName = filterLegendsClubs(clubName);
-
-    try {
-      return Coordinates(globalClubDetails[clubName][8], globalClubDetails[clubName][9]);
-    }catch(e){
-      return Coordinates(0, 0);
-    }
-  }
-
-  String getStadium(String clubName){
-    clubName = filterLegendsClubs(clubName);
-
-    return globalClubDetails[clubName][6] ?? "";
-  }
-  int getStadiumCapacity(String clubName){
-    clubName = filterLegendsClubs(clubName);
-
-    return globalClubDetails[clubName][7] ?? 0;
-  }
   String getStadiumCapacityPointFormat(String clubName){
-    clubName = filterLegendsClubs(clubName);
-
-    int capacity = getStadiumCapacity(clubName);
+    int capacity = globalClubDetails[clubName][7];
     if(capacity>=100000){
       return capacity.toString()[0]+capacity.toString()[1]+capacity.toString()[2]+'.'+capacity.toString()[3]+capacity.toString()[4]+capacity.toString()[5];
     }
@@ -251,45 +193,38 @@ class ClubDetails{
     }
     return capacity.toString();
   }
-  int getFoundationYear(String clubName){
-    clubName = filterLegendsClubs(clubName);
-    return globalClubDetails[clubName][4];
-  }
-  int getExtinto(String clubName){
-    return globalClubDetails[clubName][5];
-  }
-  String getCountry(String clubName){
-    clubName = filterLegendsClubs(clubName);
-    return globalClubDetails[clubName][0];
-  }
-  String getState(String clubName){
-    clubName = filterLegendsClubs(clubName);
+
+  static Coordinates getCoordinate(String clubName, double lat, double long){
+
     try {
-      return globalClubDetails[clubName][1];
+      return Coordinates(lat, long);
+    }catch(e){
+      return Coordinates(0, 0);
+    }
+  }
+  static String getState(String clubName, String value){
+    try {
+      return value;
     }catch (e) {
       //print('ERROR GETSTATE: $clubName');
       return '';
     }
   }
 
-  String getContinent(String clubName){
-    clubName = filterLegendsClubs(clubName);
-    return Continents().funcCountryContinents(getCountry(clubName));
-  }
 
-  double getOverall(String clubName){
-    clubName = filterLegendsClubs(clubName);
+
+  static double getOverall(String clubName, double value) {
     try {
-      return globalClubDetails[clubName][3];
-    }catch(e){
+      return value; // Some logic to retrieve rivals based on clubName
+    } catch (e) {
       return 50.0;
     }
   }
-  List getRivals(String clubName){
-    clubName = filterLegendsClubs(clubName);
+
+  static List<String> getRivals(String clubName, List<String> value) {
     try {
-      return globalClubDetails[clubName][15];
-    }catch(e){
+      return value; // Some logic to retrieve rivals based on clubName
+    } catch (e) {
       return [];
     }
   }

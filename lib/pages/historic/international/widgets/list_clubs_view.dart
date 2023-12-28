@@ -1,8 +1,8 @@
 import 'package:fifa/classes/countries/flags_list.dart';
 import 'package:fifa/classes/image_class.dart';
 import 'package:fifa/classes/click_navigator/click_club.dart';
+import 'package:fifa/classes/team_details.dart';
 import 'package:fifa/theme/textstyle.dart';
-import 'package:fifa/values/club_details.dart';
 import 'package:flutter/material.dart';
 
 Widget wListViewChampions(BuildContext context, String leagueInternational, Map mapClassifications) {
@@ -64,7 +64,7 @@ Widget wListViewChampions(BuildContext context, String leagueInternational, Map 
 
 Widget positionListClub(BuildContext context, List list, int position){
   String clubName = list[position];
-  String nationality = ClubDetails().getCountry(list[position]);
+  String nationality = ClubBasics(name: list[position]).country;
   return GestureDetector(
     onTap: (){
 

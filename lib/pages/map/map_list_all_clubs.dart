@@ -4,6 +4,7 @@ import 'package:fifa/classes/countries/flags_list.dart';
 import 'package:fifa/classes/countries/words.dart';
 import 'package:fifa/classes/data_graphics.dart';
 import 'package:fifa/classes/image_class.dart';
+import 'package:fifa/classes/team_details.dart';
 import 'package:fifa/global_variables.dart';
 import 'package:fifa/pages/club_profile/all_infos_club_not_playable.dart';
 import 'package:fifa/pages/historic/leagues_historic.dart';
@@ -44,7 +45,7 @@ class _MapListAllClubsState extends State<MapListAllClubs> {
   getFlagsList(){
     Continents continents = Continents();
     globalClubDetails.forEach((clubName, value) {
-      String countryName = clubDetails.getCountry(clubName);
+      String countryName = ClubBasics(name: clubName).country;
       if(!countryOptions.contains(countryName)){
         if(continents.funcCountryContinents(countryName) == widget.continent){
           countryOptions.add(countryName);
@@ -70,8 +71,8 @@ class _MapListAllClubsState extends State<MapListAllClubs> {
 
     //Filtra os clubes do país
     Iterable keysIterable = globalClubDetails.keys;
-    Iterable showList = keysIterable.where((clubName) => selectedCountry == clubDetails.getCountry(clubName));
-    showList = showList.where((clubName) => clubDetails.getFoundationYear(clubName) > 0);
+    Iterable showList = keysIterable.where((clubName) => selectedCountry == ClubBasics(name: clubName).country);
+    showList = showList.where((clubName) => ClubBasics(name: clubName).foundationYear > 0);
 
     return Scaffold(
       body: Stack(
@@ -211,7 +212,7 @@ class _MapListAllClubsState extends State<MapListAllClubs> {
                                       const SizedBox(height: 4),
                                       Padding(
                                         padding: const EdgeInsets.only(left: 0.0),
-                                        child: starsWidgetFromOverall(clubDetails.getOverall(clubName),18.0),
+                                        child: starsWidgetFromOverall(ClubBasics(name: clubName).overall,18.0),
                                       ),
                                     ],
                                   ),
@@ -227,8 +228,8 @@ class _MapListAllClubsState extends State<MapListAllClubs> {
                                           ],
                                         ),
                                         const SizedBox(height: 4),
-                                        Text(clubDetails.getFoundationYear(clubName).toString(),style: EstiloTextoBranco.text16),
-                                        Text(clubDetails.getStadium(clubName),maxLines: 2,overflow: TextOverflow.ellipsis,style: EstiloTextoBranco.text14),
+                                        Text(ClubBasics(name: clubName).foundationYear.toString(),style: EstiloTextoBranco.text16),
+                                        Text(ClubBasics(name: clubName).stadium,maxLines: 2,overflow: TextOverflow.ellipsis,style: EstiloTextoBranco.text14),
                                         Text('(${clubDetails.getStadiumCapacityPointFormat(clubName).toString()}) ',style: EstiloTextoBranco.text16),
 
                                       ],
@@ -254,7 +255,7 @@ class _MapListAllClubsState extends State<MapListAllClubs> {
                 ),
                 Padding(
                     padding: const EdgeInsets.only(left:340,top: 80),
-                    child: funcFlagsList(clubDetails.getCountry(clubName), 15, 25),
+                    child: funcFlagsList(ClubBasics(name: clubName).country, 15, 25),
                 ),
 
                 SizedBox(
@@ -307,7 +308,10 @@ class _MapListAllClubsState extends State<MapListAllClubs> {
    {
      List<Marker> _markers =          [Marker(
        markerId: MarkerId(clubName),
-       position: LatLng(clubDetails.getCoordinate(clubName).latitude, clubDetails.getCoordinate(clubName).longitude),
+       position: LatLng(
+           ClubBasics(name: clubName).coordinates.latitude,
+           ClubBasics(name: clubName).coordinates.longitude
+       ),
        infoWindow: InfoWindow(title: clubName),
        //icon: clubsAllNameList.indexOf(clubName) < 40 ? _markersIcons[clubsAllNameList.indexOf(clubName)] : BitmapDescriptor.defaultMarker,
      )];
@@ -325,7 +329,10 @@ class _MapListAllClubsState extends State<MapListAllClubs> {
                //zoomGesturesEnabled: false, //SEM ZOOM
                //zoomControlsEnabled: false, //SEM ZOOM
                initialCameraPosition: CameraPosition(
-                 target: LatLng(clubDetails.getCoordinate(clubName).latitude, clubDetails.getCoordinate(clubName).longitude),
+                 target: LatLng(
+                     ClubBasics(name: clubName).coordinates.latitude,
+                     ClubBasics(name: clubName).coordinates.longitude,
+                 ),
                  zoom: 15.0,
                ),
                //onMapCreated: getClubsLocation,
@@ -344,7 +351,10 @@ class _MapListAllClubsState extends State<MapListAllClubs> {
                zoomGesturesEnabled: false, //SEM ZOOM
                zoomControlsEnabled: false, //SEM ZOOM
                initialCameraPosition: CameraPosition(
-                 target: LatLng(clubDetails.getCoordinate(clubName).latitude, clubDetails.getCoordinate(clubName).longitude),
+                 target: LatLng(
+                     ClubBasics(name: clubName).coordinates.latitude,
+                     ClubBasics(name: clubName).coordinates.longitude,
+                 ),
                  zoom: 3.0,
                ),
                //onMapCreated: getClubsLocation,

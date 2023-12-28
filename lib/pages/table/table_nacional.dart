@@ -4,6 +4,7 @@ import 'package:fifa/classes/functions/size.dart';
 import 'package:fifa/classes/image_class.dart';
 import 'package:fifa/classes/league.dart';
 import 'package:fifa/classes/my.dart';
+import 'package:fifa/classes/team_details.dart';
 import 'package:fifa/global_variables.dart';
 import 'package:fifa/pages/historic/leagues_historic.dart';
 import 'package:fifa/widgets/league_selection_row.dart';
@@ -73,13 +74,12 @@ class _TableNacionalState extends State<TableNacional>  with TickerProviderState
   }
 
   getClubsMarkers(GoogleMapController googleMapControllerLocal, League league) async{
-    ClubDetails clubDetails = ClubDetails();
     googleMapController = googleMapControllerLocal;
     _markers = [];
     List<BitmapDescriptor> customIcon = [];
     for (String clubName in league.allClubsName) {
-      if(clubDetails.getCoordinate(clubName).latitude != 0){
-        coordinates.add(clubDetails.getCoordinate(clubName));
+      if(ClubBasics(name: clubName).coordinates.latitude != 0){
+        coordinates.add(ClubBasics(name: clubName).coordinates);
 
         //ADD MARKER
         await BitmapDescriptor.fromAssetImage(
@@ -231,8 +231,8 @@ class _TableNacionalState extends State<TableNacional>  with TickerProviderState
 
         initialCameraPosition: CameraPosition(
         target: LatLng(
-            ClubDetails().getCoordinate(league.allClubsName[0]).latitude,
-            ClubDetails().getCoordinate(league.allClubsName[0]).latitude,
+            ClubBasics(name: league.allClubsName[0]).coordinates.latitude,
+            ClubBasics(name: league.allClubsName[0]).coordinates.longitude
         ),
         zoom: 4.0,
         ),

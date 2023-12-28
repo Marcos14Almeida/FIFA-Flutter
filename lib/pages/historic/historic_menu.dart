@@ -2,6 +2,7 @@ import 'package:fifa/classes/click_navigator/click_club.dart';
 import 'package:fifa/classes/functions/size.dart';
 import 'package:fifa/classes/image_class.dart';
 import 'package:fifa/classes/my.dart';
+import 'package:fifa/classes/team_details.dart';
 import 'package:fifa/global_variables.dart';
 import 'package:fifa/pages/historic/international/international_historic.dart';
 import 'package:fifa/pages/historic/leagues_historic.dart';
@@ -15,7 +16,6 @@ import 'package:fifa/pages/map/map_exploration.dart';
 import 'package:fifa/theme/colors.dart';
 import 'package:fifa/theme/custom_toast.dart';
 import 'package:fifa/theme/textstyle.dart';
-import 'package:fifa/values/club_details.dart';
 import 'package:fifa/values/images.dart';
 import 'package:fifa/values/league_names.dart';
 import 'package:fifa/widgets/button/back_button.dart';
@@ -144,7 +144,7 @@ class _HistoricMenuState extends State<HistoricMenu> {
                               'Tabela Real',
                               Icon(Icons.line_weight,color: Colors.white, size: imageSize),
                                   (){
-                                navigatorPush(context, RealClassificationPage(chosenCountryName: ClubDetails().getCountry(My().clubName)));
+                                navigatorPush(context, RealClassificationPage(chosenCountryName: ClubBasics(name: My().clubName).country));
                               }
                           ),
                         ],
