@@ -28,12 +28,19 @@ class Images{
       return 'assets/clubs/${FIFAImages().imageLogo(clubName)}.png';
   }
 
+
+  Widget getEscudoWidget(String clubName,[double _height=50.0, double _width=50.0]){
+    if (globalNationalTeamsDetails.containsKey(clubName)){
+      return getNationalCrest(clubName, _height, _width);
+    }else{
+      return getClubCrest(clubName, _height, _width);
+    }
+  }
   Widget getNationalCrest(String nationalTeam, [double _height=50.0, double _width=50.0]){
     //Check International Crest
     String crest = FIFAImages().countryLogo(nationalTeam);
     if(crest != 'generic') {
-      return Image.asset(
-          'assets/national_crests/$crest.png', height: _height, width: _width);
+      return Image.asset('assets/national_crests/$crest.png', height: _height, width: _width);
     }else{
       //Logos genericos
       return Padding(
@@ -42,24 +49,32 @@ class Images{
       );
     }
   }
-
-  Widget getEscudoWidget(String clubName,[double _height=50.0, double _width=50.0]){
+  Widget getClubCrest(String clubName,[double _height=50.0, double _width=50.0]){
     String crest = FIFAImages().imageLogo(clubName);
     if(crest != 'generic'){
       //Se tem a imagem do logo
       return Image.asset('assets/clubs/$crest.png',height: _height,width: _width);
     }else{
-        //Logos genericos
-        return Padding(
-          padding: EdgeInsets.only(left: _height*0.07,right: _height*0.07,top: _height*0.13,bottom: _height*0.12),
-          child: CrestWidgets(size: _height*0.77).getCrest(clubName),
-        );
-      }
-
+      //Logos genericos
+      return Padding(
+        padding: EdgeInsets.only(left: _height*0.07,right: _height*0.07,top: _height*0.13,bottom: _height*0.12),
+        child: CrestWidgets(size: _height*0.77).getCrest(clubName),
+      );
+    }
   }
 
-
   Widget getUniformWidget(String clubName,[double _height=50.0, double _width=50.0]){
+    // IF is a country
+    if (globalNationalTeamsDetails.containsKey(clubName)){
+      String name = FIFAImages().countryLogo(clubName);
+      return Image.asset('assets/national_crests/${name}1.png',height: _height, width: _width,
+          errorBuilder: (BuildContext context, Object exception, StackTrace? stackTrace) {
+            //Se o clube tem logo, mas não tiver a imagem do uniforme
+            return UniformCustom(clubName,(_height/50)*0.45).kit();
+          });
+    }
+
+    // If is a club
     String name = FIFAImages().imageLogo(clubName);
     if(name != 'generic'){
       return Image.asset('assets/clubs/${name}1.png',height: _height, width: _width,

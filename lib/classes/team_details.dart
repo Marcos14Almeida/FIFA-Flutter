@@ -46,23 +46,50 @@ class TeamBasics{
 
 
   getDataset() async{
+
     final String rawCountries = await rootBundle.loadString('assets/csv/national_countries_details.csv');
     List listRowsCountries = const CsvToListConverter().convert(rawCountries);
-    for(int i=0; i < listRowsCountries.length; i++){
+    for(int i=1; i < listRowsCountries.length; i++){
       String name = listRowsCountries[i][0];
       globalNationalTeamsDetails[name] = listRowsCountries[i];
       globalNationalTeamsDetails[name].insert(0, "");
       globalNationalTeamsDetails[name].insert(1, "");
     }
 
+    final String rawFIFA = await rootBundle.loadString('assets/csv/fifaranking.csv');
+    List listRowsFIFA = const CsvToListConverter().convert(rawFIFA);
+
+    for(int i=1; i < listRowsFIFA.length; i++){
+      String name = listRowsFIFA[i][1];
+      if (globalNationalTeamsDetails.containsKey(name)){
+        globalNationalTeamsDetails[name].insert(17, listRowsFIFA[i][2]);
+      }
+    }
+
     final String raw = await rootBundle.loadString('assets/csv/clubs_details.csv');
     List listRows = const CsvToListConverter().convert(raw);
 
-    for(int i=0; i < listRows.length; i++){
+    for(int i=1; i < listRows.length; i++){
       String name = listRows[i][2];
       globalClubDetails[name] = listRows[i];
     }
 
+
+
+  }
+  double _getOverall(var ovr){
+    try{
+      return ovr;
+    }catch(e){
+      return 50.0;
+    }
+  }
+  Coordinates _getCoordinates(var lat, var lon){
+    try{
+      return Coordinates(lat, lon);
+    }catch(e){
+      return Coordinates(0, 0);
+    }
   }
 
   String getStadiumstadiumSizePointFormat(){
@@ -165,9 +192,17 @@ class TeamBasics{
 
       return ClubColors(primary, secondary, third);
     }catch(e) {
-      return ClubColors(Colors.grey, Colors.cyanAccent, Colors.purple);
+      return ClubColors(Colors.grey, Colors.cyanAccent, Colors.white);
     }
 
+  }
+
+  getClass(String name){
+    if (globalNationalTeamsDetails.containsKey(name)){
+      return NationalTeam(name: name);
+    }else{
+      return ClubBasics(name: name);
+    }
   }
 
 }
@@ -180,22 +215,24 @@ class ClubBasics extends TeamBasics {
   ClubBasics({required String name}){
     name = filterLegendsClubs(name);
 
-    row = globalClubDetails[name];
+    if (globalClubDetails.containsKey(name)) {
+      row = globalClubDetails[name];
 
-    overall = row[3];
-    rivals = row[15];
-    country = row[0];
-    continent = Continents().funcCountryContinents(country);
-    state = row[1];
-    foundationYear = row[4];
-    extinctYear = row[5];
-    stadium = row[6];
-    stadiumSize = row[7];
-    coordinates = Coordinates(row[8], row[9]);
-    pattern = patternMapping(row[10]);
-    clubColors = getColors(row[11], row[12], row[13]);
-    shorts = getColorsShortsOrSocks(name, row[14]);
-    socks = getColorsShortsOrSocks(name, row[15]);
+      country = row[0];
+      continent = Continents().funcCountryContinents(country);
+      state = row[1];
+      overall = _getOverall(row[3]);
+      foundationYear = row[4];
+      extinctYear = row[5];
+      stadium = row[6];
+      stadiumSize = row[7];
+      coordinates = _getCoordinates(row[8], row[9]);
+      pattern = patternMapping(row[10]);
+      clubColors = getColors(row[11], row[12], row[13]);
+      shorts = getColorsShortsOrSocks(name, row[14]);
+      socks = getColorsShortsOrSocks(name, row[15]);
+      rivals = row[16].split(",");
+    }
   }
 
   String filterLegendsClubs(String clubName){
@@ -241,22 +278,36 @@ class ClubBasics extends TeamBasics {
 class NationalTeam extends TeamBasics {
 
   late List row;
+  int fifaranking = 0;
 
   NationalTeam({required String name}){
-    country = name;
-    row = globalNationalTeamsDetails[name];
-    overall = row[3];
-    rivals = row[15];
-    continent = Continents().funcCountryContinents(country);
-    foundationYear = row[4];
-    extinctYear = row[5];
-    stadium = row[6];
-    stadiumSize = row[7];
-    coordinates = Coordinates(row[8], row[9]);
-    pattern = patternMapping(row[10]);
-    clubColors = getColors(row[11], row[12], row[13]);
-    shorts = getColorsShortsOrSocks(name, row[14]);
-    socks = getColorsShortsOrSocks(name, row[15]);
+    this.name = name;
+    if (globalNationalTeamsDetails.containsKey(name)) {
+      row = globalNationalTeamsDetails[name];
+      country = name;
+      continent = Continents().funcCountryContinents(country);
+      overall = _getOverall(row[3]);
+      foundationYear = row[4];
+      extinctYear = row[5];
+      stadium = row[6];
+      stadiumSize = row[7];
+      coordinates = _getCoordinates(row[8], row[9]);
+      pattern = patternMapping(row[10]);
+      clubColors = getColors(row[11], row[12], row[13]);
+      shorts = getColorsShortsOrSocks(name, row[14]);
+      socks = getColorsShortsOrSocks(name, row[15]);
+      rivals = row[16].split(",");
+      if (row.length>=18) {
+        fifaranking = _getFIFARanking(row[17]);
+      }
+    }
   }
 
+  int _getFIFARanking(value){
+    try{
+      return value;
+    }catch(e){
+      return 0;
+    }
+  }
 }

@@ -44,6 +44,7 @@ class _MapListAllClubsState extends State<MapListAllClubs> {
     Continents continents = Continents();
     globalClubDetails.forEach((clubName, value) {
       String countryName = ClubBasics(name: clubName).country;
+
       if(!countryOptions.contains(countryName)){
         if(continents.funcCountryContinents(countryName) == widget.continent){
           countryOptions.add(countryName);

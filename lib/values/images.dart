@@ -90,7 +90,7 @@ class FIFAImages{
   map[c.jamaica] = 'jamaica';
   map[c.panama] = 'panama';
   map[c.suriname] = 'suriname';
-  map[c.trinidadtobago] = 'trinidad and tobago';
+  map[c.trinidadtobago] = 'trinidad tobago';
 
   map[c.bangladesh] = 'bangladesh';
   map[c.cambodia] = 'cambodia';

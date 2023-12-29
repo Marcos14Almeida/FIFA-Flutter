@@ -7,6 +7,7 @@ import 'package:fifa/classes/league.dart';
 import 'package:fifa/classes/team_details.dart';
 import 'package:fifa/global_variables.dart';
 import 'package:fifa/pages/club_profile/all_infos_club_not_playable.dart';
+import 'package:fifa/pages/club_profile/country_profile.dart';
 import 'package:fifa/theme/colors.dart';
 import 'package:fifa/theme/textstyle.dart';
 import 'package:fifa/theme/translation.dart';
@@ -377,15 +378,17 @@ class _HistoricLeagueState extends State<HistoricLeague> {
   }
   getClubPositions(String clubName) {
     Map positions = {};
-    results.forEach((key,value) {
-      List lista = value;
-        if(value.contains(clubName)){
-          if(positions[lista.indexOf(clubName)+1] == null){
-            positions[lista.indexOf(clubName)+1] = 1;
-          }else{
-            positions[lista.indexOf(clubName)+1] += 1;
+    results.forEach((year,value) {
+      if (year >= 1940) {
+        List lista = value;
+        if (value.contains(clubName)) {
+          if (positions[lista.indexOf(clubName) + 1] == null) {
+            positions[lista.indexOf(clubName) + 1] = 1;
+          } else {
+            positions[lista.indexOf(clubName) + 1] += 1;
           }
         }
+      }
     });
 
     if(clubsAllNameList.contains(clubName)){
@@ -416,6 +419,7 @@ class _HistoricLeagueState extends State<HistoricLeague> {
     }
     return positionsList;
   }
+
   List orderClubsRanking(){
 
     //MAP POINTS
@@ -491,6 +495,7 @@ class _HistoricLeagueState extends State<HistoricLeague> {
     // Calculate sum of elements in the sublist using reduce
     int positions_8_20 = subList.reduce((value, element) => value + element);
 
+    var classe = TeamBasics().getClass(clubName);
     return GestureDetector(
       onTap: (){
         clickClub(clubName);
@@ -498,7 +503,7 @@ class _HistoricLeagueState extends State<HistoricLeague> {
       child: Container(
         margin: const EdgeInsets.symmetric(vertical: 4),
         padding: const EdgeInsets.symmetric(vertical: 2),
-        color: ClubBasics(name: clubName).clubColors.primaryColor.withOpacity(0.2),
+        color: classe.clubColors.primaryColor.withOpacity(0.2),
         child: Row(
           children: [
             const SizedBox(width: 4),
@@ -521,9 +526,13 @@ class _HistoricLeagueState extends State<HistoricLeague> {
     //if(clubsAllNameList.contains(clubName)){
     //  int clubID = clubsAllNameList.indexOf(clubName);
     //  Navigator.push(context, MaterialPageRoute(builder: (context) => ClubProfile(clubID: clubID)));
-    //}else{
-      Navigator.push(context, MaterialPageRoute(builder: (context) => ClubProfileNotPlayable(clubName: clubName)));
     //}
+    if (globalNationalTeamsDetails.containsKey(clubName)){
+      Navigator.push(context, MaterialPageRoute(builder: (context) => CountryProfile(nationalTeam: clubName)));
+    }
+    if (globalClubDetails.containsKey(clubName)){
+      Navigator.push(context, MaterialPageRoute(builder: (context) => ClubProfileNotPlayable(clubName: clubName)));
+    }
   }
 
 }

@@ -18,7 +18,7 @@ Widget wMenuButton(String text, Club club, Function() function){
       child: InkWell(
           onTap: function,
           child: Padding(
-              padding: const EdgeInsets.all(10),
+              padding: const EdgeInsets.all(8),
               child: Text(text,textAlign:TextAlign.center,style: EstiloRajdhani.menubuttons))),
     ),
   );

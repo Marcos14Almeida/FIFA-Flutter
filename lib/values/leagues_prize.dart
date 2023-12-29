@@ -40,6 +40,8 @@ void premiacao(My myClass, Confronto confronto){
       l.estadosUnidos: 1.6,
       l.asia: 1.0,
       l.africa: 0.6,
+      l.outros: 0.5,
+      l.outros2: 0.5,
     };
 
     if(prizesMap.containsKey(leagueName)){

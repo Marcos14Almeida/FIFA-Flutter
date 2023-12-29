@@ -6,6 +6,7 @@ import 'package:fifa/classes/image_class.dart';
 import 'package:fifa/classes/team_details.dart';
 import 'package:fifa/pages/club_profile/country_profile.dart';
 import 'package:fifa/pages/historic/leagues_historic.dart';
+import 'package:fifa/pages/historic/ranking_fifa.dart';
 import 'package:fifa/pages/historic/real_classification.dart';
 import 'package:fifa/pages/home/choose_team.dart';
 import 'package:fifa/pages/map/choose_continent_page.dart';
@@ -137,11 +138,13 @@ class _HomePageState extends State<HomePage> {
                       ),
 
                       buttonRow(
-                          "Country Page",
+                          "Ranking FIFA",
                           'assets/icons/home_map.png',
                           90,
-                              (){navigatorPush(context, const CountryProfile(nationalTeam: 'Brazil'));}
+                              (){navigatorPush(context, const RankingFIFA());}
                       ),
+
+
                     ],
                   ),
                 ),

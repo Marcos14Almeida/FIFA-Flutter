@@ -47,7 +47,7 @@ class _ClubProfileNotPlayableState extends State<ClubProfileNotPlayable> with Ti
   @override
   void initState() {
 
-    _tabController = TabController(vsync: this, length: 3);
+    _tabController = TabController(vsync: this, length: 4);
 
     getDataGraphics();
 
@@ -85,7 +85,7 @@ class _ClubProfileNotPlayableState extends State<ClubProfileNotPlayable> with Ti
     }
 
   return DefaultTabController(
-    length: 3,
+    length: 4,
     child: Scaffold(
         body: Stack(
           children: [
@@ -137,6 +137,7 @@ class _ClubProfileNotPlayableState extends State<ClubProfileNotPlayable> with Ti
                     indicatorColor: ClubBasics(name: widget.clubName).clubColors.secondColor,
                     tabs: const [
                       Tab(text: "Gráfico"),
+                      Tab(text: "Classificação"),
                       Tab(text: "Histórico"),
                       Tab(text: "Jogadores Históricos"),
                     ],
@@ -148,6 +149,7 @@ class _ClubProfileNotPlayableState extends State<ClubProfileNotPlayable> with Ti
                       controller: _tabController,
                       children: [
                         graphicsTab(),
+                        classificationTab(),
                         historicTab(),
                         HistoricBestPlayersPage(clubName: widget.clubName, dataGraphics: dataGraphics,),
                       ],
@@ -208,6 +210,23 @@ class _ClubProfileNotPlayableState extends State<ClubProfileNotPlayable> with Ti
   }
 
   Widget graphicsTab(){
+
+    return SingleChildScrollView(
+      child: Column(
+        children: [
+
+          dataGraphics.data.isNotEmpty ? graphics(dataGraphics) : Container(),
+
+          trophy(dataGraphics),
+
+          totalTrophyWidget(widget.clubName, dataGraphics),
+
+        ],
+      ),
+    );
+  }
+  Widget classificationTab(){
+
     String leagueName = RealClassification().getLeagueFromCountryName(clubCountry);
     try{
       //Resolve o problemas das 2divisoes
@@ -229,29 +248,17 @@ class _ClubProfileNotPlayableState extends State<ClubProfileNotPlayable> with Ti
       leagueName = RealClassification().getLeagueFromCountryName(clubCountry);
     }
 
-    return SingleChildScrollView(
+    return Container(
+      color: AppColors().greyTransparent,
+      margin: const EdgeInsets.only(top:8, left: 4, right: 4),
+      padding: const EdgeInsets.all(4),
       child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-
-          dataGraphics.data.isNotEmpty ? graphics(dataGraphics) : Container(),
-
-          trophy(dataGraphics),
-
-          totalTrophyWidget(widget.clubName, dataGraphics),
-
-          Container(
-              color: AppColors().greyTransparent,
-              margin: const EdgeInsets.only(top:8, left: 4, right: 4),
-              padding: const EdgeInsets.all(4),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  const Text("Classificação Atual",style: EstiloTextoBranco.negrito18),
-                  SizedBox(height:400, child: RealTableWidget(chosenLeagueName: leagueName)),
-                ],
-              ),
+          const Text("Classificação Atual",style: EstiloTextoBranco.negrito18),
+          Expanded(
+            child: RealTableWidget(chosenLeagueName: leagueName),
           ),
-
         ],
       ),
     );
