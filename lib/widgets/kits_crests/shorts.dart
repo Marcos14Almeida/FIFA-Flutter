@@ -1,11 +1,10 @@
-import 'package:fifa/values/club_details.dart';
+import 'package:fifa/classes/team_details.dart';
 import 'package:fifa/widgets/kits_crests/patterns.dart';
 import 'package:fifa/widgets/kits_crests/uniforme.dart';
 import 'package:flutter/material.dart';
 
 class FullKitCustom {
 
-  ClubDetails clubDetails = ClubDetails();
   ClubPattern clubPattern = ClubPattern();
 
   late String clubName;
@@ -23,9 +22,8 @@ class FullKitCustom {
   final double _widthSocksFeet = 16;
 
   FullKitCustom(this.clubName, [this.scale = 1]) {
-    pattern = clubPattern.getGradient(
-        clubDetails.getPattern(clubName), clubDetails.getColors(clubName));
-    clubColors = clubDetails.getColorsShortsSocks(clubName);
+    pattern = clubPattern.getGradient(ClubBasics(name: clubName).pattern, ClubBasics(name: clubName).clubColors);
+    clubColors = ClubColors(ClubBasics(name: clubName).shorts, ClubBasics(name: clubName).socks);
   }
 
   Widget kit(){

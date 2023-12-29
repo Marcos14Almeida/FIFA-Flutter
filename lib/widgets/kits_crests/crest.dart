@@ -1,10 +1,9 @@
-import 'package:fifa/values/club_details.dart';
+import 'package:fifa/classes/team_details.dart';
 import 'package:fifa/widgets/kits_crests/patterns.dart';
 import 'package:flutter/material.dart';
 
 class CrestWidgets{
 
-  ClubDetails clubDetails = ClubDetails();
   ClubPattern clubPattern = ClubPattern();
   late ClubColors clubColors;
 
@@ -17,8 +16,8 @@ class CrestWidgets{
   }
 
   getGradient(String clubName){
-    String patternStr = clubDetails.getPattern(clubName);
-    clubColors = clubDetails.getColors(clubName);
+    String patternStr = ClubBasics(name: clubName).pattern;
+    clubColors = ClubBasics(name: clubName).clubColors;
     LinearGradient pattern = clubPattern.getGradient(patternStr, clubColors);
     return pattern;
   }

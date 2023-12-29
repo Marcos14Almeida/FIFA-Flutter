@@ -1,11 +1,10 @@
 import 'package:fifa/classes/image_class.dart';
-import 'package:fifa/values/club_details.dart';
+import 'package:fifa/classes/team_details.dart';
 import 'package:fifa/widgets/kits_crests/patterns.dart';
 import 'package:flutter/material.dart';
 
 class UniformCustom{
 
-  ClubDetails clubDetails = ClubDetails();
   ClubPattern clubPattern = ClubPattern();
 
   late String clubName;
@@ -30,15 +29,15 @@ class UniformCustom{
   double spacingRightSleeve = 54;
 
   UniformCustom(this.clubName,[this.scale = 1]){
-    linearGradient = clubPattern.getGradient(clubDetails.getPattern(clubName), clubDetails.getColors(clubName));
-    clubColors = clubDetails.getColors(clubName);
+    clubColors = ClubBasics(name: clubName).clubColors;
+    linearGradient = clubPattern.getGradient(ClubBasics(name: clubName).pattern, clubColors);
 
-    setDefinitions(clubDetails.getPattern(clubName));
+    setDefinitions(ClubBasics(name: clubName).pattern);
 
   }
 
 bool compareLinearGradient(String patternStr){
-    if(patternStr == clubDetails.getPattern(clubName)){
+    if(patternStr == ClubBasics(name: clubName).pattern){
       return true;
     }
     return false;
@@ -138,7 +137,7 @@ Widget kit(){
                 ),
               ),
 
-              clubDetails.getPattern(clubName) == clubPattern.solid
+              ClubBasics(name: clubName).pattern == clubPattern.solid
                   ? borderSleeves()
                   : Container(),
 

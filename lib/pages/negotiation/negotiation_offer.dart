@@ -2,12 +2,12 @@ import 'package:fifa/classes/functions/size.dart';
 import 'package:fifa/classes/image_class.dart';
 import 'package:fifa/classes/jogador.dart';
 import 'package:fifa/classes/my.dart';
+import 'package:fifa/classes/team_details.dart';
 import 'package:fifa/global_variables.dart';
 import 'package:fifa/pages/negotiation/negotiation_class.dart';
 import 'package:fifa/theme/colors.dart';
 import 'package:fifa/theme/custom_toast.dart';
 import 'package:fifa/theme/textstyle.dart';
-import 'package:fifa/values/club_details.dart';
 import 'package:fifa/widgets/button/back_button.dart';
 import 'package:fifa/widgets/button/button_design.dart';
 import 'package:fifa/widgets/player_card.dart';
@@ -58,7 +58,7 @@ class _NegotiationOfferPageState extends State<NegotiationOfferPage> {
 ////////////////////////////////////////////////////////////////////////////
   @override
   Widget build(BuildContext context) {
-    ClubColors clubColors = ClubDetails().getColors(widget.player.clubName);
+    ClubColors clubColors = ClubBasics(name: widget.player.clubName).clubColors;
 
     return Scaffold(
       body: Stack(

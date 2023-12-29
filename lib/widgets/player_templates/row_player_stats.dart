@@ -2,9 +2,9 @@
 import 'package:fifa/classes/functions/size.dart';
 import 'package:fifa/classes/image_class.dart';
 import 'package:fifa/classes/jogador.dart';
+import 'package:fifa/classes/team_details.dart';
 import 'package:fifa/theme/background_color/background_position.dart';
 import 'package:fifa/theme/textstyle.dart';
-import 'package:fifa/values/club_details.dart';
 import 'package:fifa/widgets/number_circle.dart';
 import 'package:flutter/material.dart';
 
@@ -46,7 +46,7 @@ class PlayerCircle extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
 
-    ClubColors clubColors = ClubDetails().getColors(player.clubName);
+    ClubColors clubColors = ClubBasics(name: player.clubName).clubColors;
 
     return Stack(
       children: [

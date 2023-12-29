@@ -1,22 +1,22 @@
 import 'package:fifa/classes/club.dart';
+import 'package:fifa/classes/countries/flags_list.dart';
 import 'package:fifa/classes/functions/size.dart';
 import 'package:fifa/classes/historic/historic_club_year.dart';
 import 'package:fifa/classes/image_class.dart';
 import 'package:fifa/classes/league.dart';
-import 'package:fifa/classes/countries/flags_list.dart';
+import 'package:fifa/classes/team_details.dart';
 import 'package:fifa/global_variables.dart';
 import 'package:fifa/pages/club_profile/all_infos_club_not_playable.dart';
-import 'package:fifa/values/club_details.dart';
-import 'package:fifa/widgets/button/pressable_button.dart';
-import 'package:fifa/widgets/league_selection_row.dart';
 import 'package:fifa/theme/colors.dart';
 import 'package:fifa/theme/textstyle.dart';
 import 'package:fifa/theme/translation.dart';
 import 'package:fifa/values/clubs_all_names_list.dart';
 import 'package:fifa/values/league_clubs.dart';
 import 'package:fifa/values/league_names.dart';
-import 'package:fifa/widgets/button/back_button.dart';
 import 'package:fifa/widgets/bottom_sheet/bottom_sheet_league_classification.dart';
+import 'package:fifa/widgets/button/back_button.dart';
+import 'package:fifa/widgets/button/pressable_button.dart';
+import 'package:fifa/widgets/league_selection_row.dart';
 import 'package:fifa/widgets/loader.dart';
 import 'package:flutter/material.dart';
 
@@ -498,7 +498,7 @@ class _HistoricLeagueState extends State<HistoricLeague> {
       child: Container(
         margin: const EdgeInsets.symmetric(vertical: 4),
         padding: const EdgeInsets.symmetric(vertical: 2),
-        color: ClubDetails().getColors(clubName).primaryColor.withOpacity(0.2),
+        color: ClubBasics(name: clubName).clubColors.primaryColor.withOpacity(0.2),
         child: Row(
           children: [
             const SizedBox(width: 4),

@@ -8,7 +8,6 @@ import 'package:fifa/pages/tournament_mode/tourn_menu.dart';
 import 'package:fifa/theme/colors.dart';
 import 'package:fifa/theme/custom_toast.dart';
 import 'package:fifa/theme/textstyle.dart';
-import 'package:fifa/values/club_details.dart';
 import 'package:fifa/widgets/button/back_button.dart';
 import 'package:fifa/widgets/button/button_continue.dart';
 import 'package:fifa/widgets/popup/popup_select_club_compare.dart';
@@ -40,8 +39,6 @@ class _TeamSelectionState extends State<TeamSelection> {
   @override
   Widget build(BuildContext context) {
 
-    ClubDetails clubDetails = ClubDetails();
-
     return Scaffold(
       body: Stack(
         children: [
@@ -66,7 +63,7 @@ class _TeamSelectionState extends State<TeamSelection> {
                   ),
                   itemCount: customTournament.clubs.length,
                   itemBuilder: (BuildContext context, int index) {
-                    return box(context, index, clubDetails);
+                    return box(context, index);
                   },
                 ),
 
@@ -93,7 +90,7 @@ class _TeamSelectionState extends State<TeamSelection> {
 //                               WIDGETS                                  //
 ////////////////////////////////////////////////////////////////////////////
 
-  Widget box(BuildContext originalContext, index, ClubDetails clubdetails){
+  Widget box(BuildContext originalContext, index){
 
     String clubName = customTournament.clubs[index];
 

@@ -14,7 +14,6 @@ import 'package:fifa/theme/background_color/background_classification.dart';
 import 'package:fifa/theme/colors.dart';
 import 'package:fifa/theme/textstyle.dart';
 import 'package:fifa/theme/translation.dart';
-import 'package:fifa/values/club_details.dart';
 import 'package:fifa/values/clubs_all_names_list.dart';
 import 'package:fifa/values/historic_champions/historic_champions.dart';
 import 'package:fifa/values/league_names.dart';
@@ -40,7 +39,6 @@ class _ClubProfileNotPlayableState extends State<ClubProfileNotPlayable> with Ti
   late TabController _tabController;
 
   DataGraphics dataGraphics = DataGraphics();
-  ClubDetails clubdetails = ClubDetails();
   late String clubCountry;
   late String clubState;
   ///////////////////////////////////////////////////////////////////////////
@@ -61,7 +59,7 @@ class _ClubProfileNotPlayableState extends State<ClubProfileNotPlayable> with Ti
     try {
       clubCountry = ClubBasics(name: widget.clubName).country;
 
-      await dataGraphics.getDataNotPlayabale(widget.clubName, clubdetails);
+      await dataGraphics.getDataNotPlayabale(widget.clubName);
       setState((){});
     }catch(e){
       //THE CLUB HAS NO INFORMATION IN THE CLUB DETAILS
@@ -99,7 +97,7 @@ class _ClubProfileNotPlayableState extends State<ClubProfileNotPlayable> with Ti
 
                 //BACK BUTTON
                 Container(
-                  color: clubdetails.getColors(widget.clubName).primaryColor.withOpacity(0.7),
+                  color: ClubBasics(name: widget.clubName).clubColors.primaryColor.withOpacity(0.7),
                   child: Row(
                     children: [
                       backButtonText(context, widget.clubName),
@@ -131,12 +129,12 @@ class _ClubProfileNotPlayableState extends State<ClubProfileNotPlayable> with Ti
 
                 Container(
                   height: 30,
-                  color: clubdetails.getColors(widget.clubName).primaryColor.withOpacity(0.3),
+                  color: ClubBasics(name: widget.clubName).clubColors.primaryColor.withOpacity(0.3),
                   child: TabBar(
                     controller: _tabController,
                     unselectedLabelColor: Colors.white54,
-                    labelColor: clubdetails.getColors(widget.clubName).secondColor,
-                    indicatorColor: clubdetails.getColors(widget.clubName).secondColor,
+                    labelColor: ClubBasics(name: widget.clubName).clubColors.secondColor,
+                    indicatorColor: ClubBasics(name: widget.clubName).clubColors.secondColor,
                     tabs: const [
                       Tab(text: "Gráfico"),
                       Tab(text: "Histórico"),
@@ -170,7 +168,7 @@ class _ClubProfileNotPlayableState extends State<ClubProfileNotPlayable> with Ti
   Widget header(){
     return Container(
       padding: const EdgeInsets.only(left: 8.0,top: 8),
-      color: clubdetails.getColors(widget.clubName).primaryColor.withOpacity(0.3),
+      color: ClubBasics(name: widget.clubName).clubColors.primaryColor.withOpacity(0.3),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceAround,
         children: [

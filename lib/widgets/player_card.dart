@@ -3,6 +3,7 @@ import 'package:fifa/classes/countries/flags_list.dart';
 import 'package:fifa/classes/functions/size.dart';
 import 'package:fifa/classes/image_class.dart';
 import 'package:fifa/classes/jogador.dart';
+import 'package:fifa/classes/team_details.dart';
 import 'package:fifa/pages/club_profile/club_profile.dart';
 import 'package:fifa/theme/background_color/background_age.dart';
 import 'package:fifa/theme/background_color/background_moral.dart';
@@ -11,7 +12,6 @@ import 'package:fifa/theme/colors.dart';
 import 'package:fifa/theme/painter/colorize_image.dart';
 import 'package:fifa/theme/painter/trapezoid.dart';
 import 'package:fifa/theme/textstyle.dart';
-import 'package:fifa/values/club_details.dart';
 import 'package:fifa/widgets/popup/popup_player_info.dart';
 import 'package:flutter/material.dart';
 

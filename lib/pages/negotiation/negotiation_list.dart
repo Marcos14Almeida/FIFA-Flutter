@@ -1,12 +1,12 @@
 import 'package:fifa/classes/image_class.dart';
 import 'package:fifa/classes/jogador.dart';
+import 'package:fifa/classes/team_details.dart';
 import 'package:fifa/pages/negotiation/negotiation_class.dart';
 import 'package:fifa/pages/negotiation/negotiation_offer.dart';
 import 'package:fifa/theme/background_color/background_position.dart';
 import 'package:fifa/theme/colors.dart';
 import 'package:fifa/theme/decoration/black_decoration.dart';
 import 'package:fifa/theme/textstyle.dart';
-import 'package:fifa/values/club_details.dart';
 import 'package:fifa/widgets/button/back_button.dart';
 import 'package:fifa/widgets/button/pressable_button.dart';
 import 'package:flutter/material.dart';
@@ -121,8 +121,8 @@ Widget negotiationRow(Jogador player, int startNegotiationWeek){
                   Container(
                     decoration: BoxDecoration(
                       shape: BoxShape.circle,
-                      border: Border.all(color: ClubDetails().getColors(player.clubName).secondColor, width: 2.0),
-                      color: ClubDetails().getColors(player.clubName).primaryColor,
+                      border: Border.all(color: ClubBasics(name: player.clubName).clubColors.secondColor, width: 2.0),
+                      color: ClubBasics(name: player.clubName).clubColors.primaryColor,
                     ),
                     child: ClipOval(
                         child: Images().getPlayerPictureWidget(player,60,60)

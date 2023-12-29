@@ -1,21 +1,21 @@
 import 'package:fifa/classes/countries/countries_continents.dart';
+import 'package:fifa/classes/countries/flags_list.dart';
 import 'package:fifa/classes/functions/size.dart';
 import 'package:fifa/classes/historic/historic_champions_league.dart';
 import 'package:fifa/classes/image_class.dart';
 import 'package:fifa/classes/league.dart';
-import 'package:fifa/classes/countries/flags_list.dart';
 import 'package:fifa/classes/my.dart';
+import 'package:fifa/classes/team_details.dart';
 import 'package:fifa/global_variables.dart';
 import 'package:fifa/pages/historic/year_resume/widgets/current_leagues_resume.dart';
 import 'package:fifa/theme/colors.dart';
 import 'package:fifa/theme/custom_toast.dart';
-import 'package:fifa/values/club_details.dart';
 import 'package:fifa/values/clubs_all_names_list.dart';
 import 'package:fifa/values/historic_champions/historic_champions.dart';
 import 'package:fifa/values/league_divisions.dart';
 import 'package:fifa/values/league_names.dart';
-import 'package:fifa/widgets/button/back_button.dart';
 import 'package:fifa/widgets/bottom_sheet/bottom_sheet_league_classification.dart';
+import 'package:fifa/widgets/button/back_button.dart';
 import 'package:fifa/widgets/button/dropdown_button.dart';
 import 'package:flutter/material.dart';
 
@@ -159,7 +159,7 @@ class _YearResumeState extends State<YearResume> {
 ////////////////////////////////////////////////////////////////////////////
   Widget appBar(){
     return Container(
-      color: ClubDetails().getColors(My().clubName).primaryColor.withOpacity(0.3),
+      color: ClubBasics(name: My().clubName).clubColors.primaryColor.withOpacity(0.3),
       child: Row(
         children: [
           backButtonText(context, 'Resumo do ano', false),

@@ -1,8 +1,8 @@
 import 'dart:math';
 import 'package:fifa/classes/jogador.dart';
 import 'package:fifa/classes/my.dart';
+import 'package:fifa/classes/team_details.dart';
 import 'package:fifa/global_variables.dart';
-import 'package:fifa/values/club_details.dart';
 import 'package:flutter/material.dart';
 
 class Match{

@@ -14,7 +14,6 @@ import 'package:fifa/pages/table/widgets/table_widget.dart';
 import 'package:fifa/theme/colors.dart';
 import 'package:fifa/theme/textstyle.dart';
 import 'package:fifa/theme/translation.dart';
-import 'package:fifa/values/club_details.dart';
 import 'package:fifa/values/images.dart';
 import 'package:fifa/values/league_names.dart';
 import 'package:fifa/widgets/button/back_button.dart';

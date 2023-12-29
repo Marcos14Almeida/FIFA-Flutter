@@ -11,7 +11,6 @@ import 'package:fifa/pages/historic/leagues_historic.dart';
 import 'package:fifa/pages/historic/real_classification.dart';
 import 'package:fifa/theme/decoration/black_decoration.dart';
 import 'package:fifa/theme/textstyle.dart';
-import 'package:fifa/values/club_details.dart';
 import 'package:fifa/values/league_names.dart';
 import 'package:fifa/widgets/button/back_button.dart';
 import 'package:fifa/widgets/button/pressable_button.dart';
@@ -32,7 +31,6 @@ class _MapListAllClubsState extends State<MapListAllClubs> {
 
   List<String> countryOptions = [];
   String selectedCountry = Words.country.brazil;
-  ClubDetails clubDetails = ClubDetails();
 
 ////////////////////////////////////////////////////////////////////////////
 //                               INIT                                     //
@@ -60,7 +58,7 @@ class _MapListAllClubsState extends State<MapListAllClubs> {
 
   Future<DataGraphics> loadClubData(String clubName) async{
     DataGraphics dataGraphics = DataGraphics();
-    await dataGraphics.getDataNotPlayabale(clubName, clubDetails);
+    await dataGraphics.getDataNotPlayabale(clubName);
     return dataGraphics;
   }
 ////////////////////////////////////////////////////////////////////////////
@@ -108,7 +106,7 @@ class _MapListAllClubsState extends State<MapListAllClubs> {
                           itemBuilder: (context, index) {
                             DataGraphics dataGraphics = dataGraphicsList[index];
                             // Create your custom widget to display the club data
-                            return clubRow(showList.elementAt(index), clubDetails, dataGraphics);
+                            return clubRow(showList.elementAt(index), dataGraphics);
                           },
                         );
                       }
@@ -159,7 +157,7 @@ class _MapListAllClubsState extends State<MapListAllClubs> {
       ],
     );
   }
-  Widget clubRow(String clubName, ClubDetails clubDetails,DataGraphics dataGraphics){
+  Widget clubRow(String clubName, DataGraphics dataGraphics){
 
 
     return PressableButton(
@@ -170,7 +168,7 @@ class _MapListAllClubsState extends State<MapListAllClubs> {
       child: Container(
         padding: const EdgeInsets.symmetric(horizontal: 8),
         margin: const EdgeInsets.symmetric(vertical: 4),
-        color: clubDetails.getColors(clubName).primaryColor.withOpacity(0.2),
+        color: ClubBasics(name: clubName).clubColors.primaryColor.withOpacity(0.2),
         child: Stack(
               children: [
 
@@ -230,7 +228,7 @@ class _MapListAllClubsState extends State<MapListAllClubs> {
                                         const SizedBox(height: 4),
                                         Text(ClubBasics(name: clubName).foundationYear.toString(),style: EstiloTextoBranco.text16),
                                         Text(ClubBasics(name: clubName).stadium,maxLines: 2,overflow: TextOverflow.ellipsis,style: EstiloTextoBranco.text14),
-                                        Text('(${clubDetails.getStadiumCapacityPointFormat(clubName).toString()}) ',style: EstiloTextoBranco.text16),
+                                        Text('(${ClubBasics(name: clubName).getStadiumstadiumSizePointFormat()}) ',style: EstiloTextoBranco.text16),
 
                                       ],
                                     ),

@@ -3,6 +3,7 @@ import 'package:fifa/classes/click_navigator/click_club.dart';
 import 'package:fifa/classes/countries/words.dart';
 import 'package:fifa/classes/functions/size.dart';
 import 'package:fifa/classes/image_class.dart';
+import 'package:fifa/classes/team_details.dart';
 import 'package:fifa/pages/club_profile/country_profile.dart';
 import 'package:fifa/pages/historic/leagues_historic.dart';
 import 'package:fifa/pages/historic/real_classification.dart';
@@ -13,7 +14,6 @@ import 'package:fifa/pages/save/choose_save.dart';
 import 'package:fifa/pages/tournament_mode/single_match.dart';
 import 'package:fifa/pages/tournament_mode/tourn1_type.dart';
 import 'package:fifa/theme/textstyle.dart';
-import 'package:fifa/values/club_details.dart';
 import 'package:fifa/values/club_names.dart';
 import 'package:fifa/values/league_clubs.dart';
 import 'package:fifa/values/league_names.dart';
@@ -52,7 +52,7 @@ class _HomePageState extends State<HomePage> {
     final String raw = await rootBundle.loadString('assets/csv/classification.csv');
     globalHistoricRealChampions = const CsvToListConverter().convert(raw);
 
-    await ClubDetails().getDataset();
+    await TeamBasics().getDataset();
     await PlayerPastClubs().saveList();
   }
 

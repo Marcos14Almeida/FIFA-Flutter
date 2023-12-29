@@ -10,7 +10,6 @@ import 'package:fifa/classes/team_details.dart';
 import 'package:fifa/global_variables.dart';
 import 'package:fifa/theme/colors.dart';
 import 'package:fifa/theme/textstyle.dart';
-import 'package:fifa/values/club_details.dart';
 import 'package:fifa/values/clubs_all_names_list.dart';
 import 'package:fifa/widgets/button/back_button.dart';
 import 'package:fifa/widgets/button/pressable_button.dart';
@@ -33,7 +32,6 @@ class _MapExplorationState extends State<MapExploration> {
   List<Marker> _markersShow = <Marker>[];
   late GoogleMapController controller;
   //Controle Ano fundação
-  ClubDetails clubDetails = ClubDetails();
   TextEditingController controllerMin = TextEditingController();
   TextEditingController controllerMax = TextEditingController();
   TextEditingController controllerStadiumMin = TextEditingController();
@@ -312,7 +310,7 @@ class _MapExplorationState extends State<MapExploration> {
   Widget bottomSheetClub(Club club, String city) {
 
     DataGraphics dataGraphics = DataGraphics();
-    dataGraphics.getDataNotPlayabale(club.name, ClubDetails());
+    dataGraphics.getDataNotPlayabale(club.name);
 
     return GestureDetector(
       onTap: () async{
@@ -329,7 +327,7 @@ class _MapExplorationState extends State<MapExploration> {
       },
       child: Container(
         padding: const EdgeInsets.all(8),
-        color: clubDetails.getColors(club.name).primaryColor.withOpacity(0.5),
+        color: ClubBasics(name: club.name).clubColors.primaryColor.withOpacity(0.5),
         child: Column(
           mainAxisSize: MainAxisSize.min,
           children: [
@@ -380,7 +378,7 @@ class _MapExplorationState extends State<MapExploration> {
   bottomSheetGenericClub(String clubName, String city){
 
     DataGraphics dataGraphics = DataGraphics();
-    dataGraphics.getDataNotPlayabale(clubName, ClubDetails());
+    dataGraphics.getDataNotPlayabale(clubName);
 
     return GestureDetector(
       onTap: () {
@@ -396,7 +394,7 @@ class _MapExplorationState extends State<MapExploration> {
       },
       child: Container(
         padding: const EdgeInsets.all(8),
-        color: clubDetails.getColors(clubName).primaryColor.withOpacity(0.5),
+        color: ClubBasics(name: clubName).clubColors.primaryColor.withOpacity(0.5),
         child: Column(
           mainAxisSize: MainAxisSize.min,
           children: [

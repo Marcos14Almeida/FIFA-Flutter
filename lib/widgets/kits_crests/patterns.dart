@@ -1,7 +1,8 @@
-import 'package:fifa/values/club_details.dart';
+import 'package:fifa/classes/team_details.dart';
 import 'package:flutter/material.dart';
 
 class ClubPattern{
+
   String solid = 'solid';
   String solid2 = 'solid2';
   String solid3 = 'solid3';
