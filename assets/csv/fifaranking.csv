@@ -1,0 +1,212 @@
+date,country,rank,previousRank,totalPoints,previousPoints,flagUrl,countryUrl,conf
+2023-12-21,Argentina,1,1,1855.2,1855.2,https://api.fifa.com/api/v3/picture/flags-sq-2/ARG,https://www.fifa.com/fifa-world-ranking/ARG,CONMEBOL
+2023-12-21,France,2,2,1845.44,1845.44,https://api.fifa.com/api/v3/picture/flags-sq-2/FRA,https://www.fifa.com/fifa-world-ranking/FRA,UEFA
+2023-12-21,England,3,3,1800.05,1800.05,https://api.fifa.com/api/v3/picture/flags-sq-2/ENG,https://www.fifa.com/fifa-world-ranking/ENG,UEFA
+2023-12-21,Belgium,4,4,1798.46,1798.46,https://api.fifa.com/api/v3/picture/flags-sq-2/BEL,https://www.fifa.com/fifa-world-ranking/BEL,UEFA
+2023-12-21,Brazil,5,5,1784.09,1784.09,https://api.fifa.com/api/v3/picture/flags-sq-2/BRA,https://www.fifa.com/fifa-world-ranking/BRA,CONMEBOL
+2023-12-21,Netherlands,6,6,1745.48,1745.48,https://api.fifa.com/api/v3/picture/flags-sq-2/NED,https://www.fifa.com/fifa-world-ranking/NED,UEFA
+2023-12-21,Portugal,7,7,1745.06,1745.06,https://api.fifa.com/api/v3/picture/flags-sq-2/POR,https://www.fifa.com/fifa-world-ranking/POR,UEFA
+2023-12-21,Spain,8,8,1732.64,1732.64,https://api.fifa.com/api/v3/picture/flags-sq-2/ESP,https://www.fifa.com/fifa-world-ranking/ESP,UEFA
+2023-12-21,Italy,9,9,1718.82,1718.82,https://api.fifa.com/api/v3/picture/flags-sq-2/ITA,https://www.fifa.com/fifa-world-ranking/ITA,UEFA
+2023-12-21,Croatia,10,10,1717.57,1717.57,https://api.fifa.com/api/v3/picture/flags-sq-2/CRO,https://www.fifa.com/fifa-world-ranking/CRO,UEFA
+2023-12-21,Uruguay,11,11,1665.99,1665.99,https://api.fifa.com/api/v3/picture/flags-sq-2/URU,https://www.fifa.com/fifa-world-ranking/URU,CONMEBOL
+2023-12-21,United States,12,12,1665.27,1665.27,https://api.fifa.com/api/v3/picture/flags-sq-2/USA,https://www.fifa.com/fifa-world-ranking/USA,CONCACAF
+2023-12-21,Morocco,13,13,1661.69,1661.69,https://api.fifa.com/api/v3/picture/flags-sq-2/MAR,https://www.fifa.com/fifa-world-ranking/MAR,CAF
+2023-12-21,Colombia,14,15,1655.29,1651.2,https://api.fifa.com/api/v3/picture/flags-sq-2/COL,https://www.fifa.com/fifa-world-ranking/COL,CONMEBOL
+2023-12-21,Mexico,15,14,1652.7,1655.21,https://api.fifa.com/api/v3/picture/flags-sq-2/MEX,https://www.fifa.com/fifa-world-ranking/MEX,CONCACAF
+2023-12-21,Germany,16,16,1631.22,1631.22,https://api.fifa.com/api/v3/picture/flags-sq-2/GER,https://www.fifa.com/fifa-world-ranking/GER,UEFA
+2023-12-21,Japan,17,17,1620.19,1620.19,https://api.fifa.com/api/v3/picture/flags-sq-2/JPN,https://www.fifa.com/fifa-world-ranking/JPN,AFC
+2023-12-21,Switzerland,18,18,1613.44,1613.44,https://api.fifa.com/api/v3/picture/flags-sq-2/SUI,https://www.fifa.com/fifa-world-ranking/SUI,UEFA
+2023-12-21,Denmark,19,19,1601.31,1601.31,https://api.fifa.com/api/v3/picture/flags-sq-2/DEN,https://www.fifa.com/fifa-world-ranking/DEN,UEFA
+2023-12-21,Senegal,20,20,1594.31,1594.31,https://api.fifa.com/api/v3/picture/flags-sq-2/SEN,https://www.fifa.com/fifa-world-ranking/SEN,CAF
+2023-12-21,Iran,21,21,1565.08,1565.08,https://api.fifa.com/api/v3/picture/flags-sq-2/IRN,https://www.fifa.com/fifa-world-ranking/IRN,AFC
+2023-12-21,Ukraine,22,22,1553.35,1553.35,https://api.fifa.com/api/v3/picture/flags-sq-2/UKR,https://www.fifa.com/fifa-world-ranking/UKR,UEFA
+2023-12-21,Korea Republic,23,23,1550.65,1550.65,https://api.fifa.com/api/v3/picture/flags-sq-2/KOR,https://www.fifa.com/fifa-world-ranking/KOR,AFC
+2023-12-21,Austria,24,24,1546.1,1546.1,https://api.fifa.com/api/v3/picture/flags-sq-2/AUT,https://www.fifa.com/fifa-world-ranking/AUT,UEFA
+2023-12-21,Australia,25,25,1539.22,1539.22,https://api.fifa.com/api/v3/picture/flags-sq-2/AUS,https://www.fifa.com/fifa-world-ranking/AUS,AFC
+2023-12-21,Sweden,26,26,1530.19,1530.19,https://api.fifa.com/api/v3/picture/flags-sq-2/SWE,https://www.fifa.com/fifa-world-ranking/SWE,UEFA
+2023-12-21,Hungary,27,27,1525.13,1525.13,https://api.fifa.com/api/v3/picture/flags-sq-2/HUN,https://www.fifa.com/fifa-world-ranking/HUN,UEFA
+2023-12-21,Tunisia,28,28,1523.23,1523.23,https://api.fifa.com/api/v3/picture/flags-sq-2/TUN,https://www.fifa.com/fifa-world-ranking/TUN,CAF
+2023-12-21,Wales,29,29,1521.88,1521.88,https://api.fifa.com/api/v3/picture/flags-sq-2/WAL,https://www.fifa.com/fifa-world-ranking/WAL,UEFA
+2023-12-21,Algeria,30,30,1520.26,1520.26,https://api.fifa.com/api/v3/picture/flags-sq-2/ALG,https://www.fifa.com/fifa-world-ranking/ALG,CAF
+2023-12-21,Poland,31,31,1520.24,1520.24,https://api.fifa.com/api/v3/picture/flags-sq-2/POL,https://www.fifa.com/fifa-world-ranking/POL,UEFA
+2023-12-21,Ecuador,32,32,1519.2,1519.2,https://api.fifa.com/api/v3/picture/flags-sq-2/ECU,https://www.fifa.com/fifa-world-ranking/ECU,CONMEBOL
+2023-12-21,Egypt,33,33,1518.91,1518.91,https://api.fifa.com/api/v3/picture/flags-sq-2/EGY,https://www.fifa.com/fifa-world-ranking/EGY,CAF
+2023-12-21,Serbia,34,34,1517.43,1517.43,https://api.fifa.com/api/v3/picture/flags-sq-2/SRB,https://www.fifa.com/fifa-world-ranking/SRB,UEFA
+2023-12-21,Peru,35,35,1512.68,1512.68,https://api.fifa.com/api/v3/picture/flags-sq-2/PER,https://www.fifa.com/fifa-world-ranking/PER,CONMEBOL
+2023-12-21,Scotland,36,36,1506.89,1506.89,https://api.fifa.com/api/v3/picture/flags-sq-2/SCO,https://www.fifa.com/fifa-world-ranking/SCO,UEFA
+2023-12-21,Turkey,37,37,1505.28,1505.28,https://api.fifa.com/api/v3/picture/flags-sq-2/TUR,https://www.fifa.com/fifa-world-ranking/TUR,UEFA
+2023-12-21,Russia,38,38,1498.84,1498.84,https://api.fifa.com/api/v3/picture/flags-sq-2/RUS,https://www.fifa.com/fifa-world-ranking/RUS,UEFA
+2023-12-21,Czech Republic,39,39,1494.04,1494.04,https://api.fifa.com/api/v3/picture/flags-sq-2/CZE,https://www.fifa.com/fifa-world-ranking/CZE,UEFA
+2023-12-21,Chile,40,40,1489.82,1489.82,https://api.fifa.com/api/v3/picture/flags-sq-2/CHI,https://www.fifa.com/fifa-world-ranking/CHI,CONMEBOL
+2023-12-21,Panama,41,41,1475.62,1475.62,https://api.fifa.com/api/v3/picture/flags-sq-2/PAN,https://www.fifa.com/fifa-world-ranking/PAN,CONCACAF
+2023-12-21,Nigeria,42,42,1474.44,1474.44,https://api.fifa.com/api/v3/picture/flags-sq-2/NGA,https://www.fifa.com/fifa-world-ranking/NGA,CAF
+2023-12-21,Romania,43,43,1472.73,1472.73,https://api.fifa.com/api/v3/picture/flags-sq-2/ROU,https://www.fifa.com/fifa-world-ranking/ROU,UEFA
+2023-12-21,Norway,44,44,1472.36,1472.36,https://api.fifa.com/api/v3/picture/flags-sq-2/NOR,https://www.fifa.com/fifa-world-ranking/NOR,UEFA
+2023-12-21,Slovakia,45,45,1465.73,1465.73,https://api.fifa.com/api/v3/picture/flags-sq-2/SVK,https://www.fifa.com/fifa-world-ranking/SVK,UEFA
+2023-12-21,Cameroon,46,46,1463.06,1463.06,https://api.fifa.com/api/v3/picture/flags-sq-2/CMR,https://www.fifa.com/fifa-world-ranking/CMR,CAF
+2023-12-21,Greece,47,47,1453.95,1453.95,https://api.fifa.com/api/v3/picture/flags-sq-2/GRE,https://www.fifa.com/fifa-world-ranking/GRE,UEFA
+2023-12-21,Canada,48,48,1453.76,1453.76,https://api.fifa.com/api/v3/picture/flags-sq-2/CAN,https://www.fifa.com/fifa-world-ranking/CAN,CONCACAF
+2023-12-21,Ivory Coast,49,50,1447.65,1447.65,https://api.fifa.com/api/v3/picture/flags-sq-2/CIV,https://www.fifa.com/fifa-world-ranking/CIV,CAF
+2023-12-21,Venezuela,50,49,1447.2,1448.77,https://api.fifa.com/api/v3/picture/flags-sq-2/VEN,https://www.fifa.com/fifa-world-ranking/VEN,CONMEBOL
+2023-12-21,Mali,51,51,1445.6,1445.6,https://api.fifa.com/api/v3/picture/flags-sq-2/MLI,https://www.fifa.com/fifa-world-ranking/MLI,CAF
+2023-12-21,Costa Rica,52,52,1437.57,1437.57,https://api.fifa.com/api/v3/picture/flags-sq-2/CRC,https://www.fifa.com/fifa-world-ranking/CRC,CONCACAF
+2023-12-21,Paraguay,53,53,1430.73,1430.73,https://api.fifa.com/api/v3/picture/flags-sq-2/PAR,https://www.fifa.com/fifa-world-ranking/PAR,CONMEBOL
+2023-12-21,Slovenia,54,54,1427.84,1427.84,https://api.fifa.com/api/v3/picture/flags-sq-2/SVN,https://www.fifa.com/fifa-world-ranking/SVN,UEFA
+2023-12-21,Jamaica,55,55,1421.54,1421.54,https://api.fifa.com/api/v3/picture/flags-sq-2/JAM,https://www.fifa.com/fifa-world-ranking/JAM,CONCACAF
+2023-12-21,Saudi Arabia,56,56,1421.06,1421.06,https://api.fifa.com/api/v3/picture/flags-sq-2/KSA,https://www.fifa.com/fifa-world-ranking/KSA,AFC
+2023-12-21,Burkina Faso,57,57,1411.01,1411.01,https://api.fifa.com/api/v3/picture/flags-sq-2/BFA,https://www.fifa.com/fifa-world-ranking/BFA,CAF
+2023-12-21,Qatar,58,58,1407.3,1407.3,https://api.fifa.com/api/v3/picture/flags-sq-2/QAT,https://www.fifa.com/fifa-world-ranking/QAT,AFC
+2023-12-21,Finland,59,59,1401.31,1401.31,https://api.fifa.com/api/v3/picture/flags-sq-2/FIN,https://www.fifa.com/fifa-world-ranking/FIN,UEFA
+2023-12-21,Ireland,60,60,1399.6,1399.6,https://api.fifa.com/api/v3/picture/flags-sq-2/IRL,https://www.fifa.com/fifa-world-ranking/IRL,UEFA
+2023-12-21,Ghana,61,61,1384.19,1384.19,https://api.fifa.com/api/v3/picture/flags-sq-2/GHA,https://www.fifa.com/fifa-world-ranking/GHA,CAF
+2023-12-21,Albania,62,62,1382.69,1382.69,https://api.fifa.com/api/v3/picture/flags-sq-2/ALB,https://www.fifa.com/fifa-world-ranking/ALB,UEFA
+2023-12-21,Iraq,63,63,1365.98,1365.98,https://api.fifa.com/api/v3/picture/flags-sq-2/IRQ,https://www.fifa.com/fifa-world-ranking/IRQ,AFC
+2023-12-21,United Arab Emirates,64,64,1364.46,1364.46,https://api.fifa.com/api/v3/picture/flags-sq-2/UAE,https://www.fifa.com/fifa-world-ranking/UAE,AFC
+2023-12-21,North Macedonia,65,65,1362.17,1362.17,https://api.fifa.com/api/v3/picture/flags-sq-2/MKD,https://www.fifa.com/fifa-world-ranking/MKD,UEFA
+2023-12-21,South Africa,66,66,1357.08,1357.08,https://api.fifa.com/api/v3/picture/flags-sq-2/RSA,https://www.fifa.com/fifa-world-ranking/RSA,CAF
+2023-12-21,Congo DR,67,67,1356.66,1356.66,https://api.fifa.com/api/v3/picture/flags-sq-2/COD,https://www.fifa.com/fifa-world-ranking/COD,CAF
+2023-12-21,Uzbekistan,68,68,1345.26,1345.26,https://api.fifa.com/api/v3/picture/flags-sq-2/UZB,https://www.fifa.com/fifa-world-ranking/UZB,AFC
+2023-12-21,Bosnia and Herzegovina,69,69,1343.32,1343.32,https://api.fifa.com/api/v3/picture/flags-sq-2/BIH,https://www.fifa.com/fifa-world-ranking/BIH,UEFA
+2023-12-21,Montenegro,70,70,1342.64,1342.64,https://api.fifa.com/api/v3/picture/flags-sq-2/MNE,https://www.fifa.com/fifa-world-ranking/MNE,UEFA
+2023-12-21,Iceland,71,71,1338.39,1338.39,https://api.fifa.com/api/v3/picture/flags-sq-2/ISL,https://www.fifa.com/fifa-world-ranking/ISL,UEFA
+2023-12-21,Northern Ireland,72,72,1333.17,1333.17,https://api.fifa.com/api/v3/picture/flags-sq-2/NIR,https://www.fifa.com/fifa-world-ranking/NIR,UEFA
+2023-12-21,Cape Verde,73,73,1329.8,1329.8,https://api.fifa.com/api/v3/picture/flags-sq-2/CPV,https://www.fifa.com/fifa-world-ranking/CPV,CAF
+2023-12-21,Oman,74,74,1324.89,1324.89,https://api.fifa.com/api/v3/picture/flags-sq-2/OMA,https://www.fifa.com/fifa-world-ranking/OMA,AFC
+2023-12-21,Israel,75,75,1323.43,1323.43,https://api.fifa.com/api/v3/picture/flags-sq-2/ISR,https://www.fifa.com/fifa-world-ranking/ISR,UEFA
+2023-12-21,Honduras,76,76,1313.8,1313.8,https://api.fifa.com/api/v3/picture/flags-sq-2/HON,https://www.fifa.com/fifa-world-ranking/HON,CONCACAF
+2023-12-21,Georgia,77,77,1312.45,1312.45,https://api.fifa.com/api/v3/picture/flags-sq-2/GEO,https://www.fifa.com/fifa-world-ranking/GEO,UEFA
+2023-12-21,El Salvador,78,78,1306.14,1306.14,https://api.fifa.com/api/v3/picture/flags-sq-2/SLV,https://www.fifa.com/fifa-world-ranking/SLV,CONCACAF
+2023-12-21,China PR,79,79,1299.49,1299.49,https://api.fifa.com/api/v3/picture/flags-sq-2/CHN,https://www.fifa.com/fifa-world-ranking/CHN,AFC
+2023-12-21,Guinea,80,80,1290.01,1290.01,https://api.fifa.com/api/v3/picture/flags-sq-2/GUI,https://www.fifa.com/fifa-world-ranking/GUI,CAF
+2023-12-21,Bulgaria,81,81,1289.9,1289.9,https://api.fifa.com/api/v3/picture/flags-sq-2/BUL,https://www.fifa.com/fifa-world-ranking/BUL,UEFA
+2023-12-21,Gabon,82,82,1289.52,1289.52,https://api.fifa.com/api/v3/picture/flags-sq-2/GAB,https://www.fifa.com/fifa-world-ranking/GAB,CAF
+2023-12-21,Luxembourg,83,83,1285.41,1285.41,https://api.fifa.com/api/v3/picture/flags-sq-2/LUX,https://www.fifa.com/fifa-world-ranking/LUX,UEFA
+2023-12-21,Zambia,84,84,1284.56,1284.56,https://api.fifa.com/api/v3/picture/flags-sq-2/ZAM,https://www.fifa.com/fifa-world-ranking/ZAM,CAF
+2023-12-21,Bolivia,85,85,1284.55,1284.55,https://api.fifa.com/api/v3/picture/flags-sq-2/BOL,https://www.fifa.com/fifa-world-ranking/BOL,CONMEBOL
+2023-12-21,Bahrain,86,86,1277.29,1277.29,https://api.fifa.com/api/v3/picture/flags-sq-2/BHR,https://www.fifa.com/fifa-world-ranking/BHR,AFC
+2023-12-21,Jordan,87,87,1272.63,1272.63,https://api.fifa.com/api/v3/picture/flags-sq-2/JOR,https://www.fifa.com/fifa-world-ranking/JOR,AFC
+2023-12-21,Equatorial Guinea,88,88,1268.43,1268.43,https://api.fifa.com/api/v3/picture/flags-sq-2/EQG,https://www.fifa.com/fifa-world-ranking/EQG,CAF
+2023-12-21,Haiti,89,89,1262.5,1262.5,https://api.fifa.com/api/v3/picture/flags-sq-2/HAI,https://www.fifa.com/fifa-world-ranking/HAI,CONCACAF
+2023-12-21,Curaçao,90,90,1262.48,1262.48,https://api.fifa.com/api/v3/picture/flags-sq-2/CUW,https://www.fifa.com/fifa-world-ranking/CUW,CONCACAF
+2023-12-21,Syria,91,91,1245.27,1245.27,https://api.fifa.com/api/v3/picture/flags-sq-2/SYR,https://www.fifa.com/fifa-world-ranking/SYR,AFC
+2023-12-21,Uganda,92,92,1245.08,1245.08,https://api.fifa.com/api/v3/picture/flags-sq-2/UGA,https://www.fifa.com/fifa-world-ranking/UGA,CAF
+2023-12-21,Armenia,93,93,1237.15,1237.15,https://api.fifa.com/api/v3/picture/flags-sq-2/ARM,https://www.fifa.com/fifa-world-ranking/ARM,UEFA
+2023-12-21,Vietnam,94,94,1235.58,1235.58,https://api.fifa.com/api/v3/picture/flags-sq-2/VIE,https://www.fifa.com/fifa-world-ranking/VIE,AFC
+2023-12-21,Belarus,95,95,1232.8,1232.8,https://api.fifa.com/api/v3/picture/flags-sq-2/BLR,https://www.fifa.com/fifa-world-ranking/BLR,UEFA
+2023-12-21,Trinidad and Tobago,96,96,1228.05,1228.05,https://api.fifa.com/api/v3/picture/flags-sq-2/TRI,https://www.fifa.com/fifa-world-ranking/TRI,CONCACAF
+2023-12-21,Benin,97,97,1225.1,1225.1,https://api.fifa.com/api/v3/picture/flags-sq-2/BEN,https://www.fifa.com/fifa-world-ranking/BEN,CAF
+2023-12-21,Kyrgyzstan,98,98,1224.14,1224.14,https://api.fifa.com/api/v3/picture/flags-sq-2/KGZ,https://www.fifa.com/fifa-world-ranking/KGZ,AFC
+2023-12-21,Palestine,99,99,1217.6,1217.6,https://api.fifa.com/api/v3/picture/flags-sq-2/PLE,https://www.fifa.com/fifa-world-ranking/PLE,AFC
+2023-12-21,Kazakhstan,100,100,1215.16,1215.16,https://api.fifa.com/api/v3/picture/flags-sq-2/KAZ,https://www.fifa.com/fifa-world-ranking/KAZ,UEFA
+2023-12-21,Kosovo,101,101,1202.77,1202.77,https://api.fifa.com/api/v3/picture/flags-sq-2/KOS,https://www.fifa.com/fifa-world-ranking/KOS,UEFA
+2023-12-21,India,102,102,1200.8,1200.8,https://api.fifa.com/api/v3/picture/flags-sq-2/IND,https://www.fifa.com/fifa-world-ranking/IND,AFC
+2023-12-21,Guinea-Bissau,103,103,1197.83,1197.83,https://api.fifa.com/api/v3/picture/flags-sq-2/GNB,https://www.fifa.com/fifa-world-ranking/GNB,CAF
+2023-12-21,New Zealand,104,104,1197.47,1197.47,https://api.fifa.com/api/v3/picture/flags-sq-2/NZL,https://www.fifa.com/fifa-world-ranking/NZL,OFC
+2023-12-21,Mauritania,105,105,1195.25,1195.25,https://api.fifa.com/api/v3/picture/flags-sq-2/MTN,https://www.fifa.com/fifa-world-ranking/MTN,CAF
+2023-12-21,Tajikistan,106,106,1195.07,1195.07,https://api.fifa.com/api/v3/picture/flags-sq-2/TJK,https://www.fifa.com/fifa-world-ranking/TJK,AFC
+2023-12-21,Lebanon,107,107,1192.58,1192.58,https://api.fifa.com/api/v3/picture/flags-sq-2/LBN,https://www.fifa.com/fifa-world-ranking/LBN,AFC
+2023-12-21,Guatemala,108,108,1189.98,1189.98,https://api.fifa.com/api/v3/picture/flags-sq-2/GUA,https://www.fifa.com/fifa-world-ranking/GUA,CONCACAF
+2023-12-21,Madagascar,109,109,1187.63,1187.63,https://api.fifa.com/api/v3/picture/flags-sq-2/MAD,https://www.fifa.com/fifa-world-ranking/MAD,CAF
+2023-12-21,Kenya,110,110,1181.92,1181.92,https://api.fifa.com/api/v3/picture/flags-sq-2/KEN,https://www.fifa.com/fifa-world-ranking/KEN,CAF
+2023-12-21,Mozambique,111,111,1180.72,1180.72,https://api.fifa.com/api/v3/picture/flags-sq-2/MOZ,https://www.fifa.com/fifa-world-ranking/MOZ,CAF
+2023-12-21,Congo,112,112,1179.8,1179.8,https://api.fifa.com/api/v3/picture/flags-sq-2/CGO,https://www.fifa.com/fifa-world-ranking/CGO,CAF
+2023-12-21,Thailand,113,113,1176.75,1176.75,https://api.fifa.com/api/v3/picture/flags-sq-2/THA,https://www.fifa.com/fifa-world-ranking/THA,AFC
+2023-12-21,Azerbaijan,114,114,1174.22,1174.22,https://api.fifa.com/api/v3/picture/flags-sq-2/AZE,https://www.fifa.com/fifa-world-ranking/AZE,UEFA
+2023-12-21,Namibia,115,115,1168.38,1168.38,https://api.fifa.com/api/v3/picture/flags-sq-2/NAM,https://www.fifa.com/fifa-world-ranking/NAM,CAF
+2023-12-21,Korea DPR,116,116,1168.12,1168.12,https://api.fifa.com/api/v3/picture/flags-sq-2/PRK,https://www.fifa.com/fifa-world-ranking/PRK,AFC
+2023-12-21,Angola,117,117,1168.05,1168.05,https://api.fifa.com/api/v3/picture/flags-sq-2/ANG,https://www.fifa.com/fifa-world-ranking/ANG,CAF
+2023-12-21,Togo,118,118,1165.74,1165.74,https://api.fifa.com/api/v3/picture/flags-sq-2/TOG,https://www.fifa.com/fifa-world-ranking/TOG,CAF
+2023-12-21,Comoros,119,119,1156.45,1156.45,https://api.fifa.com/api/v3/picture/flags-sq-2/COM,https://www.fifa.com/fifa-world-ranking/COM,CAF
+2023-12-21,Libya,120,120,1155.23,1155.23,https://api.fifa.com/api/v3/picture/flags-sq-2/LBY,https://www.fifa.com/fifa-world-ranking/LBY,CAF
+2023-12-21,Tanzania,121,121,1155.19,1155.19,https://api.fifa.com/api/v3/picture/flags-sq-2/TAN,https://www.fifa.com/fifa-world-ranking/TAN,CAF
+2023-12-21,Estonia,122,122,1149.7,1149.7,https://api.fifa.com/api/v3/picture/flags-sq-2/EST,https://www.fifa.com/fifa-world-ranking/EST,UEFA
+2023-12-21,Malawi,123,123,1149.4,1149.4,https://api.fifa.com/api/v3/picture/flags-sq-2/MWI,https://www.fifa.com/fifa-world-ranking/MWI,CAF
+2023-12-21,Zimbabwe,124,124,1144.56,1144.56,https://api.fifa.com/api/v3/picture/flags-sq-2/ZIM,https://www.fifa.com/fifa-world-ranking/ZIM,CAF
+2023-12-21,Cyprus,125,125,1143.42,1143.42,https://api.fifa.com/api/v3/picture/flags-sq-2/CYP,https://www.fifa.com/fifa-world-ranking/CYP,UEFA
+2023-12-21,Gambia,126,126,1140.06,1140.06,https://api.fifa.com/api/v3/picture/flags-sq-2/GAM,https://www.fifa.com/fifa-world-ranking/GAM,CAF
+2023-12-21,Sierra Leone,127,127,1138.53,1138.53,https://api.fifa.com/api/v3/picture/flags-sq-2/SLE,https://www.fifa.com/fifa-world-ranking/SLE,CAF
+2023-12-21,Sudan,128,128,1128.74,1128.74,https://api.fifa.com/api/v3/picture/flags-sq-2/SDN,https://www.fifa.com/fifa-world-ranking/SDN,CAF
+2023-12-21,Niger,129,129,1127.75,1127.75,https://api.fifa.com/api/v3/picture/flags-sq-2/NIG,https://www.fifa.com/fifa-world-ranking/NIG,CAF
+2023-12-21,Malaysia,130,130,1122.87,1122.87,https://api.fifa.com/api/v3/picture/flags-sq-2/MAS,https://www.fifa.com/fifa-world-ranking/MAS,AFC
+2023-12-21,Central African Republic,131,131,1121.34,1121.34,https://api.fifa.com/api/v3/picture/flags-sq-2/CTA,https://www.fifa.com/fifa-world-ranking/CTA,CAF
+2023-12-21,Solomon Islands,132,132,1113.57,1112.2,https://api.fifa.com/api/v3/picture/flags-sq-2/SOL,https://www.fifa.com/fifa-world-ranking/SOL,OFC
+2023-12-21,Rwanda,133,133,1107.04,1107.04,https://api.fifa.com/api/v3/picture/flags-sq-2/RWA,https://www.fifa.com/fifa-world-ranking/RWA,CAF
+2023-12-21,Nicaragua,134,134,1104.26,1104.26,https://api.fifa.com/api/v3/picture/flags-sq-2/NCA,https://www.fifa.com/fifa-world-ranking/NCA,CONCACAF
+2023-12-21,Faroe Islands,135,135,1102.1,1102.1,https://api.fifa.com/api/v3/picture/flags-sq-2/FRO,https://www.fifa.com/fifa-world-ranking/FRO,UEFA
+2023-12-21,Kuwait,136,136,1098.07,1098.07,https://api.fifa.com/api/v3/picture/flags-sq-2/KUW,https://www.fifa.com/fifa-world-ranking/KUW,AFC
+2023-12-21,Latvia,137,137,1097.84,1097.84,https://api.fifa.com/api/v3/picture/flags-sq-2/LVA,https://www.fifa.com/fifa-world-ranking/LVA,UEFA
+2023-12-21,Lithuania,138,138,1086.93,1086.93,https://api.fifa.com/api/v3/picture/flags-sq-2/LTU,https://www.fifa.com/fifa-world-ranking/LTU,UEFA
+2023-12-21,Burundi,139,139,1086.62,1086.62,https://api.fifa.com/api/v3/picture/flags-sq-2/BDI,https://www.fifa.com/fifa-world-ranking/BDI,CAF
+2023-12-21,Philippines,140,140,1086.17,1086.17,https://api.fifa.com/api/v3/picture/flags-sq-2/PHI,https://www.fifa.com/fifa-world-ranking/PHI,AFC
+2023-12-21,Turkmenistan,141,141,1078.25,1078.25,https://api.fifa.com/api/v3/picture/flags-sq-2/TKM,https://www.fifa.com/fifa-world-ranking/TKM,AFC
+2023-12-21,Antigua and Barbuda,142,142,1072.66,1072.66,https://api.fifa.com/api/v3/picture/flags-sq-2/ATG,https://www.fifa.com/fifa-world-ranking/ATG,CONCACAF
+2023-12-21,Suriname,143,143,1071.85,1071.85,https://api.fifa.com/api/v3/picture/flags-sq-2/SUR,https://www.fifa.com/fifa-world-ranking/SUR,CONCACAF
+2023-12-21,Ethiopia,144,144,1068.79,1068.79,https://api.fifa.com/api/v3/picture/flags-sq-2/ETH,https://www.fifa.com/fifa-world-ranking/ETH,CAF
+2023-12-21,Botswana,145,145,1064.5,1064.5,https://api.fifa.com/api/v3/picture/flags-sq-2/BOT,https://www.fifa.com/fifa-world-ranking/BOT,CAF
+2023-12-21,Indonesia,146,146,1064.01,1064.01,https://api.fifa.com/api/v3/picture/flags-sq-2/IDN,https://www.fifa.com/fifa-world-ranking/IDN,AFC
+2023-12-21,Saint Kitts and Nevis,147,147,1057.05,1057.05,https://api.fifa.com/api/v3/picture/flags-sq-2/SKN,https://www.fifa.com/fifa-world-ranking/SKN,CONCACAF
+2023-12-21,Lesotho,148,148,1047.27,1047.27,https://api.fifa.com/api/v3/picture/flags-sq-2/LES,https://www.fifa.com/fifa-world-ranking/LES,CAF
+2023-12-21,Eswatini,149,149,1045.88,1045.88,https://api.fifa.com/api/v3/picture/flags-sq-2/SWZ,https://www.fifa.com/fifa-world-ranking/SWZ,CAF
+2023-12-21,Hong Kong,150,150,1042.93,1042.93,https://api.fifa.com/api/v3/picture/flags-sq-2/HKG,https://www.fifa.com/fifa-world-ranking/HKG,AFC
+2023-12-21,Dominican Republic,151,151,1040.77,1040.77,https://api.fifa.com/api/v3/picture/flags-sq-2/DOM,https://www.fifa.com/fifa-world-ranking/DOM,CONCACAF
+2023-12-21,Yemen,152,152,1027.94,1027.94,https://api.fifa.com/api/v3/picture/flags-sq-2/YEM,https://www.fifa.com/fifa-world-ranking/YEM,AFC
+2023-12-21,Liberia,153,153,1024.11,1024.11,https://api.fifa.com/api/v3/picture/flags-sq-2/LBR,https://www.fifa.com/fifa-world-ranking/LBR,CAF
+2023-12-21,Taipei,154,154,1023.93,1023.93,https://api.fifa.com/api/v3/picture/flags-sq-2/TPE,https://www.fifa.com/fifa-world-ranking/TPE,AFC
+2023-12-21,Moldova,155,155,1022.6,1022.6,https://api.fifa.com/api/v3/picture/flags-sq-2/MDA,https://www.fifa.com/fifa-world-ranking/MDA,UEFA
+2023-12-21,Singapore,156,156,1020.5,1020.5,https://api.fifa.com/api/v3/picture/flags-sq-2/SGP,https://www.fifa.com/fifa-world-ranking/SGP,AFC
+2023-12-21,Guyana,157,157,1018.14,1018.14,https://api.fifa.com/api/v3/picture/flags-sq-2/GUY,https://www.fifa.com/fifa-world-ranking/GUY,CONCACAF
+2023-12-21,Afghanistan,158,158,1017.68,1017.68,https://api.fifa.com/api/v3/picture/flags-sq-2/AFG,https://www.fifa.com/fifa-world-ranking/AFG,AFC
+2023-12-21,New Caledonia,159,160,1008.92,1004.76,https://api.fifa.com/api/v3/picture/flags-sq-2/NCL,https://www.fifa.com/fifa-world-ranking/NCL,OFC
+2023-12-21,Puerto Rico,160,159,1007.19,1007.19,https://api.fifa.com/api/v3/picture/flags-sq-2/PUR,https://www.fifa.com/fifa-world-ranking/PUR,CONCACAF
+2023-12-21,Maldives,161,161,1003.48,1003.48,https://api.fifa.com/api/v3/picture/flags-sq-2/MDV,https://www.fifa.com/fifa-world-ranking/MDV,AFC
+2023-12-21,Myanmar,162,162,1000.46,1000.46,https://api.fifa.com/api/v3/picture/flags-sq-2/MYA,https://www.fifa.com/fifa-world-ranking/MYA,AFC
+2023-12-21,Tahiti,163,164,999.48,994.97,https://api.fifa.com/api/v3/picture/flags-sq-2/TAH,https://www.fifa.com/fifa-world-ranking/TAH,OFC
+2023-12-21,Andorra,164,163,998,998,https://api.fifa.com/api/v3/picture/flags-sq-2/AND,https://www.fifa.com/fifa-world-ranking/AND,UEFA
+2023-12-21,Papua New Guinea,165,165,990.61,991.01,https://api.fifa.com/api/v3/picture/flags-sq-2/PNG,https://www.fifa.com/fifa-world-ranking/PNG,OFC
+2023-12-21,South Sudan,166,166,989.29,989.29,https://api.fifa.com/api/v3/picture/flags-sq-2/SSD,https://www.fifa.com/fifa-world-ranking/SSD,CAF
+2023-12-21,Saint Lucia,167,167,988.67,988.67,https://api.fifa.com/api/v3/picture/flags-sq-2/LCA,https://www.fifa.com/fifa-world-ranking/LCA,CONCACAF
+2023-12-21,Fiji,168,170,981.26,980.62,https://api.fifa.com/api/v3/picture/flags-sq-2/FIJ,https://www.fifa.com/fifa-world-ranking/FIJ,OFC
+2023-12-21,Cuba,169,169,980.65,980.65,https://api.fifa.com/api/v3/picture/flags-sq-2/CUB,https://www.fifa.com/fifa-world-ranking/CUB,CONCACAF
+2023-12-21,Vanuatu,170,168,980.33,985.26,https://api.fifa.com/api/v3/picture/flags-sq-2/VAN,https://www.fifa.com/fifa-world-ranking/VAN,OFC
+2023-12-21,Bermuda,171,171,972.36,972.36,https://api.fifa.com/api/v3/picture/flags-sq-2/BER,https://www.fifa.com/fifa-world-ranking/BER,CONCACAF
+2023-12-21,Malta,172,172,967.29,967.29,https://api.fifa.com/api/v3/picture/flags-sq-2/MLT,https://www.fifa.com/fifa-world-ranking/MLT,UEFA
+2023-12-21,Saint Vincent and the Grenadines,173,173,953.47,953.47,https://api.fifa.com/api/v3/picture/flags-sq-2/VIN,https://www.fifa.com/fifa-world-ranking/VIN,CONCACAF
+2023-12-21,Grenada,174,174,950.99,950.99,https://api.fifa.com/api/v3/picture/flags-sq-2/GRN,https://www.fifa.com/fifa-world-ranking/GRN,CONCACAF
+2023-12-21,Nepal,175,175,948.05,948.05,https://api.fifa.com/api/v3/picture/flags-sq-2/NEP,https://www.fifa.com/fifa-world-ranking/NEP,AFC
+2023-12-21,Montserrat,176,176,946.08,946.08,https://api.fifa.com/api/v3/picture/flags-sq-2/MSR,https://www.fifa.com/fifa-world-ranking/MSR,CONCACAF
+2023-12-21,Mauritius,177,177,944.95,944.95,https://api.fifa.com/api/v3/picture/flags-sq-2/MRI,https://www.fifa.com/fifa-world-ranking/MRI,CAF
+2023-12-21,Barbados,178,178,943.8,943.8,https://api.fifa.com/api/v3/picture/flags-sq-2/BRB,https://www.fifa.com/fifa-world-ranking/BRB,CONCACAF
+2023-12-21,Cambodia,179,179,931.47,931.47,https://api.fifa.com/api/v3/picture/flags-sq-2/CAM,https://www.fifa.com/fifa-world-ranking/CAM,AFC
+2023-12-21,Dominica,180,180,922.25,922.25,https://api.fifa.com/api/v3/picture/flags-sq-2/DMA,https://www.fifa.com/fifa-world-ranking/DMA,CONCACAF
+2023-12-21,Chad,181,181,920.37,920.37,https://api.fifa.com/api/v3/picture/flags-sq-2/CHA,https://www.fifa.com/fifa-world-ranking/CHA,CAF
+2023-12-21,Belize,182,182,918.68,918.68,https://api.fifa.com/api/v3/picture/flags-sq-2/BLZ,https://www.fifa.com/fifa-world-ranking/BLZ,CONCACAF
+2023-12-21,Bangladesh,183,183,916.75,916.75,https://api.fifa.com/api/v3/picture/flags-sq-2/BAN,https://www.fifa.com/fifa-world-ranking/BAN,AFC
+2023-12-21,Bhutan,184,184,913.02,913.02,https://api.fifa.com/api/v3/picture/flags-sq-2/BHU,https://www.fifa.com/fifa-world-ranking/BHU,AFC
+2023-12-21,Cook Islands,185,185,897.3,901.9,https://api.fifa.com/api/v3/picture/flags-sq-2/COK,https://www.fifa.com/fifa-world-ranking/COK,OFC
+2023-12-21,Samoa,186,187,896.78,896.28,https://api.fifa.com/api/v3/picture/flags-sq-2/SAM,https://www.fifa.com/fifa-world-ranking/SAM,OFC
+2023-12-21,Macau,187,186,896.62,896.62,https://api.fifa.com/api/v3/picture/flags-sq-2/MAC,https://www.fifa.com/fifa-world-ranking/MAC,AFC
+2023-12-21,American Samoa,188,188,890.97,893.67,https://api.fifa.com/api/v3/picture/flags-sq-2/ASA,https://www.fifa.com/fifa-world-ranking/ASA,OFC
+2023-12-21,Laos,189,189,889.62,889.62,https://api.fifa.com/api/v3/picture/flags-sq-2/LAO,https://www.fifa.com/fifa-world-ranking/LAO,AFC
+2023-12-21,Mongolia,190,190,889.16,889.16,https://api.fifa.com/api/v3/picture/flags-sq-2/MNG,https://www.fifa.com/fifa-world-ranking/MNG,AFC
+2023-12-21,São Tomé and Príncipe,191,191,888.94,888.94,https://api.fifa.com/api/v3/picture/flags-sq-2/STP,https://www.fifa.com/fifa-world-ranking/STP,CAF
+2023-12-21,Djibouti,192,192,881.18,881.18,https://api.fifa.com/api/v3/picture/flags-sq-2/DJI,https://www.fifa.com/fifa-world-ranking/DJI,CAF
+2023-12-21,Aruba,193,193,879.32,879.32,https://api.fifa.com/api/v3/picture/flags-sq-2/ARU,https://www.fifa.com/fifa-world-ranking/ARU,CONCACAF
+2023-12-21,Brunei,194,194,870.63,870.63,https://api.fifa.com/api/v3/picture/flags-sq-2/BRU,https://www.fifa.com/fifa-world-ranking/BRU,AFC
+2023-12-21,Pakistan,195,195,856.54,856.54,https://api.fifa.com/api/v3/picture/flags-sq-2/PAK,https://www.fifa.com/fifa-world-ranking/PAK,AFC
+2023-12-21,Tonga,196,196,856.18,853.49,https://api.fifa.com/api/v3/picture/flags-sq-2/TGA,https://www.fifa.com/fifa-world-ranking/TGA,OFC
+2023-12-21,Cayman Islands,197,197,851.19,851.19,https://api.fifa.com/api/v3/picture/flags-sq-2/CAY,https://www.fifa.com/fifa-world-ranking/CAY,CONCACAF
+2023-12-21,Somalia,198,198,845.66,845.66,https://api.fifa.com/api/v3/picture/flags-sq-2/SOM,https://www.fifa.com/fifa-world-ranking/SOM,CAF
+2023-12-21,Seychelles,199,199,845.53,845.53,https://api.fifa.com/api/v3/picture/flags-sq-2/SEY,https://www.fifa.com/fifa-world-ranking/SEY,CAF
+2023-12-21,East Timor,200,200,843.4,843.4,https://api.fifa.com/api/v3/picture/flags-sq-2/TLS,https://www.fifa.com/fifa-world-ranking/TLS,AFC
+2023-12-21,Gibraltar,201,201,840.8,840.8,https://api.fifa.com/api/v3/picture/flags-sq-2/GIB,https://www.fifa.com/fifa-world-ranking/GIB,UEFA
+2023-12-21,Bahamas,202,202,835.81,835.81,https://api.fifa.com/api/v3/picture/flags-sq-2/BAH,https://www.fifa.com/fifa-world-ranking/BAH,CONCACAF
+2023-12-21,Liechtenstein,203,203,833.01,833.01,https://api.fifa.com/api/v3/picture/flags-sq-2/LIE,https://www.fifa.com/fifa-world-ranking/LIE,UEFA
+2023-12-21,Sri Lanka,204,204,822.03,822.03,https://api.fifa.com/api/v3/picture/flags-sq-2/SRI,https://www.fifa.com/fifa-world-ranking/SRI,AFC
+2023-12-21,Guam,205,205,821.91,821.91,https://api.fifa.com/api/v3/picture/flags-sq-2/GUM,https://www.fifa.com/fifa-world-ranking/GUM,AFC
+2023-12-21,Turks and Caicos Islands,206,206,818.57,818.57,https://api.fifa.com/api/v3/picture/flags-sq-2/TCA,https://www.fifa.com/fifa-world-ranking/TCA,CONCACAF
+2023-12-21,British Virgin Islands,207,207,807.57,807.57,https://api.fifa.com/api/v3/picture/flags-sq-2/VGB,https://www.fifa.com/fifa-world-ranking/VGB,CONCACAF
+2023-12-21,US Virgin Islands,208,208,796.78,796.78,https://api.fifa.com/api/v3/picture/flags-sq-2/VIR,https://www.fifa.com/fifa-world-ranking/VIR,CONCACAF
+2023-12-21,Anguilla,209,209,785.69,785.69,https://api.fifa.com/api/v3/picture/flags-sq-2/AIA,https://www.fifa.com/fifa-world-ranking/AIA,CONCACAF
+2023-12-21,San Marino,210,210,741.61,741.61,https://api.fifa.com/api/v3/picture/flags-sq-2/SMR,https://www.fifa.com/fifa-world-ranking/SMR,UEFA
+2023-12-21,Eritrea,,,855.56,0,https://api.fifa.com/api/v3/picture/flags-sq-2/ERI,https://www.fifa.com/fifa-world-ranking/ERI,CAF
