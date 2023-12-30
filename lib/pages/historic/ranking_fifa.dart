@@ -1,4 +1,5 @@
 import 'package:fifa/classes/click_navigator/click_club.dart';
+import 'package:fifa/classes/countries/countries_continents.dart';
 import 'package:fifa/classes/image_class.dart';
 import 'package:fifa/classes/team_details.dart';
 import 'package:fifa/global_variables.dart';
@@ -18,6 +19,8 @@ class RankingFIFA extends StatefulWidget {
 class _RankingFIFAState extends State<RankingFIFA> {
 
   List<NationalTeam> countries = [];
+  List<NationalTeam> countriesAll = [];
+  String continentChoosen = Continents().notExist;
 
   ////////////////////////////////////////////////////////////////////////////
 //                               INIT                                     //
@@ -26,20 +29,26 @@ class _RankingFIFAState extends State<RankingFIFA> {
   void initState() {
     globalNationalTeamsDetails.forEach((key, value) {
       if(NationalTeam(name: key).fifaranking > 0){
-        countries.add(NationalTeam(name: key));
+        countriesAll.add(NationalTeam(name: key));
       }
     });
-    for (int i=1; i<countries.length; i++) {
-      for (int k = 0; k < countries.length - 1; k++) {
-        if (countries[i].fifaranking < countries[k].fifaranking) {
-          NationalTeam aux = countries[i];
-          countries[i] = countries[k];
-          countries[k] = aux;
+    for (int i=1; i<countriesAll.length; i++) {
+      for (int k = 0; k < countriesAll.length - 1; k++) {
+        if (countriesAll[i].fifaranking < countriesAll[k].fifaranking) {
+          NationalTeam aux = countriesAll[i];
+          countriesAll[i] = countriesAll[k];
+          countriesAll[k] = aux;
         }
       }
     }
 
+    countries = List.from(countriesAll);
     super.initState();
+  }
+
+  filterContinents(){
+    countries = List.from(countriesAll);
+    countries.removeWhere((element) => element.continent != continentChoosen);
   }
 ////////////////////////////////////////////////////////////////////////////
 //                               BUILD                                    //
@@ -69,6 +78,8 @@ class _RankingFIFAState extends State<RankingFIFA> {
                       : Container(),
                 )
               ),
+
+              selectContinent(),
 
             ],
           ),
@@ -104,4 +115,40 @@ Widget row(NationalTeam nationalTeam){
       ),
     );
 }
+  Widget selectContinent(){
+    return Container(
+      color: AppColors().greyTransparent,
+      child: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+        children: [
+          continentSelection(Continents().europa),
+          continentSelection(Continents().americaSul),
+          continentSelection(Continents().americaNorte),
+          continentSelection(Continents().asia),
+          continentSelection(Continents().africa),
+          continentSelection(Continents().oceania),
+        ],
+      ),
+    );
+  }
+  Widget continentSelection(String continentName){
+    return GestureDetector(
+      onTap: (){
+        if (continentName == continentChoosen){
+          continentChoosen = Continents().notExist;
+        }else{
+          continentChoosen = continentName;
+        }
+        filterContinents();
+        setState((){});
+      },
+      child: Container(
+        color: continentName == continentChoosen ? AppColors().green : Colors.transparent,
+        child: Padding(
+          padding: const EdgeInsets.all(4.0),
+          child: Images().getContinentLogo(continentName),
+        ),
+      ),
+    );
+  }
 }

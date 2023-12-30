@@ -184,9 +184,9 @@ class _RankingClubsPageState extends State<RankingClubsPage> with TickerProvider
         children: [
           continentSelection(Continents().europa),
           continentSelection(Continents().americaSul),
+          continentSelection(Continents().americaNorte),
           continentSelection(Continents().asia),
           continentSelection(Continents().africa),
-          continentSelection(Continents().americaNorte),
         ],
       ),
     );

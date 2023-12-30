@@ -315,6 +315,7 @@ class RealClassification{
     map["1. FC Heidenheim"] = n.heidenheim;
     map["Hertha BSC"] = n.herthaberlim;
     map["1899 Hoffenheim"] = n.hoffenheim;
+    map["TSG Hoffenheim"] = n.hoffenheim;
     map["1. FC Kaiserslautern"] = n.kaiserslautern;
     map["Karlsruher SC"] = n.karlsruher;
     map["Jahn Regensburg"] = n.jahnregensburg;
@@ -343,6 +344,7 @@ class RealClassification{
     map["SC Heerenveen"] = n.heerenveen;
     //TURQUIA
     map["İstanbul Başakşehir"] = n.istanbulbasaksehir;
+    map["Başakşehir"] = n.istanbulbasaksehir;
     map["Çaykur Rizespor"] = n.rizespor;
     //ALBANIA
     map["Partizani"] = n.partizanitirane;

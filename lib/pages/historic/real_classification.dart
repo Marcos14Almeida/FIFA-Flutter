@@ -30,14 +30,16 @@ class RealClassificationPage extends StatefulWidget {
 class _RealClassificationPageState extends State<RealClassificationPage> {
 
   String chosenLeagueName = "";
+  RealClassification real = RealClassification();
 
   ////////////////////////////////////////////////////////////////////////////
 //                               INIT                                     //
 ////////////////////////////////////////////////////////////////////////////
   @override
   void initState() {
-      super.initState();
       chosenLeagueName = RealClassification().getLeagueFromCountryName(widget.chosenCountryName);
+      print(real.urls.keys);
+      super.initState();
     }
 
 ////////////////////////////////////////////////////////////////////////////
@@ -45,6 +47,8 @@ class _RealClassificationPageState extends State<RealClassificationPage> {
 ////////////////////////////////////////////////////////////////////////////
   @override
   Widget build(BuildContext context) {
+
+    real.getUrls();
 
     return Scaffold(
       body: Stack(
@@ -65,7 +69,7 @@ class _RealClassificationPageState extends State<RealClassificationPage> {
                 scrollDirection: Axis.horizontal,
                 child: Row(
                   children: [
-                    for(String leagueName in LeagueOfficialNames().getAllLeagueNames())
+                    for(String leagueName in real.urls.keys)
                       countryFlagsSelectionBottomWidget2(
                           leagueName: leagueName,
                           chosenLeagueName: chosenLeagueName,

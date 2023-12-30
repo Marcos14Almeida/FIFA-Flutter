@@ -23,6 +23,7 @@ class FIFAImages{
   map[c.bulgaria] = 'bulgaria';
   map[c.kazakhstan] = 'kazakhstan';
   map[c.croatia] = 'croatia';
+  map[c.cyprus] = 'cyprus';
   map[c.czechrepublic] = 'czech republic';
   map[c.england] = 'england';
   map[c.denmark] = 'denmark';
@@ -139,7 +140,7 @@ class FIFAImages{
   map[c.egypt] = 'egypt';
   map[c.guineaEquatorial] = 'equatorial guinea';
   map[c.ethiopia] = 'ethiopia';
-  map[c.gabon] = 'gabon]';
+  map[c.gabon] = 'gabon';
   map[c.ghana] = 'ghana';
   map[c.guinea] = 'guinea';
   map[c.ivorycoast] = 'ivory coast';

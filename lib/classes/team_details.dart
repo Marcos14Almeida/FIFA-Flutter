@@ -50,10 +50,9 @@ class TeamBasics{
     final String rawCountries = await rootBundle.loadString('assets/csv/national_countries_details.csv');
     List listRowsCountries = const CsvToListConverter().convert(rawCountries);
     for(int i=1; i < listRowsCountries.length; i++){
-      String name = listRowsCountries[i][0];
+      String name = listRowsCountries[i][1];
       globalNationalTeamsDetails[name] = listRowsCountries[i];
       globalNationalTeamsDetails[name].insert(0, "");
-      globalNationalTeamsDetails[name].insert(1, "");
     }
 
     final String rawFIFA = await rootBundle.loadString('assets/csv/fifaranking.csv');
@@ -278,6 +277,7 @@ class ClubBasics extends TeamBasics {
 class NationalTeam extends TeamBasics {
 
   late List row;
+  late String capital;
   int fifaranking = 0;
 
   NationalTeam({required String name}){
@@ -286,6 +286,7 @@ class NationalTeam extends TeamBasics {
       row = globalNationalTeamsDetails[name];
       country = name;
       continent = Continents().funcCountryContinents(country);
+      capital = row[1];
       overall = _getOverall(row[3]);
       foundationYear = row[4];
       extinctYear = row[5];
