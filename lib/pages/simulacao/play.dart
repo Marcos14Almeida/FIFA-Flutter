@@ -115,7 +115,7 @@ class _PlayState extends State<Play> {
 
                       //GOLS MARCADOS
                       SizedBox(
-                        height: 90,
+                        height: 80,
                         child: Row(
                           crossAxisAlignment: CrossAxisAlignment.start, //Começando a lista do topo
                           children: [

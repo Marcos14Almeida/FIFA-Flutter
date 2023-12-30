@@ -133,6 +133,7 @@ class _MapListAllClubsState extends State<MapListAllClubs> {
       children: [
 
         backButtonText(context, 'Lista de Clubes'),
+
         const Spacer(),
 
         Padding(
@@ -160,6 +161,7 @@ class _MapListAllClubsState extends State<MapListAllClubs> {
   }
   Widget clubRow(String clubName, DataGraphics dataGraphics){
 
+    ClubBasics clubBasics = ClubBasics(name: clubName);
 
     return PressableButton(
       onTap: (){
@@ -169,7 +171,7 @@ class _MapListAllClubsState extends State<MapListAllClubs> {
       child: Container(
         padding: const EdgeInsets.symmetric(horizontal: 8),
         margin: const EdgeInsets.symmetric(vertical: 4),
-        color: ClubBasics(name: clubName).clubColors.primaryColor.withOpacity(0.2),
+        color: clubBasics.clubColors.primaryColor.withOpacity(0.2),
         child: Stack(
               children: [
 
@@ -211,7 +213,7 @@ class _MapListAllClubsState extends State<MapListAllClubs> {
                                       const SizedBox(height: 4),
                                       Padding(
                                         padding: const EdgeInsets.only(left: 0.0),
-                                        child: starsWidgetFromOverall(ClubBasics(name: clubName).overall,18.0),
+                                        child: starsWidgetFromOverall(clubBasics.overall,18.0),
                                       ),
                                     ],
                                   ),
@@ -227,9 +229,9 @@ class _MapListAllClubsState extends State<MapListAllClubs> {
                                           ],
                                         ),
                                         const SizedBox(height: 4),
-                                        Text(ClubBasics(name: clubName).foundationYear.toString(),style: EstiloTextoBranco.text16),
-                                        Text(ClubBasics(name: clubName).stadium,maxLines: 2,overflow: TextOverflow.ellipsis,style: EstiloTextoBranco.text14),
-                                        Text('(${ClubBasics(name: clubName).getStadiumstadiumSizePointFormat()}) ',style: EstiloTextoBranco.text16),
+                                        Text(clubBasics.foundationYear.toString(),style: EstiloTextoBranco.text16),
+                                        Text(clubBasics.stadium,maxLines: 2,overflow: TextOverflow.ellipsis,style: EstiloTextoBranco.text14),
+                                        Text('(${clubBasics.getStadiumstadiumSizePointFormat()}) ',style: EstiloTextoBranco.text16),
 
                                       ],
                                     ),
@@ -254,7 +256,7 @@ class _MapListAllClubsState extends State<MapListAllClubs> {
                 ),
                 Padding(
                     padding: const EdgeInsets.only(left:340,top: 80),
-                    child: funcFlagsList(ClubBasics(name: clubName).country, 15, 25),
+                    child: funcFlagsList(clubBasics.country, 15, 25),
                 ),
 
                 SizedBox(
@@ -301,15 +303,17 @@ class _MapListAllClubsState extends State<MapListAllClubs> {
   }
 
   showClubMap(String clubName){
+    ClubBasics clubBasics = ClubBasics(name: clubName);
    return         showModalBottomSheet(
        barrierColor: Colors.transparent,
        context: context, builder: (c)
    {
-     List<Marker> _markers =          [Marker(
+     List<Marker> _markers =          [
+       Marker(
        markerId: MarkerId(clubName),
        position: LatLng(
-           ClubBasics(name: clubName).coordinates.latitude,
-           ClubBasics(name: clubName).coordinates.longitude
+           clubBasics.coordinates.latitude,
+           clubBasics.coordinates.longitude
        ),
        infoWindow: InfoWindow(title: clubName),
        //icon: clubsAllNameList.indexOf(clubName) < 40 ? _markersIcons[clubsAllNameList.indexOf(clubName)] : BitmapDescriptor.defaultMarker,
@@ -329,8 +333,8 @@ class _MapListAllClubsState extends State<MapListAllClubs> {
                //zoomControlsEnabled: false, //SEM ZOOM
                initialCameraPosition: CameraPosition(
                  target: LatLng(
-                     ClubBasics(name: clubName).coordinates.latitude,
-                     ClubBasics(name: clubName).coordinates.longitude,
+                   clubBasics.coordinates.latitude,
+                   clubBasics.coordinates.longitude,
                  ),
                  zoom: 15.0,
                ),
@@ -351,8 +355,8 @@ class _MapListAllClubsState extends State<MapListAllClubs> {
                zoomControlsEnabled: false, //SEM ZOOM
                initialCameraPosition: CameraPosition(
                  target: LatLng(
-                     ClubBasics(name: clubName).coordinates.latitude,
-                     ClubBasics(name: clubName).coordinates.longitude,
+                   clubBasics.coordinates.latitude,
+                   clubBasics.coordinates.longitude,
                  ),
                  zoom: 3.0,
                ),

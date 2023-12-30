@@ -4,7 +4,6 @@ import 'package:fifa/classes/countries/words.dart';
 import 'package:fifa/classes/functions/size.dart';
 import 'package:fifa/classes/image_class.dart';
 import 'package:fifa/classes/team_details.dart';
-import 'package:fifa/pages/club_profile/country_profile.dart';
 import 'package:fifa/pages/historic/leagues_historic.dart';
 import 'package:fifa/pages/historic/ranking_fifa.dart';
 import 'package:fifa/pages/historic/real_classification.dart';

@@ -20,6 +20,7 @@ class _CountryProfileState extends State<CountryProfile> with TickerProviderStat
   late TabController _tabController;
   late NationalTeam nationalTeam;
   List<Jogador> playersID = [];
+  double avg = 0;
   ////////////////////////////////////////////////////////////////////////////
 //                               INIT                                     //
 ////////////////////////////////////////////////////////////////////////////
@@ -35,8 +36,16 @@ class _CountryProfileState extends State<CountryProfile> with TickerProviderStat
     setState(() {});
     await Future.delayed(const Duration(milliseconds: 1), () {});
     playersID = sortingPlayersOverall();
+
+    int sum = 0;
+    for (int i=0; i<playersID.length  && i<11; i++) {
+      sum += playersID[i].overall;
+    }
+    avg = sum/11;
+
     setState(() {});
   }
+
   @override
   void dispose() {
     _tabController.dispose();
@@ -77,8 +86,10 @@ class _CountryProfileState extends State<CountryProfile> with TickerProviderStat
                       Column(
                         children: [
                           starsWidgetFromOverall(nationalTeam.overall),
+                          Text(avg.toStringAsFixed(2), style: EstiloTextoBranco.negrito16),
                           Text("FIFA Ranking: " + nationalTeam.fifaranking.toString() + 'º', style:EstiloTextoBranco.text16),
                           Text(nationalTeam.stadium, style:EstiloTextoBranco.text16),
+                          Text(" (" + nationalTeam.getStadiumstadiumSizePointFormat() + ")", style:EstiloTextoBranco.text16),
                         ],
                       ),
                       Images().getUniformWidget(widget.nationalTeam, 80, 80),
@@ -159,8 +170,8 @@ Widget header(){
     return SingleChildScrollView(
       child: Column(
         children: [
-        for (int i=0; i<playersID.length; i++)
-          rowPlayer(playersID[i]),
+          for (int i=0; i<playersID.length; i++)
+            rowPlayer(playersID[i]),
         ],
       ),
     );

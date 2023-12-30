@@ -3,6 +3,7 @@ import 'package:fifa/classes/image_class.dart';
 import 'package:fifa/classes/team_details.dart';
 import 'package:fifa/global_variables.dart';
 import 'package:fifa/pages/club_profile/country_profile.dart';
+import 'package:fifa/theme/colors.dart';
 import 'package:fifa/theme/textstyle.dart';
 import 'package:fifa/widgets/button/back_button.dart';
 import 'package:flutter/material.dart';
@@ -37,6 +38,7 @@ class _RankingFIFAState extends State<RankingFIFA> {
         }
       }
     }
+
     super.initState();
   }
 ////////////////////////////////////////////////////////////////////////////
@@ -59,7 +61,7 @@ class _RankingFIFAState extends State<RankingFIFA> {
                   child: countries.isNotEmpty
                       ? Column(
                     children: [
-                      for(int i=0; i< countries.length; i++)
+                      for(int i=0; i < countries.length; i++)
                         row(countries[i])
 
                     ],
@@ -85,11 +87,12 @@ Widget row(NationalTeam nationalTeam){
       onTap: (){
         navigatorPush(context, CountryProfile(nationalTeam: nationalTeam.name));
       },
-      child: Padding(
+      child: Container(
         padding: const EdgeInsets.all(8.0),
+        color: AppColors().greyTransparent,
         child: Row(
           children: [
-            Container(width:30, child: Text(nationalTeam.fifaranking.toString() + "º",style: EstiloTextoBranco.text16)),
+            SizedBox(width:30, child: Text(nationalTeam.fifaranking.toString() + "º",style: EstiloTextoBranco.text16)),
             const SizedBox(width: 16),
             Text(nationalTeam.overall.toString(),style: EstiloTextoBranco.text16),
             const SizedBox(width: 16),

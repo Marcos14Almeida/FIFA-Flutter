@@ -2,8 +2,9 @@ import 'package:fifa/values/league_names.dart';
 
 String getTrophyImage(String leagueName){
 
-  String trophyName = 'trophyliga';
   LeagueOfficialNames l = LeagueOfficialNames();
+
+  String trophyName = 'trophy_liga';
 
   Map trophiesMap = {
     l.inglaterra1: 'trophy_premier',
@@ -52,8 +53,10 @@ String getTrophyImage(String leagueName){
     l.englandCup: 'fa_cup',
     l.italyCup: 'italia_cup',
     l.germanyCup: 'germany_cup',
+    l.argentinaCup: 'trophy_argentina',
     l.brazilCup: 'brasil_cup',
   };
+
   if(trophiesMap2.containsKey(leagueName)){
     trophyName = trophiesMap2[leagueName];
   }
