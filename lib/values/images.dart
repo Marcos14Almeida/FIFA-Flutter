@@ -114,7 +114,7 @@ class FIFAImages{
   map[c.turkmenistan] = 'turkmenistan';
   map[c.vietnam] = 'vietnam';
 
-  map[c.bahrein] = 'bahrain';
+  map[c.bahrain] = 'bahrain';
   map[c.iran] = 'iran';
   map[c.iraq] = 'iraq';
   map[c.jordan] = 'jordan';

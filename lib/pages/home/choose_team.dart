@@ -311,7 +311,7 @@ Widget continueButton(){
       customButtonContinue(
           title: Translation(context).text.continueButton,
           function: () {
-            funcChangeClub(club.name,indexLeague);
+            funcChangeClub(club.name);
             Navigator.of(context).pushReplacement(MaterialPageRoute(builder: (context) => const Menu()));
           }
       );

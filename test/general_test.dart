@@ -124,7 +124,7 @@ void main() {
 
       printQuotedMap(l.afeganistao);
       printQuotedMap(l.arabia);
-      printQuotedMap(l.bahrein);
+      printQuotedMap(l.bahrain);
       printQuotedMap(l.eau);
       printQuotedMap(l.libano);
       printQuotedMap(l.iemen);

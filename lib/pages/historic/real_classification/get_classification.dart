@@ -91,7 +91,7 @@ class RealClassification{
       n.australia: ["https://en.wikipedia.org/wiki/2023%E2%80%9324_A-League_Men", 4],
 
       n.arabia: ["https://en.wikipedia.org/wiki/2023%E2%80%9324_Saudi_Professional_League", 4],
-      n.bahrein: ["https://en.wikipedia.org/wiki/2023%E2%80%9324_Bahraini_Premier_League", 2],
+      n.bahrain: ["https://en.wikipedia.org/wiki/2023%E2%80%9324_Bahraini_Premier_League", 2],
       n.eau: ["https://en.wikipedia.org/wiki/2023%E2%80%9324_UAE_Pro_League", 4],
       n.iran: ["https://en.wikipedia.org/wiki/2023%E2%80%9324_Persian_Gulf_Pro_League", 6],
       n.iraque: ["https://en.wikipedia.org/wiki/2023%E2%80%9324_Iraqi_Premier_League", 1],
@@ -237,8 +237,8 @@ class RealClassification{
     if(name == "Olympic" && leagueName==l.uzbekistao) return n.olympictashkent;
     if(name == "Al-Ittihad" && leagueName==l.arabia) return n.alittihad;
     if(name == "Al-Shabab" && leagueName==l.arabia) return n.alshabab;
-    if(name == "Al-Ahli" && leagueName==l.bahrein) return n.alahliBAH;
-    if(name == "Al-Shabab" && leagueName==l.bahrein) return n.alshababBAH;
+    if(name == "Al-Ahli" && leagueName==l.bahrain) return n.alahliBAH;
+    if(name == "Al-Shabab" && leagueName==l.bahrain) return n.alshababBAH;
     if(name == "Al Nasr" && leagueName==l.eau) return n.alnasrEAU;
     if(name == "Al-Ahli" && leagueName==l.qatar) return n.alahlidoha;
     if(name == "Al-Arabi" && leagueName==l.kuwait) return n.alarabiKUW;

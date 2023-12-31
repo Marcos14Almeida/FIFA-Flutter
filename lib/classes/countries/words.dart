@@ -56,7 +56,7 @@ class CountryNames {
   String get austria => 'Austria';
   String get azerbaijan => 'Azerbaijan';
   String get bahamas => 'Bahamas';
-  String get bahrein => 'Bahrein';
+  String get bahrain => 'Bahrain';
   String get bangladesh => 'Bangladesh';
   String get barbados => 'Barbados';
   String get belgium => 'Belgium';
@@ -260,7 +260,7 @@ CountryNames word = Words.country;
 List<String> globalCountryNames = [
   word.albania,word.algeria,word.andorra,word.angola,word.antiguabarbuda,word.argentina,word.armenia,
   word.austria,word.australia,word.azerbaijan,
-  word.bahrein,word.bahamas,word.barbados,word.bangladesh,word.belize,word.belarus,word.belgium,word.benin,word.bolivia,
+  word.bahrain,word.bahamas,word.barbados,word.bangladesh,word.belize,word.belarus,word.belgium,word.benin,word.bolivia,
   word.bosnia,word.botswana,word.brazil,word.brunei,word.bulgaria,word.burkina,word.burundi,
   word.cameroon,word.centralAfrica,word.colombia,word.costarica,word.comoros,word.congo,word.congoRD,
   word.chad,word.china,word.cyprus,word.chile,word.canada,word.capeverde,word.croatia,word.cuba,word.czechrepublic,

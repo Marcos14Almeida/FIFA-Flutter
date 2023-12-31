@@ -48,7 +48,9 @@ class _RankingFIFAState extends State<RankingFIFA> {
 
   filterContinents(){
     countries = List.from(countriesAll);
-    countries.removeWhere((element) => element.continent != continentChoosen);
+    if(continentChoosen != Continents().notExist){
+      countries.removeWhere((element) => element.continent != continentChoosen);
+    }
   }
 ////////////////////////////////////////////////////////////////////////////
 //                               BUILD                                    //

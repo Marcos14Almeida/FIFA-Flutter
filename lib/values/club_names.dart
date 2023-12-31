@@ -3673,7 +3673,7 @@ class ClubName{
   //CHILE
   String colocolo = "Colo-Colo";
   String lau = "LaU";
-  String univcatolica = "Univ. Católica";
+  String univcatolica = "Universidad Católica";
   String antofagasta = "Antofagasta";
   String audaxitaliano = "Audax Italiano";
   String arturo = "Arturo Fernández Vial";
@@ -3820,7 +3820,7 @@ class ClubName{
   String politecnico = "Politécnico";
   String quevedo = "Quevedo";
   String tecnicoUniv = "Técnico Univ.";
-  String uniequ = "Universidad Católica";
+  String uniequ = "Universidad Católica (Ecuador)";
   String valdez = "Valdez";
   //COLOMBIA
   String americadecali = "América de Cali";

@@ -9,7 +9,7 @@ import '../../global_variables.dart';
 import 'package:fifa/classes/classification.dart';
 import 'package:fifa/classes/functions/func_number_clubs_total.dart';
 
-funcChangeClub(String newClubName, int newLeagueID){
+funcChangeClub(String newClubName){
 
   int clubID = clubsAllNameList.indexOf(newClubName);
   globalMyClubID = clubID;

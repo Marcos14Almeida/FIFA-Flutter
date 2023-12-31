@@ -231,6 +231,9 @@ class ClubBasics extends TeamBasics {
       shorts = getColorsShortsOrSocks(name, row[14]);
       socks = getColorsShortsOrSocks(name, row[15]);
       rivals = row[16].split(",");
+    }else{
+      print("ERROR in Team Details:");
+      print(name);
     }
   }
 

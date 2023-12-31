@@ -96,7 +96,7 @@ Widget clubWidget(Club club){
       padding: const EdgeInsets.symmetric(vertical: 8.0),
       child: PressableButton(
         onTap: (){
-                funcChangeClub(clubClassification.clubName, clubClassification.leagueID);
+                funcChangeClub(clubClassification.clubName);
                 alreadyChangedClubThisSeason = true;
                 Navigator.pushReplacement(context,MaterialPageRoute(builder: (context) => const Menu()));
               },

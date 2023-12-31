@@ -4,6 +4,7 @@ import 'package:fifa/classes/team_details.dart';
 import 'package:fifa/global_variables.dart';
 import 'package:fifa/theme/textstyle.dart';
 import 'package:fifa/widgets/button/back_button.dart';
+import 'package:fifa/widgets/popup/popup_player_info.dart';
 import 'package:fifa/widgets/stars.dart';
 import 'package:flutter/material.dart';
 
@@ -177,24 +178,29 @@ Widget header(){
     );
   }
   Widget rowPlayer(Jogador player){
-    return Padding(
-      padding: const EdgeInsets.all(8.0),
-      child: Row(
-          children: [
-            const SizedBox(width: 8),
-            SizedBox(
-              width: 80,
-              child: Row(
-                children: [
-                  Text(player.overall.toString(), style: EstiloTextoBranco.negrito14),
-                  const SizedBox(width: 16),
-                  Text(player.position, style: EstiloTextoBranco.text16),
-                ],
+    return InkWell(
+      onTap: (){
+        popUpOkShowPlayerInfos(context: context, playerID: player.index, funcSetState: (){});
+      },
+      child: Padding(
+        padding: const EdgeInsets.all(8.0),
+        child: Row(
+            children: [
+              const SizedBox(width: 8),
+              SizedBox(
+                width: 80,
+                child: Row(
+                  children: [
+                    Text(player.overall.toString(), style: EstiloTextoBranco.negrito14),
+                    const SizedBox(width: 16),
+                    Text(player.position, style: EstiloTextoBranco.text16),
+                  ],
+                ),
               ),
-            ),
-            Text(player.name, style: EstiloTextoBranco.text16),
-          ],
-        ),
+              Text(player.name, style: EstiloTextoBranco.text16),
+            ],
+          ),
+      ),
     );
   }
 }

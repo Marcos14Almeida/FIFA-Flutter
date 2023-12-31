@@ -167,7 +167,7 @@ class _SingleMatchState extends State<SingleMatch> {
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: [
                 menuButton('Simulate Match',(){
-                  funcChangeClub(club1.name,leaguesListRealIndex[posicaoPais1]);
+                  funcChangeClub(club1.name);
                   Adversario adv = Adversario();
                   adv.clubName = club2.name;
                   adv.clubID = club2.index;
@@ -175,7 +175,7 @@ class _SingleMatchState extends State<SingleMatch> {
                 }),
 
                 menuButton('Play Match',(){
-                  funcChangeClub(club1.name,leaguesListRealIndex[posicaoPais1]);
+                  funcChangeClub(club1.name);
                   Navigator.of(context).push(MaterialPageRoute(builder: (context) => Play(adversarioClubID: club2.index, visitante: false, isSingleMatch: true)));
                 }),
 

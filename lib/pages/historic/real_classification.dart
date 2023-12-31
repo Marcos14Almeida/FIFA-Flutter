@@ -10,7 +10,6 @@ import 'package:fifa/theme/custom_toast.dart';
 import 'package:fifa/theme/decoration/my_team_gradient.dart';
 import 'package:fifa/theme/textstyle.dart';
 import 'package:fifa/values/historic_champions/historic_champions.dart';
-import 'package:fifa/values/league_names.dart';
 import 'package:fifa/widgets/arrow_table.dart';
 import 'package:fifa/widgets/bottom_sheet/bottom_sheet_league_classification.dart';
 import 'package:fifa/widgets/button/back_button.dart';

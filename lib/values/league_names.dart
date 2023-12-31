@@ -139,7 +139,7 @@ class LeagueOfficialNames{
   String turcomenistao = 'Ýokary Liga';
   String eau = 'UAE Pro League';
   String qatar = 'Qatar Stars League';
-  String bahrein = 'Bahraini Premier League';
+  String bahrain = 'Bahraini Premier League';
   String iran = 'Persian Gulf Pro League';
   String iraque = 'Iraqi Premier League';
   String kuwait = 'Kuwaiti Premier League';
@@ -360,7 +360,7 @@ class LeagueOfficialNames{
       indonesia, japao, laos, malasia, maldivas, myanmar,
       nepal, tailandia, taiwan, vietna,
 
-      afeganistao, arabia, bahrein, eau, iemen, iran, iraque,
+      afeganistao, arabia, bahrain, eau, iemen, iran, iraque,
       jordania, kuwait,  libano, paquistao, oman, qatar, siria,
 
       quirguistao, tadjiquistao, turcomenistao, uzbekistao,
@@ -761,7 +761,7 @@ Map getLeagueNationalityMap(){
 
     leagueName.afeganistao: Words.country.afghanistan,
     leagueName.arabia: Words.country.saudiarabia,
-    leagueName.bahrein: Words.country.bahrein,
+    leagueName.bahrain: Words.country.bahrain,
     leagueName.qatar: Words.country.qatar,
     leagueName.eau: Words.country.uae,
     leagueName.iran: Words.country.iran,
