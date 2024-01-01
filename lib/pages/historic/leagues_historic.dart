@@ -32,11 +32,12 @@ class HistoricLeague extends StatefulWidget {
 }
 
 class _HistoricLeagueState extends State<HistoricLeague> {
+
   late Map<double,dynamic> results;
   late String chosenLeagueName;
   int nTeamsSelected = 0;
   bool isLoaded = false;
-  int minYear = 1940;
+  int minYear = 1890;
 
   ////////////////////////////////////////////////////////////////////////////
 //                               INIT                                     //
@@ -85,20 +86,24 @@ class _HistoricLeagueState extends State<HistoricLeague> {
               const SizedBox(height: 8),
 
               nTeamsSelected == 0 ? Container(
+                height: 225,
                 color: AppColors().greyTransparent,
                 margin: const EdgeInsets.all(4),
                 padding: const EdgeInsets.symmetric(horizontal: 4, vertical: 4),
-                child: Column(
-                  children: [
-                    for(int i = minYear; i<anoInicial;i+=10)
-                      Row(
-                        children: [
-                          Text(i.toString(),style: EstiloTextoBranco.text14,),
-                          rowChampions(i),
-                          Text((i+9).toString(),style: EstiloTextoBranco.text14,),
-                        ],
-                      )
-                  ],
+                child: SingleChildScrollView(
+                  reverse: true,
+                  child: Column(
+                    children: [
+                      for(int i = minYear; i<anoInicial;i+=10)
+                        Row(
+                          children: [
+                            Text(i.toString(),style: EstiloTextoBranco.text14,),
+                            rowChampions(i),
+                            Text((i+9).toString(),style: EstiloTextoBranco.text14,),
+                          ],
+                        )
+                    ],
+                  ),
                 ),
               ) : Container(),
 
@@ -131,7 +136,7 @@ class _HistoricLeagueState extends State<HistoricLeague> {
                       for(int year=ano-1;year>=anoInicial;year--)
                         yearRow(year),
 
-                      for(int year=ano-1;year> ano-(anoInicial-1940)-1;year--)
+                      for(int year=ano-1;year> ano-(anoInicial-minYear)-1;year--)
                         yearRowPast(year, results),
                     ],
                   ),
@@ -379,7 +384,7 @@ class _HistoricLeagueState extends State<HistoricLeague> {
   getClubPositions(String clubName) {
     Map positions = {};
     results.forEach((year,value) {
-      if (year >= 1940) {
+      if (year >= minYear) {
         List lista = value;
         if (value.contains(clubName)) {
           if (positions[lista.indexOf(clubName) + 1] == null) {

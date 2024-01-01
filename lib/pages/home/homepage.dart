@@ -1,9 +1,12 @@
 import 'package:csv/csv.dart';
 import 'package:fifa/classes/click_navigator/click_club.dart';
 import 'package:fifa/classes/countries/words.dart';
+import 'package:fifa/classes/functions/change_club_control.dart';
 import 'package:fifa/classes/functions/size.dart';
 import 'package:fifa/classes/image_class.dart';
 import 'package:fifa/classes/team_details.dart';
+import 'package:fifa/database/select_database.dart';
+import 'package:fifa/pages/configuration/controller/configuration_state.dart';
 import 'package:fifa/pages/historic/leagues_historic.dart';
 import 'package:fifa/pages/historic/ranking_fifa.dart';
 import 'package:fifa/pages/historic/real_classification.dart';
@@ -54,6 +57,14 @@ class _HomePageState extends State<HomePage> {
 
     await TeamBasics().getDataset();
     await PlayerPastClubs().saveList();
+
+    //Set teams
+    ConfigurationState config = ConfigurationState();
+    config.setLegends();
+
+    await SelectDatabase().load();
+
+    funcChangeClub("Arsenal");
   }
 
 ////////////////////////////////////////////////////////////////////////////
@@ -138,7 +149,7 @@ class _HomePageState extends State<HomePage> {
 
                       buttonRow(
                           "Ranking FIFA",
-                          'assets/icons/home_map.png',
+                          'assets/icons/home_fifa_ranking.png',
                           90,
                               (){navigatorPush(context, const RankingFIFA());}
                       ),
@@ -184,7 +195,7 @@ Widget buttonRow(String title, String imageName, double height, Function() onTap
             borderRadius: BorderRadius.circular(8.0),
             child: SizedBox(
               width: Sized(context).width*0.8,
-              child: Image.asset(imageName, fit: BoxFit.fill,),
+              child: Image.asset(imageName, fit: BoxFit.fill),
               ),
           ),
 

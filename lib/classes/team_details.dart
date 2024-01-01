@@ -5,6 +5,26 @@ import 'package:fifa/widgets/kits_crests/patterns.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
+class DataFrame {
+  late List<String> columns;
+  late List<List<dynamic>> data;
+
+  DataFrame({required this.columns, required this.data});
+
+  // Factory method to create a DataFrame from a list of lists
+  factory DataFrame.fromList(List<List<dynamic>> dataList, List<String> columnNames) {
+    return DataFrame(columns: columnNames, data: dataList);
+  }
+
+  // Method to filter rows based on a condition in a specific column
+  DataFrame filterByColumn(String columnName, dynamic value) {
+    List<List<dynamic>> filteredData = data.where((row) => row[columns.indexOf(columnName)] == value).toList();
+    return DataFrame(columns: columns, data: filteredData);
+  }
+
+// Other methods for data manipulation can be added here
+}
+
 class ClubColors{
 
   late Color primaryColor;
@@ -46,6 +66,15 @@ class TeamBasics{
 
 
   getDataset() async{
+
+
+    final String raw2 = await rootBundle.loadString('assets/csv/leagues.csv');
+    List<List<dynamic>> listLeagues = const CsvToListConverter().convert(raw2);
+
+    // Column names for the DataFrame
+    List<String> columnNames = ['continent', 'country', 'league', 'division', 'type'];
+    // Creating a DataFrame instance from the list of lists
+    globalLeagues = DataFrame.fromList(listLeagues, columnNames);
 
     final String rawCountries = await rootBundle.loadString('assets/csv/national_countries_details.csv');
     List listRowsCountries = const CsvToListConverter().convert(rawCountries);
@@ -210,9 +239,11 @@ class TeamBasics{
 ////////////////////////////////////////////////////////////////////////////////
 class ClubBasics extends TeamBasics {
   late List row;
+  late String league;
+  late String cup;
 
   ClubBasics({required String name}){
-    name = filterLegendsClubs(name);
+    this.name = filterLegendsClubs(name);
 
     if (globalClubDetails.containsKey(name)) {
       row = globalClubDetails[name];
@@ -231,6 +262,21 @@ class ClubBasics extends TeamBasics {
       shorts = getColorsShortsOrSocks(name, row[14]);
       socks = getColorsShortsOrSocks(name, row[15]);
       rivals = row[16].split(",");
+
+      DataFrame filteredDf = globalLeagues.filterByColumn('country', country);
+      try{
+        DataFrame filteredDf2 = filteredDf.filterByColumn('type', 'League');
+        filteredDf2 = filteredDf2.filterByColumn('division', 1);
+        league = filteredDf2.data[0][4];
+      }catch(e){
+        league = "";
+      }
+      try{
+        DataFrame filteredDf3 = filteredDf.filterByColumn('type', 'Cup');
+        cup = filteredDf3.data[0][4];
+      }catch(e){
+        cup = "";
+      }
     }else{
       print("ERROR in Team Details:");
       print(name);

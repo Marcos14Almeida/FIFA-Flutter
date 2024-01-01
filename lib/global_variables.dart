@@ -1,5 +1,7 @@
 library globals;
 
+import 'package:fifa/classes/team_details.dart';
+
 //geral
 int testInitRodada = 1;
 int gLOBALMAXCLUBSINLEAGUE = 20;
@@ -79,7 +81,7 @@ Map<int,String> weekRealDays = {
   48: "28/01",  49: "31/01",
 };
 
-
+late DataFrame globalLeagues;
 Map globalClubDetails = {};
 Map globalNationalTeamsDetails = {};
 Map globalFamousPlayersHistory = {};

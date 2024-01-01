@@ -259,7 +259,7 @@ class _TableInternationalState extends State<TableInternational>  with TickerPro
           SizedBox(width: 30, child: Center(child: Text(golsMarcados.toString(),style: textStyle))),
           SizedBox(width: 30, child: Center(child: Text(golsSofridos.toString(),style: textStyle))),
           SizedBox(width: 30, child: Center(child: Text(saldo.toString(),style: textStyle))),
-          SizedBox(width: 32, child: Text(overall.toStringAsFixed(2),style: textStyle)),
+          SizedBox(width: 35, child: Text(overall.toStringAsFixed(2),style: textStyle)),
 
         ],
       ),

@@ -2,7 +2,10 @@ import 'package:fifa/classes/image_class.dart';
 import 'package:fifa/classes/jogador.dart';
 import 'package:fifa/classes/team_details.dart';
 import 'package:fifa/global_variables.dart';
+import 'package:fifa/theme/background_color/background_overall.dart';
+import 'package:fifa/theme/background_color/background_position.dart';
 import 'package:fifa/theme/textstyle.dart';
+import 'package:fifa/values/clubs_all_names_list.dart';
 import 'package:fifa/widgets/button/back_button.dart';
 import 'package:fifa/widgets/popup/popup_player_info.dart';
 import 'package:fifa/widgets/stars.dart';
@@ -152,7 +155,9 @@ Widget header(){
     for (int id=0; id<globalJogadoresIndex.length; id++){
       Jogador player = Jogador(index: id);
       if(widget.nationalTeam == player.nationality){
-        playersID.add(player);
+        if(!clubsLegends.contains(player.clubName)){
+          playersID.add(player);
+        }
       }
     }
     for (int i=1; i<playersID.length; i++) {
@@ -171,7 +176,7 @@ Widget header(){
     return SingleChildScrollView(
       child: Column(
         children: [
-          for (int i=0; i<playersID.length; i++)
+          for (int i=0; i<playersID.length && i < 200; i++)
             rowPlayer(playersID[i]),
         ],
       ),
@@ -188,15 +193,17 @@ Widget header(){
             children: [
               const SizedBox(width: 8),
               SizedBox(
-                width: 80,
+                width: 70,
                 child: Row(
                   children: [
-                    Text(player.overall.toString(), style: EstiloTextoBranco.negrito14),
-                    const SizedBox(width: 16),
-                    Text(player.position, style: EstiloTextoBranco.text16),
+                    ovrContainer(player.overall),
+                    const SizedBox(width: 8),
+                    positionContainer(player.position),
                   ],
                 ),
               ),
+              Images().getClubCrest(player.clubName, 25, 25),
+              const SizedBox(width: 8),
               Text(player.name, style: EstiloTextoBranco.text16),
             ],
           ),

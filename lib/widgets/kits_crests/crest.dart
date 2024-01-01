@@ -35,26 +35,6 @@ class CrestWidgets{
   }
 
 
-  Widget crestRetangular(String clubName, LinearGradient pattern){
-    return Container(
-        height: _height,width: _width,
-        decoration: BoxDecoration(
-          gradient: pattern,
-          borderRadius: BorderRadius.only(
-            bottomLeft: Radius.circular(_height),
-            bottomRight: Radius.circular(_height),
-          ),
-        ),
-      child: Center(
-          child: Text(clubName[0],
-              style: TextStyle(
-                fontFamily: 'Rajdhani',
-                color: clubColors.secondColor,
-                fontSize: _height*0.7,
-              ))),
-      );
-  }
-
   Widget crestCircular(String clubName, LinearGradient pattern){
 
     //Text
@@ -92,7 +72,7 @@ class CrestWidgets{
                 fontFamily: 'Rajdhani',
                 color: textColor,
                 fontWeight: FontWeight.bold,
-                fontSize: _height*0.64,
+                fontSize: _height*0.6,
               ))),
         )
     );

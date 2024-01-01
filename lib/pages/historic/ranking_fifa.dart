@@ -105,6 +105,7 @@ Widget row(NationalTeam nationalTeam){
         color: AppColors().greyTransparent,
         child: Row(
           children: [
+            const SizedBox(width: 16),
             SizedBox(width:30, child: Text(nationalTeam.fifaranking.toString() + "º",style: EstiloTextoBranco.text16)),
             const SizedBox(width: 16),
             Text(nationalTeam.overall.toString(),style: EstiloTextoBranco.text16),
@@ -112,6 +113,8 @@ Widget row(NationalTeam nationalTeam){
             Images().getNationalCrest(nationalTeam.name, 30, 30),
             const SizedBox(width: 16),
             Text(nationalTeam.name,style: EstiloTextoBranco.text16),
+            const Spacer(),
+            Images().getContinentLogo(nationalTeam.continent, 30, 30),
           ],
         ),
       ),

@@ -29,10 +29,11 @@ class UniformCustom{
   double spacingRightSleeve = 54;
 
   UniformCustom(this.clubName,[this.scale = 1]){
-    clubColors = ClubBasics(name: clubName).clubColors;
-    linearGradient = clubPattern.getGradient(ClubBasics(name: clubName).pattern, clubColors);
+    var teamClass = TeamBasics().getClass(clubName);
+    clubColors = teamClass.clubColors;
+    linearGradient = clubPattern.getGradient(teamClass.pattern, clubColors);
 
-    setDefinitions(ClubBasics(name: clubName).pattern);
+    setDefinitions(teamClass.pattern);
 
   }
 

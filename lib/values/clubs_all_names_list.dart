@@ -211,3 +211,23 @@ List<String> clubsAllNameList = [
   clubName.palmeiras99,
   clubName.boca03,
 ];
+
+
+List<String> clubsLegends = [
+  clubName.napoli89,
+  clubName.arsenal03,
+  clubName.juventus03,
+  clubName.porto04,
+  clubName.real04,
+  clubName.milan05,
+  clubName.barcelona06,
+  clubName.chelsea08,
+  clubName.manutd09,
+  clubName.inter09,
+  clubName.dortmund13,
+
+  clubName.santos62,
+  clubName.flamengo81,
+  clubName.palmeiras99,
+  clubName.boca03,
+];

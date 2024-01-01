@@ -26,18 +26,29 @@ class TournamentMenu extends StatefulWidget {
 
 class _TournamentMenuState extends State<TournamentMenu> {
 
-  late My myClass = My();
-  Adversario adversario = Adversario();
+  late My myClass;
+  late Adversario adversario;
+  late Club club;
+  bool loaded = false;
 
   ////////////////////////////////////////////////////////////////////////////
 //                               INIT                                     //
 ////////////////////////////////////////////////////////////////////////////
   @override
   void initState() {
-
+    onInit();
+    super.initState();
+  }
+  onInit() async{
     funcChangeClub(widget.customTournament.myClub);
     myClass = My();
-    super.initState();
+    adversario = Adversario();
+    adversario.getAdversario();
+    club = Club(index: myClass.clubID);
+    loaded = true;
+    setState(() {
+
+    });
   }
 ////////////////////////////////////////////////////////////////////////////
 //                               BUILD                                    //
@@ -45,16 +56,13 @@ class _TournamentMenuState extends State<TournamentMenu> {
   @override
   Widget build(BuildContext context) {
 
-    adversario.getAdversario();
-    Club club = Club(index: myClass.clubID);
-
     return Scaffold(
       body: Stack(
         children: [
 
           Images().getWallpaper(),
 
-          Column(
+          loaded ? Column(
             children: [
               backButtonText(context,'Tournament Menu'),
               Row(
@@ -97,7 +105,7 @@ class _TournamentMenuState extends State<TournamentMenu> {
               ),
 
             ],
-          ),
+          ) : Container(),
 
 
         ],

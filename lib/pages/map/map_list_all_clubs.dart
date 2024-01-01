@@ -30,6 +30,8 @@ class MapListAllClubs extends StatefulWidget {
 class _MapListAllClubsState extends State<MapListAllClubs> {
 
   List<String> countryOptions = [];
+  Iterable showList = [];
+  List<ClubBasics> clubBasicsList = [];
   String selectedCountry = Words.country.brazil;
 
 ////////////////////////////////////////////////////////////////////////////
@@ -38,6 +40,7 @@ class _MapListAllClubsState extends State<MapListAllClubs> {
   @override
   void initState() {
     getFlagsList();
+    filterClubs();
     super.initState();
   }
   getFlagsList(){
@@ -62,16 +65,23 @@ class _MapListAllClubsState extends State<MapListAllClubs> {
     await dataGraphics.getDataNotPlayabale(clubName);
     return dataGraphics;
   }
+  filterClubs(){
+    //Filtra os clubes do país
+    Iterable keysIterable = globalClubDetails.keys;
+    Iterable showList = keysIterable.where((clubName) => selectedCountry == ClubBasics(name: clubName).country);
+    showList = showList.where((clubName) => ClubBasics(name: clubName).foundationYear > 0);
+
+    clubBasicsList = [];
+    for (String clubName in showList) {
+      clubBasicsList.add(ClubBasics(name: clubName));
+    }
+    setState((){});
+  }
 ////////////////////////////////////////////////////////////////////////////
 //                               BUILD                                    //
 ////////////////////////////////////////////////////////////////////////////
   @override
   Widget build(BuildContext context) {
-
-    //Filtra os clubes do país
-    Iterable keysIterable = globalClubDetails.keys;
-    Iterable showList = keysIterable.where((clubName) => selectedCountry == ClubBasics(name: clubName).country);
-    showList = showList.where((clubName) => ClubBasics(name: clubName).foundationYear > 0);
 
     return Scaffold(
       body: Stack(
@@ -85,18 +95,16 @@ class _MapListAllClubsState extends State<MapListAllClubs> {
               //APPBAR
               Container(
                 color: appBarMyClubColor(),
-                child: appBarButtons(showList),
+                child: appBarButtons(clubBasicsList),
               ),
 
               Expanded(
                 child: Scrollbar(
                   child: FutureBuilder<List<DataGraphics>>(
-                    future: Future.wait(showList.map((clubName) => loadClubData(clubName))),
+                    future: Future.wait(clubBasicsList.map((club) => loadClubData(club.name))),
                     builder: (context, snapshot) {
                       if (snapshot.connectionState == ConnectionState.waiting) {
-                        return const Center(
-                          child: CircularProgressIndicator(),
-                        );
+                        return const Center(child: CircularProgressIndicator());
                       } else if (snapshot.hasError) {
                         return Text('Error: ${snapshot.error}');
                       } else {
@@ -107,7 +115,7 @@ class _MapListAllClubsState extends State<MapListAllClubs> {
                           itemBuilder: (context, index) {
                             DataGraphics dataGraphics = dataGraphicsList[index];
                             // Create your custom widget to display the club data
-                            return clubRow(showList.elementAt(index), dataGraphics);
+                            return clubRow(clubBasicsList.elementAt(index), dataGraphics);
                           },
                         );
                       }
@@ -115,7 +123,6 @@ class _MapListAllClubsState extends State<MapListAllClubs> {
                   ),
                 ),
               ),
-
 
               selectCountryRow(),
 
@@ -159,14 +166,12 @@ class _MapListAllClubsState extends State<MapListAllClubs> {
       ],
     );
   }
-  Widget clubRow(String clubName, DataGraphics dataGraphics){
+  Widget clubRow(ClubBasics clubBasics, DataGraphics dataGraphics){
 
-    ClubBasics clubBasics = ClubBasics(name: clubName);
 
     return PressableButton(
       onTap: (){
-          //showClubMap(clubName);
-        navigatorPush(context, ClubProfileNotPlayable(clubName: clubName));
+        navigatorPush(context, ClubProfileNotPlayable(clubName: clubBasics.name));
         },
       child: Container(
         padding: const EdgeInsets.symmetric(horizontal: 8),
@@ -187,7 +192,7 @@ class _MapListAllClubsState extends State<MapListAllClubs> {
                             image: DecorationImage(
                               fit: BoxFit.fitWidth,
                               alignment: FractionalOffset.center,
-                              image: AssetImage(Images().getEscudo(clubName)),
+                              image: AssetImage(Images().getEscudo(clubBasics.name)),
                             )
                         ),
                       ),
@@ -209,7 +214,7 @@ class _MapListAllClubsState extends State<MapListAllClubs> {
                                 children: [
                                   Column(
                                     children: [
-                                      Images().getEscudoWidget(clubName,70,70),
+                                      Images().getEscudoWidget(clubBasics.name,70,70),
                                       const SizedBox(height: 4),
                                       Padding(
                                         padding: const EdgeInsets.only(left: 0.0),
@@ -225,7 +230,7 @@ class _MapListAllClubsState extends State<MapListAllClubs> {
                                       children: [
                                         Row(
                                           children: [
-                                            Expanded(child: Text(clubName,overflow: TextOverflow.ellipsis,style: EstiloTextoBranco.negrito20)),
+                                            Expanded(child: Text(clubBasics.name,overflow: TextOverflow.ellipsis,style: EstiloTextoBranco.negrito18)),
                                           ],
                                         ),
                                         const SizedBox(height: 4),
@@ -251,11 +256,11 @@ class _MapListAllClubsState extends State<MapListAllClubs> {
 
                 //UNIFORME
                 Padding(
-                    padding: const EdgeInsets.only(left:275,top: 10),
-                    child: Images().getUniformWidget(clubName, 90, 110)
+                    padding: const EdgeInsets.only(left:285,top: 10),
+                    child: Images().getUniformWidget(clubBasics.name, 85, 100)
                 ),
                 Padding(
-                    padding: const EdgeInsets.only(left:340,top: 80),
+                    padding: const EdgeInsets.only(left:340,top: 75),
                     child: funcFlagsList(clubBasics.country, 15, 25),
                 ),
 
@@ -264,13 +269,8 @@ class _MapListAllClubsState extends State<MapListAllClubs> {
                   width: 30,
                   child: dataGraphics.nTitulos > 0 ? Stack(
                     children: [
-                      const Opacity(opacity:0.7, child: Icon(Icons.star,color: Colors.amber,size: 30)),
-                      Row(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
-                          Center(child: Text(dataGraphics.nTitulos.toString(),style: EstiloTextoBranco.negrito14)),
-                        ],
-                      ),
+                      const Opacity(opacity:0.7, child: Icon(Icons.star,color: Colors.amber,size: 32)),
+                      Center(child: Text(dataGraphics.nTitulos.toString(),style: EstiloTextoBranco.negrito14)),
                     ],
                   ) : Container(),
                 ),
@@ -294,6 +294,7 @@ class _MapListAllClubsState extends State<MapListAllClubs> {
               chosenCountryName: selectedCountry,
               onTap: () {
                 selectedCountry = countryOptions[i];
+                filterClubs();
                 setState(() {});
               },
             );
@@ -302,84 +303,4 @@ class _MapListAllClubsState extends State<MapListAllClubs> {
     );
   }
 
-  showClubMap(String clubName){
-    ClubBasics clubBasics = ClubBasics(name: clubName);
-   return         showModalBottomSheet(
-       barrierColor: Colors.transparent,
-       context: context, builder: (c)
-   {
-     List<Marker> _markers =          [
-       Marker(
-       markerId: MarkerId(clubName),
-       position: LatLng(
-           clubBasics.coordinates.latitude,
-           clubBasics.coordinates.longitude
-       ),
-       infoWindow: InfoWindow(title: clubName),
-       //icon: clubsAllNameList.indexOf(clubName) < 40 ? _markersIcons[clubsAllNameList.indexOf(clubName)] : BitmapDescriptor.defaultMarker,
-     )];
-     return SizedBox(
-       height: 300,
-       child: Stack(
-         children: [
-
-           Expanded(
-             child: GoogleMap(
-               mapType: MapType.satellite,
-               tiltGesturesEnabled: false,
-               indoorViewEnabled: false,
-               rotateGesturesEnabled: false,
-               //zoomGesturesEnabled: false, //SEM ZOOM
-               //zoomControlsEnabled: false, //SEM ZOOM
-               initialCameraPosition: CameraPosition(
-                 target: LatLng(
-                   clubBasics.coordinates.latitude,
-                   clubBasics.coordinates.longitude,
-                 ),
-                 zoom: 15.0,
-               ),
-               //onMapCreated: getClubsLocation,
-               markers: Set<Marker>.of(_markers),
-             ),
-           ),
-
-           //MINI-MAP
-           SizedBox(
-             height: 100,width: 100,
-             child: GoogleMap(
-               mapType: MapType.satellite,
-               tiltGesturesEnabled: false,
-               indoorViewEnabled: false,
-               rotateGesturesEnabled: false,
-               zoomGesturesEnabled: false, //SEM ZOOM
-               zoomControlsEnabled: false, //SEM ZOOM
-               initialCameraPosition: CameraPosition(
-                 target: LatLng(
-                   clubBasics.coordinates.latitude,
-                   clubBasics.coordinates.longitude,
-                 ),
-                 zoom: 3.0,
-               ),
-               //onMapCreated: getClubsLocation,
-               markers: Set<Marker>.of(_markers),
-             ),
-           ),
-
-           Padding(
-             padding: const EdgeInsets.all(8.0),
-             child: Row(
-               mainAxisAlignment: MainAxisAlignment.end,
-               children: [
-                 Text(clubName,style: EstiloTextoBranco.negrito18),
-                 Images().getEscudoWidget(clubName,25,25),
-               ],
-             ),
-           ),
-
-
-         ],
-       ),
-     );
-   });
-  }
 }

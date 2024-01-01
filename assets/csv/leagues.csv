@@ -1,0 +1,275 @@
+Continent,Country,League,Division,Type
+Europe,England,Premier League,1,League
+Europe,England,Championship,2,League
+Europe,England,League One,3,League
+Europe,Italy,Serie A TIM,1,League
+Europe,Italy,Serie B TIM,2,League
+Europe,Spain,La Liga,1,League
+Europe,Spain,La Liga 2,2,League
+Europe,France,Ligue 1,1,League
+Europe,France,Ligue 2,2,League
+Europe,Germany,Bundesliga,1,League
+Europe,Germany,Bundesliga 2,2,League
+World,DDR,DDR-Oberliga,1,League
+Europe,Portugal,Liga Portugal,1,League
+Europe,Portugal,Liga Portugal 2,2,League
+Europe,Netherlands,Eredivisie,1,League
+Europe,Belgium,Jupiler Pro League,1,League
+Europe,Ireland,Ireland Premier Division,1,League
+Europe,Northern Ireland,NIFL Premiership,1,League
+Europe,Scotland,Scottish Premiership,1,League
+Europe,Wales,Cymru Premier,1,League
+Europe,Switzerland,Swiss Super League,1,League
+Europe,Austria,Austrian Football Bundesliga,1,League
+Europe,Poland,Ekstraklasa,1,League
+Europe,Czech Republic,Czech First League,1,League
+Europe,Slovenia,Slovenian PrvaLiga,1,League
+Europe,Slovakia,Slovak First Football League,1,League
+Europe,Turkey,Süper Lig,1,League
+Europe,Greece,Super League Greece,1,League
+Europe,Sweden,Allsvenskan,1,League
+Europe,Denmark,Danish Superliga,1,League
+Europe,Finland,Veikkausliiga,1,League
+Europe,Norway,Eliteserien,1,League
+Europe,Iceland,Besta deild karla,1,League
+Europe,Ukraine,Ukrainian Premier League,1,League
+Europe,Serbia,Serbian SuperLiga,1,League
+Europe,Bosnia,Premier League of Bosnia,1,League
+Europe,Croatia,Croatian Football League,1,League
+Europe,Romania,Liga I,1,League
+Europe,Bulgaria,Parva Liga,1,League
+Europe,Hungary,Nemzeti Bajnokság,1,League
+Europe,Israel,Israeli Premier League,1,League
+Europe,Russia,Russian Premier League,1,League
+Europe,Kazakhstan,Kazakhstan Premier League,1,League
+Europe,Armenia,Armenian Premier League,1,League
+Europe,Belarus,Belarusian Premier League,1,League
+Europe,Moldova,Moldovan Super Liga,1,League
+Europe,North Macedonia,Macedonian First Football League,1,League
+Europe,Cyprus,Cypriot First Division,1,League
+Europe,Albania,Kategoria Superiore,1,League
+Europe,Estonia,Meistriliiga,1,League
+Europe,Lithuania,A Lyga,1,League
+Europe,Latvia,Latvian Higher League,1,League
+Europe,Azerbaijan,Azerbaijan Premier League,1,League
+Europe,Georgia,Erovnuli Liga,1,League
+Europe,Montenegro,Montenegrin First League,1,League
+Europe,Andorra,Primeira Divisió,1,League
+Europe,Gibraltar,Gibraltar Premier Division,1,League
+Europe,Faroe Islands,Faroe Islands Premier League,1,League
+Europe,Malta,Maltese Premier League,1,League
+Europe,Liechtenstein,Liechtenstein Football Cup,1,League
+Europe,Luxembourg,Luxembourg National Division,1,League
+Europe,San Marino,Campionato Sammarinese di Calcio,1,League
+Europe,Kosovo,Football Superleague of Kosovo,1,League
+South America,Brazil,Brasileirão,1,League
+South America,Brazil,Brasileirão - Série B,2,League
+South America,Brazil,Brasileirão - Série C,3,League
+South America,Brazil,Brasileirão - Série D,4,League
+South America,Argentina,Primera División,1,League
+South America,Uruguay,Uruguayan Primera División,1,League
+South America,Paraguay,Paraguayan Primera División,1,League
+South America,Chile,Chilean Primera División,1,League
+South America,Bolivia,Bolivian Primera División,1,League
+South America,Peru,Liga 1,1,League
+South America,Ecuador,Liga Pro,1,League
+South America,Colombia,Categoría Primera A,1,League
+South America,Venezuela,Venezuelan Primera División,1,League
+North America,Mexico,Liga MX,1,League
+North America,United States,MLS,1,League
+North America,Canada,Canadian Premier League,1,League
+North America,Costa Rica,Liga FPD,1,League
+North America,Guatemala,Liga de Fútbol de Guatemala,1,League
+North America,Haiti,Ligue Haïtienne,1,League
+North America,Honduras,Liga de Fútbol de Honduras,1,League
+North America,Jamaica,Jamaica Premier League,1,League
+North America,Belize,Premier League of Belize,1,League
+North America,Cuba,Campeonato de Fútbol de Cuba,1,League
+North America,El Salvador,Primera División de El Salvador,1,League
+North America,Nicaragua,Liga Primera de Nicaragua,1,League
+North America,Panama,Liga Panameña de Fútbol,1,League
+North America,Dominican Republic,LDF,1,League
+North America,Guyana,GFF National Super League,1,League
+North America,Suriname,SVB Eerste Divisie,1,League
+North America,Trinidad and Tobago,TT Premier League,1,League
+North America,Bahamas,BFA Senior League,1,League
+North America,Grenada,Liga Granada,1,League
+North America,Barbados,Barbados Premier League,1,League
+Asia,China,Chinese Super League,1,League
+Asia,South Korea,K-League,1,League
+Asia,Japan,J1-League,1,League
+Asia,North Korea,DPR Korea Football League,1,League
+Asia,Uzbekistan,Uzbekistan Super League,1,League
+Asia,Tajikistan,Tajikistan Higher League,1,League
+Asia,Turkmenistan,Ýokary Liga,1,League
+Asia,Kyrgyzstan,Kyrgyz Premier League,1,League
+Asia,Saudi Arabia,Saudi Premier League,1,League
+Asia,Bahrain,Bahraini Premier League,1,League
+Asia,Qatar,Qatar Stars League,1,League
+Asia,United Arab Emirates,UAE Pro League,1,League
+Asia,Iran,Persian Gulf Pro League,1,League
+Asia,Iraq,Iraqi Premier League,1,League
+Asia,Jordan,Jordanian Pro League,1,League
+Asia,Kuwait,Kuwaiti Premier League,1,League
+Asia,Lebanon,Lebanese Premier League,1,League
+Asia,Yemen,Yemeni League,1,League
+Asia,Oman,Oman Professional League,1,League
+Asia,Palestine,Palestine West Bank League,1,League
+Asia,Palestine,Gaza Strip Premier League,1,League
+Asia,Syria,Syrian Premier League,1,League
+Asia,India,Indian Super League,1,League
+Asia,Bhutan,Bhutan Premier League,1,League
+Asia,Nepal,Nepal Super League,1,League
+Asia,Sri Lanka,Sri Lanka Premier League,1,League
+Asia,Bangladesh,Bangladesh Premier League,1,League
+Asia,Pakistan,Pakistan Premier League,1,League
+Asia,Afghanistan,Afghan Premier League,1,League
+Asia,Brunei,Brunei Super League,1,League
+Asia,Cambodia,Cambodian Premier League,1,League
+Asia,Indonesia,Liga 1 (Indonesia),1,League
+Asia,Laos,Lao League,1,League
+Asia,Malaysia,Malaysia Super League,1,League
+Asia,Maldives,Premier League Dhivehi,1,League
+Asia,Mongolia,Mongolian Premier League,1,League
+Asia,Singapore,Singapore Premier League,1,League
+Asia,Myanmar,Myanmar National League,1,League
+Asia,Philippines,Philippines Football League,1,League
+Asia,Thailand,Thai League 1,1,League
+Asia,Vietnam,V.League 1,1,League
+Asia,Taiwan,Taiwan Premier League,1,League
+Asia,Hong Kong,Hong Kong Premier League,1,League
+Oceania,Australia,A-League,1,League
+Oceania,New Zealand,New Zealand National League,1,League
+Oceania,Fiji,Fiji Premier League,1,League
+Oceania,Papua New Guinea,Papua New Guinea Soccer League,1,League
+Oceania,Samoa,Samoa National League,1,League
+Oceania,Tahiti,Tahiti Ligue 1,1,League
+Oceania,East Timor,Liga Futebol Timor-Leste,1,League
+Africa,Egypt,Egyptian Premier League,1,League
+Africa,Algeria,Algerian Ligue Professionnelle,1,League
+Africa,Libya,Libyan Premier League,1,League
+Africa,Tunisia,Tunisian Ligue Professionnelle,1,League
+Africa,Morocco,Botola Pro,1,League
+Africa,South Africa,South African Premier Division,1,League
+Africa,Angola,Girabola,1,League
+Africa,Benin,Benin Premier League,1,League
+Africa,Botswana,Botswana Premier League,1,League
+Africa,Burkina Faso,Burkinabé Premier League,1,League
+Africa,Burundi,Burundi Ligue A,1,League
+Africa,Cape Verde,Cape Verdean Football Championship,1,League
+Africa,Cameroon,Elite One Cameroun,1,League
+Africa,Chad,Chad Premier League,1,League
+Africa,Comoros,Comoros Premier League,1,League
+Africa,Congo,Congo Premier League,1,League
+Africa,Democratic Republic Congo,Linafoot,1,League
+Africa,Ivory Coast,Ligue 1 Côte d'Ivoire,1,League
+Africa,Djibouti,Djibouti Premier League,1,League
+Africa,Ethiopia,Ethiopian Premier League,1,League
+Africa,Eritrea,Eritrean Premier League,1,League
+Africa,Gabon,Gabon Championnat National D1,1,League
+Africa,Gambia,GFA League First Division,1,League
+Africa,Ghana,Ghana Premier League,1,League
+Africa,Guinea,Guinée Championnat National,1,League
+Africa,Guinea-Bissau,Campeonato da Guiné-Bissau,1,League
+Africa,Equatorial Guinea,Equatoguinean Primera División,1,League
+Africa,Lesotho,Lesotho Premier League,1,League
+Africa,Liberia,Liberian First Division,1,League
+Africa,Madagascar,Malagasy Pro League,1,League
+Africa,Mali,Malian Première Division,1,League
+Africa,Mauritius,Mauritian Premier League,1,League
+Africa,Mauritania,Super D1,1,League
+Africa,Mozambique,Moçambola,1,League
+Africa,Namibia,Namibia Premier League,1,League
+Africa,Niger,Super Ligue (Niger),1,League
+Africa,Nigeria,Nigeria Football League,1,League
+Africa,Central African Republic,Central African Republic League,1,League
+Africa,Rwanda,Rwanda Premier League,1,League
+Africa,Kenya,Kenyan Premier League,1,League
+Africa,Senegal,Ligue 1 (Senegal),1,League
+Africa,São Tomé e Príncipe,São Tomé and Príncipe Championship,1,League
+Africa,Sierra Leone,Sierra Leone Premier League,1,League
+Africa,Somalia,Somali First Division,1,League
+Africa,Sudan,Sudan Premier League,1,League
+Africa,South Sudan,South Sudan Premier League,1,League
+World,Swaziland,Premier League of Eswatini,1,League
+Africa,Tanzania,Tanzanian Premier League,1,League
+Africa,Togo,Togolese Championnat National,1,League
+Africa,Uganda,Uganda Premier League,1,League
+Africa,Zambia,Zambia Super League,1,League
+Africa,Zimbabwe,Zimbabwe Premier Soccer League,1,League
+South America,São Paulo,Paulistão,1,League
+South America,Rio de Janeiro,Campeonato Carioca,1,League
+South America,Minas Gerais,Campeonato Mineiro,1,League
+South America,Espírito Santo,Campeonato Capixaba,1,League
+South America,Rio Grande do Sul,Campeonato Gaúcho,1,League
+South America,Paraná,Campeonato Paranaense,1,League
+South America,Santa Catarina,Campeonato Catarinense,1,League
+South America,Distrito Federal,Campeonato Brasiliense,1,League
+South America,Goiás,Campeonato Goiano,1,League
+South America,Mato Grosso,Campeonato Mato Grossense,1,League
+South America,Mato Grosso do Sul,Campeonato Sul Mato Grossense,1,League
+South America,Tocantins,Campeonato Tocantinense,1,League
+South America,Alagoas,Campeonato Alagoano,1,League
+South America,Bahia,Campeonato Bahiano,1,League
+South America,Ceará,Campeonato Cearense,1,League
+South America,Maranhão,Campeonato Maranhense,1,League
+South America,Pernambuco,Campeonato Pernambucano,1,League
+South America,Paraíba,Campeonato Paraibano,1,League
+South America,Piauí,Campeonato Piauiense,1,League
+South America,Rio Grande do Norte,Campeonato Potiguar,1,League
+South America,Sergipe,Campeonato Sergipano,1,League
+South America,Pará,Campeonato Paraense,1,League
+South America,Amazonas,Campeonato Amazonense,1,League
+South America,Acre,Campeonato Acreano,1,League
+South America,Amapá,Campeonato Amapaense,1,League
+South America,Rondônia,Campeonato Rondoniense,1,League
+South America,Roraima,Campeonato Roraimense,1,League
+Europe,England,FA Cup,1,Cup
+Europe,Italy,Coppa Italia,1,Cup
+Europe,Spain,Copa del Rey,1,Cup
+Europe,Germany,DFB Pokal,1,Cup
+Europe,France,Coupe de France,1,Cup
+Europe,Netherlands,Copa KNVB,1,Cup
+Europe,Portugal,Taça de Portugal,1,Cup
+Europe,Turkey,Turkiye Kupasi,1,Cup
+Europe,Russia,Russian Cup,1,Cup
+Europe,Belgium,Belgian Cup,1,Cup
+Europe,Scotland,Scottish Cup,1,Cup
+South America,Brazil,Copa do Brasil,1,Cup
+South America,Argentina,Copa Argentina,1,Cup
+South America,Colombia,Copa Colombia,1,Cup
+North America,Mexico,Copa MX,1,Cup
+North America,United States,MLS Cup,1,Cup
+World,,Clubs World Cup,1,Continental
+Europe,,Champions League,1,Continental
+Europe,,Europa League,2,Continental
+Europe,,Conference League,3,Continental
+South America,,Libertadores,1,Continental
+South America,,Copa Sul-Americana,2,Continental
+North America,,Concacaf Champions Cup,1,Continental
+North America,,Leagues Cup,2,Continental
+Asia,,AFC Champions League,1,Continental
+Africa,,CAF Champions League,1,Continental
+Europe,,Supercopa da UEFA,1,Recopa
+South America,,Recopa Sulamericana,1,Recopa
+South America,Brazil,Supercopa do Brasil,1,Recopa
+World,,Arab Club Champions Cup,1,Other
+South America,Brazil,Torneio Rio-SP,1,Other
+South America,Brazil,Copa do Nordeste,1,Other
+South America,Brazil,Copa Verde,1,Other
+World,,Pequena Taça do Mundo,1,Other
+Europe,,Copa Latina,1,Other
+Europe,,Copa Mitropa,1,Other
+Europe,,UEFA Cup Winners Cup,1,Other
+Europe,,Troféu Ramón de Carranza,1,Other
+South America,,Copa Aldao,1,Other
+World,,Arab Champions Cup,1,Other
+World,,World Cup,1,National Teams
+World,,Olympic Games,1,National Teams
+World,,Confederations Cup,1,National Teams
+Europe,,UEFA Euro,1,National Teams
+South America,,CONMEBOL Copa América,1,National Teams
+Africa,,Africa Cup of Nations,1,National Teams
+Asia,,AFC Asian Cup,1,National Teams
+North America,,CONCACAF Gold Cup,1,National Teams
+Oceania,,OFC Nations Cup,1,National Teams
