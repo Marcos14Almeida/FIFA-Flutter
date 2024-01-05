@@ -241,6 +241,7 @@ class ClubBasics extends TeamBasics {
   late List row;
   late String league;
   late String cup;
+  late List international;
 
   ClubBasics({required String name}){
     this.name = filterLegendsClubs(name);
@@ -276,6 +277,16 @@ class ClubBasics extends TeamBasics {
         cup = filteredDf3.data[0][4];
       }catch(e){
         cup = "";
+      }
+      try{
+        DataFrame filteredDf4 = globalLeagues.filterByColumn('type', 'Continental');
+        filteredDf4 = filteredDf4.filterByColumn('continent', continent);
+        international = [];
+        for (List row in filteredDf4.data) {
+          international.add(row[4]);
+        }
+      }catch(e){
+        international = [];
       }
     }else{
       print("ERROR in Team Details:");

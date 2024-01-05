@@ -177,7 +177,7 @@ void main() {
       printQuotedMap(l.guine);
       printQuotedMap(l.guinebissau);
       printQuotedMap(l.guineequatorial);
-      printQuotedMap(l.lesoto);
+      printQuotedMap(l.lesotho);
       printQuotedMap(l.liberia);
       printQuotedMap(l.malawi);
       printQuotedMap(l.mali);

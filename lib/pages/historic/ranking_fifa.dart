@@ -7,6 +7,7 @@ import 'package:fifa/pages/club_profile/country_profile.dart';
 import 'package:fifa/theme/colors.dart';
 import 'package:fifa/theme/textstyle.dart';
 import 'package:fifa/widgets/button/back_button.dart';
+import 'package:fifa/widgets/number_circle.dart';
 import 'package:flutter/material.dart';
 
 class RankingFIFA extends StatefulWidget {
@@ -96,26 +97,31 @@ class _RankingFIFAState extends State<RankingFIFA> {
 //                               WIDGETS                                  //
 ////////////////////////////////////////////////////////////////////////////
 Widget row(NationalTeam nationalTeam){
-    return InkWell(
-      onTap: (){
-        navigatorPush(context, CountryProfile(nationalTeam: nationalTeam.name));
-      },
-      child: Container(
-        padding: const EdgeInsets.all(8.0),
-        color: AppColors().greyTransparent,
-        child: Row(
-          children: [
-            const SizedBox(width: 16),
-            SizedBox(width:30, child: Text(nationalTeam.fifaranking.toString() + "º",style: EstiloTextoBranco.text16)),
-            const SizedBox(width: 16),
-            Text(nationalTeam.overall.toString(),style: EstiloTextoBranco.text16),
-            const SizedBox(width: 16),
-            Images().getNationalCrest(nationalTeam.name, 30, 30),
-            const SizedBox(width: 16),
-            Text(nationalTeam.name,style: EstiloTextoBranco.text16),
-            const Spacer(),
-            Images().getContinentLogo(nationalTeam.continent, 30, 30),
-          ],
+    return Material(
+      color: Colors.transparent,
+      child: InkWell(
+        splashColor: nationalTeam.clubColors.primaryColor,
+        onTap: (){
+          navigatorPush(context, CountryProfile(nationalTeam: nationalTeam.name));
+        },
+        child: Container(
+          padding: const EdgeInsets.all(8.0),
+          color: AppColors().greyTransparent,
+          child: Row(
+            children: [
+              const SizedBox(width: 16),
+
+              SizedBox(width:32, child: numberCircle(nationalTeam.fifaranking, 32)),
+              const SizedBox(width: 16),
+              Text(nationalTeam.overall.toString(),style: EstiloTextoBranco.text16),
+              const SizedBox(width: 16),
+              Images().getNationalCrest(nationalTeam.name, 30, 30),
+              const SizedBox(width: 16),
+              Text(nationalTeam.name,style: EstiloTextoBranco.text16),
+              const Spacer(),
+              Images().getContinentLogo(nationalTeam.continent, 30, 30),
+            ],
+          ),
         ),
       ),
     );

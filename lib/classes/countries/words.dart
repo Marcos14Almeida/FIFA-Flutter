@@ -64,7 +64,7 @@ class CountryNames {
   String get belize => 'Belize';
   String get benin => 'Benin';
   String get bermudas => 'Bermudas';
-  String get bhoutan => 'Bhoutan';
+  String get bhutan => 'Bhutan';
   String get bolivia => 'Bolivia';
   String get bosnia => 'Bosnia';
   String get botswana => 'Botswana';
@@ -145,7 +145,7 @@ class CountryNames {
   String get laos => 'Laos';
   String get latvia => 'Latvia';
   String get lebanon => 'Lebanon';
-  String get lesoto => 'Lesotho';
+  String get lesotho => 'Lesotho';
   String get liberia => 'Liberia';
   String get libya => 'Libya';
   String get liechtenstein => 'Liechtenstein';

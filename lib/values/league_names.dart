@@ -199,7 +199,7 @@ class LeagueOfficialNames{
   String guine = 'Liga Guiné';
   String guineequatorial = 'Equatoguinean Primera División';
   String guinebissau = 'Campeonato da Guiné-Bissau';
-  String lesoto = 'Lesotho Premier League';
+  String lesotho = 'Lesotho Premier League';
   String liberia = 'Liberian First Division';
   String madagascar = 'Malagasy Pro League';
   String malawi = 'Super League of Malawi';
@@ -373,7 +373,7 @@ class LeagueOfficialNames{
       centralafrica, chade, comores, congo, congoRD, costamarfim,
       djibouti, eritreia, eswatini, etiopia,
       gabao, gambia, gana, guine, guinebissau, guineequatorial,
-      lesoto, liberia,
+      lesotho, liberia,
       madagascar, malawi, mali, mauricio, mauritania, mocambique,
       namibia, niger, nigeria, quenia,
       ruanda, saotome, senegal, serraleoa, seychelles, somalia, sudao, sudaosul,
@@ -777,7 +777,7 @@ Map getLeagueNationalityMap(){
     leagueName.siria: Words.country.syria,
 
     leagueName.india: Words.country.india,
-    leagueName.butao: Words.country.bhoutan,
+    leagueName.butao: Words.country.bhutan,
     leagueName.nepal: Words.country.nepal,
     leagueName.srilanka: Words.country.srilanka,
     leagueName.bangladesh: Words.country.bangladesh,
@@ -844,7 +844,7 @@ Map getLeagueNationalityMap(){
     leagueName.guine: Words.country.guinea,
     leagueName.guinebissau: Words.country.guineabissau,
     leagueName.guineequatorial: Words.country.guineaEquatorial,
-    leagueName.lesoto: Words.country.lesoto,
+    leagueName.lesotho: Words.country.lesotho,
     leagueName.liberia: Words.country.liberia,
     leagueName.madagascar: Words.country.madagascar,
     leagueName.malawi: Words.country.malawi,

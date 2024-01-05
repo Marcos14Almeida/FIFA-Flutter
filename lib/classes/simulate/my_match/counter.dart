@@ -89,11 +89,12 @@ class CounterMatch extends ChangeNotifier{
   }
 
   saveHistoricResults(){
-    if(Semana(semana).isJogoCampeonatoNacional){
+    Semana semanaClass = Semana(semana);
+    if(semanaClass.isJogoCampeonatoNacional){
       SaveMatchHistoric().setHistoricGoalsLeagueMy(myMatchSimulation);
-    }else if(Semana(semana).isJogoGruposInternacional){
+    }else if(semanaClass.isJogoGruposInternacional){
       SaveMatchHistoric().setHistoricGoalsGruposInternational(myClass.getMyInternationalLeague(), myClass.clubID, adversarioClubClass.index,myMatchSimulation.meuGolMarcado, myMatchSimulation.meuGolSofrido);
-    }else if(Semana(semana).isJogoMataMataInternacional){
+    }else if(semanaClass.isJogoMataMataInternacional){
       //SALVA O PLACAR
       String phaseName = KnockoutInternational().getPhaseKeyName(semana);
       String idaOrVoltaKey = KnockoutInternational().getIdaOrVoltaKey(phaseName, semana);
@@ -106,7 +107,7 @@ class CounterMatch extends ChangeNotifier{
         result = ResultDict().saveGoals(result, myMatchSimulation.meuGolSofrido, myMatchSimulation.meuGolMarcado);
       }
       globalInternationalMataMata[myClass.getMyInternationalLeague()]![phaseName][idaOrVoltaKey][matchNumber] = result;
-    }else if(Semana(semana).isJogoCopa){
+    }else if(semanaClass.isJogoCopa){
       //TODO SAVE PLAY RESULT COPA
       String cupName = myClass.cupName;
       String phaseName = CupClassification().getPhaseKeyName(semana);

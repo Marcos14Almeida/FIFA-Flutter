@@ -27,21 +27,25 @@ class FIFAImages{
   map[c.czechrepublic] = 'czech republic';
   map[c.england] = 'england';
   map[c.denmark] = 'denmark';
+  map[c.faroe] = 'faroe islands';
   map[c.finland] = 'finland';
   map[c.france] = 'france';
   map[c.estonia] = 'estonia';
   map[c.georgia] = 'georgia';
+  map[c.germany] = 'germany';
+  map[c.gibraltar] = 'gibraltar';
   map[c.greece] = 'greece';
   map[c.hungary] = 'hungary';
   map[c.iceland] = 'iceland';
   map[c.ireland] = 'ireland';
   map[c.israel] = 'israel';
   map[c.italy] = 'italy';
-  map[c.germany] = 'germany';
+  map[c.kosovo] = 'kosovo';
   map[c.latvia] = 'latvia';
   map[c.liechtenstein] = 'liechtenstein';
   map[c.lithuania] = 'lithuania';
   map[c.luxembourg] = 'luxembourg';
+  map[c.macedonia] = 'macedonia';
   map[c.malta] = 'malta';
   map[c.moldova] = 'moldova';
   map[c.montenegro] = 'montenegro';
@@ -79,17 +83,23 @@ class FIFAImages{
   map[c.mexico] = 'mexico';
   map[c.unitedstates] = 'usa';
 
+
+  map[c.antiguabarbuda] = 'antigua and barbuda';
+  map[c.aruba] = 'aruba';
+  map[c.bahamas] = 'bahamas';
+  map[c.barbados] = 'barbados';
   map[c.belize] = 'belize';
   map[c.costarica] = 'costa rica';
   map[c.cuba] = 'cuba';
-  map[c.elsalvador] = 'el salvador';
-  map[c.bahamas] = 'bahamas';
-  map[c.barbados] = 'barbados';
   map[c.dominica] = 'dominica';
+  map[c.elsalvador] = 'el salvador';
   map[c.guatemala] = 'guatemala';
+  map[c.grenada] = 'grenada';
+  map[c.guyana] = 'guyana';
   map[c.haiti] = 'haiti';
   map[c.honduras] = 'honduras';
   map[c.jamaica] = 'jamaica';
+  map[c.nicaragua] = 'nicaragua';
   map[c.panama] = 'panama';
   map[c.suriname] = 'suriname';
   map[c.stlucia] = 'st lucia';
@@ -97,7 +107,7 @@ class FIFAImages{
   map[c.trinidadtobago] = 'trinidad tobago';
 
   map[c.bangladesh] = 'bangladesh';
-  map[c.bhoutan] = 'bhutan';
+  map[c.bhutan] = 'bhutan';
   map[c.brunei] = 'brunei';
   map[c.cambodia] = 'cambodia';
   map[c.china] = 'china';
@@ -108,6 +118,7 @@ class FIFAImages{
   map[c.kyrgyzstan] = 'kyrgyzstan';
   map[c.laos] = 'laos';
   map[c.malaysia] = 'malaysia';
+  map[c.maldives] = 'maldives';
   map[c.mongolia] = 'mongolia';
   map[c.myanmar] = 'myanmar';
   map[c.nepal] = 'nepal';
@@ -116,6 +127,7 @@ class FIFAImages{
   map[c.singapore] = 'singapore';
   map[c.southkorea] = 'south korea';
   map[c.taiwan] = 'taiwan';
+  map[c.tajikistan] = 'tajikistan';
   map[c.thailand] = 'thailand';
   map[c.uzbekistan] = 'uzbekistan';
   map[c.turkmenistan] = 'turkmenistan';
@@ -143,7 +155,9 @@ class FIFAImages{
   map[c.burkina] = 'burkina faso';
   map[c.burundi] = 'burundi';
   map[c.cameroon] = 'cameroon';
-  map[c.lesoto] = 'chad';
+  map[c.capeverde] = 'cape verde';
+  map[c.centralAfrica] = 'central african republic';
+  map[c.chad] = 'chad';
   map[c.comoros] = 'comoros';
   map[c.congo] = 'congo';
   map[c.congoRD] = 'dr congo';
@@ -151,6 +165,7 @@ class FIFAImages{
   map[c.egypt] = 'egypt';
   map[c.guineaEquatorial] = 'equatorial guinea';
   map[c.eritrea] = 'eritrea';
+  map[c.eswatini] = 'eswatini';
   map[c.ethiopia] = 'ethiopia';
   map[c.gabon] = 'gabon';
   map[c.gambia] = 'gambia';
@@ -159,7 +174,7 @@ class FIFAImages{
   map[c.guineabissau] = 'guinea bissau';
   map[c.kenya] = 'kenya';
   map[c.ivorycoast] = 'ivory coast';
-  map[c.lesoto] = 'lesotho';
+  map[c.lesotho] = 'lesotho';
   map[c.liberia] = 'liberia';
   map[c.libya] = 'libya';
   map[c.madagascar] = 'madagascar';
@@ -175,6 +190,7 @@ class FIFAImages{
   map[c.rwanda] = 'rwanda';
   map[c.senegal] = 'senegal';
   map[c.saotome] = 'sao tome and principe';
+  map[c.seychelles] = 'seychelles';
   map[c.sierraLeone] = 'sierra leone';
   map[c.somalia] = 'somalia';
   map[c.southafrica] = 'south africa';
@@ -197,6 +213,7 @@ class FIFAImages{
 
   map[c.urss] = '1ussr';
   map[c.iuguslavia] = '1yuguslavia';
+  map[c.ddr] = '1ddr';
 
   if(map.containsKey(leagueName)){
    imageLogo = map[leagueName];
