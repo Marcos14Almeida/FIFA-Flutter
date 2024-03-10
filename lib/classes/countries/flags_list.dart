@@ -55,7 +55,17 @@ Image funcFlagsList(String country, double _height, double _width){
   ){
     code = Image.asset(FIFAImages().campeonatoLogo(country), fit: BoxFit.fill,width: _width-5,height: _height);
   }
-  
+  if(country == LeagueOfficialNames().copamundoFem ||
+      country == LeagueOfficialNames().mitropa ||
+      country == LeagueOfficialNames().ramoncarranza ||
+      country == LeagueOfficialNames().rioSP ||
+      country == LeagueOfficialNames().mitropa ||
+      country == LeagueOfficialNames().aldao ||
+      country == LeagueOfficialNames().arabcup ||
+      country == LeagueOfficialNames().isl
+  ){
+    code = Image.asset(FIFAImages().campeonatoLogo(country), fit: BoxFit.fill,width: _width-5,height: _height);
+  }
   if(country == Words.country.urss){code = Image.asset('assets/flags/urss.png', fit: BoxFit.fill,width: _width,height: _height);}
   else if(country == Words.country.ddr){code = Image.asset('assets/flags/ddr.png', fit: BoxFit.fill,width: _width,height: _height);}
   else if(country == Words.country.iuguslavia){code = Image.asset('assets/flags/iuguslavia.png', fit: BoxFit.fill,width: _width,height: _height);}
@@ -90,7 +100,6 @@ Image funcFlagsList(String country, double _height, double _width){
   else if(country == Words.country.pa){code = Image.asset('assets/flags/pa.png', fit: BoxFit.fill,width: _width,height: _height);}
   else if(country == Words.country.ro){code = Image.asset('assets/flags/ro.png', fit: BoxFit.fill,width: _width,height: _height);}
   else if(country == Words.country.rr){code = Image.asset('assets/flags/rr.png', fit: BoxFit.fill,width: _width,height: _height);}
-
 
 
   if(country == Words.country.afghanistan){code = Image.asset('icons/flags/png/af.png', package: 'country_icons',fit: BoxFit.fill,width: _width,height: _height);}

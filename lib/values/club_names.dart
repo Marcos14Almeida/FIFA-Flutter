@@ -3355,6 +3355,7 @@ class ClubName{
   String parnahyba = "Parnahyba"; //PIAUI
   String patrocinense = "Patrocinense"; //MG
   String paularamos = "Paula Ramos"; //SC
+  String paulistano = "Paulistano";
   String paulista = "Paulista Jundiaí";
   String paysandu = "Paysandu";
   String paysanduPI = "Paysandu-PI";

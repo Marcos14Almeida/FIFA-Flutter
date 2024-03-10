@@ -44,6 +44,7 @@ class CountryNames {
   String get ap => 'Amapá';
 
   String get afghanistan => 'Afghanistan';
+  String get americansamoa => 'American Samoa';
   String get angola => 'Angola';
   String get albania => 'Albania';
   String get algeria => 'Algeria';
@@ -85,10 +86,11 @@ class CountryNames {
   String get colombia => 'Colombia';
   String get comoros => 'Comoros';
   String get congo => 'Congo';
+  String get cook => 'Cook Islands';
   String get costarica => 'Costa Rica';
   String get croatia => 'Croatia';
   String get cuba => 'Cuba';
-  String get curacao => 'Curacao';
+  String get curacao => 'Curaçao';
   String get cyprus => 'Cyprus';
   String get czechrepublic => 'Czech Republic';
   String get denmark => 'Denmark';
@@ -113,6 +115,7 @@ class CountryNames {
   String get germany => 'Germany';
   String get gibraltar => 'Gibraltar';
   String get ghana => 'Ghana';
+  String get guam => 'Guam';
   String get greece => 'Greece';
   String get grenada => 'Grenada';
   String get guatemala => 'Guatemala';
@@ -152,6 +155,7 @@ class CountryNames {
   String get lithuania => 'Lithuania';
   String get luxembourg => 'Luxembourg';
   String get macedonia => 'North Macedonia';
+  String get macau => 'Macau';
   String get madagascar => 'Madagascar';
   String get malawi => 'Malawi';
   String get malaysia => 'Malaysia';
@@ -167,6 +171,7 @@ class CountryNames {
   String get mongolia => 'Mongolia';
   String get montenegro => 'Montenegro';
   String get morocco => 'Morocco';
+  String get montserrat => 'Montserrat';
   String get mozambique => 'Mozambique';
   String get myanmar => 'Myanmar';
   String get namibia => 'Namibia';
@@ -237,6 +242,7 @@ class CountryNames {
   String get tonga => 'Tonga';
   String get trinidadtobago => 'Trinidad and Tobago';
   String get tunisia => 'Tunisia';
+  String get turkcaicos => 'Turks and Caicos Islands';
   String get turkey => 'Turkey';
   String get turkmenistan => 'Turkmenistan';
   String get tuvalu => 'Tuvalu';

@@ -25,7 +25,7 @@ Future bottomSheetShowLeagueClassification(BuildContext context, List classifica
 }
 
 Widget rowClub(BuildContext context, String clubName, int position){
-  return                 GestureDetector(
+  return  GestureDetector(
     onTap: (){
       clickClub(context: context,clubName: clubName);
     },

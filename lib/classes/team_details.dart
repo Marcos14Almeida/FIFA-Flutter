@@ -152,7 +152,7 @@ class TeamBasics{
     tempMap["Colors.red"] = Colors.red;
     tempMap["Colors.orange"] = Colors.orange;
     tempMap["Colors.yellow"] = Colors.yellow;
-    tempMap["Colors.gold"] = const Color(0xFF876A00);
+    tempMap["Colors.gold"] = Colors.amber;
     tempMap["Colors.brown"] = Colors.brown;
     tempMap["Colors.black"] = Colors.black;
     tempMap["Colors.grey"] = Colors.grey;

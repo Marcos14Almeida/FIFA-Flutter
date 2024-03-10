@@ -78,12 +78,12 @@ class LeagueOfficialNames{
   String brasil1 = 'Brasileirão';  String brasil2 = 'Brasileirão - Série B';
   String brasil3 = 'Brasileirão - Série C'; String brasil4 = 'Brasileirão - Série D';
 
-  String paulistao = 'Paulistão'; String carioca = 'Carioca'; String mineiro = 'Mineiro'; String es = 'Capixaba';
-  String rs = 'Gaucho'; String parana = 'Paranaense'; String sc = 'Santa Catarina';
-  String bahia = 'Bahiano';   String pernambuco = 'Pernambucano'; String ceara = 'Cearense';  String potiguar = 'Potiguar';
-  String alagoas = 'Alagoano'; String paraiba = 'Paraibano'; String piaui = 'Piaui'; String maranhao = 'Maranhão'; String sergipe = 'Sergipe';
-  String goias = 'Goias'; String df = 'Distrito Federal'; String mt = 'Mato Grosso'; String ms = 'Mato Grosso do Sul'; String to = 'Tocantins';
-  String para = 'Para'; String amazonas = 'Amazonas'; String acre = 'Acre'; String amapa = 'Amapa';String rondonia = 'Rondônia';String roraima = 'Roraima';
+  String paulistao = 'Paulistão'; String carioca = 'Campeonato Carioca'; String mineiro = 'Campeonato Mineiro'; String es = 'Campeonato Capixaba';
+  String rs = 'Campeonato Gaúcho'; String parana = 'Campeonato Paranaense'; String sc = 'Campeonato Catarinense';
+  String bahia = 'Campeonato Bahiano';   String pernambuco = 'Campeonato Pernambucano'; String ceara = 'Campeonato Cearense';  String potiguar = 'Campeonato Potiguar';
+  String alagoas = 'Campeonato Alagoano'; String paraiba = 'Campeonato Paraibano'; String piaui = 'Campeonato Piauiense'; String maranhao = 'Campeonato Maranhense'; String sergipe = 'Campeonato Sergipano';
+  String goias = 'Campeonato Goiano'; String df = 'Campeonato Brasiliense'; String mt = 'Campeonato Mato Grossense'; String ms = 'Campeonato Sul Mato Grossense'; String to = 'Campeonato Tocantinense';
+  String para = 'Campeonato Paraense'; String amazonas = 'Campeonato Amazonense'; String acre = 'Campeonato Acreano'; String amapa = 'Campeonato Amapaense';String rondonia = 'Campeonato Rondoniense';String roraima = 'Campeonato Roraimense';
 
   String argentina = 'Primera División';
   String mercosul = 'Mercosul';
@@ -324,12 +324,15 @@ class LeagueOfficialNames{
 
       recopaeuropa, recopasula,
 
-     inglaterra1,inglaterra2,inglaterra3,
-     espanha1,espanha2,
-     italia1,italia2,
-     alemanha1,alemanha2,alemanhaOriental,
-     franca1,franca2,
-     holanda, portugal, turquia,
+     inglaterra1, inglaterra2, inglaterra3, englandCup,
+     espanha1, espanha2, spainCup,
+      italia1, italia2, italyCup,
+     alemanha1, alemanha2, alemanhaOriental, germanyCup,
+     franca1, franca2, franceCup,
+     holanda, netherlandsCup,
+      portugal, portugalCup,
+      russia, russiaCup,
+      turquia, turkeyCup,
 
       albania, andorra, armenia, austria, azerbaijao,
       belgica, belarus, bosnia, bulgaria,
@@ -340,11 +343,11 @@ class LeagueOfficialNames{
       ilhasfaroe, irlanda, irlandanorte, islandia, israel,
       kosovo, liechtenstein, luxemburgo,
       macedonia, malta, moldova, montenegro, noruega,
-      paisgales, polonia, reptcheca, romenia, russia,
+      paisgales, polonia, reptcheca, romenia,
       saomarino, servia, suecia, suica,
       ucrania,
 
-      brasil1, brasil2, brasil3, brasil4,
+      brasil1, brasil2, brasil3, brasil4, brazilCup,
       argentina,
       bolivia, chile, colombia, equador,
       paraguai, peru, uruguai, venezuela,
@@ -357,13 +360,11 @@ class LeagueOfficialNames{
 
       bangladesh, brunei, butao, camboja, china, coreiaSul, coreiaNorte,
       cingapura, filipinas, hongkong, india,
-      indonesia, japao, laos, malasia, maldivas, myanmar,
-      nepal, tailandia, taiwan, vietna,
+      indonesia, japao, quirguistao, laos, malasia, maldivas, myanmar,
+      nepal, tailandia, taiwan, tadjiquistao, turcomenistao, uzbekistao, vietna,
 
       afeganistao, arabia, bahrain, eau, iemen, iran, iraque,
       jordania, kuwait,  libano, paquistao, oman, qatar, siria,
-
-      quirguistao, tadjiquistao, turcomenistao, uzbekistao,
 
       australia, fiji, novazelandia, papua, samoa, solomonislands, taiti, timor, tonga, vanuatu,
 
@@ -388,13 +389,10 @@ class LeagueOfficialNames{
 
       copaNordeste, copaVerde,
 
-      englandCup, italyCup, spainCup, germanyCup, franceCup,
-      portugalCup, netherlandsCup, turkeyCup, russiaCup,
-      brazilCup,
-
       copamundo, copaconfederacoes, olimpiadas,
       eurocopa, copaamerica, copaafrica, copaasia, copaconcacaf, copaoceania,
 
+      mitropa, rioSP, arabcup, aldao, ramoncarranza, copamundoFem,
 
     ];
   }
@@ -427,6 +425,9 @@ getInternationalLeagueFromContinent(String continent){
     internationalLeague = leagueOfficialNames.africa;
   }
   else if(continent==Continents().asia){
+    internationalLeague = leagueOfficialNames.asia;
+  }
+  else if(continent==Continents().oceania){
     internationalLeague = leagueOfficialNames.asia;
   }
 
@@ -503,7 +504,6 @@ Map leaguesIndexFromName = {
   LeagueOfficialNames().escocia: 26,
   LeagueOfficialNames().belgica: 27,
   LeagueOfficialNames().suecia: 28,
-  LeagueOfficialNames().cazaquistao: 35,
 
   LeagueOfficialNames().brasil1: 50,
   LeagueOfficialNames().brasil2: 51,
@@ -902,38 +902,6 @@ Map getLeagueNationalityMap(){
     leagueName.rondonia: Words.country.ro,
     leagueName.roraima: Words.country.rr,
 
-    leagueName.copaNordeste: leagueName.copaNordeste,
-    leagueName.copaVerde: leagueName.copaVerde,
-    leagueName.championsLeague: leagueName.championsLeague,
-    leagueName.libertadores: leagueName.libertadores,
-    leagueName.mundial: leagueName.mundial,
-    leagueName.copaSulAmericana: leagueName.copaSulAmericana,
-    leagueName.europaLeagueOficial: leagueName.europaLeagueOficial,
-    leagueName.concacaf: leagueName.concacaf,
-    leagueName.recopaeuropa: leagueName.recopaeuropa,
-    leagueName.recopasula: leagueName.recopasula,
-
-    leagueName.englandCup: leagueName.englandCup,
-    leagueName.italyCup: leagueName.italyCup,
-    leagueName.spainCup: leagueName.spainCup,
-    leagueName.germanyCup: leagueName.germanyCup,
-    leagueName.franceCup: leagueName.franceCup,
-    leagueName.netherlandsCup: leagueName.netherlandsCup,
-    leagueName.portugalCup: leagueName.portugalCup,
-    leagueName.turkeyCup: leagueName.turkeyCup,
-    leagueName.russiaCup: leagueName.russiaCup,
-
-    leagueName.brazilCup: leagueName.brazilCup,
-
-    leagueName.copamundo: leagueName.copamundo,
-    leagueName.olimpiadas: leagueName.olimpiadas,
-    leagueName.copaconfederacoes: leagueName.copaconfederacoes,
-    leagueName.eurocopa: leagueName.eurocopa,
-    leagueName.copaamerica: leagueName.copaamerica,
-    leagueName.copaafrica: leagueName.copaafrica,
-    leagueName.copaasia: leagueName.copaasia,
-    leagueName.copaconcacaf: leagueName.copaconcacaf,
-    leagueName.copaoceania: leagueName.copaoceania,
   };
 }
 
@@ -944,7 +912,7 @@ String getCountryFromLeague(String leagueNameReceived){
   try {
     return nationalityFromLeague[leagueNameReceived];
   }catch(e){
-    return Words.country.ocean;
+    return leagueNameReceived;
   }
 
 }

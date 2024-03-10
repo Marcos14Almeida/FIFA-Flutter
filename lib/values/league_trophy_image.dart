@@ -38,27 +38,35 @@ String getTrophyImage(String leagueName){
   };
 
   if(trophiesMap.containsKey(leagueName)){
-    trophyName = trophiesMap[leagueName];
+    trophyName = "league/" + trophiesMap[leagueName];
   }
 
-  Map trophiesMap2 = {
+  Map trophiesMapInternational = {
     l.libertadores: 'trophy_libertadores',
     l.championsLeague: 'trophy_champions',
     l.europaLeagueOficial: 'trophy_europaleague',
     l.copaSulAmericana: 'trophy_sulamericana',
+    // l.oceania: 'trophy_oceania',
+    l.asia: 'trophy_asia',
+    l.africa: 'trophy_africa',
     l.resto: 'trophy_champions',
 
     l.mundial: 'trophy_mundial',
+  };
 
+  if(trophiesMapInternational.containsKey(leagueName)){
+    trophyName = "international/" + trophiesMapInternational[leagueName];
+  }
+
+  Map trophiesMapCup = {
     l.englandCup: 'fa_cup',
     l.italyCup: 'italia_cup',
     l.germanyCup: 'germany_cup',
-    l.argentinaCup: 'trophy_argentina',
     l.brazilCup: 'brasil_cup',
   };
 
-  if(trophiesMap2.containsKey(leagueName)){
-    trophyName = trophiesMap2[leagueName];
+  if(trophiesMapCup.containsKey(leagueName)){
+    trophyName = "cup/" + trophiesMapCup[leagueName];
   }
 
   return trophyName;

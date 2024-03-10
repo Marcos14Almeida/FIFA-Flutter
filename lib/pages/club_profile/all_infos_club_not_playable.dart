@@ -513,13 +513,14 @@ class _ClubProfileNotPlayableState extends State<ClubProfileNotPlayable> with Ti
   }
 
   Widget heatMapPositions(String name, List<ClassificationData> dataClassificationList){
+    int resto = (anoInicial - dataClassificationList.length) % 10;
     return Padding(
       padding: const EdgeInsets.all(4),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Text(name,style: EstiloTextoBranco.negrito16,),
-          for(int i = 1940; i<anoInicial;i+=10)
+          for(int i = anoInicial - dataClassificationList.length - resto; i<anoInicial; i+=10)
             Row(
               children: [
                 SizedBox(width:30, child: Text(i.toString(),style: EstiloTextoBranco.text14,)),
@@ -561,10 +562,10 @@ class _ClubProfileNotPlayableState extends State<ClubProfileNotPlayable> with Ti
             height: Sized(context).height-616,
             child: ListView.builder(
                 padding: EdgeInsets.zero,
-                itemCount: (anoInicial - 1940).floor(),
+                itemCount: (anoInicial - 1900).floor(),
                 itemBuilder: (BuildContext context, int index) {
                   double year = anoInicial - index - 1;
-                  return peryearRow(year);
+                  return perYearRow(year);
                 },
             ),
           ),
@@ -573,7 +574,7 @@ class _ClubProfileNotPlayableState extends State<ClubProfileNotPlayable> with Ti
     );
   }
 
-  Widget peryearRow(double year){
+  Widget perYearRow(double year){
 
     String estadual = filter(year,10,dataGraphics.dataEstadual,false);
     String copa = filter(year,10,dataGraphics.dataCups,true);

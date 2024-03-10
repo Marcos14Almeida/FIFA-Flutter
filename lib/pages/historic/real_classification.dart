@@ -37,7 +37,6 @@ class _RealClassificationPageState extends State<RealClassificationPage> {
   @override
   void initState() {
       chosenLeagueName = RealClassification().getLeagueFromCountryName(widget.chosenCountryName);
-      print(real.urls.keys);
       super.initState();
     }
 

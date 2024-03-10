@@ -142,7 +142,6 @@ class DataGraphics{
     //historico copas
     await defineHistoricCups(club.name);
     participationsCups();
-    print(nTitulosCups);
 
     //historico internacional
     defineSimulationClassificationInternational(club);
@@ -188,7 +187,7 @@ class DataGraphics{
     for(double year in listDivisionsHistoricResults.first.keys) {
       bool yearSet = false;
       int divisionNumber = 0;
-      if(year>=1940){
+      if(year>=1890){
       for (Map<double,dynamic> divisionMapResults in listDivisionsHistoricResults) {
         if (!yearSet) {
           divisionNumber++;

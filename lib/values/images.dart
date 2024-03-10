@@ -91,6 +91,7 @@ class FIFAImages{
   map[c.belize] = 'belize';
   map[c.costarica] = 'costa rica';
   map[c.cuba] = 'cuba';
+  map[c.curacao] = 'curacao';
   map[c.dominica] = 'dominica';
   map[c.elsalvador] = 'el salvador';
   map[c.guatemala] = 'guatemala';
@@ -99,12 +100,15 @@ class FIFAImages{
   map[c.haiti] = 'haiti';
   map[c.honduras] = 'honduras';
   map[c.jamaica] = 'jamaica';
+  map[c.montserrat] = 'montserrat';
   map[c.nicaragua] = 'nicaragua';
   map[c.panama] = 'panama';
+  map[c.dominicanRepublic] = 'dominican republic';
   map[c.suriname] = 'suriname';
   map[c.stlucia] = 'st lucia';
   map[c.stKitts] = 'st kitts';
   map[c.trinidadtobago] = 'trinidad tobago';
+  map[c.turkcaicos] = 'turks and caicos';
 
   map[c.bangladesh] = 'bangladesh';
   map[c.bhutan] = 'bhutan';
@@ -117,6 +121,7 @@ class FIFAImages{
   map[c.indonesia] = 'indonesia';
   map[c.kyrgyzstan] = 'kyrgyzstan';
   map[c.laos] = 'laos';
+  map[c.macau] = 'macau';
   map[c.malaysia] = 'malaysia';
   map[c.maldives] = 'maldives';
   map[c.mongolia] = 'mongolia';
@@ -126,6 +131,7 @@ class FIFAImages{
   map[c.philippines] = 'philippines';
   map[c.singapore] = 'singapore';
   map[c.southkorea] = 'south korea';
+  map[c.srilanka] = 'sri lanka';
   map[c.taiwan] = 'taiwan';
   map[c.tajikistan] = 'tajikistan';
   map[c.thailand] = 'thailand';
@@ -194,6 +200,7 @@ class FIFAImages{
   map[c.sierraLeone] = 'sierra leone';
   map[c.somalia] = 'somalia';
   map[c.southafrica] = 'south africa';
+  map[c.southSudan] = 'south sudan';
   map[c.sudan] = 'sudan';
   map[c.tanzania] = 'tanzania';
   map[c.togo] = 'togo';
@@ -203,12 +210,16 @@ class FIFAImages{
   map[c.zimbabwe] = 'zimbabwe';
 
   map[c.australia] = 'australia';
-  map[c.fiji] = 'fiji';
-  map[c.newcaledonia] = 'new caledonia';
   map[c.newzealand] = 'new zealand';
+  map[c.americansamoa] = 'american samoa';
+  map[c.cook] = 'cook islands';
+  map[c.fiji] = 'fiji';
+  map[c.guam] = 'guam';
+  map[c.newcaledonia] = 'new caledonia';
   map[c.papua] = 'papua';
   map[c.solomon] = 'solomon islands';
   map[c.tahiti] = 'tahiti';
+  map[c.tonga] = 'tonga';
   map[c.vanuatu] = 'vanuatu';
 
   map[c.urss] = '1ussr';
@@ -293,15 +304,7 @@ class FIFAImages{
     map[l.othersCup] = 'cup/generic';
     map[l.lendasCup] = 'cup/generic';
 
-    map[l.latina] = 'rest';
-    map[l.latina] = 'others/copa latina';
-    map[l.rioSP] = 'others/rio sp';
-    map[l.copaNordeste] = 'others/copa nordeste';
-    map[l.copaVerde] = 'others/copa verde';
-    map[l.cupwinners] = 'others/cup winners';
-    map[l.pequenaTaca] = 'others/pequena taca';
-
-
+    //* Mudar em flagslist.dart tambem
     map[l.copamundo] = 'countries/world cup';
     map[l.olimpiadas] = 'countries/olympic games';
     map[l.copaconfederacoes] = 'countries/finalissima';
@@ -311,6 +314,23 @@ class FIFAImages{
     map[l.copaconcacaf] = 'countries/concacaf';
     map[l.copaafrica] = 'countries/africa';
     map[l.copaoceania] = 'countries/oceania';
+
+    //* Mudar em flagslist.dart tambem
+    map[l.cupwinners] = 'others/mitropa';
+    map[l.isl] = 'others/mitropa';
+    map[l.pequenaTaca] = 'others/mitropa';
+    map[l.aldao] = 'others/mitropa';
+    map[l.mitropa] = 'others/mitropa';
+    map[l.latina] = 'others/copa latina';
+    map[l.rioSP] = 'others/rio sp';
+    map[l.copaNordeste] = 'others/copa nordeste';
+    map[l.copaVerde] = 'others/copa verde';
+    map[l.cupwinners] = 'others/cup winners';
+    map[l.pequenaTaca] = 'others/pequena taca';
+    map[l.arabcup] = 'others/arab cup';
+    map[l.ramoncarranza] = 'others/mitropa';
+
+    map[l.copamundoFem] = "others/woman world cup";
 
     if(map.containsKey(leagueName)){
         imageLogo = map[leagueName];
@@ -1239,6 +1259,7 @@ String imageLogo(String timeFoto) {
     map[_name.palmas] = 'palmas';
     map[_name.paysandu] = 'paysandu';
     map[_name.paulista] = 'paulista';
+    map[_name.paulistano] = 'paulistano';
     map[_name.piaui] = 'piaui';
     map[_name.portuguesa] = 'portuguesa';
     map[_name.portuguesaRJ] = 'portuguesa rj';

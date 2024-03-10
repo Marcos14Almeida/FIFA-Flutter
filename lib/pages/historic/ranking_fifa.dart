@@ -82,7 +82,10 @@ class _RankingFIFAState extends State<RankingFIFA> {
                 )
               ),
 
-              selectContinent(),
+              Container(
+                  color: AppColors().greyTransparent,
+                  child: selectContinent()
+              ),
 
             ],
           ),
